@@ -31,5 +31,5 @@ Gestión del tiempo:
 - Si nadie pregunta: "Una cosa que me preguntan a menudo es..."
 
 CIERRE (30 seg):
-"Muchas gracias por su tiempo, por su atención y por sus preguntas. Recuerden: hablen de esto. No se queden callados. Y si quieren saber más, el QR está ahí. Ha sido un placer estar con ustedes."
+"Muchas gracias por vuestro tiempo, por vuestra atención y por vuestras preguntas. Recordad: hablad de esto. No os quedéis callados. Y si queréis saber más, el QR está ahí. Ha sido un placer estar con vosotros."
 -->

@@ -12,7 +12,7 @@ class: text-center bg-black text-white
 <!--
 [Tono: misterioso, sin revelar nada]
 
-"Buenos días a todos. Antes de presentarme, quiero que vean algo."
+"Buenos días a todos. Antes de presentarme, quiero que veáis algo."
 
 [Reproducir VÍDEO 1: robots militares reales (chinos)]
 -->
@@ -31,7 +31,7 @@ class: text-center bg-black text-white
 <!--
 [El vídeo fake se reproduce automáticamente, igual que el de YouTube.]
 
-"Ahora vean este otro."
+"Ahora ved este otro."
 
 "Uno de estos vídeos es real. El otro lo ha generado un ordenador. ¿Cuál creen que es el real?"
 -->
@@ -63,7 +63,7 @@ En febrero, Lucía Velasco — una de las voces más reconocidas en España sobr
 
 [Click: aparece el tweet]
 
-No la culpo. El punto es otro: si una experta en IA puede caer, todos podemos. Y esto es solo un vídeo. Ahora imaginen lo que viene."
+No la culpo. El punto es otro: si una experta en IA puede caer, todos podemos. Y esto es solo un vídeo. Ahora imaginad lo que viene."
 
 [NOTA PARA DANI: El vídeo fake lo creó un usuario chino de Bilibili (oukanghong) el 17 de febrero. Él mismo puso un disclaimer diciendo que era IA. Se viralizó el 19 de febrero en español, árabe, turco y coreano — todos sin el disclaimer. France 24, BOOM Live y MVS Noticias lo verificaron como falso. El tweet de Lucía Velasco puede haberse borrado — verificar en su perfil @_LuciaVelasco.]
 -->
@@ -89,7 +89,7 @@ layout: center
 
 "Me llamo Dani Lupión. Soy miembro de PauseAI, un movimiento internacional que pide algo muy simple: que paremos y pensemos antes de seguir construyendo sistemas de inteligencia artificial cada vez más potentes, sin saber si podemos controlarlos.
 
-Hoy no vengo a hablarles de ciencia ficción. Vengo a hablarles de lo que está pasando ahora mismo. De riesgos que ya están aquí, de los que están por llegar, y de por qué la voz de ustedes importa más de lo que se imaginan."
+Hoy no vengo a hablaros de ciencia ficción. Vengo a hablaros de lo que está pasando ahora mismo. De riesgos que ya están aquí, de los que están por llegar, y de por qué vuestra voz importa más de lo que os imagináis."
 -->
 
 ---

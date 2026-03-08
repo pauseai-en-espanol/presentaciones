@@ -18,14 +18,14 @@
 
 ### Pendiente
 
-- [ ] Descargar/añadir fotos reales de expertos a `public/fotos/`
-- [ ] Descargar/añadir screenshots de prensa a `public/screenshots/`
+- [x] Descargar/añadir fotos reales de expertos a `public/fotos/`
+- [x] Descargar/añadir screenshots de prensa a `public/screenshots/`
 - [ ] Descargar/añadir gráfico AI Safety Clock a `public/screenshots/`
 - [ ] Imagen ozono NASA para bloque 7
 - [x] Localizar vídeo fake exacto: https://www.bilibili.com/video/BV1QTZCBSEz7/ (oukanghong)
-- [ ] Confirmar tweet de Lucía Velasco (buscar en X manualmente, posiblemente borrado)
+- [x] Confirmar tweet de Lucía Velasco (buscar en X manualmente, posiblemente borrado)
 - [ ] Foto de Dani Lupión (debe proporcionarla)
-- [ ] Decidir formato de vídeos (embed vs link externo)
+- [x] Decidir formato de vídeos (embed vs link externo)
 
 ## Apertura — Demo "¿Es real o es IA?" (DECISIÓN TOMADA)
 

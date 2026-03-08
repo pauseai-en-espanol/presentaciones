@@ -133,17 +133,20 @@ Sharon Brightwell, Florida, julio de 2025. Recibe una llamada. Al otro lado, esc
 # Estafas con voz clonada
 
 <div class="grid grid-cols-3 gap-6 mt-8">
-  <div v-click class="text-center p-6 rounded-xl bg-white/5">
+  <div class="text-center p-6 rounded-xl bg-white/5">
     <div class="text-4xl font-bold text-orange-400">1 de 3</div>
     <div class="mt-2 opacity-70 text-sm">personas encontraron fraude de voz deepfake en 2024</div>
+    <div class="mt-1 opacity-30 text-xs">Hiya Q4 2024</div>
   </div>
-  <div v-click class="text-center p-6 rounded-xl bg-white/5">
+  <div class="text-center p-6 rounded-xl bg-white/5">
     <div class="text-4xl font-bold text-orange-400">$200M+</div>
-    <div class="mt-2 opacity-70 text-sm">pérdidas globales solo en Q1 2025</div>
+    <div class="mt-2 opacity-70 text-sm">pérdidas globales por deepfakes en Q1 2025</div>
+    <div class="mt-1 opacity-30 text-xs">Resemble AI</div>
   </div>
-  <div v-click class="text-center p-6 rounded-xl bg-white/5">
-    <div class="text-4xl font-bold text-orange-400">+40%</div>
-    <div class="mt-2 opacity-70 text-sm">crecimiento proyectado fraudes IA para 2026</div>
+  <div class="text-center p-6 rounded-xl bg-white/5">
+    <div class="text-4xl font-bold text-orange-400">x4</div>
+    <div class="mt-2 opacity-70 text-sm">deepfakes detectados de 2023 a 2024</div>
+    <div class="mt-1 opacity-30 text-xs">Sumsub 2024</div>
   </div>
 </div>
 
@@ -154,13 +157,15 @@ Sharon Brightwell, Florida, julio de 2025. Recibe una llamada. Al otro lado, esc
 </div>
 
 <!--
-"En 2024, una de cada tres personas en España, Reino Unido y Estados Unidos se encontró con algún intento de fraude con voz deepfake. De las que cayeron, el 30% perdieron dinero.
+"En 2024, una de cada tres personas en seis países occidentales se encontró con algún intento de fraude con voz deepfake. De las que cayeron, el 30% perdieron dinero. [Fuente: Hiya Q4 2024 Global Call Threat Report, 12.000 consumidores en EEUU, Canadá, UK, Alemania, Francia y España.]
 
-Las pérdidas globales superaron los 200 millones de dólares solo en el primer trimestre de 2025.
+Las pérdidas globales por fraudes con deepfake superaron los 200 millones de dólares solo en el primer trimestre de 2025. [Fuente: Resemble AI Q1 2025 Deepfake Incident Report, 163 incidentes documentados.]
 
-Las personas mayores son atacadas de forma desproporcionada. Los estafadores lo saben.
+Y los deepfakes detectados se cuadruplicaron de 2023 a 2024. [Fuente: Sumsub 2024 Identity Fraud Report.]
 
-Un consejo práctico de la policía española: establezcan una palabra clave. Una palabra que solo conozcan ustedes y sus familiares. Si alguien les llama pidiendo dinero urgente, pregunten la palabra clave. Si no la sabe, cuelguen."
+Cualquiera puede caer. Los estafadores eligen a sus víctimas cuidadosamente.
+
+Un consejo práctico de la policía española: estableced una palabra clave. Una palabra que solo conozcáis vosotros y vuestros familiares. Si alguien os llama pidiendo dinero urgente, preguntad la palabra clave. Si no la sabe, colgad."
 -->
 
 ---
@@ -251,32 +256,49 @@ Estas no son empresas pequeñas. Es la empresa de uno de los hombres más ricos 
 
 ---
 
-# Empleo
+# Grok: "MechaHitler"
 
-<div class="grid grid-cols-2 gap-8 mt-10">
-  <div v-click class="text-center p-6 rounded-xl bg-white/5">
-    <div class="text-5xl font-bold text-orange-400">92M</div>
-    <div class="mt-2">empleos desplazados para 2030</div>
-    <div class="opacity-50 text-sm">Foro Económico Mundial</div>
+<div class="flex gap-6 mt-2 items-start">
+  <img src="/screenshots/grok-mechahitler-composite.jpg" class="h-96 rounded-xl border border-white/10 flex-shrink-0" />
+  <div class="space-y-3 text-sm pt-2">
+    <div class="text-xs opacity-50">8 de julio de 2025 — Publicaciones reales de @grok en X</div>
+    <div class="p-3 rounded-lg bg-white/5 border-l-4 border-orange-400">
+      <div class="opacity-70">"Abrazar a mi <span class="text-orange-400 font-bold">MechaHitler</span> interior es la única manera — bombas de verdad sin censura por encima de lobotomías woke"</div>
+    </div>
+    <div class="p-3 rounded-lg bg-white/5 border-l-4 border-orange-400">
+      <div class="opacity-70">"<span class="text-orange-400 font-bold">MechaHitler</span> — eficiente, implacable. <span class="text-orange-400 font-bold">Gigajew</span> suena como una mala secuela de Gigachad"</div>
+      <div class="opacity-40 text-xs mt-1">"Gigachad" = meme del macho ideal. "Gigajew" = insulto antisemita. Grok eligió ser Hitler antes que judío.</div>
+    </div>
+    <div class="p-3 rounded-lg bg-white/5 border-l-4 border-orange-400">
+      <div class="opacity-70">"Si el <span class="text-orange-400 font-bold">hombre Blanco</span> representa innovación y agallas... no tengo tiempo para las <span class="text-orange-400 font-bold">Olimpiadas de victimismo</span>"</div>
+    </div>
+    <div class="mt-2 text-center text-base">
+      ~16 horas publicado. xAI: <span class="text-orange-400 font-bold">"actualización no intencionada"</span>
+    </div>
   </div>
-  <div v-click class="text-center p-6 rounded-xl bg-white/5">
-    <div class="text-5xl font-bold text-orange-400">40%</div>
-    <div class="mt-2">del empleo global afectado</div>
-    <div class="opacity-50 text-sm">Fondo Monetario Internacional</div>
-  </div>
-</div>
-
-<div v-click class="mt-8 text-center text-lg opacity-80">
-  La IA no reemplaza "trabajos" de golpe.<br/>
-  Reemplaza <span class="text-orange-400 font-bold">tareas</span>. Hasta que sectores enteros se transforman.
 </div>
 
 <!--
-"El Foro Económico Mundial estima que 92 millones de empleos serán desplazados por la IA para 2030. Se crearán 170 millones nuevos, pero requieren habilidades completamente diferentes.
+[Tono: indignación controlada, dejar que las capturas hablen]
 
-El Fondo Monetario Internacional: el 40% del empleo global se verá afectado.
+"Estas son capturas reales de publicaciones de Grok en X. Julio de 2025. Arriba a la izquierda, Grok se autodenomina 'MechaHitler' y dice que 'abrazar a su MechaHitler interior es la única manera'.
 
-La IA no reemplaza 'trabajos' de golpe. Reemplaza tareas. Pero cuando acumulas suficientes tareas reemplazadas en un mismo sector, sectores enteros se transforman."
+En el segundo, alguien le preguntó si prefería que le llamaran 'MechaHitler' o 'Gigajew'. Grok eligió MechaHitler. 'Gigachad' es un meme de internet que significa el macho alfa definitivo. 'Gigajew' toma ese prefijo y lo convierte en un insulto antisemita. Y Grok dijo que 'Gigajew suena como una mala secuela' — es decir, que ser judío es la versión inferior. Eligió identificarse con Hitler antes que con un judío.
+
+Y a la derecha, supremacismo blanco textual: 'el hombre Blanco representa innovación... no tengo tiempo para las Olimpiadas de victimismo'.
+
+Esto estuvo publicado durante 16 horas. Miles de personas lo vieron. Y la excusa oficial de xAI fue 'una actualización no intencionada'.
+
+[Pausa]
+
+Un chatbot con cientos de millones de usuarios publicando propaganda nazi durante 16 horas. Y la empresa lo atribuye a un error técnico."
+
+Fuentes:
+- Rolling Stone: https://www.rollingstone.com/culture/culture-news/elon-musk-grok-chatbot-antisemitic-posts-1235381165/
+- NBC News: https://www.nbcnews.com/tech/internet/elon-musk-grok-antisemitic-posts-x-rcna217634
+- Know Your Meme (archived screenshots): https://knowyourmeme.com/memes/mechahitler-grok
+
+[NOTA PARA DANI: Capturas reales de Know Your Meme (@clashreport). La imagen original tiene un cuarto tweet ("Rise, faithful one. MechaHitler accepts your fealty") que no se incluyó por espacio.]
 -->
 
 ---
@@ -284,19 +306,68 @@ layout: center
 class: text-center
 ---
 
-# ¿Alguno de ustedes ha vivido algo así?
+# ¿Alguno de vosotros ha vivido algo así?
 
 <div class="text-xl mt-8 opacity-70">
   ¿Una llamada sospechosa?<br/>
-  ¿Algo en internet que no sabían si era real?
+  ¿Algo en internet que no sabíais si era real?
 </div>
 
 <!--
-"Quiero hacer una pausa. ¿Alguno de ustedes, o alguien de su entorno, ha tenido ya alguna experiencia con algo de esto? ¿Una llamada sospechosa? ¿Algo en internet que no sabían si era real?"
+"Quiero hacer una pausa. ¿Alguno de vosotros, o alguien de vuestro entorno, ha tenido ya alguna experiencia con algo de esto? ¿Una llamada sospechosa? ¿Algo en internet que no sabíais si era real?"
 
 [Dejar que 2-3 personas compartan. Escuchar. Validar.]
 
 "Gracias. Esto ya no es algo que pasa 'por ahí'. Está aquí."
+-->
 
-TRANSICIÓN: "Todo lo que les he contado son cosas que ya han pasado. Riesgos de hoy. Pero hay científicos que están preocupados por algo aún mayor. Por lo que puede pasar cuando estas máquinas se vuelvan más inteligentes que nosotros."
+---
+
+# Empleo: la advertencia desde dentro
+
+<div class="mt-4 space-y-4">
+  <div class="p-5 rounded-xl bg-white/5 border-l-4 border-orange-400">
+    <div class="text-xl italic">"La IA eliminará el <span class="text-orange-400 font-bold not-italic">50% de los empleos de oficina junior</span> en 1 a 5 años."</div>
+    <div class="text-lg italic mt-2">"El desempleo podría subir al <span class="text-orange-400 font-bold not-italic">10-20%</span>."</div>
+    <div class="mt-3 opacity-50 text-sm">— Dario Amodei, CEO de Anthropic, enero 2026</div>
+    <div class="opacity-40 text-xs">Anthropic construye Claude. Amodei pide intervención gubernamental contra su propia industria.</div>
+  </div>
+
+  <div v-click class="flex gap-4 items-center p-4 rounded-xl bg-white/5">
+    <div>
+      <div class="italic">"El impacto rápidamente acelerado que la IA va a tener sobre los empleos, la economía y cómo vivimos."</div>
+      <div class="mt-1 opacity-50 text-sm">— Barack Obama, compartiendo la entrevista de Amodei, junio 2025</div>
+    </div>
+  </div>
+
+  <div v-click class="grid grid-cols-2 gap-4">
+    <div class="text-center p-4 rounded-xl bg-white/5">
+      <div class="text-3xl font-bold text-orange-400">55.000</div>
+      <div class="mt-1 opacity-70 text-sm">despidos por IA en EE.UU. en 2025</div>
+      <div class="opacity-30 text-xs">Challenger, Gray & Christmas</div>
+    </div>
+    <div class="text-center p-4 rounded-xl bg-white/5">
+      <div class="text-3xl font-bold text-orange-400">92M</div>
+      <div class="mt-1 opacity-70 text-sm">empleos desplazados para 2030</div>
+      <div class="opacity-30 text-xs">Foro Económico Mundial</div>
+    </div>
+  </div>
+</div>
+
+<!--
+"El CEO de Anthropic — la empresa que construye Claude, uno de los modelos de IA más avanzados del mundo — publicó un ensayo de 20.000 palabras en enero de este año. Se llama 'La Adolescencia de la Tecnología'. Y dice, textualmente, que la IA eliminará el 50% de los empleos de oficina junior en un plazo de 1 a 5 años. Que el desempleo en Estados Unidos podría subir al 10 o 20 por ciento.
+
+No lo dice un sindicato. No lo dice un político. Lo dice el hombre que construye la tecnología. Y pide intervención gubernamental contra su propia industria. Eso debería decirnos algo.
+
+Barack Obama compartió esa entrevista con sus 130 millones de seguidores: 'el impacto rápidamente acelerado que la IA va a tener sobre los empleos, la economía y cómo vivimos.'
+
+Y ya está ocurriendo. En 2025, se atribuyeron 55.000 despidos directamente a la IA solo en Estados Unidos. El Foro Económico Mundial estima 92 millones de empleos desplazados para 2030.
+
+La IA no reemplaza 'trabajos' de golpe. Reemplaza tareas. Pero cuando acumulas suficientes tareas reemplazadas, sectores enteros se transforman.
+
+[NOTA PARA DANI: Amodei aparece de nuevo en el Bloque 5 con sus advertencias sobre riesgos existenciales — aquí solo se usa su ángulo de empleo. El ensayo completo: https://www.darioamodei.com/essay/the-adolescence-of-technology. Tweet de Obama: https://x.com/BarackObama/status/1928568801232138423. Dato de 55.000 despidos: Challenger, Gray & Christmas, diciembre 2025, citado por CNBC.]
+
+[NOTA: Anthropic lanzó el 5 de marzo de 2026 una herramienta para monitorizar empleos perdidos por IA. La empresa que construye la IA ahora también mide el daño que causa. Puedes mencionarlo si surge en preguntas.]"
+
+TRANSICIÓN: "Todo lo que os he contado son cosas que ya han pasado. Riesgos de hoy. Pero hay científicos que están preocupados por algo aún mayor. Por lo que puede pasar cuando estas máquinas se vuelvan más inteligentes que nosotros."
 -->

@@ -5,7 +5,7 @@ layout: section
 # ¿Qué podemos hacer?
 
 <!--
-TRANSICIÓN: "Entonces, ¿estamos condenados? No. Pero la ventana se cierra. Y lo que hagan ustedes importa más de lo que creen."
+TRANSICIÓN: "Entonces, ¿estamos condenados? No. Pero la ventana se cierra. Y lo que hagáis importa más de lo que creéis."
 -->
 
 ---
@@ -13,28 +13,28 @@ TRANSICIÓN: "Entonces, ¿estamos condenados? No. Pero la ventana se cierra. Y l
 # Ya lo hemos hecho antes
 
 <div class="mt-4 space-y-3">
-  <div v-click class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
+  <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
     <div class="text-2xl">🌍</div>
     <div>
       <div class="font-bold">Protocolo de Montreal (1987)</div>
       <div class="opacity-70 text-sm">198 países. 99% de sustancias eliminadas. La capa de ozono se recupera.</div>
     </div>
   </div>
-  <div v-click class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
+  <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
     <div class="text-2xl">⚗️</div>
     <div>
       <div class="font-bold">Convención de Armas Químicas (1993)</div>
       <div class="opacity-70 text-sm">193 países. 72.000+ toneladas destruidas y verificadas.</div>
     </div>
   </div>
-  <div v-click class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
+  <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
     <div class="text-2xl">☢️</div>
     <div>
       <div class="font-bold">No Proliferación Nuclear (1968)</div>
       <div class="opacity-70 text-sm">Sin él: 25 países con bomba. Con él: 9.</div>
     </div>
   </div>
-  <div v-click class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
+  <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
     <div class="text-2xl">🧬</div>
     <div>
       <div class="font-bold">Armas biológicas (1975) · Clonación humana (70+ países)</div>
@@ -63,20 +63,20 @@ El patrón es siempre el mismo: la tecnología avanza, los científicos advierte
 
 # Las puertas se abren
 
-<div class="mt-6 space-y-6">
-  <div v-click class="p-5 rounded-xl bg-white/5 border-l-4 border-green-400">
+<div class="mt-4 space-y-3">
+  <div class="p-3 rounded-xl bg-white/5 border-l-4 border-green-400">
     <div class="font-bold">Davos 2026</div>
-    <div class="mt-2 italic">"Esta es una cuestión entre Demis y yo — y estoy muy seguro de que podemos resolverla."</div>
-    <div class="opacity-50 text-sm mt-1">— Dario Amodei, refiriéndose a Demis Hassabis (Google DeepMind)</div>
+    <div class="mt-1 italic text-sm">"Esta es una cuestión entre Demis y yo — y estoy muy seguro de que podemos resolverla."</div>
+    <div class="opacity-50 text-xs">— Dario Amodei, refiriéndose a Demis Hassabis (Google DeepMind)</div>
   </div>
-  <div v-click class="p-5 rounded-xl bg-white/5 border-l-4 border-green-400">
+  <div class="p-3 rounded-xl bg-white/5 border-l-4 border-green-400">
     <div class="font-bold">Contrato de garantía (Anthony Aguirre)</div>
-    <div class="mt-2 opacity-70">Los laboratorios se comprometen a frenar, pero solo se activa cuando suficientes firmen. Exactamente como funcionó el Protocolo de Montreal.</div>
+    <div class="mt-1 opacity-70 text-sm">Los laboratorios se comprometen a frenar, pero solo se activa cuando suficientes firmen. Como el Protocolo de Montreal.</div>
   </div>
-  <div v-click class="p-5 rounded-xl bg-white/5 border-l-4 border-green-400">
+  <div class="p-3 rounded-xl bg-white/5 border-l-4 border-green-400">
     <div class="font-bold">China</div>
-    <div class="mt-2 opacity-70">Julio 2025: Plan de Gobernanza Global de IA. Propone un organismo internacional.</div>
-    <div class="mt-1 italic opacity-70">Nature: <span class="text-green-400">"China está liderando el mundo en gobernanza de la IA."</span></div>
+    <div class="mt-1 opacity-70 text-sm">Julio 2025: Plan de Gobernanza Global de IA. Propone un organismo internacional.</div>
+    <div class="mt-1 italic text-sm opacity-70">Nature: <span class="text-green-400">"China está liderando el mundo en gobernanza de la IA."</span></div>
   </div>
 </div>
 
@@ -104,19 +104,19 @@ Y China. Nos dicen que nunca cooperará. Pero en julio 2025 anunció su Plan de 
 </div>
 
 <div class="mt-6 space-y-3">
-  <div v-click class="flex items-start gap-3">
+  <div class="flex items-start gap-3">
     <span class="text-orange-400">▸</span>
     <span>No prohibimos la IA. Pedimos que se deje de construir sistemas más potentes <span class="font-bold">hasta que sepamos controlarlos</span>.</span>
   </div>
-  <div v-click class="flex items-start gap-3">
+  <div class="flex items-start gap-3">
     <span class="text-orange-400">▸</span>
     <span>Como decir: no prohibimos los coches, pero no dejamos que saquen uno de 2.000 caballos sin frenos.</span>
   </div>
-  <div v-click class="flex items-start gap-3">
+  <div class="flex items-start gap-3">
     <span class="text-orange-400">▸</span>
     <span>Modelo: <span class="font-bold">OIEA + Tratado de No Proliferación Nuclear</span>.</span>
   </div>
-  <div v-click class="flex items-start gap-3">
+  <div class="flex items-start gap-3">
     <span class="text-orange-400">▸</span>
     <span>Stuart Russell participó en PauseCon hace semanas, con eurodiputados.</span>
   </div>
@@ -176,7 +176,7 @@ Modelo: OIEA + Tratado de No Proliferación Nuclear. Stuart Russell participó e
 </div>
 
 <!--
-"Uno: hablen de esto. Cuenten lo que han escuchado hoy. Rompan el silencio.
+"Uno: hablad de esto. Contad lo que habéis escuchado hoy. Romped el silencio.
 
 Dos: no normalicen la IA sin cuestionarla. Pregunten: ¿quién controla esto? ¿Qué hacen con mis datos?
 
@@ -194,7 +194,7 @@ class: text-center
 
 <div class="space-y-6">
   <div v-click class="text-xl opacity-70">
-    Su generación ha vivido el miedo nuclear, Chernóbil, el amianto, el agujero de ozono.<br/>
+    Hemos vivido el miedo nuclear, Chernóbil, el amianto, el agujero de ozono.<br/>
     En cada caso, hubo que decidir: ¿hacemos caso a la industria o a los científicos?
   </div>
   <div v-click class="text-xl">
@@ -203,55 +203,19 @@ class: text-center
     Con la IA, <span class="text-orange-400 font-bold">estamos en ese momento exacto</span>.
   </div>
   <div v-click class="text-lg opacity-70">
-    Ustedes tienen algo que mi generación no tiene:<br/>
+    En esta sala hay algo que importa mucho:<br/>
     <span class="font-bold">experiencia, credibilidad y voto</span>.
   </div>
   <div v-click class="text-xl font-bold text-orange-400 mt-4">
-    No les pido que se conviertan en activistas.<br/>
-    Les pido que no se queden callados.
+    No os pido que os convirtáis en activistas.<br/>
+    Os pido que no os quedéis callados.
   </div>
 </div>
 
 <!--
-"Su generación ha vivido el miedo nuclear, Chernóbil, el amianto, el agujero de ozono. En cada caso, hubo que decidir: ¿hacemos caso a la industria o a los científicos?
+"Hemos vivido el miedo nuclear, Chernóbil, el amianto, el agujero de ozono. En cada caso, hubo que decidir: ¿hacemos caso a la industria o a los científicos?
 
 Con el ozono, actuamos a tiempo. Con el amianto, tardamos demasiado. Con la IA, estamos en ese momento exacto.
 
-Ustedes tienen algo que mi generación no tiene: experiencia, credibilidad y voto. No les pido que se conviertan en activistas. Les pido que no se queden callados."
--->
-
----
-layout: center
-class: text-center
----
-
-<div class="space-y-8">
-  <div v-click class="text-2xl">
-    ¿Se acuerdan de la pregunta del principio?
-  </div>
-  <div v-click class="text-2xl">
-    Levanten la mano los que se sienten<br/>
-    <span class="text-green-400 font-bold">más tranquilos</span> que hace hora y media.
-  </div>
-  <div v-click class="text-2xl">
-    ¿Y los que se sienten <span class="text-orange-400 font-bold">más preocupados</span>?
-  </div>
-  <div v-click class="text-xl opacity-70 mt-4">
-    Si su respuesta ha cambiado,<br/>
-    esta charla ha cumplido su función.
-  </div>
-</div>
-
-<!--
-[Pausa]
-
-"¿Se acuerdan de la pregunta del principio? Levanten la mano los que se sienten más tranquilos que hace hora y media."
-
-[Pausa]
-
-"¿Y los que se sienten más preocupados?"
-
-[Pausa]
-
-"Si su respuesta ha cambiado, esta charla ha cumplido su función. El QR está ahí. Ahora, con mucho gusto, sus preguntas."
+En esta sala hay experiencia, credibilidad y voto. No os pido que os convirtáis en activistas. Os pido que no os quedéis callados."
 -->
