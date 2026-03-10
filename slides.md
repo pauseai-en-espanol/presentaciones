@@ -20,7 +20,7 @@ class: text-center
 
 <div class="flex flex-col items-center">
   <img src="/logos/logo-completo.png" class="h-24" />
-  <div class="text-5xl font-extrabold mt-10 leading-tight" style="color: #FF9416">
+  <div class="text-5xl font-extrabold mt-10 leading-tight" style="color: #FF9416; font-family: 'Saira Condensed', sans-serif; text-transform: uppercase; letter-spacing: 0.02em">
     Riesgos de la<br/>Inteligencia Artificial
   </div>
   <div class="w-24 h-1 bg-orange-500 mt-6 rounded-full"></div>
@@ -31,6 +31,14 @@ class: text-center
     Dani Lupión · PauseAI · Marzo 2026
   </div>
 </div>
+
+<!--
+- Presentarme: Dani Lupión, miembro de PauseAI
+- PauseAI: organización federada, 16 países, moratoria internacional
+- Mi historia: cuándo percibí el peligro, cuándo me uní, qué hemos hecho
+- Pulso audiencia: ¿LLM? ¿ChatGPT/Gemini/Claude? ¿OpenAI/DeepMind/Anthropic? ¿AGI/ASI?
+- Transición: "quiero que veáis algo"
+-->
 
 ---
 src: ./slides/01-apertura.md

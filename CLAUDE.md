@@ -121,7 +121,7 @@ These three roles inform every decision — from "is this data accurate?" (safet
 
 - Sesgos cognitivos: normalidad, exponencial, alcance, risa-negacion-miedo
 - Momento interactivo: "Cuantos pensaron ciencia ficcion?"
-- Analogias: amianto, cambio climatico, ozono
+- Analogias: tabaco, cambio climatico, ozono
 - Dilema del prisionero entre laboratorios y paises
 - EU AI Act: regula uso pero no entrenamiento
 - Camara de los Lores: debate moratoria enero 2026
@@ -134,7 +134,7 @@ These three roles inform every decision — from "is this data accurate?" (safet
 - **Senales de apertura**: Amodei+Hassabis en Davos ("podemos resolverlo entre Demis y yo"), contrato de garantia de Aguirre, China liderando gobernanza IA (WAICO, Nature)
 - **Que es PauseAI**: moratoria internacional, modelo OIEA+TNP
 - **5 acciones concretas**: hablar, cuestionar, escribir a representantes, firmar, proteger entorno
-- **Su generacion importa**: amianto, Chernobil, ozono — su experiencia es unica
+- **Su generacion importa**: tabaco, Chernobil, ozono — su experiencia es unica
 - **Cierre circular**: repetir pregunta inicial "mas tranquilos o mas preocupados?"
 
 ### Bloque 8: Preguntas y debate (~8 min)

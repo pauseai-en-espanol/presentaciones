@@ -4,17 +4,6 @@ layout: section
 
 # ¿Qué puede hacer la IA hoy?
 
-<!--
-"Cuando la mayoría de la gente piensa en inteligencia artificial, piensa en robots de película. En Terminator, en HAL 9000. Pero la IA de hoy no tiene cuerpo. Es software. Y puede hacer cosas que hace cinco años eran impensables.
-
-Puede escribir textos que un profesor no distingue de los de un alumno. Puede generar imágenes que parecen fotos reales. Puede componer música. Puede escribir código informático. Puede diseñar moléculas para nuevos medicamentos.
-
-Y como acaban de escuchar, puede clonar una voz con solo tres segundos de grabación."
-
-[Pausa]
-
-"Piensen en eso un momento. Tres segundos. Un audio de WhatsApp diciendo 'Buenos días, cariño'. Con eso, una IA puede generar una llamada con su voz, diciendo lo que quiera."
--->
 
 ---
 layout: center
@@ -32,16 +21,13 @@ layout: center
   <div class="text-lg mt-4 opacity-50">
     Expertos predijeron que la IA aprobaría el SAT en 2055
   </div>
+  <div class="text-xs mt-6 opacity-30">Fuente: Grace et al., AI Impacts (2022) · GPT-4 percentil 93, OpenAI (2023)</div>
 </div>
 
 <!--
-"En Estados Unidos hay un examen para entrar en la universidad. Se llama SAT. En 2020, los mejores expertos del mundo predijeron: la IA lo aprobará en 2055. Dentro de tres décadas.
-
-Lo aprobó en 2023. Treinta y dos años antes de lo previsto."
-
-[Pausa larga.]
-
-"Este dato es importante: las predicciones sobre la IA siempre se quedan cortas. Siempre llega antes de lo que los expertos dicen."
+- SAT: examen de acceso a universidad en EEUU, predicción 2055, aprobado 2023
+- Test de Turing: propuesto por Alan Turing en 1950, predicción ~2040+, GPT-4 ya engaña a la mayoría
+- Las predicciones sobre IA siempre se quedan cortas
 -->
 
 ---
@@ -49,13 +35,13 @@ Lo aprobó en 2023. Treinta y dos años antes de lo previsto."
 # De herramienta a agente
 
 <div class="grid grid-cols-2 gap-12 mt-12">
-  <div v-click class="p-8 rounded-xl bg-green-900/30 border border-green-700/50">
+  <div class="p-8 rounded-xl bg-green-900/30 border border-green-700/50">
     <div class="text-3xl mb-4">🧮</div>
     <div class="text-xl font-bold mb-2">Herramienta</div>
     <div class="opacity-70">Tú preguntas, ella responde</div>
     <div class="opacity-50 mt-2 text-sm">Como una calculadora muy potente</div>
   </div>
-  <div v-click class="p-8 rounded-xl bg-red-900/30 border border-red-700/50">
+  <div class="p-8 rounded-xl bg-red-900/30 border border-red-700/50">
     <div class="text-3xl mb-4">🤖</div>
     <div class="text-xl font-bold mb-2">Agente</div>
     <div class="opacity-70">Decide y actúa por su cuenta</div>
@@ -69,13 +55,10 @@ Lo aprobó en 2023. Treinta y dos años antes de lo previsto."
 </div>
 
 <!--
-"Hasta hace poco, la IA era una herramienta. Tú le preguntabas, ella respondía. Como una calculadora muy potente.
-
-Pero eso está cambiando. Ahora estamos creando 'agentes de IA': sistemas que no solo responden preguntas, sino que toman decisiones y ejecutan acciones por su cuenta. Navegan por internet, envían correos, hacen compras, analizan datos y actúan.
-
-Ya no es una calculadora. Es más como un empleado. Un empleado que trabaja 24 horas, que no duerme, que no cobra, y que puede cometer errores que nadie supervisa."
-
-TRANSICIÓN: "Y estos agentes están mejorando a un ritmo que nadie predijo."
+- Herramienta: tú preguntas, ella responde (calculadora potente)
+- Agente: sistema que decide y actúa solo — navega, envía correos, compra, programa, analiza
+- Diferencia clave: no espera instrucciones, se fija un objetivo y ejecuta pasos para lograrlo
+- Técnicamente: bucle objetivo → acción → observar resultado → siguiente acción (feedback loop)
 -->
 
 ---
@@ -104,11 +87,9 @@ TRANSICIÓN: "Y estos agentes están mejorando a un ritmo que nadie predijo."
 </div>
 
 <!--
-"Esto es un gráfico de METR, una organización independiente que mide lo que la IA puede hacer. El eje vertical muestra cuánto tiempo necesitaría un experto humano para completar una tarea. El eje horizontal muestra el tiempo.
-
-En 2023, estos agentes podían completar tareas que a un experto le llevarían minutos. Hoy, en 2026, pueden completar tareas que llevarían semanas.
-
-Y este ritmo se duplica cada 4 a 6 meses. Esto es crecimiento exponencial. El mismo tipo de curva que vimos con el SAT: siempre llega antes de lo que los expertos predicen."
-
-TRANSICIÓN: "Y ahora, lo que seguramente más les interesa: ¿qué daño está haciendo ya la inteligencia artificial? Porque esto no es teoría. Hay nombres, hay víctimas, hay sentencias judiciales."
+- Gráfico de METR: organización independiente que mide capacidades de IA
+- Eje vertical: tiempo que un experto humano tardaría en la tarea
+- 2023: tareas de minutos → 2026: tareas de semanas
+- Se duplica cada 4-6 meses — crecimiento exponencial
+- Misma lección que el SAT: siempre llega antes de lo previsto
 -->

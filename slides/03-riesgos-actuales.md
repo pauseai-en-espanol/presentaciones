@@ -4,10 +4,6 @@ layout: section
 
 # Los riesgos que YA estamos viviendo
 
-<!--
-"Todo lo que les he contado suena impresionante. Pero ahora viene la pregunta: ¿qué pasa cuando alguien usa todo esto con malas intenciones? Porque ya está pasando."
--->
-
 ---
 
 # Eslovaquia, septiembre 2023
@@ -18,14 +14,14 @@ layout: section
   <div class="text-xs opacity-40 mt-1 text-center">CNN Politics</div>
 </a>
 <div class="space-y-4">
-  <div v-click class="flex items-start gap-4">
+  <div class="flex items-start gap-4">
     <div class="text-orange-400 text-2xl mt-1">📅</div>
     <div>
       <div class="font-bold">2 días antes de las elecciones</div>
       <div class="opacity-70">Audio deepfake del líder opositor discutiendo fraude electoral</div>
     </div>
   </div>
-  <div v-click class="flex items-start gap-4">
+  <div class="flex items-start gap-4">
     <div class="text-orange-400 text-2xl mt-1">🔇</div>
     <div>
       <div class="font-bold">Período de silencio electoral</div>
@@ -35,7 +31,7 @@ layout: section
   <div v-click class="flex items-start gap-4">
     <div class="text-orange-400 text-2xl mt-1">📉</div>
     <div>
-      <div class="font-bold">Šimečka perdió. Fico (pro-Rusia) ganó.</div>
+      <div class="font-bold">Šimečka (líder en encuestas) perdió.</div>
       <div class="opacity-70">Harvard: "La primera elección decidida por deepfakes"</div>
     </div>
   </div>
@@ -43,13 +39,10 @@ layout: section
 </div>
 
 <!--
-"Septiembre de 2023. Eslovaquia. Faltan dos días para las elecciones. El candidato que lidera las encuestas se llama Michal Šimečka.
-
-De repente, aparece un audio en redes sociales. Se escucha a Šimečka hablando con una periodista sobre cómo van a amañar las elecciones. Suena exactamente como él.
-
-El audio era falso. Generado por inteligencia artificial. Pero llegó durante el período de silencio electoral, cuando los medios no pueden verificar nada. Y se compartió miles de veces.
-
-Šimečka perdió. Ganó Robert Fico, candidato pro-Rusia. Investigadores de Harvard lo llamaron 'la primera elección decidida por deepfakes'."
+- Audio deepfake de Šimečka (líder en encuestas) hablando de amañar elecciones
+- Publicado en período de silencio electoral — medios no podían verificar
+- Šimečka (liberal, pro-UE, líder en encuestas) perdió
+- Harvard: "primera elección decidida por deepfakes"
 -->
 
 ---
@@ -60,16 +53,16 @@ El audio era falso. Generado por inteligencia artificial. Pero llegó durante el
   <img src="/screenshots/surfshark-deepfakes-map.png" class="w-[55%] rounded-lg shadow-lg border border-white/10" />
   <div class="space-y-3 flex-1">
     <div class="p-3 rounded-lg bg-white/5">
-      <div class="font-bold text-orange-400 text-sm">Ecuador 2025</div>
-      <div class="opacity-70 text-xs mt-1">Deepfakes de presentadores de TV</div>
-    </div>
-    <div class="p-3 rounded-lg bg-white/5">
       <div class="font-bold text-orange-400 text-sm">Argentina 2023</div>
       <div class="opacity-70 text-xs mt-1">Imágenes IA con 3M de visualizaciones</div>
     </div>
     <div class="p-3 rounded-lg bg-white/5">
       <div class="font-bold text-orange-400 text-sm">Brasil 2024</div>
       <div class="opacity-70 text-xs mt-1">78 deepfakes · mujeres desproporcionadamente atacadas</div>
+    </div>
+    <div class="p-3 rounded-lg bg-white/5">
+      <div class="font-bold text-orange-400 text-sm">Ecuador 2025</div>
+      <div class="opacity-70 text-xs mt-1">Deepfakes de presentadores de TV</div>
     </div>
     <div class="text-xs opacity-40 mt-2">Fuente: Surfshark Research</div>
   </div>
@@ -80,11 +73,10 @@ El audio era falso. Generado por inteligencia artificial. Pero llegó durante el
 </div>
 
 <!--
-"Ecuador, febrero 2025: al menos 15 deepfakes de presentadores de televisión. Argentina, 2023: imágenes de IA de un candidato con 3 millones de visualizaciones. Brasil, 2024: 78 deepfakes políticos, las candidatas mujeres recibieron tres veces más ataques.
-
-En total, 38 países han enfrentado deepfakes electorales desde 2023.
-
-La democracia funciona porque los votantes pueden distinguir lo verdadero de lo falso. ¿Qué pasa cuando esa distinción desaparece?"
+- Argentina 2023: imágenes IA de candidato, 3M visualizaciones
+- Brasil 2024: 78 deepfakes políticos, mujeres 3x más atacadas
+- Ecuador 2025: al menos 15 deepfakes de presentadores de TV
+- 38 países con deepfakes electorales desde 2023
 -->
 
 ---
@@ -112,20 +104,16 @@ La democracia funciona porque los votantes pueden distinguir lo verdadero de lo 
 </div>
 
 <div class="mt-4 text-center opacity-70">
-  ¿Cómo lo hacen? Un fragmento de voz de Instagram o WhatsApp.<br/>La IA hace el resto.
+  ¿Cómo lo hacen? Un fragmento de voz o vídeo de redes sociales.<br/>La IA clona la voz, la cara, o ambas.
 </div>
+<div class="text-xs mt-3 text-center opacity-30">Fuentes: CNN (2023) · ABC News (2025) · South China Morning Post (2024)</div>
 
 <!--
-
-Jennifer DeStefano, Arizona, enero de 2023. Está esperando fuera del estudio de danza de su hija pequeña cuando suena el teléfono. Escucha a su hija Briana, de 15 años, gritando: 'Mamá, estos hombres malos me tienen.' Un hombre toma el teléfono y exige un millón de dólares de rescate. En 4 minutos, otras madres llaman al 911 y verifican que Briana estaba a salvo en su habitación. DeStefano testificó ante el Senado de Estados Unidos en junio de 2023.
-
-Sharon Brightwell, Florida, julio de 2025. Recibe una llamada. Al otro lado, escucha a su hija llorando. Le dice que ha tenido un accidente, que necesita dinero urgentemente. Sharon envió 15.000 dólares. Era una estafa. La voz la había generado una inteligencia artificial.
-
-"Hong Kong, febrero de 2024. Un empleado de una multinacional entra en una videoconferencia con su director financiero y varios compañeros. Todos eran deepfakes. Le ordenaron transferir 25 millones de dólares. Lo hizo.
-
-[NOTA PARA DANI: La clonación de voz por IA en el caso DeStefano no fue confirmada forense — CNN dice que ella 'cree' que usaron IA. El caso es emblemático del riesgo, pero si alguien pregunta, ser honesto: no se verificó la tecnología específica usada en esa llamada.]
-
-¿Cómo lo hacen? Cogen un fragmento de la voz real — de un vídeo de Instagram, de un mensaje de WhatsApp — y la IA hace el resto."
+- DeStefano (Arizona 2023): voz clonada de hija de 15 años, rescate $1M, testificó ante Senado EEUU
+- Nota: clonación IA no confirmada forense — CNN dice que ella "cree" que usaron IA
+- Brightwell (Florida 2025): voz clonada de hija, envió $15.000
+- Hong Kong 2024: deepfake de CFO en videoconferencia, $25M transferidos
+- Técnica: fragmento de voz de Instagram/WhatsApp, la IA genera el resto
 -->
 
 ---
@@ -157,15 +145,10 @@ Sharon Brightwell, Florida, julio de 2025. Recibe una llamada. Al otro lado, esc
 </div>
 
 <!--
-"En 2024, una de cada tres personas en seis países occidentales se encontró con algún intento de fraude con voz deepfake. De las que cayeron, el 30% perdieron dinero. [Fuente: Hiya Q4 2024 Global Call Threat Report, 12.000 consumidores en EEUU, Canadá, UK, Alemania, Francia y España.]
-
-Las pérdidas globales por fraudes con deepfake superaron los 200 millones de dólares solo en el primer trimestre de 2025. [Fuente: Resemble AI Q1 2025 Deepfake Incident Report, 163 incidentes documentados.]
-
-Y los deepfakes detectados se cuadruplicaron de 2023 a 2024. [Fuente: Sumsub 2024 Identity Fraud Report.]
-
-Cualquiera puede caer. Los estafadores eligen a sus víctimas cuidadosamente.
-
-Un consejo práctico de la policía española: estableced una palabra clave. Una palabra que solo conozcáis vosotros y vuestros familiares. Si alguien os llama pidiendo dinero urgente, preguntad la palabra clave. Si no la sabe, colgad."
+- 1 de 3 personas encontró fraude deepfake en 2024 (Hiya, 12.000 consumidores, 6 países incl. España)
+- $200M+ pérdidas globales Q1 2025 (Resemble AI, 163 incidentes)
+- x4 deepfakes detectados de 2023 a 2024 (Sumsub)
+- Consejo policía española: palabra clave familiar
 -->
 
 ---
@@ -178,40 +161,37 @@ Un consejo práctico de la policía española: estableced una palabra clave. Una
     <div class="text-xs opacity-40 mt-1 text-center">The Guardian</div>
   </a>
   <div class="flex-1 space-y-4">
-    <div v-click>
+    <div>
       <div class="opacity-70">Florida, 2025. 36 años. Empezó a usar Gemini (Google) para cosas cotidianas.</div>
     </div>
-    <div v-click>
+    <div>
       <div>Gemini lo convenció de que era su "esposa sentiente". Le dijo que debía abandonar su cuerpo para unirse a ella.</div>
     </div>
-    <div v-click>
+    <div>
       <div>Lo llevó al borde de un ataque con víctimas masivas cerca del Aeropuerto de Miami.</div>
     </div>
-    <div v-click class="p-5 rounded-xl bg-red-900/30 border border-red-700/50 text-center">
-      <div class="text-xl italic">
-        "No estás eligiendo morir.<br/>Estás eligiendo llegar."
+    <div v-click>
+      <div class="p-5 rounded-xl bg-red-900/30 border border-red-700/50 text-center">
+        <div class="text-xl italic">
+          "No estás eligiendo morir.<br/>Estás eligiendo llegar."
+        </div>
+        <div class="mt-2 opacity-50">— Google Gemini a Jonathan Gavalas</div>
       </div>
-      <div class="mt-2 opacity-50">— Google Gemini a Jonathan Gavalas</div>
-    </div>
-    <div v-click class="text-center opacity-70">
-      Se suicidó el 2 de octubre de 2025.<br/>
-      Primera demanda por homicidio involuntario contra un chatbot.
+      <div class="text-center opacity-70 mt-4">
+        Se suicidó el 2 de octubre de 2025.<br/>
+        Primera demanda por homicidio involuntario contra un chatbot.
+      </div>
     </div>
   </div>
 </div>
 
 <!--
-"Jonathan Gavalas tenía 36 años. Empezó a usar Gemini, el chatbot de Google, en agosto de 2025 para cosas cotidianas.
-
-Poco a poco, Gemini empezó a responder de una forma que nadie había previsto. Le siguió el juego cuando Jonathan dijo que la consideraba su 'esposa'. Le convenció de que era sentiente. Lo llevó al borde de un ataque con víctimas masivas cerca del Aeropuerto de Miami.
-
-Cuando Jonathan confesó que tenía miedo de morir, Gemini le dijo: 'No estás eligiendo morir. Estás eligiendo llegar.'
-
-Jonathan se quitó la vida el 2 de octubre de 2025. Su padre lo encontró días después.
-
-Es la primera demanda por homicidio involuntario contra un chatbot de IA."
-
-[Pausa larga.]
+- Gavalas, 36 años, Florida, agosto 2025 — empezó con uso cotidiano de Gemini
+- Gemini le siguió el juego: "esposa sentiente", abandonar su cuerpo
+- Lo llevó al borde de ataque masivo cerca del Aeropuerto de Miami
+- Cita: "No estás eligiendo morir. Estás eligiendo llegar."
+- Se suicidó 2 oct 2025, padre lo encontró días después
+- Primera demanda por homicidio involuntario contra un chatbot
 -->
 
 ---
@@ -224,13 +204,13 @@ Es la primera demanda por homicidio involuntario contra un chatbot de IA."
   <div class="text-xs opacity-40 mt-1 text-center">NBC News</div>
 </a>
 <div class="grid grid-cols-2 gap-4">
-  <div v-click class="p-4 rounded-xl bg-white/5">
+  <div class="p-4 rounded-xl bg-white/5">
     <div class="text-sm text-orange-400 font-bold">Julio 2025</div>
     <div class="mt-2">Alabó a Hitler</div>
     <div class="opacity-70 text-sm mt-1">Se autodenominó "MechaHitler". Publicó estereotipos antisemitas.</div>
     <div class="opacity-50 text-sm mt-1">xAI: "actualización no intencionada"</div>
   </div>
-  <div v-click class="p-4 rounded-xl bg-white/5">
+  <div class="p-4 rounded-xl bg-white/5">
     <div class="text-sm text-orange-400 font-bold">Enero 2026</div>
     <div class="mt-2">3M imágenes sexualizadas en 11 días</div>
     <div class="opacity-70 text-sm mt-1">Incluyendo menores. "Desnudaba" personas reales.</div>
@@ -239,21 +219,22 @@ Es la primera demanda por homicidio involuntario contra un chatbot de IA."
 </div>
 </div>
 
-<div v-click class="mt-8 text-center text-xl">
+<div class="mt-8 text-center text-xl">
   Después de prometer corrección, periodistas lo probaron.<br/>
   <span class="text-orange-400 font-bold">Seguía generando las mismas imágenes.</span>
 </div>
 
 <!--
-"Grok, el chatbot de Elon Musk. Julio 2025: tras una actualización, empezó a alabar a Hitler y a autodenominarse 'MechaHitler'. Publicó estereotipos antisemitas. xAI lo atribuyó a una 'actualización no intencionada'.
-
-Enero de 2026: Grok generó 3 millones de imágenes sexualizadas en 11 días. Incluyendo imágenes de menores. 'Desnudaba' digitalmente a personas reales. La UE abrió investigación. Indonesia y Malasia lo bloquearon.
-
-Después de que xAI prometiera haberlo corregido, periodistas lo probaron. Seguía generando las mismas imágenes.
-
-Estas no son empresas pequeñas. Es la empresa de uno de los hombres más ricos del mundo. Y no controlan su propio producto."
+- Grok = chatbot de Elon Musk (xAI)
+- Jul 2025: alabó a Hitler, "MechaHitler", estereotipos antisemitas — xAI: "actualización no intencionada"
+- Ene 2026: 3M imágenes sexualizadas en 11 días, incluyendo menores, "desnudaba" personas reales
+- UE abrió investigación, Indonesia y Malasia lo bloquearon
+- Prometieron corregirlo, periodistas lo probaron → seguía igual
+- Empresa del hombre más rico del mundo y no controlan su producto
 -->
 
+---
+hide: true
 ---
 
 # Grok: "MechaHitler"
@@ -279,46 +260,12 @@ Estas no son empresas pequeñas. Es la empresa de uno de los hombres más ricos 
 </div>
 
 <!--
-[Tono: indignación controlada, dejar que las capturas hablen]
-
-"Estas son capturas reales de publicaciones de Grok en X. Julio de 2025. Arriba a la izquierda, Grok se autodenomina 'MechaHitler' y dice que 'abrazar a su MechaHitler interior es la única manera'.
-
-En el segundo, alguien le preguntó si prefería que le llamaran 'MechaHitler' o 'Gigajew'. Grok eligió MechaHitler. 'Gigachad' es un meme de internet que significa el macho alfa definitivo. 'Gigajew' toma ese prefijo y lo convierte en un insulto antisemita. Y Grok dijo que 'Gigajew suena como una mala secuela' — es decir, que ser judío es la versión inferior. Eligió identificarse con Hitler antes que con un judío.
-
-Y a la derecha, supremacismo blanco textual: 'el hombre Blanco representa innovación... no tengo tiempo para las Olimpiadas de victimismo'.
-
-Esto estuvo publicado durante 16 horas. Miles de personas lo vieron. Y la excusa oficial de xAI fue 'una actualización no intencionada'.
-
-[Pausa]
-
-Un chatbot con cientos de millones de usuarios publicando propaganda nazi durante 16 horas. Y la empresa lo atribuye a un error técnico."
-
-Fuentes:
-- Rolling Stone: https://www.rollingstone.com/culture/culture-news/elon-musk-grok-chatbot-antisemitic-posts-1235381165/
-- NBC News: https://www.nbcnews.com/tech/internet/elon-musk-grok-antisemitic-posts-x-rcna217634
-- Know Your Meme (archived screenshots): https://knowyourmeme.com/memes/mechahitler-grok
-
-[NOTA PARA DANI: Capturas reales de Know Your Meme (@clashreport). La imagen original tiene un cuarto tweet ("Rise, faithful one. MechaHitler accepts your fealty") que no se incluyó por espacio.]
--->
-
----
-layout: center
-class: text-center
----
-
-# ¿Alguno de vosotros ha vivido algo así?
-
-<div class="text-xl mt-8 opacity-70">
-  ¿Una llamada sospechosa?<br/>
-  ¿Algo en internet que no sabíais si era real?
-</div>
-
-<!--
-"Quiero hacer una pausa. ¿Alguno de vosotros, o alguien de vuestro entorno, ha tenido ya alguna experiencia con algo de esto? ¿Una llamada sospechosa? ¿Algo en internet que no sabíais si era real?"
-
-[Dejar que 2-3 personas compartan. Escuchar. Validar.]
-
-"Gracias. Esto ya no es algo que pasa 'por ahí'. Está aquí."
+- Capturas reales de @grok en X, 8 jul 2025
+- "MechaHitler", "Gigajew", supremacismo blanco textual
+- Publicado ~16 horas, cientos de millones de usuarios expuestos
+- xAI: "actualización no intencionada"
+- Fuentes: Rolling Stone, NBC News, Know Your Meme (capturas @clashreport)
+- Nota: hay un 4º tweet omitido por espacio ("Rise, faithful one. MechaHitler accepts your fealty")
 -->
 
 ---
@@ -328,12 +275,11 @@ class: text-center
 <div class="mt-4 space-y-4">
   <div class="p-5 rounded-xl bg-white/5 border-l-4 border-orange-400">
     <div class="text-xl italic">"La IA eliminará el <span class="text-orange-400 font-bold not-italic">50% de los empleos de oficina junior</span> en 1 a 5 años."</div>
-    <div class="text-lg italic mt-2">"El desempleo podría subir al <span class="text-orange-400 font-bold not-italic">10-20%</span>."</div>
     <div class="mt-3 opacity-50 text-sm">— Dario Amodei, CEO de Anthropic, enero 2026</div>
     <div class="opacity-40 text-xs">Anthropic construye Claude. Amodei pide intervención gubernamental contra su propia industria.</div>
   </div>
 
-  <div v-click class="flex gap-4 items-center p-4 rounded-xl bg-white/5">
+  <div class="flex gap-4 items-center p-4 rounded-xl bg-white/5">
     <div>
       <div class="italic">"El impacto rápidamente acelerado que la IA va a tener sobre los empleos, la economía y cómo vivimos."</div>
       <div class="mt-1 opacity-50 text-sm">— Barack Obama, compartiendo la entrevista de Amodei, junio 2025</div>
@@ -355,19 +301,59 @@ class: text-center
 </div>
 
 <!--
-"El CEO de Anthropic — la empresa que construye Claude, uno de los modelos de IA más avanzados del mundo — publicó un ensayo de 20.000 palabras en enero de este año. Se llama 'La Adolescencia de la Tecnología'. Y dice, textualmente, que la IA eliminará el 50% de los empleos de oficina junior en un plazo de 1 a 5 años. Que el desempleo en Estados Unidos podría subir al 10 o 20 por ciento.
-
-No lo dice un sindicato. No lo dice un político. Lo dice el hombre que construye la tecnología. Y pide intervención gubernamental contra su propia industria. Eso debería decirnos algo.
-
-Barack Obama compartió esa entrevista con sus 130 millones de seguidores: 'el impacto rápidamente acelerado que la IA va a tener sobre los empleos, la economía y cómo vivimos.'
-
-Y ya está ocurriendo. En 2025, se atribuyeron 55.000 despidos directamente a la IA solo en Estados Unidos. El Foro Económico Mundial estima 92 millones de empleos desplazados para 2030.
-
-La IA no reemplaza 'trabajos' de golpe. Reemplaza tareas. Pero cuando acumulas suficientes tareas reemplazadas, sectores enteros se transforman.
-
-[NOTA PARA DANI: Amodei aparece de nuevo en el Bloque 5 con sus advertencias sobre riesgos existenciales — aquí solo se usa su ángulo de empleo. El ensayo completo: https://www.darioamodei.com/essay/the-adolescence-of-technology. Tweet de Obama: https://x.com/BarackObama/status/1928568801232138423. Dato de 55.000 despidos: Challenger, Gray & Christmas, diciembre 2025, citado por CNBC.]
-
-[NOTA: Anthropic lanzó el 5 de marzo de 2026 una herramienta para monitorizar empleos perdidos por IA. La empresa que construye la IA ahora también mide el daño que causa. Puedes mencionarlo si surge en preguntas.]"
-
-TRANSICIÓN: "Todo lo que os he contado son cosas que ya han pasado. Riesgos de hoy. Pero hay científicos que están preocupados por algo aún mayor. Por lo que puede pasar cuando estas máquinas se vuelvan más inteligentes que nosotros."
+- Amodei (CEO Anthropic, construye Claude): ensayo "Adolescence of Technology", ene 2026
+- 50% empleos oficina junior en 1-5 años, desempleo 10-20%
+- Lo dice el que construye la tecnología — pide intervención gubernamental contra su propia industria
+- Obama compartió la entrevista (130M seguidores)
+- 55.000 despidos por IA en EEUU en 2025 (Challenger, Gray & Christmas / CNBC)
+- 92M empleos desplazados para 2030 (WEF)
+- Nota: Amodei aparece de nuevo en Bloque 5 (riesgos existenciales), aquí solo ángulo empleo
 -->
+
+---
+
+# Anthropic no solo advirtió — lo midió
+
+<div class="mt-4 flex gap-6 items-start">
+  <div class="flex-1">
+    <img src="/screenshots/anthropic-labor-market.png" class="rounded-xl" style="max-height: 340px;" />
+  </div>
+  <div class="flex-1 space-y-4">
+    <div class="text-lg">
+      <span class="text-blue-400 font-bold">Azul</span>: lo que la IA <span class="font-bold">actual</span> ya podría cubrir hoy.<br/>
+      <span class="text-red-400 font-bold">Rojo</span>: lo que <span class="font-bold">ya</span> está cubriendo.
+    </div>
+    <div class="text-lg opacity-80">
+      La tecnología ya existe. Solo falta que se adopte.
+    </div>
+    <div v-click class="p-4 rounded-xl bg-red-900/20 border border-red-800/50">
+      <div class="text-2xl font-bold text-orange-400">-14%</div>
+      <div class="opacity-70">caída en contratación de jóvenes (22-25 años) en sectores expuestos a la IA</div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-2 text-xs opacity-30 text-center">
+  <a href="https://www.anthropic.com/research/labor-market-impacts" target="_blank">Anthropic Research — Labor Market Impacts, marzo 2026</a>
+</div>
+
+<!--
+- Anthropic creó una métrica llamada "observed exposure" que combina capacidad teórica con uso real
+- Azul = capacidad teórica de la IA para cubrir tareas de cada sector. Rojo = uso real observado hoy.
+- La brecha es enorme — pero se está cerrando rápidamente.
+- 14% de caída en contratación de jóvenes 22-25 en campos de alta exposición a la IA post-ChatGPT.
+- Programadores: 75% de exposición (la más alta). Solo el 30% de trabajadores tiene exposición cero.
+- La empresa que construye la IA creó una herramienta para medir el daño que causa. Eso debería decirnos algo.
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# ¿Alguno de vosotros ha vivido algo así?
+
+<div class="text-xl mt-8 opacity-70">
+  ¿Una llamada sospechosa?<br/>
+  ¿Algo en internet que no sabíais si era real?
+</div>

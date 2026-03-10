@@ -22,6 +22,12 @@
   overflow: hidden;
 }
 
+/* ---- Keep videos/iframes above footer zone ---- */
+.slidev-layout video,
+.slidev-layout iframe {
+  max-height: 400px;
+}
+
 /* ---- Section dividers: diagonal gradient ---- */
 .slidev-layout.section {
   background: linear-gradient(160deg, #0f172a 0%, #162032 60%, #1e293b 100%) !important;

@@ -5,7 +5,7 @@ layout: section
 # ¿Qué podemos hacer?
 
 <!--
-TRANSICIÓN: "Entonces, ¿estamos condenados? No. Pero la ventana se cierra. Y lo que hagáis importa más de lo que creéis."
+- "Entonces, ¿estamos condenados? No. Pero la ventana se cierra. Y lo que hagáis importa más de lo que creéis."
 -->
 
 ---
@@ -13,6 +13,19 @@ TRANSICIÓN: "Entonces, ¿estamos condenados? No. Pero la ventana se cierra. Y l
 # Ya lo hemos hecho antes
 
 <div class="mt-4 space-y-3">
+  <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
+    <div class="text-2xl">☢️</div>
+    <div>
+      <div class="font-bold">No Proliferación Nuclear (1968)</div>
+      <div class="opacity-70 text-sm">Sin él: 25 países con bomba. Con él: 9.</div>
+    </div>
+  </div>
+  <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
+    <div class="text-2xl">🧬</div>
+    <div>
+      <div class="font-bold">Armas biológicas (1975) · Clonación humana (70+ países)</div>
+    </div>
+  </div>
   <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
     <div class="text-2xl">🌍</div>
     <div>
@@ -27,53 +40,32 @@ TRANSICIÓN: "Entonces, ¿estamos condenados? No. Pero la ventana se cierra. Y l
       <div class="opacity-70 text-sm">193 países. 72.000+ toneladas destruidas y verificadas.</div>
     </div>
   </div>
-  <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
-    <div class="text-2xl">☢️</div>
-    <div>
-      <div class="font-bold">No Proliferación Nuclear (1968)</div>
-      <div class="opacity-70 text-sm">Sin él: 25 países con bomba. Con él: 9.</div>
-    </div>
-  </div>
-  <div class="flex items-center gap-4 p-3 rounded-lg bg-green-900/20">
-    <div class="text-2xl">🧬</div>
-    <div>
-      <div class="font-bold">Armas biológicas (1975) · Clonación humana (70+ países)</div>
-    </div>
-  </div>
 </div>
 
 <div v-click class="mt-4 text-center text-lg">
-  El patrón: la tecnología avanza, los científicos advierten, la industria resiste,<br/>
-  y <span class="text-orange-400 font-bold">la sociedad actúa</span>. La pregunta es si vamos a actuar a tiempo.
+  La pregunta es si vamos a actuar <span class="text-orange-400 font-bold">a tiempo</span>.
 </div>
 
 <!--
-"La humanidad ya se ha enfrentado a amenazas así. Y ha ganado.
-
-1987: el Protocolo de Montreal. 198 países. Se eliminó el 99% de las sustancias que destruían la capa de ozono. La capa se está recuperando. Funciona.
-
-1993: la Convención de Armas Químicas. 193 países. El 100% de los arsenales declarados — más de 72.000 toneladas — destruidos y verificados.
-
-Las armas biológicas tienen su convención desde 1975. Las nucleares, el Tratado de No Proliferación desde 1968 — sin él, tendríamos 25 países con bombas en vez de 9. Incluso la clonación humana está prohibida en más de 70 países.
-
-El patrón es siempre el mismo: la tecnología avanza, los científicos advierten, la industria resiste, y eventualmente la sociedad actúa. La pregunta es si vamos a actuar a tiempo."
+- La humanidad ya se ha enfrentado a amenazas así. Y ha ganado.
+- Nuclear (1968): sin el TNP tendríamos 25 países con bomba, no 9.
+- Biológicas (1975), clonación humana prohibida en 70+ países.
+- Montreal (1987): 198 países, 99% eliminado, la capa de ozono se recupera.
+- Armas Químicas (1993): 193 países, 72.000+ toneladas destruidas y verificadas.
+- La pregunta es si vamos a actuar a tiempo.
 -->
 
 ---
 
-# Las puertas se abren
+# Grietas en el muro
 
 <div class="mt-4 space-y-3">
-  <div class="p-3 rounded-xl bg-white/5 border-l-4 border-green-400">
+  <div class="p-3 rounded-xl bg-white/5 border-l-4 border-orange-400">
     <div class="font-bold">Davos 2026</div>
-    <div class="mt-1 italic text-sm">"Esta es una cuestión entre Demis y yo — y estoy muy seguro de que podemos resolverla."</div>
-    <div class="opacity-50 text-xs">— Dario Amodei, refiriéndose a Demis Hassabis (Google DeepMind)</div>
+    <div class="mt-1 italic text-sm">"Si no vendemos los chips [a China], esto no es una competición entre EEUU y China. Es una cuestión entre Demis y yo, y estoy muy seguro de que podemos resolverla."</div>
+    <div class="opacity-50 text-xs">— Dario Amodei · Demis Hassabis asintió</div>
   </div>
-  <div class="p-3 rounded-xl bg-white/5 border-l-4 border-green-400">
-    <div class="font-bold">Contrato de garantía (Anthony Aguirre)</div>
-    <div class="mt-1 opacity-70 text-sm">Los laboratorios se comprometen a frenar, pero solo se activa cuando suficientes firmen. Como el Protocolo de Montreal.</div>
-  </div>
-  <div class="p-3 rounded-xl bg-white/5 border-l-4 border-green-400">
+  <div class="p-3 rounded-xl bg-white/5 border-l-4 border-orange-400">
     <div class="font-bold">China</div>
     <div class="mt-1 opacity-70 text-sm">Julio 2025: Plan de Gobernanza Global de IA. Propone un organismo internacional.</div>
     <div class="mt-1 italic text-sm opacity-70">Nature: <span class="text-green-400">"China está liderando el mundo en gobernanza de la IA."</span></div>
@@ -81,11 +73,8 @@ El patrón es siempre el mismo: la tecnología avanza, los científicos advierte
 </div>
 
 <!--
-"En Davos 2026, Dario Amodei admitió que preferiría frenar. Pero no puede solo. Y añadió: 'Esta es una cuestión entre Demis y yo — y estoy muy seguro de que podemos resolverla.' Los líderes de dos de los laboratorios más potentes dicen que podrían ponerse de acuerdo.
-
-Anthony Aguirre propuso un contrato de garantía: los laboratorios se comprometen a frenar, pero solo se activa cuando suficientes firmen. Exactamente como funcionó el Protocolo de Montreal.
-
-Y China. Nos dicen que nunca cooperará. Pero en julio 2025 anunció su Plan de Gobernanza Global de IA. Propone un organismo internacional. La revista Nature publicó que 'China está liderando el mundo en gobernanza de la IA.' ¿Están dispuestos a sentarse a negociar? Los datos dicen que sí."
+- Davos 2026: Amodei — "Si no vendemos los chips a China, esto es entre Demis y yo, y podemos resolverlo." Hassabis asintió. Los dos líderes más potentes dicen que podrían acordar frenar.
+- China: julio 2025, Plan de Gobernanza Global de IA. Propone organismo internacional. Nature: "China está liderando el mundo en gobernanza de la IA."
 -->
 
 ---
@@ -114,77 +103,59 @@ Y China. Nos dicen que nunca cooperará. Pero en julio 2025 anunció su Plan de 
   </div>
   <div class="flex items-start gap-3">
     <span class="text-orange-400">▸</span>
-    <span>Modelo: <span class="font-bold">OIEA + Tratado de No Proliferación Nuclear</span>.</span>
-  </div>
-  <div class="flex items-start gap-3">
-    <span class="text-orange-400">▸</span>
-    <span>Stuart Russell participó en PauseCon hace semanas, con eurodiputados.</span>
+    <span>Modelo: <span class="font-bold">Organismo Internacional de Energía Atómica + Tratado de No Proliferación Nuclear</span>.</span>
   </div>
 </div>
 
 <!--
-"PauseAI pide una moratoria internacional sobre el entrenamiento de modelos cada vez más potentes, hasta que sean seguros.
-
-No prohibimos la IA. Pedimos que se deje de construir sistemas más potentes hasta que sepamos controlarlos. Como decir: no prohibimos los coches, pero no dejamos que un fabricante saque uno de 2.000 caballos sin frenos.
-
-Modelo: OIEA + Tratado de No Proliferación Nuclear. Stuart Russell participó en PauseCon hace semanas, con eurodiputados."
+- PauseAI pide moratoria internacional sobre entrenamiento de modelos cada vez más potentes, hasta que sean seguros.
+- No prohibimos la IA. Pedimos que se deje de construir sistemas más potentes hasta que sepamos controlarlos.
+- Como decir: no prohibimos los coches, pero no dejamos que saquen uno de 2.000 caballos sin frenos.
+- Modelo: Organismo Internacional de Energía Atómica + Tratado de No Proliferación Nuclear.
 -->
 
 ---
 
-# 5 cosas que pueden hacer hoy
+# 4 cosas que podéis hacer hoy
 
 <div class="mt-4 space-y-2">
-  <div v-click class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
+  <div class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
     <div class="text-2xl font-bold text-orange-400 w-8">1</div>
     <div>
-      <div class="font-bold">Hablen de esto</div>
-      <div class="opacity-70 text-sm">Cuenten lo que han escuchado hoy. Rompan el silencio.</div>
+      <div class="font-bold">Hablad de esto</div>
+      <div class="opacity-70 text-sm">Contad lo que habéis escuchado hoy. Romped el silencio.</div>
     </div>
   </div>
   <div v-click class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
     <div class="text-2xl font-bold text-orange-400 w-8">2</div>
     <div>
-      <div class="font-bold">No normalicen la IA sin cuestionarla</div>
-      <div class="opacity-70 text-sm">¿Quién controla esto? ¿Qué hacen con mis datos?</div>
+      <div class="font-bold">No la normalicéis sin cuestionarla</div>
+      <div class="opacity-70 text-sm">Cuando alguien diga "es solo una herramienta", recordad lo que habéis visto hoy.</div>
     </div>
   </div>
   <div v-click class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
     <div class="text-2xl font-bold text-orange-400 w-8">3</div>
     <div>
-      <div class="font-bold">Exijan regulación</div>
-      <div class="opacity-70 text-sm">Escriban a sus eurodiputados. Un email. Una carta.</div>
+      <div class="font-bold">Exigid que vuestros representantes actúen</div>
+      <div class="opacity-70 text-sm">pauseai.es tiene plantillas listas para enviar a eurodiputados.</div>
     </div>
   </div>
   <div v-click class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
     <div class="text-2xl font-bold text-orange-400 w-8">4</div>
-    <div class="flex items-center gap-4 flex-1">
-      <div>
-        <div class="font-bold">Firmen y apoyen</div>
-        <div class="opacity-70 text-sm">pauseai.es</div>
-      </div>
-      <img src="/qr-pauseai.png" class="h-16 rounded ml-auto" />
-    </div>
-  </div>
-  <div v-click class="flex items-center gap-3 p-3 rounded-xl bg-white/5">
-    <div class="text-2xl font-bold text-orange-400 w-8">5</div>
     <div>
-      <div class="font-bold">Protejan su entorno</div>
-      <div class="opacity-70 text-sm">Palabra clave familiar. Detectar deepfakes.</div>
+      <div class="font-bold">Firmad</div>
+      <div class="opacity-70 text-sm"><span class="font-bold">superintelligence-statement.org</span> — Hinton, Bengio, Russell + 69.000 firmas</div>
+      <div class="opacity-70 text-sm"><span class="font-bold">humanstatement.org</span> — declaración pro-humana, 500+ organizaciones</div>
+      <div class="opacity-70 text-sm"><span class="font-bold">pauseai.info/statement</span> — moratoria internacional</div>
     </div>
   </div>
 </div>
 
 <!--
-"Uno: hablad de esto. Contad lo que habéis escuchado hoy. Romped el silencio.
-
-Dos: no normalicen la IA sin cuestionarla. Pregunten: ¿quién controla esto? ¿Qué hacen con mis datos?
-
-Tres: exijan regulación. Escriban a sus eurodiputados. Un email. Una carta.
-
-Cuatro: firmen y apoyen. pauseai.info. Les dejo el QR.
-
-Cinco: protejan su entorno. Palabra clave familiar. Detectar deepfakes."
+- 1: Hablad de esto. Contad lo que habéis escuchado hoy. Romped el silencio.
+- 2: No la normalicéis sin cuestionarla. Cuando alguien diga "es solo una herramienta", recordad lo que habéis visto hoy.
+- 3: Exigid que vuestros representantes actúen. pauseai.es tiene plantillas listas.
+- 4: Firmad. superintelligence-statement.org (Hinton, Bengio, Russell + 69K firmas), humanstatement.org (500+ organizaciones), pauseai.info/statement (moratoria).
 -->
 
 ---
@@ -193,29 +164,27 @@ class: text-center
 ---
 
 <div class="space-y-6">
-  <div v-click class="text-xl opacity-70">
-    Hemos vivido el miedo nuclear, Chernóbil, el amianto, el agujero de ozono.<br/>
+  <div class="text-xl opacity-70">
+    Hemos vivido el miedo nuclear, Chernóbil, el tabaco, el agujero de ozono.<br/>
     En cada caso, hubo que decidir: ¿hacemos caso a la industria o a los científicos?
   </div>
   <div v-click class="text-xl">
     Con el ozono, actuamos a tiempo.<br/>
-    Con el amianto, <span class="text-red-400">tardamos demasiado</span>.<br/>
+    Con el tabaco, <span class="text-red-400">tardamos demasiado</span>.<br/>
     Con la IA, <span class="text-orange-400 font-bold">estamos en ese momento exacto</span>.
   </div>
   <div v-click class="text-lg opacity-70">
-    En esta sala hay algo que importa mucho:<br/>
-    <span class="font-bold">experiencia, credibilidad y voto</span>.
+    Ahora sabéis lo que está pasando. Eso ya os hace diferentes.
   </div>
   <div v-click class="text-xl font-bold text-orange-400 mt-4">
-    No os pido que os convirtáis en activistas.<br/>
-    Os pido que no os quedéis callados.
+    Si tienen razón, dentro de cinco años recordaréis este momento.<br/>
+    La pregunta es qué habréis hecho con él.
   </div>
 </div>
 
 <!--
-"Hemos vivido el miedo nuclear, Chernóbil, el amianto, el agujero de ozono. En cada caso, hubo que decidir: ¿hacemos caso a la industria o a los científicos?
-
-Con el ozono, actuamos a tiempo. Con el amianto, tardamos demasiado. Con la IA, estamos en ese momento exacto.
-
-En esta sala hay experiencia, credibilidad y voto. No os pido que os convirtáis en activistas. Os pido que no os quedéis callados."
+- Hemos vivido el miedo nuclear, Chernóbil, el tabaco, el agujero de ozono. En cada caso: ¿hacemos caso a la industria o a los científicos?
+- Ozono: actuamos a tiempo. Tabaco: tardamos demasiado. IA: estamos en ese momento exacto.
+- Ahora sabéis lo que está pasando. Eso ya os hace diferentes.
+- Si tienen razón, dentro de cinco años recordaréis este momento. La pregunta es qué habréis hecho con él.
 -->

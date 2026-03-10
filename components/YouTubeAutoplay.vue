@@ -17,6 +17,8 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 const props = defineProps({
   videoId: { type: String, required: true },
+  start: { type: Number, default: 0 },
+  end: { type: Number, default: 0 },
   width: { type: String, default: '640' },
   height: { type: String, default: '360' },
   className: { type: String, default: '' },
@@ -31,7 +33,10 @@ onMounted(() => {
   observer = new IntersectionObserver(
     ([entry]) => {
       if (entry.isIntersecting) {
-        iframeSrc.value = `https://www.youtube.com/embed/${props.videoId}?rel=0&autoplay=1&mute=1`;
+        let src = `https://www.youtube.com/embed/${props.videoId}?rel=0&autoplay=1&mute=1`;
+        if (props.start) src += `&start=${props.start}`;
+        if (props.end) src += `&end=${props.end}`;
+        iframeSrc.value = src;
         visible.value = true;
       } else {
         visible.value = false;
