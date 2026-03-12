@@ -1,15 +1,27 @@
 <template>
-  <video ref="video" :src="src" :width="width" :class="className" muted loop controls playsinline />
+  <video
+    ref="video"
+    :src="fullSrc"
+    :width="width"
+    :class="className"
+    muted
+    loop
+    controls
+    playsinline
+  />
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, computed, onMounted, onUnmounted } from 'vue';
 
 const props = defineProps({
   src: { type: String, required: true },
   width: { type: String, default: '640' },
   className: { type: String, default: '' },
 });
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const fullSrc = computed(() => (props.src.startsWith('/') ? `${base}${props.src}` : props.src));
 
 const video = ref(null);
 let observer = null;

@@ -1,0 +1,23 @@
+{{- if .Values.headSnippet }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "riesgos-ia-static.fullname" . }}-nginx
+  labels:
+    {{- include "riesgos-ia-static.labels" . | nindent 4 }}
+data:
+  default.conf: |
+    server {
+        listen 80;
+        root /usr/share/nginx/html;
+        index index.html;
+
+        sub_filter '</head>' '{{ .Values.headSnippet }}</head>';
+        sub_filter_once on;
+        sub_filter_types text/html;
+
+        location / {
+            try_files $uri $uri/ /index.html;
+        }
+    }
+{{- end }}

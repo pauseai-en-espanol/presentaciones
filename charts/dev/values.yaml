@@ -12,6 +12,8 @@ service:
 ingress:
   ingressClassName: nginx
   annotations: {}
+  path: /
+  pathType: Prefix
   host: riesgos-ia.local
   tls:
     issuer: ''

@@ -59,6 +59,26 @@ Activate your three roles (teacher, safety expert, Slidev expert) as defined in 
 Three roles active (teacher, safety expert, Slidev expert) per CLAUDE.md. [Your task].
 ```
 
+## Build & Deploy (Static)
+
+Build the static version (nginx-served, no Node.js at runtime):
+
+```bash
+docker build --platform linux/amd64 \
+  --build-arg BASE_PATH=/presentaciones/2026-03-uma-mayores-55/ \
+  -f Dockerfile.static \
+  -t harbor.danilupion.com/pauseai-es/presentacion-2026-03-uma-mayores-55:latest .
+
+docker push harbor.danilupion.com/pauseai-es/presentacion-2026-03-uma-mayores-55:latest
+```
+
+`BASE_PATH` must match the ingress path where the site is deployed. It is baked into the HTML/JS at build time by Vite.
+
+Helm charts are in `charts/`:
+
+- `charts/dev/` — Slidev dev server (port 3030, password-protected, WebSocket support)
+- `charts/static/` — nginx serving the built presentation (port 80, optional `headSnippet` for analytics injection)
+
 ## Project Structure
 
 ```

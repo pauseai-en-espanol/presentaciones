@@ -1,0 +1,24 @@
+replicaCount: 1
+
+image:
+  repository: riesgos-ia-static
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  ingressClassName: nginx
+  annotations: {}
+  path: /
+  pathType: Prefix
+  host: riesgos-ia-static.local
+  tls:
+    issuer: ''
+
+# HTML snippet injected before </head> via nginx sub_filter.
+# Set from GitOps values, e.g.:
+#   headSnippet: '<script defer data-domain="pauseai.es" src="https://plausible.example.com/js/plausible.js"></script>'
+headSnippet: ''
