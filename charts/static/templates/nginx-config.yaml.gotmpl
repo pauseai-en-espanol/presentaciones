@@ -1,4 +1,3 @@
-{{- if .Values.headSnippet }}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -12,12 +11,13 @@ data:
         root /usr/share/nginx/html;
         index index.html;
 
+        {{- if .Values.headSnippet }}
         sub_filter '</head>' '{{ .Values.headSnippet }}</head>';
         sub_filter_once on;
         sub_filter_types text/html;
+        {{- end }}
 
         location / {
             try_files $uri $uri/ /index.html;
         }
     }
-{{- end }}

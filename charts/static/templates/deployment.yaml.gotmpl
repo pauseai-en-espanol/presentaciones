@@ -22,14 +22,10 @@ spec:
             - name: http
               containerPort: 80
               protocol: TCP
-          {{- if .Values.headSnippet }}
           volumeMounts:
             - name: nginx-config
               mountPath: /etc/nginx/conf.d
-          {{- end }}
-      {{- if .Values.headSnippet }}
       volumes:
         - name: nginx-config
           configMap:
             name: {{ include "riesgos-ia-static.fullname" . }}-nginx
-      {{- end }}

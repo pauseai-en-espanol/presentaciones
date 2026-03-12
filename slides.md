@@ -5,6 +5,7 @@ info: |
   Charla sobre riesgos de la inteligencia artificial.
   Dani Lupion · PauseAI · Aula de Mayores +55 · Universidad de Malaga
 favicon: /logos/logo.png
+presenter: dev
 drawings:
   enabled: false
 transition: fade
