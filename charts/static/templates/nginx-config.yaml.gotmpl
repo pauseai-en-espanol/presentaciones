@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ include "riesgos-ia-static.fullname" . }}-nginx
+  name: {{ include "pauseai-es-presentaciones-static.fullname" . }}-nginx
   labels:
-    {{- include "riesgos-ia-static.labels" . | nindent 4 }}
+    {{- include "pauseai-es-presentaciones-static.labels" . | nindent 4 }}
 data:
   default.conf: |
     server {
@@ -17,7 +17,18 @@ data:
         sub_filter_types text/html;
         {{- end }}
 
+        {{- range .Values.redirects }}
+        location = {{ .from }} {
+            return 301 {{ .to }};
+        }
+        {{- end }}
+
+        # SPA fallback: route unknown paths to the presentation's own index.html
+        location ~ ^/([^/]+/[^/]+)/ {
+            try_files $uri $uri/ /$1/index.html;
+        }
+
         location / {
-            try_files $uri $uri/ /index.html;
+            try_files $uri $uri/ =404;
         }
     }

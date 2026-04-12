@@ -1,28 +1,51 @@
+# Builds ALL presentations into a single nginx image.
+#
+# Auto-discovers every directory under presentations/ that has a package.json.
+# Each presentation is served under /<presentation-name>/
+#
+# Usage:
+#   docker build --platform linux/amd64 \
+#     -t harbor.danilupion.com/pauseai-es/presentaciones:latest .
+#
+#   All presentations are served under /presentaciones/<name>/ by default.
+#   Override the base path prefix if needed:
+#     --build-arg BASE_PREFIX=/other-prefix/
+
 ARG NODE_IMAGE=node:24.14.0-alpine
 
-# ------ deps ------
-FROM ${NODE_IMAGE} AS deps
+# ------ build ------
+FROM ${NODE_IMAGE} AS build
 
 ENV COREPACK_HOME=/opt/corepack
 RUN corepack enable && corepack prepare pnpm@10.31.0
 
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY presentations ./presentations
 RUN PACKAGED=true pnpm install --frozen-lockfile
 
-# ------ runtime ------
-FROM ${NODE_IMAGE}
+ARG BASE_PREFIX=/presentaciones/
 
-ENV COREPACK_HOME=/opt/corepack
-COPY --from=deps /opt/corepack /opt/corepack
-RUN corepack enable
+RUN for dir in presentations/*/; do \
+      name=$(basename "$dir"); \
+      if [ -f "$dir/package.json" ]; then \
+        echo "=== Building $name ===" && \
+        (cd "$dir" && pnpm build --base "${BASE_PREFIX}${name}/") || exit 1; \
+      fi; \
+    done
 
-WORKDIR /app
+# Collect all dist/ outputs mirroring BASE_PREFIX so container filesystem matches external URLs
+RUN mkdir -p "/output$(echo "${BASE_PREFIX}" | sed 's:/$::')" && \
+    for dir in presentations/*/; do \
+      name=$(basename "$dir"); \
+      if [ -d "$dir/dist" ]; then \
+        cp -r "$dir/dist" "/output${BASE_PREFIX}$name"; \
+      fi; \
+    done
 
-COPY --from=deps --chown=node:node /app/node_modules ./node_modules
-COPY --chown=node:node . .
+# ------ serve ------
+FROM nginx:alpine
 
-USER node
+COPY --from=build /output /usr/share/nginx/html
 
-EXPOSE 3030
-ENTRYPOINT ["sh", "-c", "tail -f /dev/null | pnpm slidev --remote=\"$SLIDEV_PASSWORD\" --port 3030"]
+EXPOSE 80

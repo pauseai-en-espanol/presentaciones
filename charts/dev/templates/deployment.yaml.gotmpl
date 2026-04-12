@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "riesgos-ia.fullname" . }}
+  name: {{ include "pauseai-es-presentaciones.fullname" . }}
   labels:
-    {{- include "riesgos-ia.labels" . | nindent 4 }}
+    {{- include "pauseai-es-presentaciones.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "riesgos-ia.selectorLabels" . | nindent 6 }}
+      {{- include "pauseai-es-presentaciones.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        {{- include "riesgos-ia.selectorLabels" . | nindent 8 }}
+        {{- include "pauseai-es-presentaciones.selectorLabels" . | nindent 8 }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
@@ -22,7 +22,7 @@ spec:
             - name: SLIDEV_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Values.secret.existingSecret | default (printf "%s-secret" (include "riesgos-ia.fullname" .)) }}
+                  name: {{ .Values.secret.existingSecret | default (printf "%s-secret" (include "pauseai-es-presentaciones.fullname" .)) }}
                   key: SLIDEV_PASSWORD
           ports:
             - name: http

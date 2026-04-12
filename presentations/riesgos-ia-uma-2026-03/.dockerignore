@@ -1,0 +1,14 @@
+.git
+.husky
+.idea
+.turbo
+**/.DS_Store
+
+.pnpm-store
+**/node_modules
+**/dist
+**/coverage
+
+docs/
+environments/
+deploy.env

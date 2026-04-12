@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: riesgos-ia-static
+  repository: pauseai-es-presentaciones-static
   tag: latest
   pullPolicy: IfNotPresent
 
@@ -14,7 +14,7 @@ ingress:
   annotations: {}
   path: /
   pathType: Prefix
-  host: riesgos-ia-static.local
+  host: pauseai-es-presentaciones-static.local
   tls:
     issuer: ''
 
@@ -22,3 +22,9 @@ ingress:
 # Set from GitOps values, e.g.:
 #   headSnippet: '<script defer data-domain="pauseai.es" src="https://plausible.example.com/js/plausible.js"></script>'
 headSnippet: ''
+
+# Nginx 301 redirects for legacy URLs.
+# Each entry generates a `location = <from> { return 301 <to>; }` block.
+redirects: []
+#  - from: /2026-03-uma-mayores-55
+#    to: /riesgos-ia-uma-2026-03/

@@ -1,0 +1,15 @@
+{
+  "name": "riesgos-ia-uma-2026-03",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Riesgos de la IA — PauseAI + UMA Aula de Mayores +55",
+  "scripts": {
+    "dev": "slidev --remote --port 3030",
+    "build": "slidev build"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.14.2",
+    "@slidev/theme-default": "0.25.0"
+  }
+}

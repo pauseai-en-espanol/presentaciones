@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: riesgos-ia
+  repository: pauseai-es-presentaciones
   tag: latest
   pullPolicy: IfNotPresent
 
@@ -14,7 +14,7 @@ ingress:
   annotations: {}
   path: /
   pathType: Prefix
-  host: riesgos-ia.local
+  host: pauseai-es-presentaciones.local
   tls:
     issuer: ''
 

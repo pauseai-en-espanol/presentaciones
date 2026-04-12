@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "riesgos-ia-static.fullname" . }}
+  name: {{ include "pauseai-es-presentaciones-static.fullname" . }}
   labels:
-    {{- include "riesgos-ia-static.labels" . | nindent 4 }}
+    {{- include "pauseai-es-presentaciones-static.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "riesgos-ia-static.selectorLabels" . | nindent 6 }}
+      {{- include "pauseai-es-presentaciones-static.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        {{- include "riesgos-ia-static.selectorLabels" . | nindent 8 }}
+        {{- include "pauseai-es-presentaciones-static.selectorLabels" . | nindent 8 }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
@@ -28,4 +28,4 @@ spec:
       volumes:
         - name: nginx-config
           configMap:
-            name: {{ include "riesgos-ia-static.fullname" . }}-nginx
+            name: {{ include "pauseai-es-presentaciones-static.fullname" . }}-nginx

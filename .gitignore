@@ -76,6 +76,9 @@ tmp
 # Caches
 .eslintcache
 
+# Playwright MCP
+.playwright-mcp/
+
 # Runtime data
 pids
 *.pid
