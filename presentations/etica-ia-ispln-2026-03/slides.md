@@ -2,6 +2,7 @@
 theme: default
 favicon: /logos/logo.png
 title: 'IA; Ética, y la Ausencia de Esta'
+titleTemplate: '%s'
 info: |
   Hacia la gobernanza humana de las nuevas tecnologías.
   Álvaro Torres de Miguel — PauseAI

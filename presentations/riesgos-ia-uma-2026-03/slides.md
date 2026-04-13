@@ -1,9 +1,8 @@
 ---
 theme: default
 title: Riesgos de la IA — PauseAI
-info: |
-  Charla sobre riesgos de la inteligencia artificial.
-  Dani Lupion · PauseAI · Aula de Mayores +55 · Universidad de Malaga
+titleTemplate: '%s'
+info: Charla sobre riesgos de la inteligencia artificial. Dani Lupión · PauseAI · Aula de Mayores +55 · Universidad de Málaga
 favicon: /logos/logo.png
 presenter: dev
 drawings:

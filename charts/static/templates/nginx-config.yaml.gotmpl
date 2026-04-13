@@ -18,9 +18,18 @@ data:
         {{- end }}
 
         {{- range .Values.redirects }}
+        {{- if .prefix }}
         location = {{ .from }} {
             return 301 {{ .to }};
         }
+        location ~ ^{{ .from }}(/.*) {
+            return 301 {{ .to }}$1;
+        }
+        {{- else }}
+        location = {{ .from }} {
+            return 301 {{ .to }};
+        }
+        {{- end }}
         {{- end }}
 
         # SPA fallback: route unknown paths to the presentation's own index.html

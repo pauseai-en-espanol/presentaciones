@@ -25,6 +25,8 @@ headSnippet: ''
 
 # Nginx 301 redirects for legacy URLs.
 # Each entry generates a `location = <from> { return 301 <to>; }` block.
+# Set `prefix: true` to also redirect subpaths (e.g. /old/3 → /new/3).
 redirects: []
 #  - from: /2026-03-uma-mayores-55
 #    to: /riesgos-ia-uma-2026-03/
+#    prefix: true

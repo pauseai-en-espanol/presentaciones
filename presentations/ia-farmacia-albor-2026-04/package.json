@@ -1,0 +1,15 @@
+{
+  "name": "ia-farmacia-albor-2026-04",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "No Te Creas Todo Lo Que Ves — IA, Desinformación y Salud · PauseAI + Fundación Albor",
+  "scripts": {
+    "dev": "slidev --remote --port 3032",
+    "build": "slidev build"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.14.2",
+    "@slidev/theme-default": "0.25.0"
+  }
+}
