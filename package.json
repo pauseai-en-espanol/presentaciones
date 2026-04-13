@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@slango.configs/eslint": "1.2.12",
+    "@slango.configs/eslint": "1.2.13",
     "@slango.configs/lint-staged": "1.1.19",
     "@slango.configs/prettier": "1.0.13",
     "eslint": "10.2.0",
