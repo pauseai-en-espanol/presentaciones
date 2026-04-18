@@ -9,6 +9,8 @@ drawings:
   enabled: false
 transition: fade
 colorSchema: dark
+addons:
+  - slidev-addon-pauseai
 fonts:
   sans: Montserrat
   serif: Roboto Slab

@@ -1,0 +1,17 @@
+{
+  "name": "slidev-addon-pauseai",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Componentes y recursos compartidos para las presentaciones de PauseAI España",
+  "keywords": [
+    "slidev-addon"
+  ],
+  "files": [
+    "components"
+  ],
+  "peerDependencies": {
+    "@slidev/cli": "*",
+    "vue": "*"
+  }
+}

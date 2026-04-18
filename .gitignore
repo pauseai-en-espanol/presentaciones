@@ -51,6 +51,9 @@ coverage
 ## Local database assets
 .local-data/
 
+# new-presentation skill — temp extraction workspace
+presentations/*/_extracted/
+
 # Misc
 .DS_Store
 Thumbs.db

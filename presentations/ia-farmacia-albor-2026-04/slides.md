@@ -9,6 +9,8 @@ presenter: dev
 drawings:
   enabled: false
 transition: fade
+addons:
+  - slidev-addon-pauseai
 fonts:
   sans: Montserrat
   serif: Roboto Slab

@@ -1,5 +1,6 @@
 packages:
   - presentations/*
+  - packages/*
 
 onlyBuiltDependencies:
   - esbuild
