@@ -64,7 +64,7 @@ Field guidance:
 - **VENUE_LINE**: subtitle under the headline (e.g. "Aula de Mayores +55 · Universidad de Málaga").
 - **SPEAKER**: default "Dani Lupión".
 - **DATE_DISPLAY**: human-readable date (e.g. "Marzo 2026").
-- **VENUE_LOGO_FILENAME**: if the user provided a logo path, copy it manually into `$TARGET/public/logos/` (with a short kebab-case name, e.g. `uma.png`) AFTER scaffold.sh returns, and pass the bare filename here. If no logo, pass an empty string — `scaffold.sh` will emit the single-footer variant.
+- **VENUE_LOGO_FILENAME**: if the user provided a logo path, copy it manually into `$TARGET/public/logos/` (with a short kebab-case name, e.g. `uma.png`) AFTER scaffold.sh returns, and pass the bare filename here. If no logo, pass an empty string — the right-side footer will still show the `VENUE_NAME` text alone. Footer text color is chosen from `$THEME` automatically (dark → white with drop-shadow, light → slate-700).
 - **OVERVIEW / FORMAT / AUDIENCE / DURATION / VENUE_FULL / TONE / NARRATIVE_ARC**: CLAUDE.md body fields. Write 1–3 sentences each in Spanish.
 
 If the user provided a venue logo file:

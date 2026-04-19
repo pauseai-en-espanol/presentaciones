@@ -1,0 +1,16 @@
+{
+  "name": "ia-cultura-felo-monzon-2026-04",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "IA y Cultura",
+  "scripts": {
+    "dev": "slidev --remote --port 3034",
+    "build": "slidev build"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.14.2",
+    "@slidev/theme-default": "0.25.0",
+    "slidev-addon-pauseai": "workspace:*"
+  }
+}

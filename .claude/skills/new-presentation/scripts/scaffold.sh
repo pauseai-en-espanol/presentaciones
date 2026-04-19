@@ -45,10 +45,37 @@ fi
 COLOR_SCHEMA="$THEME"
 IMPORT_DATE="$(date +%Y-%m-%d)"
 
-# Build VENUE_LOGO_LINE and FOOTER_RIGHT_LINE for CLAUDE.md
+# Theme-dependent footer text styling (light text on dark bg, dark text on light bg)
+if [[ "$THEME" == "dark" ]]; then
+  FOOTER_TEXT_CLASS="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]"
+  VENUE_LOGO_STYLE=' style="filter: brightness(0) invert(1)"'
+else
+  FOOTER_TEXT_CLASS="text-xs tracking-wide text-slate-700"
+  VENUE_LOGO_STYLE=""
+fi
+
+# Build the venue (right) footer block. Always emits when VENUE_NAME is set,
+# optionally appending the venue logo <img> when VENUE_LOGO is also provided.
+if [[ -n "$VENUE_NAME" ]]; then
+  VENUE_FOOTER_BLOCK="  <footer class=\"footer-persistent footer-right\">
+    <span class=\"$FOOTER_TEXT_CLASS\">$VENUE_NAME</span>"
+  if [[ -n "$VENUE_LOGO" ]]; then
+    VENUE_FOOTER_BLOCK+="
+    <img src=\"/logos/$VENUE_LOGO\" class=\"h-5\"$VENUE_LOGO_STYLE />"
+  fi
+  VENUE_FOOTER_BLOCK+="
+  </footer>"
+else
+  VENUE_FOOTER_BLOCK=""
+fi
+
+# CLAUDE.md doc lines
 if [[ -n "$VENUE_LOGO" ]]; then
   VENUE_LOGO_LINE=", \`$VENUE_LOGO\` (logo institucion)"
   FOOTER_RIGHT_LINE=", $VENUE_NAME + logo institucion (derecha)"
+elif [[ -n "$VENUE_NAME" ]]; then
+  VENUE_LOGO_LINE=""
+  FOOTER_RIGHT_LINE=", $VENUE_NAME (derecha)"
 else
   VENUE_LOGO_LINE=""
   FOOTER_RIGHT_LINE=""
@@ -105,13 +132,9 @@ substitute "$TEMPLATES/slides.md.tmpl" "$TARGET/slides.md" \
 cp "$TEMPLATES/style.$THEME.css" "$TARGET/style.css"
 
 # --- global-bottom.vue ---
-if [[ -n "$VENUE_LOGO" ]]; then
-  substitute "$TEMPLATES/global-bottom.full.vue.tmpl" "$TARGET/global-bottom.vue" \
-    VENUE_NAME "$VENUE_NAME" \
-    VENUE_LOGO "$VENUE_LOGO"
-else
-  cp "$TEMPLATES/global-bottom.solo.vue.tmpl" "$TARGET/global-bottom.vue"
-fi
+substitute "$TEMPLATES/global-bottom.vue.tmpl" "$TARGET/global-bottom.vue" \
+  FOOTER_TEXT_CLASS "$FOOTER_TEXT_CLASS" \
+  VENUE_FOOTER_BLOCK "$VENUE_FOOTER_BLOCK"
 
 # --- vite.config.js ---
 cp "$TEMPLATES/vite.config.js" "$TARGET/vite.config.js"
