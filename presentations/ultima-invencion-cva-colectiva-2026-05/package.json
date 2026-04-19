@@ -1,0 +1,16 @@
+{
+  "name": "ultima-invencion-cva-colectiva-2026-05",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "IA, ¿Nuestra última invención?",
+  "scripts": {
+    "dev": "slidev --remote --port 3035",
+    "build": "slidev build"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.14.2",
+    "@slidev/theme-default": "0.25.0",
+    "slidev-addon-pauseai": "workspace:*"
+  }
+}
