@@ -1,0 +1,16 @@
+{
+  "name": "mythos-bluedot-2026-05",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mythos y Glasswing: zero-days, emergencia y la ventana que se cierra",
+  "scripts": {
+    "dev": "slidev --remote --port 3036",
+    "build": "slidev build"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.14.2",
+    "@slidev/theme-default": "0.25.0",
+    "slidev-addon-pauseai": "workspace:*"
+  }
+}
