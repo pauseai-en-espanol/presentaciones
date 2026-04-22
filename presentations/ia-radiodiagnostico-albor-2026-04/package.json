@@ -1,0 +1,16 @@
+{
+  "name": "ia-radiodiagnostico-albor-2026-04",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lo que la máquina aún no ve — IA e imagen médica · PauseAI + Fundación Albor",
+  "scripts": {
+    "dev": "slidev --remote --port 3037",
+    "build": "slidev build"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.14.2",
+    "@slidev/theme-default": "0.25.0",
+    "slidev-addon-pauseai": "workspace:*"
+  }
+}

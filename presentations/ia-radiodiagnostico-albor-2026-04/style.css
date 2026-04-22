@@ -1,0 +1,30 @@
+/* ============================================
+   PauseAI — El Último Filtro Eres Tú
+   Default theme + PauseAI orange accent
+   Fonts: Montserrat (body), Roboto Slab (quotes)
+   ============================================ */
+
+:root {
+  --pauseai-orange: #ff6600;
+  --slidev-theme-primary: #ff6600;
+  --slidev-theme-accent: #ff6600;
+}
+
+/* ---- Typography ---- */
+h1 {
+  color: var(--pauseai-orange) !important;
+  font-weight: 700 !important;
+}
+
+/* ---- Blockquotes ---- */
+blockquote {
+  border-left: 4px solid var(--pauseai-orange);
+  padding-left: 1rem;
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+}
+
+/* ---- Progress bar ---- */
+.slidev-progress-bar {
+  background: var(--pauseai-orange) !important;
+}
