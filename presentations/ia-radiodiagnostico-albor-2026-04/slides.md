@@ -45,10 +45,6 @@ class: text-center
 -->
 
 ---
-src: ./slides/00-hinton.md
----
-
----
 src: ./slides/01-apertura.md
 ---
 
@@ -57,7 +53,7 @@ src: ./slides/02-que-puede-hacer-ia.md
 ---
 
 ---
-src: ./slides/03-cuando-la-ia-falla.md
+src: ./slides/03-mentiras-convincentes.md
 ---
 
 ---
@@ -65,13 +61,17 @@ src: ./slides/04-cuando-la-ia-dana.md
 ---
 
 ---
-src: ./slides/05-ia-y-salud.md
+src: ./slides/05-cuando-la-ia-falla.md
 ---
 
 ---
-src: ./slides/06-que-podeis-hacer.md
+src: ./slides/06-ia-y-salud.md
 ---
 
 ---
-src: ./slides/07-preguntas.md
+src: ./slides/07-que-podeis-hacer.md
+---
+
+---
+src: ./slides/08-preguntas.md
 ---

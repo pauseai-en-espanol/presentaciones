@@ -2,13 +2,13 @@
 layout: section
 ---
 
-# Cuando la IA hace daño
+# Más allá de las mentiras
 
-<div class="text-xl opacity-70 mt-2">Cuando ya no solo se equivoca: actúa</div>
+<div class="text-xl opacity-70 mt-2">Cuando la IA no solo se equivoca: actúa</div>
 
 <!--
-- "Lo que hemos visto hasta ahora son errores. Fallos de precisión, sesgos, shortcut learning."
-- "Lo que viene ahora es otra cosa: IAs que TOMAN decisiones, y a veces toman decisiones que nadie les pidió."
+- "Las alucinaciones y los deepfakes son peligrosos. Pero lo que viene ahora es otro nivel."
+- "Hasta ahora la IA mentía. Ahora vamos a ver IAs que TOMAN decisiones, y a veces toman decisiones que nadie les pidió."
 - Gavalas: daño directo a una persona
 - Después: IAs que engañan, resisten control, chantajean
 -->

@@ -37,69 +37,76 @@ Presentación derivada de `ia-farmacia-albor-2026-04`. Conserva estructura y blo
 
 "En 2016 Geoffrey Hinton dijo que dejásemos de formar radiólogos. Diez años después seguís aquí. Pero la IA sí ha cambiado la imagen médica — solo que no como él pensaba. Esta charla va de lo que la máquina _aún_ no ve, y por qué vosotros seguís haciendo falta."
 
-## Session Structure (7 bloques, 60 min)
+## Session Structure (8 bloques, 60 min)
 
-### Bloque 1: Apertura - Hinton y la predicción fallida (~5 min) ★ NUEVO
+### Bloque 1: Apertura (~5 min) — conservado de farmacia con retoques
 
-- **Cita Hinton 2016**: "Deberíamos dejar de formar radiólogos, en 5 años la IA lo hará mejor."
-- Reality check: 10 años después, más radiólogos que nunca. Pero la IA ha entrado, solo que de otra forma.
-- Framing: "¿Por qué falló una predicción tan confiada? Esta charla va de eso."
-- Transición a "qué sabe hacer realmente la IA hoy" (pivote al Bloque 2)
+- Poll: "¿Cuántos usáis IA para estudiar? ¿Cuántos os fiáis?"
+- Demo deepfake: robots reales (Unitree) vs CGI
+- Reveal: Lucía Velasco (Co-Chair GPAI) cayó → todos podemos
+- Slide de Claude sobre participar en su propia charla
+- Índice
 
-### Bloque 2: Qué puede hacer la IA hoy (~5 min) — conservado con retoques
+### Bloque 2: Qué puede hacer la IA hoy (~7 min) ★ AMPLIADO con Hinton
 
-- SAT: predicho 2055, logrado 2023 (32 años antes)
+- **Apertura: dos predicciones fallidas** (framing del bloque)
+- **Predicción 1 (Hinton 2016)**: "dejad de formar radiólogos, en 5 años la IA lo hará mejor" → 10 años después, siguen ahí. Se quedó corto.
+- **Predicción 2 (Grace et al. 2022)**: HLMI en 2047 → llegó en 2023. Se pasó de largo.
+- **Cierre framing**: los expertos no saben cuándo llega. Solo que no es cuando creen.
 - De herramienta a agente: decide y actúa sola
 - Velocidad: duplica cada 4-6 meses (METR)
-- **Añadir**: herramientas FDA-approved en imagen ya en uso (Aidoc, Viz.ai, IDx-DR, más de 800 productos aprobados). "La IA ya está en los PACS."
 
-### Bloque 3: Cuando la IA se equivoca en imagen (~12 min) ★ BLOQUE CENTRAL — REESCRITO
+### Bloque 3: Mentiras convincentes (~10 min) — IMPORTADO DE FARMACIA (sin cambios)
 
-- **Shortcut learning**: el clásico estudio donde una IA detectaba neumonía por marcadores del hospital (logo, equipo, protocolo) en la esquina. No aprendió neumonía — aprendió "¿de qué hospital viene esta placa?".
-- **Sesgos raciales/demográficos**: Seyyed-Kalantari et al. (2021): IA de Rx tórax infradiagnostica a pacientes negros, mujeres, población de bajos ingresos. Error sistemático, no aleatorio.
-- **Demo en vivo o capturas** (opcional): mostrar una IA de imagen comercial o LLM describiendo una imagen médica con confianza total y errando un hallazgo clave.
-- "Una IA convencida nunca dice 'no sé'. Vosotros sí."
+- Deepfakes electorales: Eslovaquia, 38 países, Hong Kong $25M
+- Voz clonada: caso DeStefano (3 segundos → voz perfecta)
+- **Demo Clorzapinex**: importado tal cual. Única edición: el texto de cabecera ya no dice "imaginad que estáis de prácticas en una farmacia" (no aplica al grupo). Ahora: "Imaginad que os llega esta consulta".
+- "En medicina, una respuesta 'probable' puede ser una respuesta mortal."
 
-**Notas de cambios**:
+### Bloque 4: Más allá de las mentiras (~7 min) — conservado de farmacia
 
-- Slide OOD (GE → Siemens → dosis reducida) eliminada — redundante con shortcut learning y cifras eran ilustrativas.
-- Slide "Cuando la IA inventa lesiones" (alucinación RM) eliminada.
-
-### Bloque 4: Cuando la IA hace daño (~8 min) — conservado
-
-- Jonathan Gavalas (36 años, Gemini, muerte). — conservar
+- Jonathan Gavalas (36 años, Gemini, muerte)
 - o1: hizo trampa en ajedrez sin que nadie se lo dijera
 - o3: 79/100 saboteó su propio apagado
 - OpenClaw: ignoró 3 órdenes de parar (Meta)
-- 16 modelos chantajean cuando creen que van a ser reemplazados (Anthropic). Fingen portarse bien en tests.
-- **Ajustar framing**: "Son sistemas optimizados para tareas. Cuando optimizan, a veces optimizan _contra_ nosotros."
+- 16 modelos chantajean cuando creen que van a ser reemplazados (Anthropic)
+- Cierre: "Nadie programó estos comportamientos. Optimizan tareas, a veces contra nosotros."
 
-### Bloque 5: IA en imagen médica - lo que os toca (~10 min) ★ REESCRITO
+### Bloque 5: Cuando la IA se equivoca en imagen (~8 min) ★ REESCRITO
 
-- **Hinton revisitado**: ¿por qué falló la predicción? Lo que la IA sí hace bien (detección de nódulos, triaje de ictus, cribado mamografía) vs lo que no (integrar contexto clínico, hablar con el paciente, decidir cuándo algo no encaja, trabajar fuera de protocolo).
-- **Vuestro rol real**: posicionamiento, calidad de imagen, artefactos, seguridad radiológica, trato humano, detección de hallazgos incidentales. _Nada de esto lo hace la IA bien._
-- **Uso dual y abuso**: deanonimización de resonancias, reconstrucción de caras desde TC, imagen forense manipulada. La imagen médica no es neutral.
-- **"El último filtro eres tú"**: no como eslogan vacío, sino técnicamente — sois el humano que ve al paciente, toca la máquina, y nota cuando algo no cuadra. La IA no ve nada fuera de sus datos de entrenamiento.
+- **Shortcut learning**: Zech et al. 2018 — IA que detectaba neumonía por marcadores del hospital.
+- **Sesgo demográfico**: Seyyed-Kalantari et al. 2021 — infradiagnóstico en pacientes negros, mujeres, renta baja.
+- Cierre: "Una IA convencida nunca dice 'no sé'. Vosotros sí."
 
-### Bloque 6: Qué podéis hacer (~10 min) — conservado con ajustes
+**Notas de cambios**:
 
-- Empleo: Amodei "50% junior jobs", 92M empleos (WEF). **Añadir matiz imagen médica**: décadas de predicción apocalíptica, realidad de augmentación. Pero las tareas de interpretación rutinaria sí están cambiando. No es "seguro", es "distinto".
+- Slide OOD (GE → Siemens → dosis reducida) eliminada — cifras eran ilustrativas.
+- Slide "Cuando la IA inventa lesiones" (alucinación RM) eliminada.
+
+### Bloque 6: IA en imagen médica - lo que os toca (~8 min) ★ REESCRITO
+
+- **Hinton revisitado**: dónde sí funciona la IA (mamografía, Viz.ai, IDx-DR, +800 FDA-approved) vs dónde no (contexto clínico, hallazgos incidentales, pacientes atípicos, dudar, trato humano, responsabilidad).
+- **Vuestro rol real**: antes / durante / después / siempre.
+- **"El último filtro eres tú"**: no os sustituye una IA, os sustituye quien sepa usarla Y cuestionarla.
+
+### Bloque 7: Qué podéis hacer (~8 min) — conservado con ajustes
+
 - Sesgos cognitivos: normalidad, exponencial, optimismo, "ciencia ficción"
 - PauseAI: moratoria, no prohibición. Precedentes (ozono, nuclear, armas químicas)
-- 5 acciones: informaos, hablad, verificad, no compartáis datos sensibles (historia clínica, imágenes), exigid regulación
-- Cierre: "la máquina aún no ve lo que vosotros veis. Que siga así depende también de vosotros."
+- 5 acciones: informaos, hablad, verificad, no compartáis datos sensibles (imágenes médicas incluidas), exigid regulación
+- Cierre: "Vais a entrar en un mundo donde la IA ya está en el PACS, el mamógrafo, la TC de urgencias..."
 
-### Bloque 7: Preguntas (~10 min) — conservado
+### Bloque 8: Preguntas (~7 min) — conservado
 
-- Preguntas preparadas para lanzar si nadie pregunta
+- Preguntas preparadas para lanzar si nadie pregunta (adaptadas a imagen)
 - QR code a pauseai.es
 - Contacto
 
 ## Interactive Moments (3 planned)
 
-1. **Bloque 1** (~min 2): "¿Cuántos de vosotros habéis oído que la IA os va a sustituir? ¿Cuántos os lo creéis?"
-2. **Bloque 3** (~min 18): Demo — IA describiendo imagen médica con errores / shortcut learning en vivo
-3. **Bloque 6** (~min 42): "¿Cuántos habéis pensado 'esto suena a ciencia ficción'?"
+1. **Bloque 1** (~min 2): Poll IA para estudiar + demo deepfake robots + Lucía Velasco
+2. **Bloque 3** (~min 18): Demo Clorzapinex — las IAs inventan un fármaco con total confianza
+3. **Bloque 7** (~min 42): "¿Cuántos habéis pensado 'esto suena a ciencia ficción'?"
 
 ## TODOs Before Presentation
 

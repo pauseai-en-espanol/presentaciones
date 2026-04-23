@@ -119,22 +119,26 @@ layout: default
   </div>
   <div class="flex items-center gap-4 p-2 rounded-lg bg-gray-50">
     <div class="text-orange-500 font-bold w-6 text-right">2</div>
-    <div>Cuando la IA se equivoca en imagen</div>
+    <div>Mentiras convincentes</div>
   </div>
   <div class="flex items-center gap-4 p-2 rounded-lg bg-gray-50">
     <div class="text-orange-500 font-bold w-6 text-right">3</div>
-    <div>Cuando la IA hace daño</div>
+    <div>Más allá de las mentiras</div>
   </div>
   <div class="flex items-center gap-4 p-2 rounded-lg bg-gray-50">
     <div class="text-orange-500 font-bold w-6 text-right">4</div>
-    <div>IA en imagen: lo que os toca</div>
+    <div>Cuando la IA se equivoca en imagen</div>
   </div>
   <div class="flex items-center gap-4 p-2 rounded-lg bg-gray-50">
     <div class="text-orange-500 font-bold w-6 text-right">5</div>
-    <div>¿Qué podéis hacer?</div>
+    <div>IA en imagen: lo que os toca</div>
   </div>
   <div class="flex items-center gap-4 p-2 rounded-lg bg-gray-50">
     <div class="text-orange-500 font-bold w-6 text-right">6</div>
+    <div>¿Qué podéis hacer?</div>
+  </div>
+  <div class="flex items-center gap-4 p-2 rounded-lg bg-gray-50">
+    <div class="text-orange-500 font-bold w-6 text-right">7</div>
     <div>Preguntas</div>
   </div>
 </div>

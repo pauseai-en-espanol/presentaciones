@@ -5,41 +5,107 @@ class: text-center
 
 # ¿Qué puede hacer la IA hoy?
 
-<div class="text-lg opacity-60 mt-2">Spoiler: mucho más de lo que pensáis</div>
+<div class="text-lg opacity-60 mt-2">Primero: lo que los expertos no acertaron</div>
 
 <!--
-- Transición rápida: "Para entender los riesgos, primero hay que entender de qué estamos hablando"
-- Este bloque es breve - 5 minutos, solo para establecer contexto
+- "Para entender lo que la IA puede hacer, primero mirad lo que la gente que más sabe de IA predijo. Y se equivocó."
+- Dos predicciones fallidas. En direcciones opuestas.
+- No vamos a repasar lo que la IA sabe — vamos a mirar cuánto se equivoca la gente al predecirlo.
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# Predicción 1
+
+<div class="max-w-3xl mx-auto">
+  <div class="text-xs opacity-60 mt-4 font-mono">Toronto, 2016</div>
+
+  <blockquote class="text-xl leading-relaxed italic border-l-4 border-orange-500 pl-6 text-left mt-4">
+    "Deberíamos dejar de formar radiólogos ya. En cinco años el deep learning lo va a hacer mejor que ellos."
+  </blockquote>
+
+  <div class="opacity-80 mt-3 text-sm text-center">
+    <span class="font-bold">Geoffrey Hinton</span> · "Padrino" del deep learning · Premio Turing · Nobel Física 2024
+  </div>
+
+  <div v-click class="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200 text-left">
+    <span class="opacity-60">10 años después:</span>
+    <span class="font-bold">los radiólogos siguen ahí. Y vosotros, los técnicos de imagen, también.</span>
+  </div>
+
+  <div v-click class="mt-4 text-base font-bold text-orange-500">
+    Se quedó corto. La IA no llegó en 5 años como prometía.
+  </div>
+</div>
+
+<!--
+- Hinton no es cualquiera: sentó las bases del deep learning moderno. Nobel Física 2024.
+- En 2016, en una conferencia en Toronto, dijo esto literalmente. No fue broma.
+- Click 1: reality check. Diez años y los radiólogos siguen. Los técnicos de imagen también.
+- Click 2: "se quedó corto". La predicción era agresiva, demasiado. Punto clave: incluso los que mejor saben de IA se equivocan al alza.
+- TODO source: video/audio del Machine Learning and the Market for Intelligence, 2016
 -->
 
 ---
 layout: default
 ---
 
-# Más rápido de lo que nadie predijo
+# Predicción 2
+
+<div class="text-xs opacity-60 mb-4 font-mono text-center">Grace et al. — encuesta a 2.778 investigadores de IA, 2022</div>
 
 <div class="grid grid-cols-2 gap-8 mt-6">
-  <div>
+  <div class="text-center">
     <div class="text-6xl font-black text-orange-500">2047</div>
-    <div class="text-lg mt-2">Año en que los investigadores<br/>predijeron que la IA igualaría<br/>la capacidad humana</div>
-    <div class="text-xs opacity-50 mt-1">Encuesta Grace et al., 2022</div>
+    <div class="text-base mt-2">Año en que predijeron<br/>IA a nivel humano</div>
   </div>
-  <div v-click>
+  <div v-click class="text-center">
     <div class="text-6xl font-black text-red-500">2023</div>
-    <div class="text-lg mt-2">Año en que la IA ya aprobó<br/>el SAT, el examen de Derecho<br/>y más de 30 exámenes profesionales</div>
+    <div class="text-base mt-2">Año en que la IA<br/>aprobó SAT, examen de Derecho,<br/>USMLE y 30+ exámenes profesionales</div>
   </div>
 </div>
 
-<div v-click class="mt-8 text-center text-lg opacity-70">
-  Los expertos llevan décadas subestimando la velocidad de la IA.
+<div v-click class="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200 text-center">
+  Se pasaron de largo. La IA llegó <span class="font-bold">24 años antes</span> de lo previsto.
 </div>
 
 <!--
-- Encuesta Grace et al. (2022): mediana de 2.778 investigadores de IA predijeron HLMI (inteligencia a nivel humano) para 2047
-- GPT-4 (2023): aprobó SAT (percentil 89-93), bar exam, USMLE, y más de 30 exámenes profesionales
-- "Los que construyen la IA no esperaban esto tan pronto"
-- Click: revelar 2023
-- Click: frase de cierre
+- Grace et al. 2022: encuesta a ~2.800 investigadores de IA. Mediana: HLMI en 2047.
+- GPT-4 (marzo 2023): aprobó SAT (percentil 89-93), bar exam, USMLE, más de 30 exámenes profesionales.
+- Click 1: 2023, no 2047.
+- Click 2: se pasaron de largo. 24 años de error.
+- Punto clave: la gente que construye esto no sabe cuándo llegará. Se equivoca al alza Y a la baja.
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<div class="max-w-2xl mx-auto">
+  <div class="text-3xl font-bold leading-tight">
+    Dos predicciones, dos errores opuestos.
+  </div>
+
+  <div v-click class="mt-8 text-xl opacity-80 leading-relaxed">
+    Los expertos no saben cuándo llegará algo.<br/>
+    Solo que llega <span class="text-orange-500 font-bold">antes o después</span> de lo que creen.
+  </div>
+
+  <div v-click class="mt-10 text-base opacity-60 italic">
+    La IA no pregunta si estamos listos.
+  </div>
+</div>
+
+<!--
+- Frame del bloque: no somos capaces de predecir la IA.
+- Hinton se quedó corto (predijo 5 años, no pasó). Grace se pasó de largo (predijo 24 años, llegó en uno).
+- Click 1: los expertos no saben cuándo llegará. Solo que llega mal calculado.
+- Click 2: implicación — no podemos esperar a estar "listos". Tenemos que aprender a convivir con la incertidumbre.
+- Transición al siguiente slide: "y mientras tanto, ¿qué hace hoy?"
 -->
 
 ---
