@@ -1,0 +1,362 @@
+
+
+ 
+ 
+ Mozilla: Anthropic's Mythos found 271 security vulnerabilities in Firefox 150 - Ars Technica
+
+[META description=CTO says new AI model is "every bit as capable" as world's best security researchers.]
+
+[META og:title=Mozilla: Anthropic's Mythos found 271 security vulnerabilities in Firefox 150]
+
+[META og:description=CTO says new AI model is "every bit as capable" as world's best security researchers.]
+
+[META article:published_time=2026-04-21T21:40:41+00:00]
+
+[META article:published_time=2026-04-21T21:40:41+00:00]
+
+ 
+
+ 
+ 
+ 
+ Skip to content
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ Text
+ settings
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Story text
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Size
+
+ Small
+ Standard
+ Large
+
+Width
+ *
+ 
+
+ Standard
+ Wide
+
+Links
+
+ Standard
+ Orange
+
+ 
+ * Subscribers only
+   Learn more
+ 
+
+ 
+ 
+ Minimize to nav
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+Earlier this month, Anthropic said its Mythos Preview model was so good at finding cybersecurity vulnerabilities that the company was limiting its initial release to “a limited group of critical industry partners.” Since then, debate has raged over whether the model presages an era of turbocharged AI-aided hacking or if Anthropic is just building hype for what is a relatively normal step up on the ladder of advancing AI capabilities.
+
+Mozilla added some important data to that debate Tuesday, writing in a blog post that early access to Mythos Preview had helped it pre-identify 271 security vulnerabilities in this week’s release of Firefox 150. The results were significant enough to get Firefox CTO Bobby Holley to enthuse that, in the never-ending battle between cyberattackers and cyberdefenders, “defenders finally have a chance to win, decisively.”
+
+“We’ve rounded the curve”
+
+Holley didn’t go into detail on the severity of the hundreds of vulnerabilities that Mythos reportedly detected simply by analyzing the unreleased source code of Firefox’s latest version. But by way of comparison, he noted that Anthropic’s Opus 4.6 model found only 22 security-sensitive bugs when analyzing Firefox 148 last month.
+
+The vulnerabilities identified by Mythos could have also been discovered either by automated “fuzzing” techniques or by having an “elite security researcher” reason their way through the browser’s complex source code, Holley writes. But using Mythos eliminated the need to “concentrate many months of costly human effort to find a single bug” in many cases, Holley added.
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+By identifying bugs so efficiently, Holley writes that AI tools like Mythos tilt the cybersecurity balance toward defenders, who benefit when discovering vulnerabilities becomes cheaper for both sides. “Computers were completely incapable of doing this a few months ago, and now they excel at it,” Holley writes. “We have many years of experience picking apart the work of the world’s best security researchers, and Mythos Preview is every bit as capable.”
+
+In an interview with Wired, Holley said that, from now on, this kind of AI-aided vulnerability analysis is something that “every piece of software is going to have to [engage with], because every piece of software has a lot of bugs buried underneath the surface that are now discoverable.” And while it’s possible that future models more advanced than Mythos may be able to find bugs that current models miss, Holley said he was confident that “at least on the Firefox side, having had a bit of a head start here, that we’ve rounded the curve.”
+
+Running through the AI-aided defense gauntlet could be especially important for the open source projects that underpin much of the modern Internet. That’s both because their public codebases are easier for AI systems to explore for vulnerabilities and because many such projects rely on wildly insufficient volunteer maintenance for their security.
+
+In a New York Times essay last week, Mozilla CTO Raffi Krikorian argued that the human difficulty of both finding bugs and writing complex software has created a kind of balance in cyberthreat research that Mythos could break wide open. “The programmer who gave 20 years of his life to maintain [open source] code that runs inside products used by billions of people? He doesn’t have access to Mythos yet. He should,” Krikorian wrote.
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Kyle Orland
+ 
+
+ Senior Gaming Editor
+ 
+ 
+
+ 
+ 
+ 
+ Kyle Orland
+ 
+ Senior Gaming Editor
+ 
+
+ 
+ Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once wrote a whole book about Minesweeper.
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 210 Comments
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Comments
+ 
+
+ 
+ 
+ Forum view
+ 
+
+ 
+ 
+ 
+ Loading comments...
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Prev story
+ 
+
+ 
+ 
+ Next story
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.
+ Open source package with 1 million monthly downloads stole user credentials
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 2.
+ Meet the players who lost big money on Peter Molyneux’s failed Legacy
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 3.
+ National Science Board eviscerated; Trump admin fires all 22 members
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 4.
+ Gateway manufacturer finally acknowledges issue, fails to mention "corrosion"
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 5.
+ Steam Controller: The Ars Technica review
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Customize
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+

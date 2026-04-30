@@ -1,0 +1,491 @@
+
+
+	
+	
+	
+	
+
+	
+	Unauthorized group has gained access to Anthropic's exclusive cyber tool Mythos, report claims | TechCrunch
+	
+[META description=Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted.]
+
+	
+	
+	
+	
+[META og:title=Unauthorized group has gained access to Anthropic's exclusive cyber tool Mythos, report claims | TechCrunch]
+
+	
+[META og:description=Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted.]
+
+	
+	
+	
+	
+[META article:published_time=2026-04-21T23:26:45+00:00]
+
+	
+	
+	
+	
+	
+	
+[META author=Lucas Ropek]
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+		
+
+		
+		
+
+		
+
+	
+		
+
+	
+
+	
+
+		
+
+							
+
+					–:–:–:–				
+						
+
+	
+
+The first StrictlyVC of 2026 hits SF on April 30. Tickets are going fast. Register now.
+
+	
+
+The first StrictlyVC of 2026 hits SF on April 30. Tickets are going fast. Register now.
+
+		
+		
+			Close
+					
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		Image Credits:Benjamin Girette/Bloomberg / Getty Images	
+	
+
+		
+
+		
+
+			
+
+			
+
+				
+
+												
+		AI	
+									
+				
+
+					
+
+		
+
+		
+					
+		
+					
+		
+					
+		
+					
+		
+					
+		
+					
+	
+
+				
+			
+							
+
+					
+Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims																				
+				
+
+																									
+
+						
+
+	
+									
+									
+
+										
+
+			Lucas Ropek
+	
+
+									
+									
+								
+					
+					
+
+						
+4:26 PM PDT · April 21, 2026											
+																			
+					
+		
+
+	
+
+			
+					
+		
+
+		
+					
+		
+					
+		
+					
+		
+					
+		
+					
+		
+					
+	
+
+	
+	
+
+		
+		
+
+			
+
+A group of unauthorized users has reportedly gained access to Mythos, the cybersecurity tool recently announced by Anthropic.
+
+Much has been made of Mythos and its purported power — an AI product designed for enterprise security that, in the wrong hands, could become a potent hacking tool, according to the company. Now Bloomberg has reported that a “private online forum,” the members of which have not been publicly identified, has managed to gain access to the tool through a third-party vendor.
+
+	
+
+	
+
+	
+
+	
+
+“We’re investigating a report claiming unauthorized access to Claude Mythos Preview through one of our third-party vendor environments,” an Anthropic spokesperson told TechCrunch. The company said that, so far, it has found no evidence that the supposedly unauthorized activity has impacted Anthropic’s systems in any way.
+
+The unauthorized group tried a number of different strategies to gain access to the model, including using “access” enjoyed by the person who was interviewed by Bloomberg. That person is currently employed at a third-party contractor that works for Anthropic, the outlet reported.
+
+Members of the group are part of a Discord channel that seeks out information about unreleased AI models, the outlet reported. The group has been using Mythos regularly since gaining access to it, and provided evidence to Bloomberg in the form of screenshots and a live demonstration of the software.
+
+Bloomberg reports that the group, which supposedly gained access to the tool on the same day it was publicly announced, “made an educated guess about the model’s online location based on knowledge about the format Anthropic has used for other models.” The group in question is “interested in playing around with new models, not wreaking havoc with them,” the source told the outlet.
+
+Mythos was released to a select number of vendors, including big names like Apple, as part of an initiative called Project Glasswing. The limited release of the model was designed to prevent its use by bad actors. The tool could be weaponized against corporate security instead of bolstering it, Anthropic said.
+
+	
+
+		
+
+					
+		
+Techcrunch event
+		
+
+			
+
+				
+
+											
+Meet your next investor or portfolio startup at Disrupt
+																
+
+Your next round. Your next hire. Your next breakout opportunity. Find it at TechCrunch Disrupt 2026, where 10,000+ founders, investors, and tech leaders gather for three days of 250+ tactical sessions, powerful introductions, and market-defining innovation. Register now to save up to $410.
+									
+				
+
+											
+Meet your next investor or portfolio startup at Disrupt
+																
+
+Your next round. Your next hire. Your next breakout opportunity. Find it at TechCrunch Disrupt 2026, where 10,000+ founders, investors, and tech leaders gather for three days of 250+ tactical sessions, powerful introductions, and market-defining innovation. Register now to save up to $410.
+									
+			
+			
+
+									San Francisco, CA
+													|
+													October 13-15, 2026
+							
+			
+
+				
+
+REGISTER NOW
+
+			
+		
+	
+
+If true, unauthorized use of Mythos could spell trouble for Anthropic, which provided the exclusive release to allay the company’s concern for enterprise security.
+
+			
+
+			
+
+	
+Topics
+	
+
+		AI, Anthropic, cybersecurity, Mythos	
+
+			
+			
+When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.
+			
+
+			
+			
+
+			
+
+			
+
+	
+
+	
+
+			
+			
+
+			
+
+			
+
+		
+
+		
+					
+		
+					
+		
+					
+		
+					
+		
+					
+		
+					
+	
+
+			
+
+			
+
+	
+	
+	
+
+		
+
+	
+
+		
+		
+
+			
+
+			Lucas Ropek	
+
+			
+			
+
+				
+
+	
+
+		Senior Writer, TechCrunch
+			
+
+				
+
+					
+	
+
+			
+			
+		
+		
+	
+	
+
+	
+
+	
+
+		Lucas is a senior writer at TechCrunch, where he covers artificial intelligence, consumer tech, and startups. He previously covered AI and cybersecurity at Gizmodo. 
+
+You can contact Lucas by emailing lucas.ropek@techcrunch.com.	
+
+	
+	
+
+		View Bio 
+	
+	
+
+	
+
+		
+		
+
+		
+		
+
+			
+			
+
+				
+
+	
+
+	
+
+			
+			
+			
+
+	
+
+	
+
+	
+
+					
+				
+
+							
+April 30
+										
+San Francisco, CA
+					
+					
+
+StrictlyVC kicks off the year in SF. Register now for unfiltered fireside chats and VC insights with leaders from Uber, Replit, Eclipse, and more. Plus, high-value connections that actually move the needle. Tickets are limited.
+				
+
+REGISTER NOW
+
+	
+
+Most Popular
+
+				Two college kids raise a $5.1 million pre-seed to build an AI social network in iMessage
+
+			
+
+Dominic-Madori Davis
+
+				Meta’s loss is Thinking Machines’ gain
+
+			
+
+Connie Loizos
+
+				Google to invest up to $40B in Anthropic in cash and compute
+
+			
+
+Rebecca Bellan
+
+				OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’
+
+			
+
+Lucas Ropek
+
+				Microsoft offers buyout for up to 7% of US employees
+
+			
+
+Amanda Silberling
+
+				Duolingo is now giving users access to advanced learning content
+
+			
+
+Lauren Forristal
+
+				Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims
+
+			
+
+Lucas Ropek
+
+	
+
+	
+
+	
+
+	
+
+		
+		
+	
+	
+
+	
+
+		Loading the next article		
+
+			
+
+			
+
+			
+
+			
+
+			
+
+		
+	
+	
+
+		Error loading the next article	
+
+	
+	
+

@@ -2,6 +2,9 @@
 slides.md
 slides/
 
+# Raw research downloads (HTML/PDF/TXT extracted from external sources — not source code)
+raw/
+
 # Helm templates (Go template syntax is not valid YAML)
 helm-chart/templates/
 

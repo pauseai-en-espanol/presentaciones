@@ -1,0 +1,194 @@
+A group of users leaked Anthropic's AI model Mythos by reportedly guessing where it was located | Fortune
+[META description=Anthropic’s model was reportedly accessed by a handful of users in an online forum.]
+
+[META author=Marco Quiroz-Gutierrez]
+
+[META og:title=A group of users leaked Anthropic's AI model Mythos by reportedly guessing where it was located | Fortune]
+
+[META og:description=Anthropic’s model was reportedly accessed by a handful of users in an online forum.]
+
+Home
+
+Latest
+
+Fortune 500
+
+Finance
+
+Tech
+
+Leadership
+
+Lifestyle
+
+Rankings
+
+Multimedia
+
+CybersecurityHacking
+A group of users leaked Anthropic’s AI model Mythos by reportedly guessing where it was located
+
+By 
+Marco Quiroz-GutierrezMarco Quiroz-GutierrezReporter
+
+By 
+Marco Quiroz-GutierrezMarco Quiroz-GutierrezReporter
+
+April 23, 2026, 11:54 AM ET
+
+Add us on
+
+Dario Amodei, co-founder and chief executive officer of Anthropic.Chris Ratcliffe—Bloomberg via Getty Images
+
+The AI model that Anthropic billed as too dangerous to release has reportedly been accessed by an unauthorized third party, and the incident raises concerns about the future of cybersecurity.
+
+Recommended Video
+
+The Mythos model was reportedly accessed by a handful of users in a private Discord chat on the day it was announced publicly, Bloomberg reported. Earlier this month, the group was able to access the program in part because one of the members of the group is a third party contractor for Anthropic, according to Bloomberg. Using this access, the group was able to guess where the model was located based on previously leaked knowledge by another group about Anthropic’s past practices, that hackers obtained from AI training startup Mercor. 
+
+Although the group that accessed it has not been using the model for cyberattacks, it has been using the program continuously since its release and still has access, the outlet reported. 
+
+Anthropic did not immediately respond to Fortune’s request for comment. A spokesperson from Anthropic told Bloomberg the company was “investigating a report claiming unauthorized access to Claude Mythos Preview through one of our third-party vendor environments.”
+
+The fact that the model was leaked so quickly doesn’t surprise David Lindner, the chief information security officer at Contrast Security and a 25-year industry veteran. Even though Anthropic intentionally limited the model to a small group of 40 companies—including Microsoft, Apple, and Google— to beef up their security ahead of a wider release, thousands of people likely had access to the program across these companies, which makes a leak nearly inevitable, he said.
+
+“It was bound to happen,” Lindner said. “The more they add to this elite group, the more likely it was to get released to someone who shouldn’t probably have access to it.”
+
+Anthropic claims its Mythos model is more adept at finding cybersecurity vulnerabilities than previous versions. The company was able to use the program, which has not been widely released, to find a 27-year-old security vulnerability in OpenBSD, an operating system known for its security. Mozilla on Tuesday also said it used a preview of the model to identify and patch 271 vulnerabilities in its Firefox web browser.
+
+And yet, Mythos’ release has been plagued by security breaches from the start. Fortune was the first to report on the model’s existence thanks to a security lapse that exposed details about the large language model in a publicly accessible database. 
+
+For Lindner, this most recent unauthorized access shows it’s likely U.S. adversaries already have access to this tech which could put U.S. companies and other systems at risk of attacks. 
+
+“If some group—some random Discord online forum, got access to it. it’s already been breached by China,” Lindner told Fortune. 
+
+Although Lindner is still unsure how much of Mythos’ supposed danger is real or just marketing hype—OpenAI’s Sam Altman this week called Anthropic’s promotion of Mythos “fear-based marketing”—it’s clear cybersecurity professionals, or defenders, need to be ready for a new world of AI attacks. 
+
+“The real thing is there’s a real compression of timelines here for defenders,” he said.
+
+AI is unique in its abilities to execute cyberattacks because it never gets tired, said Lindner. It can relentlessly tackle a weak spot in a company’s security system, whereas a human may eventually give up. It also empowers less experienced developers to commit cyberattacks partly by drawing on the myriad documentation available on the web about previous exploits and using it to inform an AI model and adjust its attacks for specific situations. 
+
+“It’s the folks that have some sort of [developer] background or some sort of technical background that may have had some limitations in the past of getting over things or taking too long to do stuff, it makes this stuff way easier now,” he said. 
+
+Lindner said the fact that the program was reportedly accessed by third-party contractors means that, even more than before, companies need to limit who has access to its most vital systems. The rapid rise of AI as a tool for cyberattacks could disproportionately affect smaller companies, who may not be able to keep up with the increasing complexity of AI-fueled attacks, said Lindner. Those that refuse to even touch AI and continue on as before are even more at risk, he said. 
+
+“AI is not a golden ticket, but if you’re not taking advantage of it on the defender side, there is no chance, none, that you are going to be able to keep up with the offensive side,” he said. 
+
+In 2001, Fortune first convened “The Smartest People We Know,” bringing together CEOs and founders, builders and investors, thinkers and doers. Since then, Fortune Brainstorm Tech has been the place where bold ideas collide. From June 8–10, we will return to Aspen—where it all began—to mark 25 years of Brainstorm. Register now.
+
+About the Author
+
+By Marco Quiroz-GutierrezReporter
+
+Role: Reporter
+
+Marco Quiroz-Gutierrez is a reporter for Fortune covering general business news.
+See full bio
+
+Latest in Cybersecurity
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Most Popular
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Finance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+By Fortune EditorsOctober 20, 2025
+
+Latest in Cybersecurity
+
+Lawsmartphones and mobile devicesA bank robber made off with $195,000 and got caught after his cell pinged a geofence. Now SCOTUS decides whether that violated the Fourth Amendment
+By The Associated Press and Mark ShermanApril 27, 20262 hours ago
+
+CybersecurityDronesWhy the key to American drone dominance lies with blockchain
+By Mike Horton and Adam WinnickApril 26, 20261 day ago
+
+CybersecurityTechNorth Korean IT workers are stealing remote jobs and raking in billions—and Americans are helping them do it
+By Amanda GerutApril 25, 20262 days ago
+
+CommentaryAnthropicMythos access by Discord group reveals real danger of AI-powered hacking
+By Stefanie SchappertApril 24, 20263 days ago
+
+NewslettersEye on AIAI security leaders gather in Washington as risks mount—and Mythos raises the stakes
+By Sharon GoldmanApril 23, 20264 days ago
+
+CybersecurityHackingA group of users leaked Anthropic’s AI model Mythos by reportedly guessing where it was located
+By Marco Quiroz-GutierrezApril 23, 20264 days ago
+
+Most Popular
+
+PoliticsThe U.S. military may have already used up half of its most expensive missiles, and it could take up to 4 years to rebuild its stockpiles
+By Sasha RogelbergApril 24, 20263 days ago
+
+Future of Work'You feel radicalized': A Meta AI exec watched agents beat her top workers. Now she's built a nonprofit to help Gen Z find jobs before they disappear
+By Jake AngeloApril 26, 20261 day ago
+
+Future of WorkElon Musk says saving for retirement is irrelevant because AI is going to create a world of abundance: 'It won't matter'
+By Marco Quiroz-GutierrezApril 26, 202623 hours ago
+
+Big TechMore than 90,000 tech workers have been laid off this year. But here’s why companies like Microsoft are offering voluntary buyouts instead
+By Jacqueline MunisApril 26, 20261 day ago
+
+InvestingBaby boomers have now 'gobbled up' nearly one-third of America's wealth share, and they're leaving Gen Z and millennials behind
+By Sasha RogelbergApril 26, 202623 hours ago
+
+SuccessThis CEO lived on canned soup and took just two days off for his daughter’s birth. Now he admits he lost sight of proper work-life balance
+By Preston ForeApril 25, 20262 days ago
+
+© 2026 Fortune Media IP Limited. All Rights Reserved. Use of this site constitutes acceptance of our Terms of Use and Privacy Policy | CA Notice at Collection and Privacy Notice | Do Not Sell/Share My Personal Information
+
+FORTUNE is a trademark of Fortune Media IP Limited, registered in the U.S. and other countries. FORTUNE may receive compensation for some links to products and services on this website. Offers may be subject to change without notice.
