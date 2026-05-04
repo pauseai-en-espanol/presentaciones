@@ -635,6 +635,105 @@ NOTAS:
 -->
 
 ---
+layout: default
+---
+
+<div class="max-w-5xl mx-auto px-8 pt-2">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-2" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">Y mientras hablamos</div>
+<div class="text-3xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">La lista no se decide solo en California</div>
+<div class="space-y-3 text-base" style="font-family: 'Montserrat', sans-serif">
+<div class="flex gap-4 p-3 rounded-lg" style="background: rgba(148, 163, 184, 0.05)">
+<div class="flex-shrink-0 w-20 font-bold" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">30 abr</div>
+<div class="opacity-90">Anthropic propone expandir Mythos de 50 a <span class="font-semibold">120 organizaciones</span>. La <span class="font-semibold">Casa Blanca bloquea la expansión</span> por motivos de seguridad. <span class="opacity-60 italic text-sm">NY Post / WSJ.</span></div>
+</div>
+<div class="flex gap-4 p-3 rounded-lg" style="background: rgba(148, 163, 184, 0.05)">
+<div class="flex-shrink-0 w-20 font-bold" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">4 may</div>
+<div class="opacity-90">Trump considera <span class="font-semibold">revisión gubernamental pre-release</span> para modelos AI. Reversal directo del hands-off, motivado por Mythos. NSA ya usa Mythos para auditar el software del gobierno USA. <span class="opacity-60 italic text-sm">NYT.</span></div>
+</div>
+</div>
+<div class="mt-6 p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.08); border-left: 4px solid #ff9416">
+<div class="text-base leading-relaxed" style="font-family: 'Roboto Slab', serif">
+La negociación pasa de ser <span class="font-semibold">unilateral en California</span> a ser <span class="font-semibold">bilateral entre California y Washington</span>.
+<div class="mt-2" style="color: #ff9416; font-weight: 600">Europa no aparece en ninguna de las dos mesas.</div>
+</div>
+</div>
+</div>
+
+<!--
+VOZ:
+"Y la lista, importante, no es estática. Mientras estamos hablando aquí, está en
+movimiento.
+
+[Pausa]
+
+30 de abril, hace cinco días. New York Post, citando al Wall Street Journal.
+Anthropic propuso expandir Mythos de cincuenta a ciento veinte organizaciones.
+La Casa Blanca, que tiene la palabra última sobre acceso a esta tecnología,
+bloqueó la expansión. Por motivos de seguridad, dicen.
+
+[Pausa]
+
+4 de mayo, ayer. New York Times. La administración Trump, que llegó al poder
+con política hands-off sobre AI, considera ahora una revisión gubernamental
+pre-release de modelos. Cito al propio NYT, esto es literal: 'la política no
+intervencionista comenzó a cambiar el mes pasado, después de que la startup
+Anthropic anunciara Mythos'. Mythos ha disparado el U-turn regulatorio del
+gobierno estadounidense. Y, dato adicional, la NSA, la Agencia de Seguridad
+Nacional, ya usa Mythos para auditar vulnerabilidades en el software del
+propio gobierno.
+
+[Pausa de 2 segundos]
+
+Lo que esto significa: la lista deja de ser unilateral de Anthropic. Es ahora
+bilateral, entre San Francisco y Washington. Europa no aparece, ni en una mesa
+ni en la otra."
+
+NOTAS:
+- Slide de actualización con las dos noticias mainstream más recientes.
+- 30 abr (NY Post) y 4 may (NYT). Datables, citables, prensa establishment.
+- El land sube la apuesta del frame anterior: California → California + Washington.
+- ~1.5 minutos.
+- Si la fecha del talk supera el 4-5 may, comprobar si hay updates posteriores.
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<div class="max-w-4xl mx-auto px-8">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-8" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">Y desde la prensa española</div>
+<blockquote class="text-3xl leading-relaxed pl-8" style="font-family: 'Roboto Slab', serif; border-left: 4px solid #ff9416; text-align: left">
+Esas son las reglas cuando el nombre de tu proveedor de
+<span style="color: #ff9416; font-weight: 700">seguridad nacional</span>
+es Claude Mythos Preview.
+</blockquote>
+<div class="mt-6 text-sm opacity-60 italic pl-8 text-left" style="font-family: 'Montserrat', sans-serif">
+<span class="font-semibold not-italic">El País</span>, op-ed, 3 mayo 2026<br/>
+Darío García de Viedma + Paula Oliver
+</div>
+</div>
+
+<!--
+VOZ:
+"Y esto no lo digo solo yo. El País, hace dos días, op-ed firmado por Darío García
+de Viedma y Paula Oliver. Cito la frase de cierre, verbatim:
+
+[Lectura lenta]
+
+'Esas son las reglas cuando el nombre de tu proveedor de seguridad nacional es
+Claude Mythos Preview.'"
+
+[Pausa de 3 segundos]
+
+NOTAS:
+- Cita de El País como validación desde establishment español. NO PauseAI.
+- La frase es el cierre literal del op-ed. Pega.
+- Pausa larga después de la cita. La sala procesa que esto no es activismo.
+- ~30 segundos.
+-->
+
+---
 layout: center
 class: text-center
 ---
@@ -677,8 +776,8 @@ parchear antes o después de que el atacante encuentre el bug.
 [Pausa]
 
 La tercera, la del acceso por lista, esa es nueva. Esa no estaba ahí antes.
-Cuarenta partners decididos en California, sin bancos europeos, sin PYMEs,
-sin administración pública española. Esa asimetría la creó Mythos."
+Una lista que se decide entre San Francisco y Washington. Sin bancos europeos,
+sin PYMEs, sin administración pública española. Esa asimetría la creó Mythos."
 
 [Pausa de 2 segundos. Transición al cierre.]
 
