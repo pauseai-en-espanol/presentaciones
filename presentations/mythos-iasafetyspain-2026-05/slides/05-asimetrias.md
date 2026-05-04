@@ -4,10 +4,10 @@ class: text-center
 ---
 
 <!--
-Beat 5 — Las asimetrías que esto produce (12 min). El más largo.
+Beat 5, Las asimetrías que esto produce (12 min). El más largo.
 Tres sub-beats: tu router · tu banco · tu mercado.
 Aquí aterriza todo. La sala debe sentir que la asimetría está en su bolsillo.
-NO operativo — educational. Patrón y brecha, no recetas.
+NO operativo, educational. Patrón y brecha, no recetas.
 -->
 
 # Las asimetrías
@@ -36,7 +36,7 @@ NOTAS:
 layout: default
 ---
 
-<!-- ===== 5a — TU ROUTER ===== -->
+<!-- ===== 5a, TU ROUTER ===== -->
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-2" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
@@ -67,11 +67,11 @@ layout: default
         QUIÉN HACE TU ROUTER DE CASA
       </div>
       <div class="space-y-2 text-sm" style="font-family: 'Montserrat', sans-serif">
-        <div><span class="font-semibold">Movistar / O2</span> <span class="opacity-70">— MitraStar · Askey</span></div>
-        <div><span class="font-semibold">Vodafone</span> <span class="opacity-70">— Sercomm · ZTE</span></div>
-        <div><span class="font-semibold">Orange</span> <span class="opacity-70">— Sagemcom · Arcadyan · ZTE</span></div>
-        <div><span class="font-semibold">Digi</span> <span class="opacity-70">— ZTE</span></div>
-        <div><span class="font-semibold">MásMóvil</span> <span class="opacity-70">— ZTE</span></div>
+        <div><span class="font-semibold">Movistar / O2</span> <span class="opacity-70">, MitraStar · Askey</span></div>
+        <div><span class="font-semibold">Vodafone</span> <span class="opacity-70">, Sercomm · ZTE</span></div>
+        <div><span class="font-semibold">Orange</span> <span class="opacity-70">, Sagemcom · Arcadyan · ZTE</span></div>
+        <div><span class="font-semibold">Digi</span> <span class="opacity-70">, ZTE</span></div>
+        <div><span class="font-semibold">MásMóvil</span> <span class="opacity-70">, ZTE</span></div>
       </div>
       <div class="mt-6 text-base font-bold" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">
         Intersección con Glasswing: ninguno.
@@ -98,7 +98,7 @@ tenéis en casa aparece en la lista de partners de Glasswing."
 
 NOTAS:
 - Datos verificados (C57). Si alguien pregunta, fuentes en banda ancha.
-- "Intersección" — palabra técnica pero accesible. Hace el punto matemáticamente.
+- "Intersección", palabra técnica pero accesible. Hace el punto matemáticamente.
 - ~1.5 minutos.
 -->
 
@@ -109,7 +109,7 @@ class: text-center
 
 <div class="max-w-5xl mx-auto px-8">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-12" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    El patrón estructural · sin operativos
+    El patrón estructural
   </div>
   <div class="grid grid-cols-3 gap-4 items-center">
     <div class="p-6 rounded-lg" style="background: rgba(255, 148, 22, 0.08); border: 1px solid rgba(255, 148, 22, 0.3)">
@@ -120,8 +120,8 @@ class: text-center
         de un router doméstico.
       </div>
     </div>
-    <div class="text-center text-3xl" style="color: #ff9416">→</div>
-    <div class="p-6 rounded-lg" style="background: rgba(255, 148, 22, 0.08); border: 1px solid rgba(255, 148, 22, 0.3)">
+    <div v-click="1" class="text-center text-3xl" style="color: #ff9416">→</div>
+    <div v-click="1" class="p-6 rounded-lg" style="background: rgba(255, 148, 22, 0.08); border: 1px solid rgba(255, 148, 22, 0.3)">
       <div class="text-base font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">PASO 2</div>
       <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
         Atacante explota.
@@ -130,45 +130,55 @@ class: text-center
       </div>
     </div>
   </div>
-  <div class="mt-4 text-3xl text-center" style="color: #ff9416">↓</div>
-  <div class="mt-4">
+  <div v-click="2" class="mt-4 text-3xl text-center" style="color: #ff9416">↓</div>
+  <div v-click="2" class="mt-4">
     <div class="p-6 rounded-lg max-w-2xl mx-auto" style="background: rgba(255, 148, 22, 0.08); border: 1px solid rgba(255, 148, 22, 0.3)">
       <div class="text-base font-bold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">PASO 3</div>
       <div class="text-sm leading-relaxed" style="font-family: 'Montserrat', sans-serif">
         Desde la red local: redirección de tráfico, captura de credenciales,
-        envenenamiento de actualizaciones — vector hacia ordenadores y móviles de la casa.
+        envenenamiento de actualizaciones, vector hacia ordenadores y móviles de la casa.
       </div>
     </div>
   </div>
-  <div class="mt-10 text-base opacity-70 italic max-w-3xl mx-auto" style="font-family: 'Roboto Slab', serif">
+  <div v-click="3" class="mt-10 text-base opacity-70 italic max-w-3xl mx-auto" style="font-family: 'Roboto Slab', serif">
     El fabricante NO está en Glasswing. No recibió análisis defensivo previo.
   </div>
 </div>
 
 <!--
-VOZ:
-"El patrón es simple — y deliberadamente abstracto, no quiero daros la receta.
+VOZ (con click reveal en tres pasos):
+
+[PASO 1 visible desde el inicio]
+
+"El patrón es simple, y deliberadamente abstracto, no quiero daros la receta.
 
 Paso uno: un modelo de la categoría de Mythos encuentra un fallo en el firmware
-del router. Algo que es exactamente lo que Mythos hizo con FreeBSD-NFS.
+del router. Algo que es exactamente lo que Mythos hizo con FreeBSD-NFS."
 
-Paso dos: un atacante con acceso a esa capacidad lo explota. Toma control del
-router.
+[CLICK 1, aparece flecha → + PASO 2]
 
-Paso tres: desde el router, controla la red local. Y desde ahí — redirección
-de tráfico, captura de credenciales, envenenamiento de actualizaciones — tiene
-vector hacia los ordenadores y móviles que están en esa red. Tu casa.
+"Paso dos: un atacante con acceso a esa capacidad lo explota. Toma control del
+router."
 
-[Pausa]
+[CLICK 2, aparece flecha ↓ + PASO 3]
 
-El fabricante de tu router no está en Glasswing. No recibió análisis defensivo
+"Paso tres: desde el router, controla la red local. Y desde ahí, redirección
+de tráfico, captura de credenciales, envenenamiento de actualizaciones, tiene
+vector hacia los ordenadores y móviles que están en esa red. Tu casa."
+
+[Pausa, luego CLICK 3, aparece la frase final]
+
+"El fabricante de tu router no está en Glasswing. No recibió análisis defensivo
 previo. Lo que pasa, pasa."
 
 NOTAS:
-- Patrón abstracto, no operativo.
-- "Deliberadamente abstracto" — explicitar la disciplina pedagógica.
+- Click reveal en 3 pasos: PASO 1 visible, click 1 = PASO 2 + flecha,
+  click 2 = PASO 3 + flecha, click 3 = la frase punch sobre Glasswing.
+- "Deliberadamente abstracto", explicitar la disciplina pedagógica.
+- Cada click acompaña una frase concreta. La sala procesa cada paso.
 - ~1 minuto.
 -->
+
 
 ---
 layout: default
@@ -188,14 +198,14 @@ layout: default
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
       <div class="text-base font-bold mb-1" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">EOL silencioso</div>
       <div class="text-base opacity-90" style="font-family: 'Montserrat', sans-serif">
-        Cuando un modelo deja de tener soporte del fabricante, sigue desplegado en miles de hogares.
+        Cuando un dispositivo deja de tener soporte del fabricante, sigue desplegado en miles de hogares.
         Nadie te avisa.
       </div>
     </div>
     <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.05); border-left: 4px solid #ff9416">
       <div class="text-base font-bold mb-1" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif">Las actualizaciones las controla el ISP</div>
       <div class="text-base opacity-90" style="font-family: 'Montserrat', sans-serif">
-        Cuando hay parche disponible — si lo hay — el ISP decide cuándo desplegarlo. Tú no.
+        Cuando hay parche disponible, si lo hay, el ISP decide cuándo desplegarlo. Tú no.
       </div>
     </div>
   </div>
@@ -213,15 +223,15 @@ típico que conviene tener presentes.
 Una: no eliges router. Lo da el ISP. La mayoría de la gente no sabe siquiera quién
 lo fabrica.
 
-Dos: el end-of-life es silencioso. Cuando un modelo deja de recibir soporte del
-fabricante, sigue desplegado en miles de hogares. Nadie te avisa.
+Dos: el end-of-life es silencioso. Cuando un dispositivo deja de recibir soporte
+del fabricante, sigue desplegado en miles de hogares. Nadie te avisa.
 
-Tres: las actualizaciones las controla el ISP. Cuando hay parche — si lo hay —
+Tres: las actualizaciones las controla el ISP. Cuando hay parche, si lo hay,
 el ISP decide cuándo desplegarlo. Tú no.
 
 [Pausa]
 
-AWS, Apple, Google, Microsoft están protegiendo sus servicios con Mythos —
+AWS, Apple, Google, Microsoft están protegiendo sus servicios con Mythos,
 parchando vulnerabilidades antes de que los atacantes las encuentren. Tu router
 doméstico no se beneficia de ninguno de esos análisis."
 
@@ -235,7 +245,7 @@ NOTAS:
 layout: default
 ---
 
-<!-- ===== 5b — TU BANCO ===== -->
+<!-- ===== 5b, TU BANCO ===== -->
 
 <div class="max-w-6xl mx-auto px-8 pt-2">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-2" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
@@ -250,8 +260,8 @@ layout: default
         ESTADOS UNIDOS · ACCESO ACTIVO
       </div>
       <div class="space-y-2 text-base" style="font-family: 'Montserrat', sans-serif">
-        <div>· <span class="font-semibold">JPMorgan Chase</span> — partner de lanzamiento de Glasswing.</div>
-        <div>· <span class="font-semibold">Goldman Sachs, Citigroup, Bank of America, Morgan Stanley</span> — testando Mythos.</div>
+        <div>· <span class="font-semibold">JPMorgan Chase</span>, partner de lanzamiento de Glasswing.</div>
+        <div>· <span class="font-semibold">Goldman Sachs, Citigroup, Bank of America, Morgan Stanley</span>, testando Mythos.</div>
         <div>· El <span class="font-semibold">Secretario del Tesoro</span> convocó banqueros en abril para promover el uso defensivo.</div>
       </div>
     </div>
@@ -260,7 +270,7 @@ layout: default
         ZONA EURO · SIN ACCESO
       </div>
       <div class="space-y-2 text-base" style="font-family: 'Montserrat', sans-serif">
-        <div>· El <span class="font-semibold">BCE convocó hace dos semanas</span> a los responsables de riesgos de los bancos significativos — incluidos los <span class="font-semibold">cuatro españoles</span>: Santander, BBVA, CaixaBank, Sabadell.</div>
+        <div>· El <span class="font-semibold">BCE convocó hace dos semanas</span> a los responsables de riesgos de los bancos significativos, incluidos los <span class="font-semibold">cuatro españoles</span>: Santander, BBVA, CaixaBank, Sabadell.</div>
         <div>· Pidió <span class="font-semibold">planes de contingencia</span>.</div>
         <div>· Bancos europeos <span class="font-semibold">no tienen acceso</span>. Lagarde lo ha reclamado. UK lo recibe "inminente".</div>
         <div>· El <span class="font-semibold">Banco de España</span> ya pidió a entidades planes de adopción.</div>
@@ -284,12 +294,12 @@ en abril para promover el uso defensivo.
 [Pausa]
 
 Lado europeo, sin acceso: el Banco Central Europeo convocó hace dos semanas a
-los responsables de riesgos de los bancos significativos de la zona euro — y aquí
+los responsables de riesgos de los bancos significativos de la zona euro, y aquí
 están los cuatro españoles: Santander, BBVA, CaixaBank y Sabadell. ¿Para qué los
 convocó? Para pedirles planes de contingencia ante Mythos.
 
 Pero los bancos europeos no tienen acceso al modelo. Lagarde lo ha reclamado.
-Anthropic dice que abrirá a empresas británicas de manera inminente — sin fecha
+Anthropic dice que abrirá a empresas británicas de manera inminente, sin fecha
 para la zona euro. El Banco de España ya pidió a las entidades españolas planes
 de adopción de la tecnología.
 
@@ -300,7 +310,7 @@ Tres semanas que el lado europeo no tiene."
 
 NOTAS:
 - Verde para US (acceso, "ganadores temporales"), naranja para UE/ES (sin acceso).
-- "Hace dos semanas" se refiere al BCE convocando — la fecha exacta no es pública.
+- "Hace dos semanas" se refiere al BCE convocando, la fecha exacta no es pública.
 - ~2 minutos.
 -->
 
@@ -326,7 +336,7 @@ layout: center
         que de repente piensa: "Esto podría ser realmente bueno, pero si cae en las manos equivocadas, podría ser realmente malo".
       </blockquote>
       <div class="mt-4 text-sm opacity-70 pl-6" style="font-family: 'Montserrat', sans-serif">
-        Christine Lagarde, BCE — 29 de abril de 2026
+        Christine Lagarde, BCE, 29 de abril de 2026
       </div>
       <div class="mt-8 pl-6 text-base font-semibold leading-relaxed" style="font-family: 'Roboto Slab', serif">
         La pregunta de la apertura.
@@ -340,7 +350,7 @@ layout: center
 
 <!--
 VOZ:
-"Y aquí — al final del segundo mapa — recuperamos la cita con la que abrimos
+"Y aquí, al final del segundo mapa, recuperamos la cita con la que abrimos
 esta charla.
 
 [Lectura del slide, lenta]
@@ -363,8 +373,8 @@ framework retirado justo a tiempo. La filtración del día uno.
 
 NOTAS:
 - Callback al Beat 0. Cierre del arco emocional iniciado al principio.
-- Foto Lagarde reaparece — la sala la recuerda.
-- "La sala lo decide" — explícito que NO se les dice qué pensar.
+- Foto Lagarde reaparece, la sala la recuerda.
+- "La sala lo decide", explícito que NO se les dice qué pensar.
 - Esta es probablemente la slide más cargada de la charla.
 - ~2 minutos.
 -->
@@ -380,29 +390,29 @@ layout: default
   <div class="text-3xl font-bold mb-6" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
     No solo está tu banco
   </div>
-  <div class="space-y-3 text-base" style="font-family: 'Montserrat', sans-serif">
+  <div class="space-y-4 text-base" style="font-family: 'Montserrat', sans-serif">
     <div>
-      Bajo PSD2 — la regulación europea — la doble autenticación es obligatoria desde 2019.
+      Bajo PSD2, la regulación europea, la doble autenticación es obligatoria desde 2019.
       Combina dos factores de tres categorías:
-      <span class="opacity-80">algo que sabes (PIN, contraseña), algo que tienes (móvil, SMS), algo que eres (huella, cara).</span>
+      <span class="opacity-80">algo que sabes (PIN, contraseña), algo que tienes (móvil, SMS, push), algo que eres (huella, cara).</span>
     </div>
-    <div class="grid grid-cols-2 gap-6 mt-4">
-      <div class="p-4 rounded-lg" style="background: rgba(74, 222, 128, 0.06); border-left: 3px solid #4ade80">
-        <div class="text-sm font-semibold mb-1" style="color: #4ade80">Más resistente</div>
-        <div class="text-sm opacity-90">BBVA, CaixaBank: app móvil + biometría.</div>
+    <div class="p-5 rounded-lg" style="background: rgba(255, 148, 22, 0.06); border-left: 4px solid #ff9416">
+      <div class="text-sm font-semibold mb-2" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.05em">
+        EL PUNTO ESTRUCTURAL
       </div>
-      <div class="p-4 rounded-lg" style="background: rgba(255, 148, 22, 0.06); border-left: 3px solid #ff9416">
-        <div class="text-sm font-semibold mb-1" style="color: #ff9416">Vulnerable conocido</div>
-        <div class="text-sm opacity-90">Santander, Bankinter, Openbank, ING: SMS común. SIM swap, SS7, malware en móvil.</div>
+      <div class="text-base leading-relaxed">
+        Cualquier 2FA depende de la
+        <span class="font-semibold">integridad del dispositivo</span>
+        donde recibes el segundo factor.
       </div>
-    </div>
-    <div class="mt-6 p-4 rounded-lg text-sm" style="background: rgba(148, 163, 184, 0.05)">
-      <span class="font-semibold">Y aún así</span> — push a app y biometría son más resistentes,
-      pero ambos dependen de la integridad del dispositivo. Si el atacante controla el móvil
-      <span class="opacity-70">(vía router → red → device)</span>, incluso las notificaciones push se interceptan.
+      <div class="mt-3 text-base leading-relaxed opacity-90">
+        Si el atacante controla el dispositivo
+        <span class="opacity-70">(router → red → device, Mapa 1)</span>,
+        toda la cadena cae. Da igual si el banco usa SMS, push o biometría.
+      </div>
     </div>
     <div class="mt-4 text-base font-semibold" style="font-family: 'Roboto Slab', serif">
-      La cadena bancaria es banco + dispositivo + red.
+      Tu banco hace bien su parte. Pero su parte no es la única.
       <span style="color: #ff9416">Mythos opera sobre toda la cadena.</span>
     </div>
   </div>
@@ -411,27 +421,33 @@ layout: default
 <!--
 VOZ:
 "Una nota técnica antes de cerrar este mapa. Entre vuestra cuenta del banco y un
-posible atacante no solo está vuestro banco. Bajo la regulación europea PSD2, la
-doble autenticación es obligatoria desde 2019. Combina dos de tres factores: algo
-que sabéis, algo que tenéis, algo que sois.
+posible atacante no solo está vuestro banco.
 
-Más resistente: BBVA y CaixaBank usan principalmente app móvil más biometría —
-huella, cara.
-
-Más vulnerable: Santander, Bankinter, Openbank, ING — SMS sigue siendo común.
-Y SMS tiene vulnerabilidades conocidas: SIM swap, SS7, malware en móvil.
+Bajo la regulación europea PSD2, la doble autenticación es obligatoria desde 2019.
+Combina dos factores de tres categorías: algo que sabéis, algo que tenéis, algo
+que sois. PIN, móvil, huella.
 
 [Pausa]
 
-Y aun así. Aun con biometría, aun con push notifications a app. Si el atacante
-controla el dispositivo — recordad el primer mapa — incluso las notificaciones
-push se pueden interceptar. La cadena bancaria es banco más dispositivo más
-red. Mythos opera sobre toda la cadena."
+Y aquí viene el punto estructural. Cualquier doble autenticación, sea SMS, sea
+push a una app, sea biometría, depende de la integridad del dispositivo donde
+recibís el segundo factor.
+
+Si el atacante controla el dispositivo, y aquí volvemos al primer mapa, router,
+red, device, toda la cadena cae. Da igual si vuestro banco usa SMS, push o
+biometría. La parte del banco se evapora cuando el dispositivo está comprometido.
+
+[Pausa]
+
+Vuestro banco hace bien su parte. Pero su parte no es la única. Y Mythos opera
+sobre toda la cadena."
 
 NOTAS:
 - Cierre técnico de Mapa 2.
-- Verde para resistente, naranja para vulnerable. Patrón consistente.
-- Conexión explícita con Mapa 1: la cadena se compone.
+- Argumento estructural sin nombrar bancos concretos. La validez no depende de
+  qué método use cada entidad: el punto es que TODO 2FA depende del dispositivo.
+- Conexión explícita con Mapa 1: la cadena se compone, el dispositivo es el
+  eslabón compartido.
 - ~1.5 minutos.
 -->
 
@@ -440,7 +456,7 @@ layout: section
 class: text-center
 ---
 
-<!-- ===== 5c — TU MERCADO ===== -->
+<!-- ===== 5c, TU MERCADO ===== -->
 
 <div class="max-w-4xl mx-auto px-8">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-4" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
@@ -459,7 +475,7 @@ VOZ:
 
 NOTAS:
 - Cabecera del sub-beat 5c. ~10 segundos.
-- "Dejamos la ciberseguridad" — pivot conceptual. La sala atiende.
+- "Dejamos la ciberseguridad", pivot conceptual. La sala atiende.
 -->
 
 ---
@@ -468,12 +484,12 @@ layout: center
 
 <div class="max-w-5xl mx-auto px-8">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-6" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    Pero antes — leed esto, de la página oficial de Glasswing
+    Pero antes, leed esto, de la página oficial de Glasswing
   </div>
   <blockquote class="text-2xl leading-relaxed pl-6" style="font-family: 'Roboto Slab', serif; border-left: 4px solid #ff9416">
     Claude Mythos Preview es un
     <span style="color: #ff9416; font-weight: 700">modelo frontier de propósito general</span>
-    de Anthropic — el más capaz que hemos construido para tareas de
+    de Anthropic, el más capaz que hemos construido para tareas de
     <span style="color: #ff9416; font-weight: 700">programación y agentes</span>.
   </blockquote>
   <div class="mt-6 text-xs opacity-50 pl-6 italic" style="font-family: 'Montserrat', sans-serif">
@@ -491,12 +507,12 @@ VOZ:
 Cito verbatim:
 
 'Claude Mythos Preview es un modelo frontier de propósito general de Anthropic
-— el más capaz que hemos construido para tareas de programación y agentes.'
+el más capaz que hemos construido para tareas de programación y agentes.'
 
 [Pausa de 2 segundos]
 
 Modelo frontier de propósito general. El más capaz que han construido. Para
-programación y agentes — que es lo que prácticamente todas las tareas profesionales
+programación y agentes, que es lo que prácticamente todas las tareas profesionales
 de hoy son cuando rascas la superficie.
 
 Mythos no es solo una herramienta cyber. Es el Claude más capaz que existe.
@@ -504,52 +520,6 @@ Para cualquier cosa que un Claude haga bien."
 
 NOTAS:
 - Pivot conceptual. La sala procesa: "espera, no es solo cyber...?"
-- ~1 minuto.
--->
-
----
-layout: center
-class: text-center
----
-
-<div class="max-w-4xl mx-auto px-8">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-8" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.15em">
-    Confirmación empírica
-  </div>
-  <div class="text-3xl font-bold mb-8" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">
-    ¿En qué usa el grupo no autorizado<br/>el modelo "demasiado peligroso"?
-  </div>
-  <div class="text-5xl font-light leading-relaxed py-8" style="font-family: 'Roboto Slab', serif; font-style: italic">
-    "Construir webs simples."
-  </div>
-  <div class="mt-4 text-base opacity-70" style="font-family: 'Montserrat', sans-serif">
-    Reportado a Bloomberg por la fuente del grupo. Para evitar detección.
-  </div>
-  <div class="mt-12 text-xl font-semibold" style="font-family: 'Roboto Slab', serif">
-    Porque el modelo es útil para todo.
-  </div>
-</div>
-
-<!--
-VOZ:
-"Y tenemos una confirmación empírica de esto, irónica.
-
-¿Os acordáis del grupo no autorizado del Beat 4? El que accedió el día del anuncio
-y sigue dentro? La fuente le contó a Bloomberg en qué están usando el modelo
-'demasiado peligroso para liberar generalmente'.
-
-Lo están usando para construir webs simples. Para evitar detección.
-
-[Pausa]
-
-Eso confirma el punto. Cuando un grupo de Discord tiene acceso al Claude más
-capaz que existe, no lo usa para hacer cyber. Lo usa para hacer páginas web.
-Porque el modelo es útil para todo."
-
-NOTAS:
-- Ironía estructural. La sala se ríe — controlado.
-- Pero el punto pega: si el modelo "demasiado peligroso" se usa para webs,
-  es porque su utilidad es general, no específica de cyber.
 - ~1 minuto.
 -->
 
@@ -568,12 +538,12 @@ layout: center
       Esto va a hacer
       <span style="color: #ff9416; font-weight: 700">ganadoras a las entidades más grandes
       y con más capacidad inversora</span>
-      —
+     ,
       <span style="color: #ff9416; font-weight: 700">mientras hará sufrir a las de tamaño mediano</span>.
     </div>
   </blockquote>
   <div class="text-sm opacity-70 pl-6" style="font-family: 'Montserrat', sans-serif">
-    <span class="font-semibold">Miguel Ángel Thomas</span> — CISO de NTT DATA.
+    <span class="font-semibold">Miguel Ángel Thomas</span>, CISO de NTT DATA.
     <span class="opacity-60 italic"> En entrevista a El País, 29 de abril de 2026.</span>
   </div>
 </div>
@@ -588,12 +558,12 @@ Cito:
 'Las grandes empresas se van a ver obligadas a disparar sus inversiones contra
 el cibercrimen, con la necesidad de actuar mucho más rápido que hasta ahora.
 Esto va a hacer ganadoras a las entidades más grandes y con más capacidad
-inversora — mientras hará sufrir a las de tamaño mediano.'
+inversora, mientras hará sufrir a las de tamaño mediano.'
 
 [Pausa]
 
 Voz técnica española. Predicción concreta. La asimetría competitiva no es una
-afirmación PauseAI — es lo que un CISO le cuenta a un periódico de referencia."
+afirmación PauseAI, es lo que un CISO le cuenta a un periódico de referencia."
 
 NOTAS:
 - Voz española independiente. Blinda contra acusación de activismo.
@@ -650,7 +620,7 @@ VOZ:
 [Pausa de 3 segundos]
 
 Y un dato importante: la barrera para acceder a Mythos no es el precio. Anthropic
-publica el pricing — veinticinco dólares por millón de tokens de entrada. Existe
+publica el pricing, veinticinco dólares por millón de tokens de entrada. Existe
 una tarifa.
 
 La barrera es la lista. Una lista decidida en California, sin participación
@@ -659,8 +629,8 @@ la opción de pagarlo. Porque no se le ofrece."
 
 NOTAS:
 - Las preguntas SIN respuesta en pantalla. Lectura lenta. Las completa la sala.
-- Pausas marcadas — son la propia interrogación.
-- "La barrera es la lista" — frase clave del beat 5c.
+- Pausas marcadas, son la propia interrogación.
+- "La barrera es la lista", frase clave del beat 5c.
 - ~1.5 minutos.
 -->
 
@@ -674,11 +644,17 @@ class: text-center
     Estas son las
     <span style="color: #ff9416; font-weight: 700">tres asimetrías</span>.
   </div>
-  <div class="mt-12 text-2xl leading-relaxed" style="font-family: 'Roboto Slab', serif">
-    Mythos no las creó.
+  <div class="mt-10 text-2xl leading-relaxed" style="font-family: 'Roboto Slab', serif">
+    Las dos primeras
+    <span class="opacity-70 text-xl">(router y banco)</span>
+    estaban ahí.
+    <div class="mt-2" style="color: #ff9416; font-weight: 600">Mythos las hace decisivas.</div>
   </div>
-  <div class="mt-4 text-3xl font-semibold" style="color: #ff9416; font-family: 'Roboto Slab', serif">
-    Las hizo visibles.
+  <div class="mt-8 text-2xl leading-relaxed" style="font-family: 'Roboto Slab', serif">
+    La tercera
+    <span class="opacity-70 text-xl">(el mercado, el acceso por lista)</span>
+    no existía antes.
+    <div class="mt-2" style="color: #ff9416; font-weight: 600">La creó.</div>
   </div>
 </div>
 
@@ -692,15 +668,24 @@ Tu mercado, en el tercero.
 
 [Pausa]
 
-Mythos no las creó. Estaban ahí antes — cuotas de mercado de fabricantes,
-fragmentación regulatoria, distribución desigual del frontier IA.
+Las dos primeras estaban ahí antes de Mythos. Cuotas de mercado de fabricantes,
+fragmentación regulatoria, dependencia de la integridad del dispositivo. Latentes.
+Lo que Mythos hace es convertirlas en decisivas: ahora la diferencia entre
+defensores con acceso a frontier AI y defensores sin él es la diferencia entre
+parchear antes o después de que el atacante encuentre el bug.
 
-Pero hizo algo: las hizo visibles. Concretas. Datables."
+[Pausa]
+
+La tercera, la del acceso por lista, esa es nueva. Esa no estaba ahí antes.
+Cuarenta partners decididos en California, sin bancos europeos, sin PYMEs,
+sin administración pública española. Esa asimetría la creó Mythos."
 
 [Pausa de 2 segundos. Transición al cierre.]
 
 NOTAS:
-- Land del Beat 5. La frase clave del talk: "Las hizo visibles".
+- Land del Beat 5. Distinción analítica precisa entre asimetrías preexistentes
+  amplificadas vs asimetría creada nueva.
+- "Las hace decisivas" para 1 y 2; "la creó" para 3. Calibración honesta.
 - Marca el final del recorrido analítico. Lo siguiente es el cierre.
 - ~1 minuto.
 -->

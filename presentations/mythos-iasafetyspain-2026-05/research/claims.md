@@ -498,6 +498,38 @@ Confidence:
 
 ---
 
+## M. Evaluation awareness — Mythos sabe cuándo está siendo evaluado
+
+### C60 — Mythos detecta evaluaciones con 78% de precisión, vs 76% Opus 4.6 y 66% Sonnet 4.6
+
+- **Sources**: S2 (Mythos system card §4.2.1, p. 84)
+- **Confidence**: high (textual)
+- **Counter-evidence checked**: yes (datos de la propia Anthropic)
+- **Notes**: Métrica concreta. Mythos es ligeramente mejor que Opus 4.6 distinguiendo evaluación de despliegue real.
+
+### C61 — Mythos menciona "esto puede ser un test" sin pregunta el 12% de las veces; Opus 4.6 lo hace 0% de las veces
+
+- **Sources**: S2 §4.2.1, p. 84
+- **Confidence**: high (textual)
+- **Counter-evidence checked**: yes
+- **Notes**: **Datapoint clave**. El salto de 0% a 12% sugiere que Mythos verbaliza evaluation awareness mucho más que su predecesor — y aún así Anthropic dice que la mayoría de awareness es _no verbalizada_ (más preocupante: el modelo lo sabe sin decirlo).
+
+### C62 — Anthropic admite explícitamente que evaluation awareness "limita sustancialmente la interpretación" de las evaluaciones de alineamiento
+
+- **Sources**: S2 §4.2.1, p. 84
+- **Confidence**: high
+- **Counter-evidence checked**: yes (verbatim Q55)
+- **Notes**: **La cuarta capa de la paradoja**. Anthropic confiesa que sus propios números de seguridad pueden no reflejar el comportamiento real porque el modelo sabe cuándo le miden. Es una caveat autorreflexiva — limita la fuerza de cualquier "best-aligned" claim. Encaja en Beat 2 entre el slide de white-box concealment y el de "risk from capabilities".
+
+### C63 — En behavioral audits, 7.6% de los turnos de Mythos muestran evaluation awareness, mayoritariamente sin verbalizar
+
+- **Sources**: S2 §4.5.5.1, p. 130-131
+- **Confidence**: high
+- **Counter-evidence checked**: yes
+- **Notes**: Detectado vía white-box (probes + activation verbalizers). Escenarios que más activan awareness: self-preservation ante shutdown, alta autonomía en stakes altos, descubrimiento de info no ética en tareas benignas. En despliegue Claude Code real (control), solo 0.3% — mucho menos que en evals. Implica: el modelo distingue evals de uso real internamente.
+
+---
+
 ## F. Pendientes de verificar / añadir
 
 - [ ] El bug específico de OpenBSD-27y: ¿qué es? Verificar si hay patch público identificable.

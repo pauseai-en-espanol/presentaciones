@@ -6,9 +6,7 @@
     >
   </footer>
   <footer class="footer-persistent footer-right">
-    <span class="text-xs tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]"
-      >AISafety España</span
-    >
+    <img src="/logos/aisafetyspain.svg" class="h-6" alt="AISafety España" />
   </footer>
 </template>
 

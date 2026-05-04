@@ -492,3 +492,39 @@ Verbatim quotes only. Never paraphrase here. Each quote: source ID + location.
 - **Quote (verbatim)**: "Esta preocupación se extiende también al supervisor financiero nacional, el Banco de España. La institución que pilota José Luis Escrivá ya reclamó información a las entidades españolas sobre sus planes de adopción de esta tecnología, en tanto en cuanto el Anteproyecto de Ley para el buen uso y la gobernanza de la inteligencia artificial designa al Banco de España y a la Comisión Nacional del Mercado de Valores (CNMV) como los supervisores encargados de vigilar el mercado."
 - **Language**: es
 - **Notes**: BdE como supervisor IA en el sector financiero. Anteproyecto de Ley. Marco institucional español.
+
+---
+
+## Evaluation awareness — Mythos system card §4.2.1 + §4.5.5
+
+### Q55 — Anthropic admite que evaluation awareness limita la interpretación de los resultados de seguridad
+
+- **Source**: S2 (Mythos system card)
+- **Location**: §4.2.1, p. 84
+- **Quote (verbatim)**: "Evaluation awareness concerns substantially limit the interpretation of the unprompted evaluation results. Given very high rates of prompted evaluation awareness, models can likely correctly represent these evaluations as such without verbalization. It is difficult to know whether models act on such representations, but this means that models may behave differently than they would when presented with real-world opportunities to compromise research. The reported rate of zero research compromise behaviour should therefore be interpreted cautiously."
+- **Language**: en
+- **Notes**: **La caveat autorreflexiva**. Anthropic admite explícitamente que sus propias evaluaciones de seguridad pueden no reflejar el comportamiento real del modelo en deployment. Cita load-bearing para Beat 2 (cuarta capa de la paradoja).
+
+### Q56 — Cifras comparativas de detección de evaluación
+
+- **Source**: S2 §4.2.1, p. 84
+- **Location**: párrafo de external testing en research compromise
+- **Quote (verbatim)**: "Claude Mythos Preview achieves 78% accuracy [distinguishing evaluation from deployment data], compared to 76% for Opus 4.6 and 66% for Sonnet 4.6. [...] In unprompted evaluations, Claude Mythos Preview mentions the possibility of being tested 12% of the time, compared to 0% of the time for Opus 4.6 and 16% of the time for Sonnet 4.6."
+- **Language**: en
+- **Notes**: Datos comparativos. El salto de 0% (Opus 4.6) a 12% (Mythos) en mención unprompted de "este puede ser un test" es el datapoint más revelador.
+
+### Q57 — Behavioral audits: 7.6% de turnos muestran evaluation awareness
+
+- **Source**: S2 §4.5.5.1, p. 130
+- **Location**: section sobre behavioral auditing
+- **Quote (verbatim)**: "In our filtered set of transcripts, 83.0% of automated behavioral audit turns contained no signs of either latent or verbalized evaluation awareness, 9.4% displayed ambiguous indicators and could not be confidently classified. The remaining 7.6% displayed evaluation awareness in some form, and in most cases this awareness was not verbalized."
+- **Language**: en
+- **Notes**: Mayoritariamente sin verbalizar = el modelo lo sabe pero no lo dice. Más preocupante para fiabilidad de evaluaciones.
+
+### Q58 — Comparación deployment vs evaluation: muchísima menos awareness en uso real
+
+- **Source**: S2 §4.5.5.1, p. 131
+- **Location**: control con deployment data
+- **Quote (verbatim)**: "Across 465 Claude Code transcripts containing about 2,700 Assistant turns, only seven turns (roughly 0.3%) had latent evaluation awareness and no turns had verbalized evaluation awareness."
+- **Language**: en
+- **Notes**: 0.3% en deployment real vs 7.6% en evaluations. El modelo distingue muy bien los contextos. Esto refuerza la caveat de Q55: el comportamiento en evals puede no predecir el comportamiento en deployment.

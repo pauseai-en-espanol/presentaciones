@@ -114,7 +114,7 @@ podría ser realmente malo'."
 ```
 ¿Qué significa exactamente "empresa responsable"
 cuando la herramienta que has decidido no liberar
-está, ya, en manos no autorizadas?
+estuvo, ya el primer día, en manos no autorizadas?
 ```
 
 **Voz**:
@@ -157,15 +157,15 @@ está, ya, en manos no autorizadas?
 
 **Apertura sugerida**:
 
-> "Mythos es un modelo de inteligencia artificial desarrollado por Anthropic — los mismos que hacen Claude. Lo anunciaron el 7 de abril de 2026 y lo describen como su modelo más capaz hasta la fecha. Os voy a contar qué significa eso con un ejemplo concreto."
+> "Para entender qué hace Mythos, vamos a empezar por lo más concreto que Anthropic ha publicado sobre él."
 
 **Idea clave**: Mythos es el modelo más capaz de Anthropic hasta la fecha (no una variante cyber especializada). Lo que hace: descubre y explota zero-days autonomamente. Anthropic decidió no liberarlo generalmente.
 
+**Cambio respecto a v1 (2026-05-01)**: eliminada la slide intro "¿Qué es Mythos?" que era repetitiva con la apertura. Beat 1 abre directamente con el bug. La sala ya tiene el contexto del Beat 0 (Anthropic, modelo más capaz, decisión de no liberar). El "qué es" se establece via el ejemplo concreto, no via slide explicativa.
+
 **Estructura interna del beat**:
 
-1. **Presentación** (~30 s): anuncio + framing de Anthropic ("most capable to date").
-
-2. **El bug de 17 años — anclaje técnico concreto** (~2 min):
+1. **El bug de 17 años — anclaje técnico concreto** (~2 min):
 
    > "Anthropic dice que su modelo encontró y explotó autonomamente una vulnerabilidad de 17 años en FreeBSD. Está en NFS — el servicio que comparte ficheros por red. La vulnerabilidad permite tomar control completo del servidor — root, sin autenticación — a cualquier atacante con acceso de red al servicio. Bajo código que millones de servidores ejecutan desde 2009. CVE-2026-4747. El descubridor no fue una persona."
 
@@ -173,20 +173,20 @@ está, ya, en manos no autorizadas?
 
    Mostrar: edad del bug, severidad (RCE no-auth), CVE público (verificable). Land del sub-beat: "Esto es un ejemplo concreto. Veamos los números agregados."
 
-3. **El dato cyber agregado** (~3 min):
+2. **El dato cyber agregado** (~3 min):
    - **181 exploits funcionales** en Firefox 147 vs 2 con Opus 4.6 — la cifra ancla de Anthropic.
    - **Mozilla independiente: 271 vulnerabilidades** en Firefox 150 vs 22 con Opus 4.6 en Firefox 148. _Segunda fuente confirma magnitud._
    - _"Thousands of zero-day vulnerabilities"_ en infraestructura crítica (Glasswing page).
    - Cybench: 100% pass@1. Saturó el benchmark.
    - Cyber-range corporativo end-to-end autonomamente, 10h+ de experto humano. Primer modelo en lograrlo.
 
-4. **La respuesta de Anthropic** (~2 min):
+3. **La respuesta de Anthropic** (~2 min):
    - _"We do not plan to make Mythos Preview generally available."_ (Q7)
    - Project Glasswing: 12 partners + 40 organizaciones adicionales.
    - SHA-3 commitments para responsible disclosure sin revelar detalles.
 
-5. **Land** (~30 s):
-   > "Hasta aquí es la historia que Anthropic quiere contar. Y está bien que la cuenten así. Pero la historia tiene tres capas más."
+4. **Land** (~30 s):
+   > "Hasta aquí es la historia que Anthropic quiere contar. Pero la historia tiene tres capas más."
 
 **Evidencia anclada**:
 
@@ -196,7 +196,7 @@ está, ya, en manos no autorizadas?
 
 **Slide hints**:
 
-- Slide pivot al inicio: conecta con Slide 6 del Beat 0 ("Empezamos por entender qué es") → ahora título del Beat 1.
+- Sin slide intro repetitiva: Beat 1 abre directamente con el slide del CVE.
 - **Slide CVE-2026-4747**: identifier grande, "17 años", descripción 1-línea sobria, técnica.
 - Slide cifra Firefox 147: 181 vs 2. Visualización numérica clara.
 - Slide cifra Mozilla 271: 271 vs 22. _Segunda fuente confirmando._
