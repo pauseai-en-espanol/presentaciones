@@ -142,14 +142,14 @@ layout: center
 </div>
 <div class="grid grid-cols-2 gap-6 text-center">
 <div>
-<a href="https://pauseai.es/presentaciones/mythos-aisafetyspain-2026-05" target="_blank" rel="noopener" style="color: inherit; text-decoration: none">
+<a href="https://pauseai.es/presentaciones/mythos-ias-2026-05" target="_blank" rel="noopener" style="color: inherit; text-decoration: none">
 <img src="/qr-mythos.png" class="w-44 h-44 rounded-lg bg-white p-2 mx-auto" />
 <div class="mt-3 text-xs font-semibold" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.05em">VER ONLINE</div>
-<div class="mt-1 text-xs opacity-50" style="font-family: 'Fira Code', monospace">pauseai.es/presentaciones/<br/>mythos-aisafetyspain-2026-05</div>
+<div class="mt-1 text-xs opacity-50" style="font-family: 'Fira Code', monospace">pauseai.es/presentaciones/<br/>mythos-ias-2026-05</div>
 </a>
 </div>
 <div>
-<a href="https://x.com/intent/tweet?text=Anthropic%20entrena%20Mythos%2C%20su%20modelo%20m%C3%A1s%20capaz.%0ADecide%20no%20liberarlo.%0ASe%20filtra%20el%20d%C3%ADa%201.%0ARetira%20su%20framework%20de%20seguridad.%0A%0APresentaci%C3%B3n%20de%20%40danilupion%20de%20%40pauseai_es%20para%20IASafety%20Espa%C3%B1a.&url=https%3A%2F%2Fpauseai.es%2Fpresentaciones%2Fmythos-aisafetyspain-2026-05" target="_blank" rel="noopener" style="color: inherit; text-decoration: none">
+<a href="https://x.com/intent/tweet?text=Anthropic%20entrena%20Mythos%2C%20su%20modelo%20m%C3%A1s%20capaz.%0ADecide%20no%20liberarlo.%0ASe%20filtra%20el%20d%C3%ADa%201.%0ARetira%20su%20framework%20de%20seguridad.%0A%0APresentaci%C3%B3n%20de%20%40danilupion%20de%20%40pauseai_es%20para%20IASafety%20Espa%C3%B1a.&url=https%3A%2F%2Fpauseai.es%2Fpresentaciones%2Fmythos-ias-2026-05" target="_blank" rel="noopener" style="color: inherit; text-decoration: none">
 <img src="/qr-share.png" class="w-44 h-44 rounded-lg bg-white p-2 mx-auto" />
 <div class="mt-3 text-xs font-semibold" style="color: #ff9416; font-family: 'Saira Condensed', sans-serif; letter-spacing: 0.05em">COMPARTIR EN X</div>
 </a>

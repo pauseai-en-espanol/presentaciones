@@ -98,7 +98,7 @@ importers:
         specifier: workspace:*
         version: link:../../packages/slidev-addon-pauseai
 
-  presentations/mythos-iasafetyspain-2026-05:
+  presentations/mythos-ias-2026-05:
     devDependencies:
       '@slidev/cli':
         specifier: 52.14.2
