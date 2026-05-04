@@ -1,4 +1,4 @@
-# Prompt — Construir esta presentación con la metodología de `mythos-iasafetyspain-2026-05`
+# Prompt — Construir esta presentación con la metodología de `mythos-ias-2026-05`
 
 > Pegar este fichero al inicio de una sesión nueva con Claude Code (o equivalente). Antes de empezar, completa los placeholders `[DANI: ...]` con la información que tengas. Lo que no sepas todavía, dejalo y Claude lo preguntará.
 
@@ -6,7 +6,7 @@
 
 ## Contexto
 
-Soy Dani Lupión, miembro de PauseAI España. Voy a dar una charla y quiero construirla con **exactamente la misma metodología** que usamos para `mythos-iasafetyspain-2026-05`. Esa presentación es la referencia: tu trabajo aquí se inspira en sus patrones, pero los contenidos son nuevos.
+Soy Dani Lupión, miembro de PauseAI España. Voy a dar una charla y quiero construirla con **exactamente la misma metodología** que usamos para `mythos-ias-2026-05`. Esa presentación es la referencia: tu trabajo aquí se inspira en sus patrones, pero los contenidos son nuevos.
 
 **Esta charla**:
 
@@ -136,7 +136,7 @@ Solo cuando el beat sheet está aprobado.
 - **Patrón de uso del color es argumento**: si verde aparece dos veces con el mismo significado, la sala lo asocia. Úsalo deliberadamente.
 - Cifras grandes: tipografía masiva (text-9xl o style con font-size 9rem) + comparación visual side-by-side.
 
-**Patrones que funcionaron en `mythos-iasafetyspain-2026-05`** (mira slides/00- a 06- para verlos):
+**Patrones que funcionaron en `mythos-ias-2026-05`** (mira slides/00- a 06- para verlos):
 
 - **Apertura cinematográfica**: cadencia de fechas/hechos en slides minimalistas que aterrizan en una bomba (cita autoritativa) y una pregunta-trampa.
 - **Cifra ancla por beat**: cada beat tiene un dato cuantificable que el público recuerda (181 vs 2 · 271 vs 22 · 61 vs 3 · etc.). Mismo patrón visual en cada uno = la sala aprende a buscarlo.
@@ -181,7 +181,7 @@ presentations/ultima-invencion-cva-colectiva-2026-05/
 └── fuentes.md                       página acompañante para hospedar
 ```
 
-Si la carpeta no tiene aún el scaffolding (`package.json`, `slides.md`, etc.), copia los patrones de `presentations/mythos-iasafetyspain-2026-05/` ajustando nombres.
+Si la carpeta no tiene aún el scaffolding (`package.json`, `slides.md`, etc.), copia los patrones de `presentations/mythos-ias-2026-05/` ajustando nombres.
 
 ---
 
@@ -191,7 +191,7 @@ No me preguntes "¿en qué te ayudo?". Hacé esto, en orden:
 
 1. **Lee este `PROMPT.md` entero**. No saltes nada.
 2. **Lee** `/Users/danilupion/Workspace/pauseai/presentaciones/CLAUDE.md` — el doctrine PauseAI y el sistema de tres roles (Teacher / AI Safety Expert / Slidev Expert) que aplica a todas las charlas.
-3. **Lee la presentación de referencia** `presentations/mythos-iasafetyspain-2026-05/` — al menos: `CLAUDE.md`, `research/audience.md`, `research/thesis.md`, `research/beat-sheet.md`, `slides.md` raíz, `slides/00-apertura.md`, `slides/06-cierre.md`. Ahí están los patrones concretos.
+3. **Lee la presentación de referencia** `presentations/mythos-ias-2026-05/` — al menos: `CLAUDE.md`, `research/audience.md`, `research/thesis.md`, `research/beat-sheet.md`, `slides.md` raíz, `slides/00-apertura.md`, `slides/06-cierre.md`. Ahí están los patrones concretos.
 4. **Pregúntame las dudas pivotales** que tengas sobre esta charla específica antes de tocar nada. Mínimo: tema, audiencia real, duración, formato.
 5. **Empezamos por la Fase 1** (Audience/goal pass). No por research, no por slides.
 

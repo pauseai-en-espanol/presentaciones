@@ -2,7 +2,7 @@
 theme: default
 title: Mythos y Glasswing
 titleTemplate: '%s'
-info: Zero-days, emergencia y la ventana que se cierra — charla de PauseAI España en AISafety España
+info: Zero-days, emergencia y la ventana que se cierra - PauseAI en Español & AIS
 favicon: /logos/logo.png
 presenter: dev
 drawings:
