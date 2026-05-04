@@ -1,0 +1,33 @@
+# Static build of the Slidev presentation, served by nginx.
+#
+# Build from the REPO ROOT:
+#
+#   docker build --platform linux/amd64 \
+#     --build-arg BASE_PATH=/presentations/2026-03-uma-senior-55-en/ \
+#     -f presentations/ai-risks-uma-2026-03/Dockerfile.static \
+#     -t harbor.danilupion.com/pauseai-es/presentation-2026-03-uma-senior-55-en:latest .
+
+ARG NODE_IMAGE=node:24.14.0-alpine
+
+# ------ build ------
+FROM ${NODE_IMAGE} AS build
+
+ENV COREPACK_HOME=/opt/corepack
+RUN corepack enable && corepack prepare pnpm@10.31.0
+
+WORKDIR /app
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY presentations/ai-risks-uma-2026-03/package.json ./presentations/ai-risks-uma-2026-03/
+RUN PACKAGED=true pnpm install --frozen-lockfile
+COPY presentations/ai-risks-uma-2026-03 ./presentations/ai-risks-uma-2026-03
+
+WORKDIR /app/presentations/ai-risks-uma-2026-03
+ARG BASE_PATH=/
+RUN pnpm build --base $BASE_PATH
+
+# ------ serve ------
+FROM nginx:alpine
+
+COPY --from=build /app/presentations/ai-risks-uma-2026-03/dist /usr/share/nginx/html
+
+EXPOSE 80
