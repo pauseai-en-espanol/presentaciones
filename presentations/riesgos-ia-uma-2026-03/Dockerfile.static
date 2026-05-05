@@ -7,7 +7,7 @@
 #     -f presentations/riesgos-ia-uma-2026-03/Dockerfile.static \
 #     -t harbor.danilupion.com/pauseai-es/presentacion-2026-03-uma-mayores-55:latest .
 
-ARG NODE_IMAGE=node:24.14.0-alpine
+ARG NODE_IMAGE=node:24.15.0-alpine
 
 # ------ build ------
 FROM ${NODE_IMAGE} AS build

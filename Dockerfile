@@ -11,7 +11,7 @@
 #   Override the base path prefix if needed:
 #     --build-arg BASE_PREFIX=/other-prefix/
 
-ARG NODE_IMAGE=node:24.14.0-alpine
+ARG NODE_IMAGE=node:24.15.0-alpine
 
 # ------ build ------
 FROM ${NODE_IMAGE} AS build
