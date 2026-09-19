@@ -12,7 +12,7 @@
 #   with the landing at /presentaciones/. Override the base prefix if needed:
 #     --build-arg BASE_PREFIX=/other-prefix/
 
-ARG NODE_IMAGE=node:26.7.0-alpine
+ARG NODE_IMAGE=node:26.9.0-alpine@sha256:dbaa92e5758cbbcf85d65d5403fdb530fe3442cbe8c6dbfb7ef23365450d5070
 # Pin pnpm here to match the root package.json `packageManager` field.
 # Node 26 dropped the bundled corepack shim, so install pnpm directly via npm.
 ARG PNPM_VERSION=11.22.0
