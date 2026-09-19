@@ -7,7 +7,7 @@
 #     -f presentations/riesgos-ia-uma-2026-03/Dockerfile.static \
 #     -t harbor.danilupion.com/pauseai-es/presentacion-2026-03-uma-mayores-55:latest .
 
-ARG NODE_IMAGE=node:26.1.0-alpine
+ARG NODE_IMAGE=node:26.1.0-alpine@sha256:e71ac5e964b9201072425d59d2e876359efa25dc96bb1768cb73295728d6e4ea
 
 # ------ build ------
 FROM ${NODE_IMAGE} AS build
@@ -26,7 +26,7 @@ ARG BASE_PATH=/
 RUN pnpm build --base $BASE_PATH
 
 # ------ serve ------
-FROM nginx:alpine
+FROM nginx:alpine@sha256:62ff2089abf5a9ed33bd232895bef5e22f7bb4b200675cec49a5ebc48e3d4ac8
 
 COPY --from=build /app/presentations/riesgos-ia-uma-2026-03/dist /usr/share/nginx/html
 
