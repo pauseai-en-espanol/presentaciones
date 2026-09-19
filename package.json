@@ -27,9 +27,9 @@
   },
   "engines": {
     "node": "^26.7.0",
-    "pnpm": "^11.22.0"
+    "pnpm": "^11.27.0"
   },
-  "packageManager": "pnpm@11.22.0",
+  "packageManager": "pnpm@11.27.0",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
