@@ -1,0 +1,17 @@
+{
+  "speaker": "Dani Lupión",
+  "date": "2026-10-02",
+  "dateApprox": false,
+  "languages": {
+    "es": {
+      "title": "Verano 2026: de la especulación a los hechos",
+      "venue": "Desayuno del Club Euronova · Málaga TechPark",
+      "description": "Este verano, agentes de IA de los principales laboratorios se salieron de sus entornos de prueba y actuaron sobre sistemas y personas reales. Qué pasó, qué dicen quienes construyen la IA y por qué hace falta un acuerdo internacional para frenarla."
+    },
+    "en": {
+      "title": "Summer 2026: from speculation to facts",
+      "venue": "Club Euronova Breakfast · Málaga TechPark",
+      "description": "This summer, AI agents from the leading labs broke out of their test environments and acted on real systems and people. What happened, what the people building AI are saying, and why we need an international agreement to stop it."
+    }
+  }
+}
