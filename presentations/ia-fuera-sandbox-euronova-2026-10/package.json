@@ -1,0 +1,18 @@
+{
+  "name": "ia-fuera-sandbox-euronova-2026-10",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Verano 2026: de la especulación a los hechos. Desayuno del Club Euronova",
+  "scripts": {
+    "dev": "slidev --remote --port 3070",
+    "dev:en": "slidev slides-en.md --remote --port 3071",
+    "build": "slidev build",
+    "build:en": "slidev build slides-en.md --out dist/en"
+  },
+  "devDependencies": {
+    "@slidev/cli": "53.0.0",
+    "@slidev/theme-default": "0.25.0",
+    "slidev-addon-pauseai": "workspace:*"
+  }
+}
