@@ -1,14 +1,15 @@
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue';
-import { slides } from '#slidev/slides';
-import configs from '#slidev/configs';
-import { sharedState, patch } from '@slidev/client/state/shared.ts';
 import { createClicksContextBase } from '@slidev/client/composables/useClicks.ts';
 import { useTimer } from '@slidev/client/composables/useTimer.ts';
 import { useWakeLock } from '@slidev/client/composables/useWakeLock.ts';
 import NoteDisplay from '@slidev/client/internals/NoteDisplay.vue';
 import SlideContainer from '@slidev/client/internals/SlideContainer.vue';
 import SlideWrapper from '@slidev/client/internals/SlideWrapper.vue';
+import { patch, sharedState } from '@slidev/client/state/shared.ts';
+import { computed, onMounted, ref, watch } from 'vue';
+
+import configs from '#slidev/configs';
+import { slides } from '#slidev/slides';
 
 onMounted(() => {
   document.title = `Mobile — ${configs.slidesTitle}`;

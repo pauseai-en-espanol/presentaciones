@@ -1,6 +1,6 @@
 <script setup>
-import { computed } from 'vue';
 import { configs } from '@slidev/client';
+import { computed } from 'vue';
 
 const isEn = computed(() => configs.lang === 'en');
 const domain = computed(() => (isEn.value ? 'pauseai.info' : 'pauseai.es'));

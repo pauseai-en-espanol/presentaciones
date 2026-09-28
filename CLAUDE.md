@@ -12,7 +12,7 @@ presentations/
   etica-ia-ispln-2026-03/     # IA, Etica y la Ausencia de Esta
 ```
 
-Each presentation is a self-contained Slidev project with its own `package.json`, `slides.md`, `slides/`, `public/`, `style.css`, and `global-bottom.vue`. Shared tooling (eslint, prettier, husky) lives at the root.
+Each presentation is a self-contained Slidev project with its own `package.json`, `slides.md`, `slides/`, `public/`, `style.css`, and `global-bottom.vue`. Shared tooling (oxlint, prettier, husky) lives at the root.
 
 ## Agent Roles
 

@@ -1,6 +1,6 @@
 <script setup>
-import { computed } from 'vue';
 import { configs } from '@slidev/client';
+import { computed } from 'vue';
 
 const venueLabel = computed(() =>
   configs.lang === 'en' ? 'Senior Programme +55' : 'Aula de Mayores +55',

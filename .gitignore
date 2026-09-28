@@ -76,9 +76,6 @@ tmp
 # Vercel
 .vercel
 
-# Caches
-.eslintcache
-
 # Playwright MCP
 .playwright-mcp/
 
