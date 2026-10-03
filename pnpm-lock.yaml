@@ -167,8 +167,8 @@ importers:
   .:
     devDependencies:
       '@slango.configs/lint-staged':
-        specifier: 2.0.5
-        version: 2.0.5(lint-staged@17.6.0)
+        specifier: 2.0.6
+        version: 2.0.6(lint-staged@17.6.0)
       '@slango.configs/oxlint':
         specifier: 0.1.6
         version: 0.1.6(eslint@10.11.0(jiti@2.7.0))(oxlint-tsgolint@7.0.2003)(oxlint@1.85.0(oxlint-tsgolint@7.0.2003))(typescript@6.0.3)
@@ -1852,10 +1852,10 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@slango.configs/lint-staged@2.0.5':
-    resolution: {integrity: sha512-o2YnTpc9XDD85kvtgDjkJ5sGrhb6/2DmK6327fMr0hEOwfhcGfOZHcXHwvOOfDyMPHHmLgBXAWpA8XUneeI9bg==}
+  '@slango.configs/lint-staged@2.0.6':
+    resolution: {integrity: sha512-pZIyXj/uzEaLh3H9UFFzAI4PENJpypU+f4Q88RaLCebi585/RviD7XwSgDdfgj6/uQoTy56e0U6Njiu/J5TyoA==}
     peerDependencies:
-      lint-staged: ^17.5.1
+      lint-staged: ^17.6.0
 
   '@slango.configs/oxlint@0.1.6':
     resolution: {integrity: sha512-5MAaWY10BEzXQ5VgmscjgSakCzWaqAWyf92OsDDE7b4hJ9xhTdwnKtWWM0wyHKZtN2iq8sdS/9Wo9qyGujGNHA==}
@@ -5798,7 +5798,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@slango.configs/lint-staged@2.0.5(lint-staged@17.6.0)':
+  '@slango.configs/lint-staged@2.0.6(lint-staged@17.6.0)':
     dependencies:
       deepmerge: 4.3.1
       lint-staged: 17.6.0
