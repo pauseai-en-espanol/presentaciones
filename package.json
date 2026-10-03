@@ -18,7 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "@slango.configs/lint-staged": "2.0.5",
-    "@slango.configs/oxlint": "0.1.6",
+    "@slango.configs/oxlint": "0.1.8",
     "@slango.configs/prettier": "1.0.32",
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
