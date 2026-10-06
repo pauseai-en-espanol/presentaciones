@@ -173,8 +173,8 @@ importers:
         specifier: 0.1.6
         version: 0.1.6(eslint@10.11.0(jiti@2.7.0))(oxlint-tsgolint@7.0.2003)(oxlint@1.85.0(oxlint-tsgolint@7.0.2003))(typescript@6.0.3)
       '@slango.configs/prettier':
-        specifier: 1.0.32
-        version: 1.0.32(prettier@3.9.9)
+        specifier: 1.0.34
+        version: 1.0.34(prettier@3.9.9)
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -1863,10 +1863,10 @@ packages:
       oxlint: ^1.81.0
       oxlint-tsgolint: ^7.0.2001
 
-  '@slango.configs/prettier@1.0.32':
-    resolution: {integrity: sha512-GlAffyv6dyqw19tRHrtl7En7XLKPEw68Vpxy+aKsG01lnFu+igOBAsVMkwxRYnhL0znmPn8mJy2FO2doD/rYyw==}
+  '@slango.configs/prettier@1.0.34':
+    resolution: {integrity: sha512-sjLkPqRyDDqVcT0js3zQpu9iKTec9FlFwApN/UVd/eOsO+x8//agW4//CxIuWJASeCv1g42pbMrww6TFng8kKw==}
     peerDependencies:
-      prettier: ^3.9.8
+      prettier: ^3.9.9
 
   '@slidev/cli@53.0.0':
     resolution: {integrity: sha512-/Ex5GNsu0tuR9WKaikJiHsu3wlWwvNoTeliLVHdsuE5qkdD6Fphhi6/l9uNvWjSB3JxLDZUle8Cu9LazBiQ7tA==}
@@ -5814,7 +5814,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@slango.configs/prettier@1.0.32(prettier@3.9.9)':
+  '@slango.configs/prettier@1.0.34(prettier@3.9.9)':
     dependencies:
       prettier: 3.9.9
 
