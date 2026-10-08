@@ -111,6 +111,18 @@ Bilingual presentations keep one directory per talk. The canonical language live
 
 Slide structure, click reveals and image references must mirror 1:1 between languages — only prose is translated. The Docker build auto-detects `slides-en.md` and serves the EN build under `/<slug>/en/`.
 
+## Portadas para Luma y redes
+
+`pnpm card <slug>` genera una portada cuadrada de 1080×1080 en `packages/cards/out/` (ignorado por git). Toma el título y el ponente del `presentation.json`; el resto, de las opciones. Usa el Chrome instalado en modo headless, sin dependencias.
+
+```bash
+pnpm card ia-fuera-sandbox-euronova-2026-10 --subtitulo "La IA de frontera se sale del sandbox"
+pnpm card ia-fuera-sandbox-euronova-2026-10 --foto ~/fotos/dani.jpg
+pnpm card --titulo "Otra charla | en dos líneas" --ponente "Nombre" --afiliacion "PauseAI España"
+```
+
+Opciones: `--lang`, `--titulo`, `--subtitulo`, `--ponente`, `--afiliacion` (por defecto «PauseAI España»), `--serie` (por defecto «Charlas PauseAI en Español»), `--foto`, `--out`. El título salta de línea tras los dos puntos o donde se ponga `|`. Si Chrome no está en la ruta habitual de macOS, indícala con la variable `CHROME`.
+
 ## Docker Build
 
 ```bash

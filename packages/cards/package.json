@@ -1,0 +1,10 @@
+{
+  "name": "@pauseai-es/cards",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generador de portadas cuadradas (Luma, redes) para las charlas",
+  "scripts": {
+    "card": "node card.js"
+  }
+}
