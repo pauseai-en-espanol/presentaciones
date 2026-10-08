@@ -170,8 +170,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5(lint-staged@17.6.0)
       '@slango.configs/oxlint':
-        specifier: 0.1.6
-        version: 0.1.6(eslint@10.11.0(jiti@2.7.0))(oxlint-tsgolint@7.0.2003)(oxlint@1.85.0(oxlint-tsgolint@7.0.2003))(typescript@6.0.3)
+        specifier: 0.1.11
+        version: 0.1.11(eslint@10.11.0(jiti@2.7.0))(oxlint-tsgolint@7.0.2003)(oxlint@1.85.0(oxlint-tsgolint@7.0.2003))(typescript@6.0.3)
       '@slango.configs/prettier':
         specifier: 1.0.32
         version: 1.0.32(prettier@3.9.9)
@@ -193,6 +193,8 @@ importers:
       turbo:
         specifier: 2.11.4
         version: 2.11.4
+
+  packages/cards: {}
 
   packages/landing:
     devDependencies:
@@ -1857,11 +1859,11 @@ packages:
     peerDependencies:
       lint-staged: ^17.5.1
 
-  '@slango.configs/oxlint@0.1.6':
-    resolution: {integrity: sha512-5MAaWY10BEzXQ5VgmscjgSakCzWaqAWyf92OsDDE7b4hJ9xhTdwnKtWWM0wyHKZtN2iq8sdS/9Wo9qyGujGNHA==}
+  '@slango.configs/oxlint@0.1.11':
+    resolution: {integrity: sha512-v0PTf0TAMQTwj3dPINSWuVJfNu2AsecEsalZAC58dBvZ8u24ekX8WQgRN6U33tdgreqwyE52aB/iOfY27DAW/A==}
     peerDependencies:
-      oxlint: ^1.81.0
-      oxlint-tsgolint: ^7.0.2001
+      oxlint: ^1.86.0
+      oxlint-tsgolint: ^7.0.2003
 
   '@slango.configs/prettier@1.0.32':
     resolution: {integrity: sha512-GlAffyv6dyqw19tRHrtl7En7XLKPEw68Vpxy+aKsG01lnFu+igOBAsVMkwxRYnhL0znmPn8mJy2FO2doD/rYyw==}
@@ -5803,7 +5805,7 @@ snapshots:
       deepmerge: 4.3.1
       lint-staged: 17.6.0
 
-  '@slango.configs/oxlint@0.1.6(eslint@10.11.0(jiti@2.7.0))(oxlint-tsgolint@7.0.2003)(oxlint@1.85.0(oxlint-tsgolint@7.0.2003))(typescript@6.0.3)':
+  '@slango.configs/oxlint@0.1.11(eslint@10.11.0(jiti@2.7.0))(oxlint-tsgolint@7.0.2003)(oxlint@1.85.0(oxlint-tsgolint@7.0.2003))(typescript@6.0.3)':
     dependencies:
       eslint-plugin-perfectionist: 5.12.1(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-regexp: 3.3.1(eslint@10.11.0(jiti@2.7.0))
