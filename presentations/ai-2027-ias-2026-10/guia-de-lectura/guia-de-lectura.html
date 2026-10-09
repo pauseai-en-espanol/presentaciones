@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 2027: guía de lectura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Saira+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --naranja: #ff6600;
+        --naranja-logo: #ff9416;
+        --negro: #0f172a;
+        --texto: #1e293b;
+        --suave: #64748b;
+        --linea: #e2e8f0;
+        --fondo-nota: #fff7ed;
+      }
+
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        background: #fff;
+        color: var(--texto);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9.6pt;
+        line-height: 1.45;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .pagina {
+        width: 210mm;
+        min-height: 296mm;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .cabecera {
+        background: var(--negro);
+        padding: 6mm 16mm 5mm;
+        color: #fff;
+      }
+
+      .logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .logos img.pauseai {
+        height: 9mm;
+      }
+
+      .logos img.ias {
+        height: 11mm;
+      }
+
+      .kicker {
+        margin-top: 3.5mm;
+        font-family: 'Saira Condensed', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--naranja-logo);
+        font-size: 11pt;
+      }
+
+      h1 {
+        margin: 1mm 0 0;
+        font-family: 'Saira Condensed', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 25pt;
+        line-height: 1.05;
+        letter-spacing: 0.01em;
+      }
+
+      .datos {
+        margin-top: 3mm;
+        font-size: 9.5pt;
+        opacity: 0.8;
+      }
+
+      main {
+        padding: 6mm 16mm 0;
+        flex: 1;
+      }
+
+      .entrada {
+        font-size: 10.2pt;
+        margin: 0 0 3mm;
+      }
+
+      h2 {
+        font-family: 'Saira Condensed', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--naranja);
+        font-size: 14pt;
+        letter-spacing: 0.03em;
+        margin: 4mm 0 1.5mm;
+        padding-bottom: 1mm;
+        border-bottom: 1.5px solid var(--linea);
+      }
+
+      p {
+        margin: 0 0 2.5mm;
+      }
+
+      ul,
+      ol {
+        margin: 0 0 2.5mm;
+        padding-left: 5mm;
+      }
+
+      li {
+        margin-bottom: 0.8mm;
+      }
+
+      li::marker {
+        color: var(--naranja);
+        font-weight: 700;
+      }
+
+      a {
+        white-space: nowrap;
+        color: var(--negro);
+        font-weight: 700;
+        text-decoration-color: var(--naranja);
+        text-underline-offset: 2px;
+      }
+
+      .tiempo {
+        background: var(--fondo-nota);
+        border-left: 3px solid var(--naranja);
+        padding: 2mm 4mm;
+        margin: 2mm 0;
+      }
+
+      .agenda {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1mm 0 3mm;
+      }
+
+      .agenda td {
+        padding: 1.2mm 0;
+        border-bottom: 1px solid var(--linea);
+        vertical-align: top;
+      }
+
+      .agenda td.min {
+        width: 22mm;
+        line-height: 1.3;
+        font-family: 'Saira Condensed', sans-serif;
+        font-weight: 700;
+        color: var(--naranja);
+        font-size: 11pt;
+        white-space: nowrap;
+      }
+
+      .agenda td.bloque {
+        width: 62mm;
+        font-weight: 700;
+      }
+
+      .escala {
+        font-weight: 500;
+        color: var(--negro);
+      }
+
+      footer {
+        padding: 3mm 16mm 6mm;
+        font-size: 8.5pt;
+        color: var(--suave);
+        display: flex;
+        justify-content: space-between;
+        gap: 6mm;
+      }
+
+      footer a {
+        color: var(--suave);
+        font-weight: 500;
+      }
+
+      @media print {
+        .pagina {
+          position: relative;
+          height: 297mm;
+          min-height: 0;
+          overflow: hidden;
+        }
+        footer {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+      }
+
+      @media screen {
+        body {
+          background: #e2e8f0;
+          padding: 8mm 0;
+        }
+        .pagina {
+          background: #fff;
+          box-shadow: 0 2px 12px rgba(15, 23, 42, 0.15);
+          margin-bottom: 8mm;
+        }
+      }
+
+      @media screen and (max-width: 220mm) {
+        body {
+          padding: 0;
+        }
+        .pagina {
+          width: 100%;
+          min-height: 0;
+        }
+        .cabecera,
+        main,
+        footer {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+        footer {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pagina">
+      <header class="cabecera">
+        <div class="logos">
+          <img class="ias" src="../public/logos/aisafetyspain.svg" alt="iaS, AI Safety España" />
+          <img class="pauseai" src="../public/logos/logo-completo.png" alt="PauseAI España" />
+        </div>
+        <div class="kicker">Grupo de lectura iaS × PauseAI España · Sesión 1</div>
+        <h1>AI 2027, año y medio después</h1>
+        <div class="datos">
+          Guía de lectura · 14 de octubre de 2026 · Online, 60 minutos · Facilita Dani Lupión
+          (PauseAI España)
+        </div>
+      </header>
+
+      <main>
+        <p class="entrada">
+          En abril de 2025, Daniel Kokotajlo y su equipo publicaron AI 2027: un escenario que
+          cuenta, casi mes a mes, cómo podríamos llegar a la superinteligencia, y que acaba en una
+          decisión entre frenar o seguir. Año y medio después, vamos a comparar lo que predijo con
+          lo que ha pasado de verdad.
+        </p>
+
+        <h2>Qué leer</h2>
+        <ul>
+          <li>
+            El escenario en español, en <a href="https://ai-2027.com/es">ai-2027.com/es</a>: la
+            parte común, hasta octubre de 2027, y los dos finales, el de la carrera y el de la
+            desaceleración. Al llegar a octubre de 2027 la web te deja elegir. Lee los dos.
+          </li>
+          <li>
+            Si vas justo, prioriza la parte común y lee los finales por encima. Hay un resumen en
+            <a href="https://ai-2027.com/es/summary">ai-2027.com/es/summary</a>.
+          </li>
+        </ul>
+        <div class="tiempo">
+          Unas dos o tres horas. No hace falta preparar nada más. Si hay algo que no te crees,
+          tráelo: en la segunda ronda vendrá bien.
+        </div>
+
+        <h2>En qué fijarte</h2>
+        <ol>
+          <li>
+            <strong>Las fechas.</strong> Cada sección lleva una. Hasta finales de 2026 ya se puede
+            comparar con la realidad: ¿ha pasado? ¿Antes, después o nunca?
+          </li>
+          <li>
+            <strong>El panel de la derecha.</strong> Las cifras que cambian al bajar (ingresos de
+            OpenBrain, gasto en centros de datos, cuánto acelera la IA la investigación) también son
+            predicciones.
+          </li>
+          <li>
+            <strong>Lo que pone en 2027.</strong> Algunas cosas te pueden sonar después de este
+            verano.
+          </li>
+          <li>
+            <strong>La bifurcación.</strong> Qué se decide en octubre de 2027, quién lo decide y qué
+            tiene que salir bien para acabar en la desaceleración.
+          </li>
+        </ol>
+
+        <h2>Tres avisos sobre el texto</h2>
+        <ul>
+          <li>
+            <strong>2027 era el año más probable para los autores, no su mediana.</strong> Lo dice
+            la nota 1: «Este escenario muestra algo parecido a nuestra moda». Desde entonces han
+            movido sus previsiones varias veces, en las dos direcciones.
+          </li>
+          <li>
+            <strong>OpenBrain y DeepCent son inventadas.</strong> Son «la empresa líder» de Estados
+            Unidos y la de China. Decidir quién hace de OpenBrain ya es parte del debate.
+          </li>
+          <li>
+            <strong>La versión en español no está del todo al día.</strong> El gráfico de METR es el
+            de abril de 2025 y faltan notas que los autores añadieron después en inglés. Si una
+            cifra te chirría, mira <a href="https://ai-2027.com">ai-2027.com</a>.
+          </li>
+        </ul>
+
+        <h2>Cómo será la sesión</h2>
+        <table class="agenda">
+          <tr>
+            <td class="min">8 min</td>
+            <td>
+              <strong>Para situarnos.</strong> Cómo va la sesión y la cronología del escenario.
+            </td>
+          </tr>
+          <tr>
+            <td class="min">15 min</td>
+            <td>
+              <strong>En salas: ¿qué ha acertado hasta hoy?</strong> Cada sala pone nota a doce
+              predicciones, con lo que sabe:
+              <span class="escala"
+                >acertó, se adelantó, va con retraso, falló o no se puede saber</span
+              >.
+            </td>
+          </tr>
+          <tr>
+            <td class="min">10 min</td>
+            <td>
+              <strong>Lo ponemos en común.</strong> Juntamos las notas y vemos qué ha pasado de
+              verdad.
+            </td>
+          </tr>
+          <tr>
+            <td class="min">15 min</td>
+            <td>
+              <strong>En salas: ¿y si el resto acierta igual?</strong> Con esas notas, ¿hacia qué
+              final vamos?
+            </td>
+          </tr>
+          <tr>
+            <td class="min">12 min</td>
+            <td>
+              <strong>Lo ponemos en común y cerramos.</strong> Con un adelanto de la próxima sesión,
+              sobre Europe 2031.
+            </td>
+          </tr>
+        </table>
+      </main>
+
+      <footer>
+        <span
+          >Las slides estarán en
+          <a href="https://pauseai.es/presentaciones/ai-2027-ias-2026-10"
+            >pauseai.es/presentaciones/ai-2027-ias-2026-10</a
+          ></span
+        >
+        <span>iaS · PauseAI España</span>
+      </footer>
+    </div>
+  </body>
+</html>

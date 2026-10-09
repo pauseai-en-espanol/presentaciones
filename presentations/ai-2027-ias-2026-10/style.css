@@ -1,0 +1,580 @@
+/* ============================================
+   PauseAI: tema oscuro
+   Navy (#0f172a) + Orange (#FF9416)
+   Fonts: Montserrat (body), Saira Condensed (titles), Roboto Slab (quotes)
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700&display=swap');
+
+:root {
+  --pauseai-orange: #ff9416;
+  --pauseai-navy: #0f172a;
+  --pauseai-navy-light: #1e293b;
+  --slidev-theme-primary: #ff9416;
+  --slidev-theme-accent: #ff9416;
+  --slidev-slide-container-background: #0f172a;
+}
+
+/* ---- Base slide styling ---- */
+.slidev-layout {
+  background: var(--pauseai-navy);
+  color: #e2e8f0;
+  overflow: hidden;
+}
+
+/* ---- Keep videos/iframes above footer zone ---- */
+.slidev-layout video,
+.slidev-layout iframe {
+  max-height: 400px;
+}
+
+/* ---- Section dividers: diagonal gradient ---- */
+.slidev-layout.section {
+  background: linear-gradient(160deg, #0f172a 0%, #162032 60%, #1e293b 100%) !important;
+}
+
+.slidev-layout.section h1 {
+  font-size: 3rem !important;
+  font-weight: 700;
+  font-family: 'Saira Condensed', sans-serif;
+  border-bottom: 3px solid var(--pauseai-orange);
+  padding-bottom: 0.5rem;
+}
+
+/* ---- Typography ---- */
+h1 {
+  color: var(--pauseai-orange) !important;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+h2,
+h3 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+}
+
+/* ---- Blockquotes ---- */
+blockquote {
+  border-left: 4px solid var(--pauseai-orange);
+  padding-left: 1rem;
+  opacity: 0.9;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* ---- Progress bar ---- */
+.slidev-progress-bar {
+  background: var(--pauseai-orange) !important;
+}
+
+/* ---- Slide number ---- */
+.slidev-page-number {
+  color: var(--pauseai-orange);
+}
+
+/* ============================================
+   Clases propias de esta charla
+   ============================================ */
+
+.kicker {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  opacity: 0.6;
+  margin-bottom: 0.4rem;
+}
+
+.titulo {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1.1;
+  color: var(--pauseai-orange);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.5rem;
+}
+
+.cita {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.9rem;
+  line-height: 1.35;
+  color: #f1f5f9;
+}
+
+.cita-autor {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  opacity: 0.6;
+  margin-top: 1rem;
+}
+
+.cifra {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1;
+  color: var(--pauseai-orange);
+}
+
+.cifra-texto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.05rem;
+  opacity: 0.8;
+  margin-top: 0.4rem;
+}
+
+.pregunta {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.15;
+  color: #f1f5f9;
+}
+
+.tarjeta {
+  background: rgba(148, 163, 184, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.foto-persona {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 9999px;
+  border: 3px solid var(--pauseai-orange);
+}
+
+.credito {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65rem;
+  opacity: 0.4;
+}
+
+.captura {
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  max-height: 22rem;
+}
+
+/* ---- Hilo de pull request (recreación del AISI) ---- */
+.pr {
+  background: #ffffff;
+  color: #1f2328;
+  border-radius: 0.5rem;
+  padding: 0.7rem 0.8rem;
+  font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 0.62rem;
+  line-height: 1.3;
+}
+.pr-titulo {
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.pr-meta {
+  color: #59636e;
+  margin: 0.15rem 0 0.4rem;
+}
+.pr-estado {
+  display: inline-block;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0 0.45rem;
+  margin-right: 0.3rem;
+  font-weight: 600;
+}
+.pr-abierto {
+  background: #1f883d;
+}
+.pr-cerrado {
+  background: #cf222e;
+}
+.pr-msg {
+  border: 1px solid #d1d9e0;
+  border-left-width: 4px;
+  border-radius: 0.35rem;
+  padding: 0.3rem 0.5rem;
+  margin-top: 0.3rem;
+}
+.pr-agente {
+  border-left-color: #cf222e;
+  background: #fff8f8;
+}
+.pr-humano {
+  border-left-color: #0969da;
+  background: #f6f9ff;
+}
+.pr-dueno {
+  border-left-color: #8250df;
+  background: #faf7ff;
+}
+.pr-quien {
+  font-weight: 700;
+}
+.pr-etiqueta {
+  display: inline-block;
+  border: 1px solid currentColor;
+  border-radius: 1rem;
+  padding: 0 0.35rem;
+  margin-left: 0.3rem;
+  font-size: 0.55rem;
+  font-weight: 600;
+}
+.pr-agente .pr-etiqueta {
+  color: #cf222e;
+}
+.pr-humano .pr-etiqueta {
+  color: #0969da;
+}
+.pr-dueno .pr-etiqueta {
+  color: #8250df;
+}
+.pr-evento {
+  color: #59636e;
+  margin-top: 0.3rem;
+  padding-left: 0.3rem;
+}
+
+/* ---- Flecha de vuelta (bucle de automejora) ---- */
+.vuelta {
+  position: relative;
+  margin: 0 6.5rem;
+  height: 2.4rem;
+  border: 3px solid var(--pauseai-orange);
+  border-top: none;
+  border-radius: 0 0 1rem 1rem;
+}
+.vuelta-punta {
+  position: absolute;
+  left: -9.5px;
+  top: -12px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 13px solid var(--pauseai-orange);
+}
+.vuelta-texto {
+  position: absolute;
+  left: 50%;
+  bottom: -0.85rem;
+  transform: translateX(-50%);
+  background: var(--pauseai-navy);
+  padding: 0 0.6rem;
+  color: var(--pauseai-orange);
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+
+/* ---- Correos (gusano de prompt injection) ---- */
+.correo {
+  background: #ffffff;
+  color: #1f2328;
+  border-radius: 0.5rem;
+  padding: 0.7rem 0.9rem;
+  font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+.correo-cab {
+  color: #59636e;
+  border-bottom: 1px solid #d1d9e0;
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.45rem;
+}
+.correo-cab b {
+  color: #1f2328;
+}
+.correo-trampa {
+  background: #fff1d6;
+  border-left: 3px solid var(--pauseai-orange);
+  padding: 0.25rem 0.4rem;
+  margin-top: 0.35rem;
+}
+.correo-copia {
+  border-top: 1px dashed #d1d9e0;
+  margin-top: 0.5rem;
+  padding-top: 0.4rem;
+  color: #59636e;
+}
+
+/* ---- Fuentes ---- */
+.fuentes {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+.fuentes .grupo {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--pauseai-orange);
+  text-transform: uppercase;
+  margin: 0.8rem 0 0.3rem;
+}
+.fuentes .grupo:first-child {
+  margin-top: 0;
+}
+.fuentes div {
+  margin-bottom: 0.3rem;
+}
+.fuentes b {
+  color: #f1f5f9;
+}
+.fuentes a,
+.enlaces a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 148, 22, 0.5);
+  text-underline-offset: 2px;
+}
+.fuentes a:hover,
+.enlaces a:hover {
+  color: var(--pauseai-orange);
+}
+
+/* ============================================
+   AI 2027, año y medio después
+   ============================================ */
+
+.medianas {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.medianas th {
+  text-align: left;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 0.3rem 0.4rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+}
+.medianas td:first-child {
+  white-space: nowrap;
+  opacity: 0.7;
+}
+.medianas td {
+  padding: 0.45rem 0.4rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.hito {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  font-size: 0.95rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+}
+.hito-fecha {
+  flex: 0 0 8.5rem;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  color: var(--pauseai-orange);
+  font-size: 1rem;
+}
+.hito.futuro .hito-fecha {
+  color: #94a3b8;
+}
+.hito.futuro {
+  opacity: 0.85;
+}
+.hoy {
+  margin-top: 0.7rem;
+  padding: 0.35rem 0.8rem;
+  border-left: 4px solid var(--pauseai-orange);
+  background: rgba(255, 148, 22, 0.1);
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: var(--pauseai-orange);
+}
+.final {
+  text-align: center;
+  padding: 0.35rem;
+  border: 2px solid var(--pauseai-orange);
+  border-radius: 0.6rem;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+
+.nota {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4.2rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  background: rgba(255, 148, 22, 0.12);
+  border: 1px solid rgba(255, 148, 22, 0.4);
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.comparacion > div {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.comparacion b {
+  color: var(--pauseai-orange);
+  font-weight: 700;
+}
+
+/* ---- Intro: el motor ---- */
+.paso {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  font-size: 1.25rem;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  background: rgba(148, 163, 184, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+}
+.paso-num {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--pauseai-orange);
+  width: 1.2rem;
+}
+.paso-flecha {
+  text-align: center;
+  color: var(--pauseai-orange);
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* ---- Índice de respuestas ---- */
+.indice-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.6rem;
+  background: rgba(148, 163, 184, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.15) !important;
+  border-style: solid !important;
+  color: #e2e8f0 !important;
+  text-decoration: none !important;
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+.indice-item:hover {
+  border-color: var(--pauseai-orange);
+}
+.indice-num {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--pauseai-orange);
+  min-width: 1.6rem;
+}
+
+/* ---- Ronda 2: bandos ---- */
+.bando {
+  padding: 1rem 1.2rem;
+  border-radius: 0.75rem;
+  border: 2px solid var(--pauseai-orange);
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+.bando-nombre {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: var(--pauseai-orange);
+  margin-bottom: 0.3rem;
+}
+
+/* ---- Respuestas ---- */
+.respuesta {
+  padding: 0 1.5rem;
+}
+.respuesta-cab {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.volver {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  color: #e2e8f0 !important;
+  text-decoration: none !important;
+}
+.volver:hover {
+  opacity: 1;
+  color: var(--pauseai-orange) !important;
+}
+.respuesta-titulo {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: var(--pauseai-orange);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.cita-escenario {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.15rem;
+  line-height: 1.45;
+  border-left: 3px solid var(--pauseai-orange);
+  padding-left: 1rem;
+  color: #f1f5f9;
+}
+.hechos > div {
+  font-size: 1.05rem;
+  line-height: 1.4;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+}
+.fuentes-mini {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  opacity: 0.55;
+}
+
+/* ---- Cómo va la sesión ---- */
+.agenda-sesion .hito {
+  font-size: 1.3rem;
+  padding: 0.6rem 0;
+}
+.agenda-sesion .hito-fecha {
+  flex: 0 0 6.5rem;
+  font-size: 1.35rem;
+}
+
+/* ---- Referencias ---- */
+.referencias {
+  font-size: 0.82rem;
+  line-height: 1.32;
+}
+.referencias .grupo {
+  font-size: 1.05rem;
+}
+.referencias div {
+  margin-bottom: 0.25rem;
+}
+.idioma {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0 0.25rem;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  border-radius: 0.2rem;
+  opacity: 0.7;
+}

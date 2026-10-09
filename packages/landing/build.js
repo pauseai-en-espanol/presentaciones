@@ -71,6 +71,12 @@ async function loadPresentations() {
     try {
       const raw = await readFile(jsonPath, 'utf-8');
       const meta = JSON.parse(raw);
+      // `unlisted: true` keeps a talk out of the landing while it is still built and
+      // served at /presentaciones/<slug>/ (e.g. before a session, to avoid spoilers).
+      if (meta.unlisted) {
+        console.log(`[landing] ${slug} is unlisted — skipping`);
+        continue;
+      }
       for (const lang of Object.values(meta.languages || {})) {
         if (lang && typeof lang === 'object') {
           for (const k of Object.keys(lang)) {

@@ -76,6 +76,8 @@ charts/                    # Helm charts for Kubernetes deployment
 }
 ```
 
+Set `"unlisted": true` to keep a presentation out of the landing while it is still built and served at `/presentaciones/<slug>/` (useful before a session, so the slides are reachable only through their link or QR). Remove the field to list it.
+
 Set `dateApprox: true` when only the month is known (the landing renders "abril de 2026" instead of "15 de abril de 2026").
 
 ### Adding a second language
