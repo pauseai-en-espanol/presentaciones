@@ -1,4 +1,4 @@
-ARG NODE_IMAGE=node:26.1.0-alpine
+ARG NODE_IMAGE=node:26.11.1-alpine@sha256:143494b1da2945f061539253adc65e4f1569ddf07da2d384c022c791a9d90a4a
 
 # ------ deps ------
 FROM ${NODE_IMAGE} AS deps
