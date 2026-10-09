@@ -30,13 +30,13 @@
   },
   "engines": {
     "node": "^26.11.1",
-    "pnpm": "^12.8.1"
+    "pnpm": "^12.10.0"
   },
-  "packageManager": "pnpm@12.8.1",
+  "packageManager": "pnpm@12.10.0",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.8.1",
+      "version": "12.10.0",
       "onFail": "download"
     }
   }
