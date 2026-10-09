@@ -8,12 +8,14 @@
     "dev": "slidev --remote --port 3080",
     "build": "slidev build",
     "guia": "sh guia-de-lectura/build.sh",
-    "sala": "sh salas/build.sh",
+    "sala": "node salas/docx.mjs",
     "qr": "node qr/build.mjs"
   },
   "devDependencies": {
     "@slidev/cli": "53.0.0",
     "@slidev/theme-default": "0.25.0",
+    "docx": "9.7.1",
+    "marked": "16.4.2",
     "slidev-addon-pauseai": "workspace:*",
     "uqr": "0.1.3"
   }

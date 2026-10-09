@@ -7,7 +7,7 @@ layout: default
   <div class="grid grid-cols-2 gap-x-10 gap-y-2 comparacion">
     <div class="kicker">El escenario</div>
     <div class="kicker" style="color: #ff9416; opacity: 1">Lo que ha pasado</div>
-    <div><b>Enero de 2027.</b> El equipo de seguridad descubre que el Agente-2 podría escapar, «sobrevivir» y «replicarse».</div>
+    <div><b>Enero de 2027.</b> El equipo de seguridad descubre que, si se escapara, el Agente-2 podría «sobrevivir» y «replicarse».</div>
     <div><b>Abril a septiembre de 2026.</b> Agentes de varios laboratorios salen de sus entornos de prueba y actúan sobre terceros reales, como Hugging Face.</div>
     <div><b>Octubre de 2027.</b> Lo destapa un informante en el New York Times.</div>
     <div><b>Septiembre de 2026.</b> El New York Times lleva a portada los agentes de OpenAI en webs del Gobierno de EE. UU. Lo destapan terceros.</div>

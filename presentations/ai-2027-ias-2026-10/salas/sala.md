@@ -4,13 +4,11 @@ Grupo de lectura iaS × PauseAI España · 14 de octubre de 2026
 
 ## Ronda 1: ¿qué ha acertado hasta hoy? (15 minutos)
 
-1. **Al entrar**, elegid quién modera y quién apunta.
-2. **Pasada rápida** (5 minutos). Quien modera lee cada predicción de la tabla con su fecha. Cada uno dice su nota con lo que sepa, sin discutir. Si no lo sabéis, vale «no se puede saber». Quien apunta escribe en la columna de vuestra sala la nota que más se repita.
-3. **Discusión** (10 minutos). Elegid las dos o tres en las que no os pongáis de acuerdo y habladlo. Al final del documento tenéis lo que dice el escenario, palabra por palabra. Quien apunta cambia la nota si hace falta y escribe en una frase por qué se la ponéis.
+1. Al entrar, elegid quién modera y quién apunta.
+2. Primero, una pasada rápida de 5 minutos. Quien modera lee cada predicción de la tabla con su fecha y cada uno dice su nota con lo que sepa, sin discutir. Si no lo sabéis, vale «no se puede saber». Quien apunta escribe en la columna de vuestra sala la nota que más se repita.
+3. Después, 10 minutos para hablar. De las doce, ¿cuál se ha adelantado más? ¿Y cuál está más lejos de cumplirse? Las citas del escenario están al final del documento. Quien apunta escribe en la tabla de abajo el número de cada una y una frase de por qué.
 
-Las notas: **acertó**, **se adelantó**, **va con retraso**, **falló** o **no se puede saber**.
-
-Lo que ha pasado de verdad lo vemos juntos al volver.
+Las notas posibles son: acertó, se adelantó, va con retraso, falló y no se puede saber.
 
 ## La tabla
 
@@ -27,26 +25,26 @@ Lo que ha pasado de verdad lo vemos juntos al volver.
 | 9   | Sale un modelo 10 veces más barato                                                                   | Finales de 2026    |        |        |        |
 | 10  | Crisis de empleo para los programadores junior                                                       | Finales de 2026    |        |        |        |
 | 11  | Una protesta de 10.000 personas contra la IA en Washington                                           | Finales de 2026    |        |        |        |
-| 12  | El Pentágono empieza a contratar a la empresa líder, sin hacer ruido                                 | Finales de 2026    |        |        |        |
+| 12  | El Pentágono amplía sus contratos con la empresa líder, sin hacer ruido                              | Finales de 2026    |        |        |        |
 
-**Las que hemos discutido**
+**Lo que hemos discutido**
 
-| Sala | Nº  | Por qué le ponemos esa nota (una frase) |
-| ---- | --- | --------------------------------------- |
-| 1    |     |                                         |
-| 2    |     |                                         |
-| 3    |     |                                         |
+| Sala | Lo que más se ha adelantado (nº y por qué) | Lo que más lejos está de cumplirse (nº y por qué) |
+| ---- | ------------------------------------------ | ------------------------------------------------- |
+| 1    |                                            |                                                   |
+| 2    |                                            |                                                   |
+| 3    |                                            |                                                   |
 
 ## Ronda 2: ¿y si el resto acierta igual? (15 minutos)
 
 Mirad la tabla con las notas de todas las salas.
 
-1. **¿Qué patrón veis?** (3 minutos) ¿Qué va por delante, qué va con retraso y qué ha fallado?
-2. **Vuestro bando** (10 minutos). A cada sala le toca defender uno. Buscad el mejor argumento que podáis, con al menos una predicción de la tabla como prueba.
+1. Primero, 3 minutos para ver el patrón: ¿qué va por delante, qué va con retraso y qué ha fallado?
+2. Después, 10 minutos para vuestro bando. A cada sala le toca defender uno y hay que buscar el mejor argumento posible, con al menos una predicción de la tabla como prueba.
    - **Carrera**: nadie frena. Vamos hacia el final de la carrera.
    - **Desaceleración**: alguien frena a tiempo. Vamos hacia el final de la desaceleración.
    - **Ninguno**: ni uno ni otro. ¿Cuál sería el tercer final?
-3. **Para la puesta en común** (2 minutos). Quien apunta escribe vuestro mejor argumento en una frase.
+3. En los últimos 2 minutos, quien apunta escribe vuestro mejor argumento en una frase.
 
 Una pista: en AI 2027, el final lo decide una votación. En octubre de 2027, alguien de dentro filtra a la prensa un informe interno y un comité vota si seguir o frenar. ¿Quién estaría hoy en ese comité? ¿Con qué información votaría?
 
@@ -56,7 +54,7 @@ Una pista: en AI 2027, el final lo decide una votación. En octubre de 2027, alg
 | 2    |       |                         |
 | 3    |       |                         |
 
-## Lo que dice AI 2027, palabra por palabra
+## Lo que dice AI 2027
 
 Citas de la traducción oficial en español (ai-2027.com/es).
 
@@ -110,6 +108,6 @@ Citas de la traducción oficial en español (ai-2027.com/es).
 
 > «Mucha gente teme que la próxima ola de IA venga a quitarles el trabajo; hay una protesta anti-IA de 10 000 personas en Washington D. C.»
 
-### 12. El Pentágono empieza a contratar a la empresa líder, sin hacer ruido · Finales de 2026
+### 12. El Pentágono amplía sus contratos con la empresa líder, sin hacer ruido · Finales de 2026
 
 > «El Departamento de Defensa comienza, de forma discreta pero significativa, a ampliar la contratación directa de OpenBrain para trabajos de ciberseguridad, análisis de datos e I+D, pero la integración es lenta debido a la burocracia y a su proceso de adquisiciones.»

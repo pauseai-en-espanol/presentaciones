@@ -63,7 +63,7 @@ routeAlias: r3
     <div class="col-span-3 hechos">
       <div>Inversión: unos 724.000 M$ en 2026 entre Microsoft, Alphabet, Amazon y Meta, según la media de analistas.</div>
       <div>El mayor centro, Colossus 2 (xAI): unos 0,95 GW. De Stargate funcionaba un 3 % en abril de 2026.</div>
-      <div>El mayor entrenamiento: unos 10<sup>27</sup> FLOP, GPT-6 Astra, septiembre de 2026 (estimación de Epoch). Más de un año tarde.</div>
+      <div>El mayor entrenamiento: unos 10<sup>27</sup> FLOP, GPT-6 Astra, septiembre de 2026 (estimación de Epoch). Unos nueve meses tarde.</div>
       <div>Lo que no previó: Alphabet y Amazon gastan en IA más dinero del que generan.</div>
     </div>
   </div>
@@ -230,7 +230,8 @@ routeAlias: r9
 </div>
 
 <!--
-Nota orientativa: acertó, y a tiempo. Matices: en Opus 5.5 el precio por token baja un 20 %
+Nota orientativa: discutible. Acierta la tendencia (Epoch: el coste de un nivel fijo cae unas
+13 veces al año), pero ninguno es la versión 10 veces más barata del mejor modelo. Matices: en Opus 5.5 el precio por token baja un 20 %
 (el 40 % es coste de uso); en Haiku 5.5, por encima de 100.000 tokens cuesta la mitad, y
 Anthropic calcula un 75 % menos de media. Debate: ¿cuál sería el Agente-1-mini?
 -->
@@ -296,11 +297,11 @@ routeAlias: r12
 
 <div class="respuesta">
   <div class="respuesta-cab"><div class="kicker">Respuesta 12 · Finales de 2026</div><Link to="indice" class="volver">← Índice</Link></div>
-  <div class="respuesta-titulo">El Pentágono empieza a contratar a la empresa líder, sin hacer ruido</div>
+  <div class="respuesta-titulo">El Pentágono amplía sus contratos con la empresa líder, sin hacer ruido</div>
   <div class="grid grid-cols-5 gap-8">
     <div class="col-span-2 cita-escenario">«El Departamento de Defensa comienza, de forma discreta pero significativa, a ampliar la contratación directa de OpenBrain» […] «pero la integración es lenta»</div>
     <div class="col-span-3 hechos">
-      <div>Junio y julio de 2025: contratos con OpenAI, Anthropic, Google y xAI, de hasta 200 M$ cada uno. En público.</div>
+      <div>Junio y julio de 2025: contratos con OpenAI, Anthropic, Google y xAI. En 2026 se amplían: redes clasificadas y GenAI.mil.</div>
       <div>Febrero de 2026: Anthropic, designada «supply-chain risk» por negarse a un uso militar sin restricciones.</div>
       <div>Marzo de 2026: Maven, con Claude, propone y prioriza objetivos contra Irán (Washington Post).</div>
       <div>5 de octubre: el Pentágono deja de usar Claude, más de un mes después de su plazo. La integración, lenta.</div>
@@ -310,8 +311,11 @@ routeAlias: r12
 </div>
 
 <!--
-Nota orientativa: se adelantó, más de un año y en público, con un giro que nadie esperaba:
-el Gobierno castiga a un laboratorio por sus límites. Anthropic pedía que Claude no se
+Nota orientativa: con el texto de hoy, acertó; con el original, se adelantó. El 19 de
+diciembre de 2025, con los contratos ya firmados, los autores cambiaron «empieza a contratar»
+por «ampliar la contratación directa». La nota 41 ya decía que el contrato «se anuncia
+públicamente, pero no se destaca». El giro que nadie esperaba: el Gobierno castiga a un
+laboratorio por sus límites. Anthropic pedía que Claude no se
 usara para vigilancia masiva de estadounidenses ni para armas totalmente autónomas.
 Los tribunales se dividen (California a favor, agosto; Circuito de DC en contra, septiembre).
 No decir «la IA eligió los objetivos»: con aprobación humana. Los contratos son techos.

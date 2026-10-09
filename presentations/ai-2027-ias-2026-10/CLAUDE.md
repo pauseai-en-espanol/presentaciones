@@ -48,7 +48,7 @@ Decisiones:
 
 ## Entregables
 
-- [ ] `guia-de-lectura/`: guía de lectura en HTML, exportada a PDF (`public/guia-de-lectura.pdf`). Sin nada que rellenar. Enviar a la organización de iaS como tarde el domingo 11 de octubre.
+- [x] `guia-de-lectura/`: guía de lectura en HTML, exportada a PDF (`public/guia-de-lectura.pdf`, `pnpm guia`). Sin nada que rellenar. Decisiones del 9 oct: el pie no anuncia la dirección de la presentación (para que nadie la abra antes) y no pide traer nada. Pendiente: enviarla a iaS como tarde el domingo 11.
 - [ ] `salas/sala.md`: documento compartido de las salas (marcador, citas e instrucciones de las dos rondas)
 - [ ] `salas/respuestas.md`: respuestas para Dani (lo que ha pasado, fuentes y nota orientativa)
 - [ ] Slides: introducción mínima (v3, 9 oct)
@@ -89,7 +89,7 @@ pnpm dev      # puerto 3080
 
 - [ ] Revisar la guía de lectura y enviarla a iaS (domingo 11 como tarde)
 - [x] Aplicar a las fichas lo que salga de `research/verificacion-fichas.md` (9 oct: 2 errores y 20 matices corregidos; las fichas están ahora en `salas/respuestas.md`)
-- [ ] Crear el documento de las salas (Google Docs, editable con el enlace). `salas/sala.md` es la fuente; `pnpm sala` genera `salas/sala.docx` (no se versiona) para subirlo a Drive. Dani hace la copia.
+- [ ] Crear el documento de las salas (Google Docs, editable con el enlace). `salas/sala.md` es la fuente; `pnpm sala` (script `salas/docx.mjs`, con las librerías `docx` y `marked`) genera `salas/sala.docx` y `salas/respuestas.docx` (no se versionan) ya maquetados: cabecera azul marino con los logos, títulos en Saira Condensed naranja, texto en Montserrat, tablas con cabecera oscura y filas alternas, citas en recuadro. El formato va aplicado directamente a cada elemento para que Google Docs lo conserve al convertir. Para previsualizar sin Drive: LibreOffice (`soffice --headless --convert-to pdf`), con fuentes sustitutas. Dani los sube a Drive.
 - [ ] Después de la sesión: quitar `"unlisted": true` de `presentation.json` para que salga en el listado de pauseai.es/presentaciones (ahora se publica, pero solo se llega por el enlace o el QR)
 - [ ] Después de la sesión: pasar las notas de las salas del Google Doc al repo (`salas/resultados.md`)
 - [ ] Después de la sesión: versión publicada. Añadir a `slides.md` lo de `slides/es/publicacion/`, con las notas de las salas en las respuestas, y probar los enlaces del índice
