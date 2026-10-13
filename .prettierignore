@@ -8,7 +8,7 @@ slides/
 raw/
 
 # Helm templates (Go template syntax is not valid YAML)
-helm-chart/templates/
+charts/*/templates/
 
 # Build output
 dist/

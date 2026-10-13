@@ -64,6 +64,12 @@ Claude operates with THREE simultaneous roles across all presentations. All thre
 - **Build**: `cd presentations/<name> && pnpm build`
 - **IMPORTANTE**: Vite/Slidev rompe si `<img src>` apunta a fichero inexistente → siempre crear placeholder en `public/` antes de referenciar
 
+## CI and releases
+
+- **Every change that reaches the site needs a changeset** releasing `@pauseai-es/landing`, which carries the version of the whole site (every presentation and the landing ship as one image). Run `pnpm release:note`, pick it and describe the change in a sentence; for changes the site doesn't show (docs, a presentation's `CLAUDE.md`, CI) run `pnpm release:empty`. CI fails without it (`scripts/check-deployables-released.sh`); see `.changeset/README.md`.
+- CI (`.github/workflows/ci.yml`) lints, checks formatting, builds every presentation and lints the Helm charts. After it passes on main, the release workflow bumps the version, builds the image as `<version>.<short sha>`, writes the tag into `charts/static/values.yaml` and Argo CD deploys it. Never push images by hand.
+- Helm templates are `.yaml` (Helm 4's lint rejects `.gotmpl`); Prettier skips them via `.prettierignore`.
+
 ## Naming Convention
 
 Presentations follow the pattern: `<topic>-<venue>-<YYYY>-<MM>` (e.g., `riesgos-ia-uma-2026-03`). The slug uses the canonical-language wording. Each presentation has its own CLAUDE.md with audience details, session structure, sources, and specific instructions.

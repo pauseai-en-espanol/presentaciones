@@ -6,7 +6,9 @@
   "description": "Generador de la landing /presentaciones/ en pauseai.es",
   "scripts": {
     "build": "node build.js",
-    "dev": "node build.js && sirv dist --port 8080"
+    "dev": "node build.js && sirv dist --port 8080",
+    "docker:build": "docker buildx build ${DOCKER_PLATFORM:+--platform=$DOCKER_PLATFORM} -t \"${DOCKER_REGISTRY:+${DOCKER_REGISTRY}/}pauseai-es/presentaciones:${npm_package_version}${DOCKER_TAG_SUFFIX:+.${DOCKER_TAG_SUFFIX}}\" -f ../../Dockerfile ../..",
+    "docker:push": "docker push \"${DOCKER_REGISTRY:+${DOCKER_REGISTRY}/}pauseai-es/presentaciones:${npm_package_version}${DOCKER_TAG_SUFFIX:+.${DOCKER_TAG_SUFFIX}}\""
   },
   "devDependencies": {
     "sirv-cli": "3.0.1"

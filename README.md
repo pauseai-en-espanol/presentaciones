@@ -80,6 +80,8 @@ Set `"unlisted": true` to keep a presentation out of the landing while it is sti
 
 Set `dateApprox: true` when only the month is known (the landing renders "abril de 2026" instead of "15 de abril de 2026").
 
+6. Add a changeset so the next release puts it on the site: `pnpm release:note`, pick `@pauseai-es/landing` (it carries the version of the whole site) and describe the change in a sentence, e.g. "New talk: …". The same goes for any later change to a presentation. See [CI and releases](#ci-and-releases).
+
 ### Adding a second language
 
 Bilingual presentations keep one directory per talk. The canonical language lives at `/<slug>/`; translations live at `/<slug>/<lang>/`.
@@ -125,18 +127,22 @@ pnpm card --titulo "Otra charla | en dos líneas" --ponente "Nombre" --afiliacio
 
 Opciones: `--lang`, `--titulo`, `--subtitulo`, `--ponente`, `--afiliacion` (por defecto «PauseAI España»), `--serie` (por defecto «Charlas PauseAI en Español»), `--foto`, `--out`. El título salta de línea tras los dos puntos o donde se ponga `|`. Si Chrome no está en la ruta habitual de macOS, indícala con la variable `CHROME`.
 
-## Docker Build
+## CI and releases
+
+GitHub Actions (`.github/workflows/`, modelled on the aiontheballot repo):
+
+- **CI**, on every pull request and push to main: lint, formatting, the build of every presentation and the landing (a slide pointing at a missing asset fails it), and a Helm lint of both charts. Pull requests run on GitHub-hosted runners; pushes to main on the chapter's self-hosted runner.
+- **Changesets**: the whole site ships as one image, versioned as `@pauseai-es/landing`; the other packages are ignored by changesets. Any change that reaches the site (a presentation, the shared addon, a dependency) needs a changeset releasing `@pauseai-es/landing`: `pnpm release:note`. Changes that don't (docs, a presentation's `CLAUDE.md`, CI) take an empty one: `pnpm release:empty`. CI checks both, and adds one to Renovate's PRs. See `.changeset/README.md`.
+- **Release**, after CI passes on main: applies the changesets (version and `packages/landing/CHANGELOG.md`), builds the image as `harbor.danilupion.com/pauseai-es/presentaciones:<version>.<short sha>`, writes the tag into `charts/static/values.yaml` and commits it. Argo CD deploys the chart from main (gitops: `catalog/apps/pauseai-es-presentaciones`); the gitops values must not set `image.tag`.
+
+To try the image locally (releases are built by CI, don't push by hand):
 
 ```bash
-# Build all presentations into a single nginx image
-# Each presentation is served under /presentaciones/<name>/ by default
-docker build --platform linux/amd64 \
-  -t harbor.danilupion.com/pauseai-es/presentaciones:latest .
+# All presentations in one nginx image, each under /presentaciones/<name>/
+pnpm --filter @pauseai-es/landing run docker:build   # tags pauseai-es/presentaciones:<version>
 
-# Override the base path prefix if needed
-docker build --platform linux/amd64 \
-  --build-arg BASE_PREFIX=/other-prefix/ \
-  -t harbor.danilupion.com/pauseai-es/presentaciones:latest .
+# Or with another base path prefix
+docker build --build-arg BASE_PREFIX=/other-prefix/ -t presentaciones:local .
 ```
 
 ## Tech Stack
