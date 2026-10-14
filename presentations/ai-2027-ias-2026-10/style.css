@@ -578,3 +578,13 @@ blockquote {
   border-radius: 0.2rem;
   opacity: 0.7;
 }
+
+/* ---- Todo AI 2027 ---- */
+.todo-ai2027 .hito {
+  font-size: 0.85rem;
+  padding: 0.22rem 0;
+}
+.todo-ai2027 .hito-fecha {
+  flex: 0 0 7rem;
+  font-size: 0.95rem;
+}

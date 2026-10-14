@@ -54,6 +54,10 @@ src: ./slides/es/04-ronda-2.md
 ---
 
 ---
+src: ./slides/es/04b-todo-ai-2027.md
+---
+
+---
 src: ./slides/es/05-cierre.md
 ---
 

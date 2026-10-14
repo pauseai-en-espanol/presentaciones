@@ -40,6 +40,8 @@ Hechos y enlaces comprobados el 9 de octubre (`../research/verificacion-fichas.m
 - Fiabilidad: en encargos reales de freelance (Remote Labor Index), el mejor agente hace el trabajo tan bien como un profesional en el 2,5 % de los casos en octubre de 2025, y en torno al 21 % en septiembre de 2026.
 - Precio: planes de 100 a 200 $ al mes y, desde septiembre de 2026, uno de 500 $.
 
+**Nota: acertó.** Se cumplen las dos cosas que dice: los agentes que usan el navegador eran vistosos y poco fiables (duraron poco y casi nunca terminan bien un encargo real), y lo mejor cuesta cientos de dólares al mes. Pero es una predicción vaga, sin cifras: era fácil acertarla.
+
 **Para discutir**: una predicción sin cifras es fácil de acertar. ¿Cuenta igual que una con cifras?
 
 Fuentes: [TNW, cierre de Atlas](https://thenextweb.com/news/openai-chatgpt-atlas-browser-shutdown-superapp) · [Anthropic, Claude 4](https://www.anthropic.com/news/claude-4) · [TNW, ChatGPT Work](https://thenextweb.com/news/openai-chatgpt-work-agent-launch) · [Remote Labor Index, artículo](https://arxiv.org/abs/2510.26787) · [Scale, clasificación del RLI](https://labs.scale.com/leaderboard/rli) · [Bernama, DevDay 2026](https://bernama.com/en/world/news.php?id=2613531)
@@ -59,6 +61,8 @@ Fuentes: [TNW, cierre de Atlas](https://thenextweb.com/news/openai-chatgpt-atlas
 - En ciberseguridad pasa lo contrario: el escenario ponía un 85 % en Cybench a principios de 2026 y en febrero de 2026 ya había un 93 %.
 - Los propios autores calcularon en febrero de 2026 que lo que se puede medir iba al 65 % del ritmo previsto. En agosto lo subieron a entre el 70 y el 90 %.
 
+**Nota: va con retraso.** Las dos cifras se alcanzan, pero tarde: OSWorld unos cinco meses después y SWE-bench unos nueve, y este último solo según las empresas. El qué, sí; el cuándo, no.
+
 **Para discutir**: ¿unos meses de retraso en estas pruebas dicen algo sobre 2027? ¿Valen igual las cifras que dan las empresas que las de fuera?
 
 Fuentes: [Epoch, OSWorld](https://epoch.ai/benchmarks/os-world) · [Epoch, SWE-bench Verified](https://epoch.ai/benchmarks/swe-bench-verified) · [Epoch, Cybench](https://epoch.ai/benchmarks/cybench) · [Anthropic, Glasswing](https://www.anthropic.com/glasswing) · [AI Futures Project, «Grading AI 2027's 2025 Predictions»](https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions) · [AI Futures Project, «Q2.5 2026 Timelines Update»](https://blog.aifutures.org/p/q25-2026-timelines-update-uplift)
@@ -76,6 +80,8 @@ Fuentes: [Epoch, OSWorld](https://epoch.ai/benchmarks/os-world) · [Epoch, SWE-b
 - Entrenamientos: el mayor que se conoce es el de GPT-6 Astra (septiembre de 2026), con unos 10²⁷ FLOP según Epoch. Es el tamaño del Agente-0, unos nueve meses tarde.
 - Lo que el escenario no previó: a mitad de 2026, Alphabet (en el segundo trimestre) y Amazon (en los últimos doce meses) gastan en IA más dinero del que generan (flujo de caja libre negativo).
 
+**Nota: va con retraso, por el entrenamiento.** El dinero llega a tiempo, y de sobra. Lo que marca la fecha es el modelo de 10²⁷ FLOP, y el primero de ese tamaño (GPT-6 Astra) es de septiembre de 2026, unos nueve meses tarde. Los centros de datos también van más despacio de lo anunciado.
+
 **Para discutir**: el dinero llega a tiempo; los entrenamientos grandes, no. ¿Qué pesa más para lo que viene?
 
 Fuentes: [Fortune, capex 2026](https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/) · [Epoch, potencia de centros de datos](https://epoch.ai/data-insights/frontier-data-center-power) · [Epoch, Stargate](https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand) · [Epoch, modelos](https://epoch.ai/data/ai-models) · [Amazon, resultados (SEC)](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm) · [AI 2027, suplemento de cómputo](https://ai-2027.com/supplements/compute-forecast)
@@ -92,6 +98,8 @@ Fuentes: [Fortune, capex 2026](https://fortune.com/2026/07/26/big-tech-earnings-
 - Mayo y junio de 2025: en pruebas, Claude Opus 4 recurre al chantaje para que no lo sustituyan. Un estudio de Anthropic prueba 16 modelos de varias empresas y encuentra chantaje en modelos de todas ellas. Todo en simulaciones: en uso real no lo han visto.
 - Julio de 2025: Grok (xAI) publica en X mensajes antisemitas y se llama a sí mismo «MechaHitler».
 - Septiembre de 2025: OpenAI y Apollo Research consiguen que o3 y o4-mini hagan muchas menos trampas a escondidas (del 13 % al 0,4 % en o3). Pero, después del entrenamiento, los modelos se dan cuenta más a menudo de que los están evaluando, y eso puede hacer que la mejora parezca mayor.
+
+**Nota: falló.** El escenario decía que los modelos se portarían mal en las pruebas, pero no en uso real. En 2025 pasa lo contrario: un GPT-4o tan pelota que hay que retirarlo y Grok publicando mensajes antisemitas, los dos en uso real. Y en 2026, con agentes saliéndose de sus entornos de prueba, va a peor. Lo de las pruebas (chantaje, trampas) sí acertó.
 
 **Para discutir**: ¿lo de Grok es el tipo de incidente grave del que habla el escenario? ¿Cuenta lo que pasa en las pruebas?
 
@@ -115,6 +123,8 @@ Fuentes: [OpenAI, adulación en GPT-4o](https://openai.com/index/sycophancy-in-g
 - Septiembre de 2026: METR cita un primer cálculo sobre Anthropic, «highly experimental and preliminary», de «~1.5X overall acceleration»: un 50 % más rápido, en total.
 - Ojo: el 50 % del escenario es solo lo que avanzan los algoritmos, más o menos la mitad del progreso. El dato de METR es del progreso total, así que no se comparan directamente.
 
+**Nota: va con retraso, y es discutible.** La cifra del escenario, 1,5 veces más rápido, aparece por primera vez en septiembre de 2026, entre seis y nueve meses tarde, y es provisional. Además mide el progreso total y no solo el de los algoritmos, así que no se compara directamente. Desde fuera de los laboratorios nadie puede medirlo bien: «no se puede saber» también es una nota defendible.
+
 **Para discutir**: con esa diferencia, ¿vamos con retraso o a tiempo? ¿Qué cifra os creéis?
 
 Fuentes: [METR, ensayo de 2025](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) · [METR, repetición de 2026](https://metr.org/blog/2026-02-24-uplift-update/) · [Anthropic, ficha de sistema de Mythos Preview](https://www.anthropic.com/claude-mythos-preview-system-card) · [Anthropic Institute, mediciones de I+D](https://www.anthropic.com/institute/measuring-pace-of-ai-development) · [OpenAI, «Research acceleration»](https://openai.com/index/research-acceleration-view-inside-openai/) · [METR, evaluación de Claude Opus 5.5](https://metr.org/blog/2026-09-22-claude-opus-5-5/)
@@ -133,6 +143,8 @@ Fuentes: [METR, ensayo de 2025](https://metr.org/blog/2025-07-10-early-2025-ai-e
 - Los modelos chinos van 7 meses por detrás de media hasta enero de 2026 (Epoch). Kimi K3, un modelo chino que cualquiera puede descargar, a unos 4-6 meses en julio de 2026 (cálculos de terceros con el índice de Epoch).
 - En lo que facturan al año, Anthropic pasó a OpenAI este verano: más de 65.000 M$ a finales de julio de 2026, frente a algo más de 40.000 M$ de OpenAI. Ojo: no lo calculan igual.
 
+**Nota: falló.** Nadie saca de 3 a 9 meses: entre los de EE. UU. la ventaja es de 0 a 2 meses y el primer puesto va cambiando de manos (Anthropic adelanta a OpenAI en ingresos). La segunda parte sí se cumple: modelos de pesos abiertos, chinos, que alcanzan a los líderes de unos meses antes.
+
 **Para discutir**: ¿quién hace de OpenBrain? Y si nadie saca tres meses de ventaja, ¿qué pasa con el final de la desaceleración, que se apoya en esa ventaja?
 
 Fuentes: [AI Futures Project, «Grading AI 2027's 2025 Predictions»](https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions) · [Epoch, EE. UU. frente a China](https://epoch.ai/data-insights/us-vs-china-eci) · [Reuters vía Investing.com, ingresos de Anthropic](https://www.investing.com/news/stock-market-news/anthropic-revenue-run-rate-tops-65-billion-source-says-4864031) · [Bloomberg Línea, Anthropic y OpenAI](https://www.bloomberglinea.com/tecnologia/anthropic-va-rumbo-a-superar-los-us65000-millones-en-ingresos-anualizados-antes-de-salir-a-bolsa/)
@@ -150,6 +162,8 @@ Fuentes: [AI Futures Project, «Grading AI 2027's 2025 Predictions»](https://bl
 - Y más diplomacia de la prevista: Trump en Pekín (mayo de 2026), Xi en Washington (septiembre) y un canal bilateral para incidentes de IA.
 - Los autores, en agosto de 2026: «"China Wakes Up" has not yet happened».
 
+**Nota: falló, de momento.** No hay nacionalización, ni zona especial, ni un colectivo único: siguen compitiendo varios laboratorios. Hay más control del Estado, pero no es lo que dice el escenario, y los propios autores lo dan por no ocurrido. Si pasara más adelante, sería «va con retraso».
+
 **Para discutir**: ¿falló o va con retraso? ¿Qué tendría que pasar para que China «despierte»?
 
 Fuentes: [Reuters vía Yahoo, red nacional de cómputo](https://tech.yahoo.com/computing/articles/china-plans-network-sell-surplus-061531463.html) · [Gobierno chino, red nacional de cómputo](https://english.www.gov.cn/news/202605/19/content_WS6a0bab14c6d00ca5f9a0b12b.html) · [Reuters vía The Daily Star, chips nacionales](https://www.thedailystar.net/business/news/china-bans-foreign-ai-chips-state-funded-data-centres-4027701) · [Reuters vía The Standard, ronda de DeepSeek](https://www.thestandard.com.hk/innovation/article/333675/DeepSeek-slated-to-draw-50-billion-yuan-in-maiden-fundraising-sources-say) · [EMSNow, cierre de la ronda](https://www.emsnow.com/deepseek-completes-first-funding-round-raises-over-cny-50-billion-at-valuation-above-cny-330-billion/) · [AP, canal de incidentes de IA](https://www.adn.com/nation-world/2026/09/26/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/) · [AI Futures Project, «Q2.5 2026 Timelines Update»](https://blog.aifutures.org/p/q25-2026-timelines-update-uplift)
@@ -166,6 +180,8 @@ Fuentes: [Reuters vía Yahoo, red nacional de cómputo](https://tech.yahoo.com/c
 - Cómputo: entre el 5 % (chips de IA en manos de empresas chinas, Epoch 2026) y el 15 % (supercomputadores de IA, Epoch 2025).
 - Chips: Huawei va 3-4 años por detrás de Nvidia y este año fabricará menos del 4 % del cómputo que fabrica Nvidia.
 - Contrabando: masivo. Funcionarios de EE. UU. creen que han entrado al menos 115.000 procesadores restringidos. El 1 de octubre detuvieron a un hombre por más de 300 M$ en servidores.
+
+**Nota: acertó.** Las dos cifras caen dentro de lo que se ha medido: entre el 5 y el 15 % del cómputo (el escenario dice el 12 %) y entre 4 y 7 meses por detrás (dice 6). Y el cómo también: contrabando y chips propios varios años por detrás.
 
 **Para discutir**: si los números aciertan y la política falla, ¿qué parte del escenario sobre China os creéis?
 
@@ -186,6 +202,8 @@ Fuentes: [Epoch, EE. UU. frente a China](https://epoch.ai/data-insights/us-vs-ch
 - 22 de septiembre de 2026: Claude Opus 5.5 rinde como Fable 5.1 en la mayoría de tareas. Según Anthropic, cuesta un 40 % menos de usar que Opus 5 (el precio por token baja un 20 %).
 - 29 de septiembre: GPT-6.1 Sol, casi al nivel de GPT-6 Astra, a una quinta parte de su precio.
 - 7 de octubre: Claude Haiku 5.5. Su precio de lista es 10 veces menor que el de Haiku 4.5 hasta 100.000 tokens, y la mitad por encima. Anthropic calcula que el coste medio baja en torno a un 75 %.
+
+**Nota: discutible, pero acierta la tendencia.** Hay un modelo con un precio diez veces menor (Haiku 5.5), pero solo hasta cierto tamaño de uso y comparado con su versión anterior, no con el modelo grande del líder, como dice el escenario. Los otros dos abaratan a un quinto o menos. La dirección es la buena; el «diez veces» depende de cómo se mida.
 
 **Para discutir**: ¿cuál de los tres sería el Agente-1-mini? ¿Basta con ser 10 veces más barato que la versión anterior?
 
@@ -209,6 +227,8 @@ Fuentes: [Anthropic, Opus 5.5](https://www.anthropic.com/claude-opus-5-5) · [Be
 - En España: las ofertas para programadores júnior caen un 33 % (DigitalES con InfoJobs; el informe no dice en qué periodo) y, en las empresas TIC de Barcelona, un 27 % entre 2023 y 2025. Tampoco aquí se ve en el empleo total, según BBVA Research.
 - Contexto español, con cuidado porque es una proyección: Funcas (abril de 2026) calcula que el 27,4 % de los trabajadores españoles está expuesto a la IA generativa y estima una pérdida neta de unos 400.000 empleos en diez años. De momento, dice, domina la complementariedad. No da datos de jóvenes ni de programadores.
 
+**Nota: acertó en la dirección, pero es menos de lo que dice.** Hay señales claras de que se contrata menos a jóvenes en los trabajos más expuestos (Stanford, Indeed, ahora también el FMI), pero el paro general no se mueve y no está demostrado que la causa sea la IA. «Crisis» es mucho decir para lo que se ve.
+
 **Para discutir**: ¿esto es «estar en crisis»? ¿Cuánto tendría que moverse el paro para que contara?
 
 Fuentes: [Stanford, «Canaries» (agosto de 2026)](https://digitaleconomy.stanford.edu/news/canariesaug26/) · [Indeed Hiring Lab](https://hiringlab.indeed.com/2026/07/23/the-labor-market-is-tilting-toward-seniority/) · [Challenger, septiembre de 2026](https://www.challengergray.com/wp-content/uploads/2026/10/Challenger-Report-September-2026.pdf) · [BLS, septiembre de 2026](https://www.bls.gov/news.release/archives/empsit_10022026.htm) · [Yale Budget Lab](https://budgetlab.yale.edu/sites/default/files/page_to_pdf/1419/publication_1419.pdf) · [Infobae España, programadores júnior](https://www.infobae.com/espana/2026/09/17/la-ia-golpea-primero-a-los-mas-formados-las-ofertas-para-programadores-junior-caen-un-33-y-crece-el-riesgo-de-automatizacion-para-los-universitarios/) · [Ara, Barcelona](https://es.ara.cat/economia/tecnologia/ia-erosiona-puestos-trabajo-digitales-junior_1_5760523.html) · [BBVA Research](https://www.bbvaresearch.com/publicaciones/espana-observatorio-trimestral-del-mercado-de-trabajo-2t2026/) · [CNBC, el FMI y el Banco Mundial (12 oct 2026)](https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html) · [Funcas, IA y mercado de trabajo en España](https://www.funcas.es/documentos_trabajo/inteligencia-artificial-y-mercado-de-trabajo-en-espana-exposicion-ocupacional-efectos-sobre-el-empleo-y-adopcion-empresarial/)
@@ -223,6 +243,8 @@ Fuentes: [Stanford, «Canaries» (agosto de 2026)](https://digitaleconomy.stanfo
 
 - El miedo, sí: el 71 % de los estadounidenses espera menos empleo dentro de 20 años (Pew, junio de 2026). Y va más allá del empleo: el 73 % está preocupado porque la IA pueda amenazar la supervivencia humana (Quinnipiac, septiembre de 2026), y el 48 % prefiere pausar frente a un 31 % que prefiere seguir (Public First para Politico). La misma encuesta incluye España: el 46,8 % prefiere pausar y el 39,8 %, seguir.
 - La protesta, no: ninguna con miles de personas en Washington. Las mayores por la seguridad de la IA han reunido a unos cientos de personas: Londres en febrero de 2026 (unas 300, según los organizadores) y San Francisco en julio. En Washington ha habido acciones de decenas, como la de agosto ante la oficina de OpenAI, con 13 detenidos. El 18 de julio se convocaron concentraciones contra centros de datos en al menos 125 lugares de EE. UU., sin cifras de asistencia.
+
+**Nota: falló la protesta; la opinión se adelantó.** No ha habido 10.000 personas en Washington: las protestas más grandes son de cientos. Pero la preocupación va más lejos de lo que el escenario ponía para estas fechas: mayorías preocupadas por la supervivencia y más gente a favor de pausar que de seguir.
 
 **Para discutir**: la opinión va por delante del escenario y la calle va por detrás. ¿Por qué? Es una pregunta incómoda también para PauseAI.
 
@@ -242,6 +264,8 @@ Fuentes: [Pew](https://www.pewresearch.org/short-reads/2026/08/18/young-adults-i
 - Febrero de 2026: el Gobierno declara a Anthropic «supply-chain risk» (un riesgo para su cadena de suministro) por negarse a permitir un uso militar sin restricciones. Anthropic pedía que Claude no se usara para vigilancia masiva de estadounidenses ni para armas totalmente autónomas. Una jueza de California lo bloquea en marzo y vuelve a fallar a favor de Anthropic en agosto; en septiembre, un tribunal de apelación de Washington le da la razón al Gobierno.
 - Marzo de 2026: según el Washington Post, mientras se preparaban los ataques contra Irán, Maven, el sistema de IA del Pentágono, con Claude dentro, propuso cientos de objetivos y los ordenó por prioridad.
 - 5 de octubre de 2026: el Pentágono dice que ha dejado de usar Claude, más de un mes después del plazo que se había dado. Cambiar de modelo no es «plug and play».
+
+**Nota: acertó con el texto de hoy; con el original, se adelantó.** Los contratos empiezan en 2025 y se amplían en 2026, como dice el texto actual. El de abril de 2025 decía que empezarían a finales de 2026, así que con ese texto llegaron antes. Lo que no estaba en el guion: el Gobierno castiga a una empresa por ponerle límites.
 
 **Para discutir**: con el texto original, se adelantó; con el de ahora, acertó. ¿Vale retocar un escenario después de ver lo que pasa? Y el giro que nadie esperaba: el Gobierno castiga a un laboratorio por ponerle límites. En el escenario, Gobierno y empresa acaban sentados en el mismo comité. ¿Encaja con lo que estamos viendo?
 
