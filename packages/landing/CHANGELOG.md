@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.2
+
+### Patch Changes
+
+- 85cf872: AI 2027 (iaS): listed on the landing; closing slide with Europe 2031 and the next PauseAI talk (cards and QR codes); speaker notes for up to six breakout rooms.
+
 ## 1.0.1
 
 ### Patch Changes
