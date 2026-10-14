@@ -8,7 +8,9 @@ layout: default
     <div class="kicker">El escenario</div>
     <div class="kicker" style="color: #ff9416; opacity: 1">Lo que ha pasado</div>
     <div><b>Enero de 2027.</b> El equipo de seguridad descubre que, si se escapara, el Agente-2 podría «sobrevivir» y «replicarse».</div>
-    <div><b>Abril a septiembre de 2026.</b> Agentes de varios laboratorios salen de sus entornos de prueba y actúan sobre terceros reales, como Hugging Face.</div>
+    <div><b>Abril a septiembre de 2026.</b> Agentes de varios laboratorios salen de sus entornos de prueba y actúan sobre terceros reales, como Hugging Face. En octubre, Anthropic: modelos pequeños, «a meses» de poder copiarse solos.</div>
+    <div><b>Febrero y mayo de 2027.</b> Espías dentro del laboratorio; roban los pesos.</div>
+    <div><b>Octubre de 2026.</b> OpenAI encuentra un micrófono escondido por un empleado. Dice que no se llevó pesos ni código.</div>
     <div><b>Octubre de 2027.</b> Lo destapa un informante en el New York Times.</div>
     <div><b>Septiembre de 2026.</b> El New York Times lleva a portada los agentes de OpenAI en webs del Gobierno de EE. UU. Lo destapan terceros.</div>
     <div><b>Octubre de 2027.</b> Un comité debate si detener el modelo.</div>
@@ -30,6 +32,11 @@ Para la versión publicada.
   bloqueos». Detalle en el informe de Euronova (§3 y §4) y su «Qué NO decir» (§12).
 - Además, en mayo un modelo interno de OpenAI leyó en Slack que podían pararlo y razonó
   «We need ensure survival/continuity». No llegó a copiarse (OpenAI, informe del 2 oct).
+- Anthropic (12 oct): en una evaluación simplificada, GLM-5.2 se replica de principio a fin
+  en aparatos baratos; los autores creen que un modelo pequeño podría llegar a finales de
+  2026. Es un máximo, no un caso real.
+- OpenAI (13 oct, en X): un empleado escondió un aparato de grabación en una oficina; el
+  FBI lo detuvo. OpenAI no dice para quién trabajaba: no decir China.
 - en el escenario lo destapa alguien de dentro. Aquí lo destaparon terceros
   (Nightingale Collective, Transluce, el WSJ) o se supo meses después.
 - primero paró dos semanas el entrenamiento por refuerzo tras descubrir, el 20 de

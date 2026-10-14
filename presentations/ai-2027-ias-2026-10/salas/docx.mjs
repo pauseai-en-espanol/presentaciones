@@ -61,7 +61,11 @@ const TABLE_GRID = { ...GRID, insideHorizontal: THIN, insideVertical: THIN };
 const WIDTHS = [
   [
     ['Nº', 'AI 2027 predijo', 'Cuándo', 'Sala 1'],
-    [5, 43, 16, 12, 12, 12],
+    [4, 36, 12, 8, 8, 8, 8, 8, 8],
+  ],
+  [
+    ['Sala', 'Apunta'],
+    [8, 24, 68],
   ],
   [
     ['Sala', 'Lo que más se ha adelantado'],

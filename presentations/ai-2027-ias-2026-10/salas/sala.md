@@ -4,28 +4,41 @@ Grupo de lectura iaS × PauseAI España · 14 de octubre de 2026
 
 ## Ronda 1: ¿qué ha acertado hasta hoy? (15 minutos)
 
-1. Al entrar, elegid quién modera y quién apunta.
-2. Primero, una pasada rápida de 5 minutos. Quien modera lee cada predicción de la tabla con su fecha y cada uno dice su nota con lo que sepa, sin discutir. Si no lo sabéis, vale «no se puede saber». Quien apunta escribe en la columna de vuestra sala la nota que más se repita.
-3. Después, 10 minutos para hablar. De las doce, ¿cuál se ha adelantado más? ¿Y cuál está más lejos de cumplirse? Las citas del escenario están al final del documento. Quien apunta escribe en la tabla de abajo el número de cada una y una frase de por qué.
+1. Al entrar, elegid a alguien que apunte. Que escriba vuestros nombres en la tabla «Salas», un poco más abajo.
+2. Primero, una pasada rápida de 5 minutos. Quien apunta lee cada predicción de la tabla con su fecha y cada uno dice su nota con lo que sepa, sin discutir. Si no lo sabéis, vale «no se puede saber». Quien apunta escribe en la columna de vuestra sala la nota que más se repita. Si sois siete o más, no da tiempo a decirlo en voz alta: cada uno escribe su nota en el chat de la sala, todos a la vez.
+3. Después, 10 minutos para hablar. De las doce, ¿cuál se ha adelantado más? ¿Y cuál está más lejos de cumplirse? Las citas del escenario están al final del documento. Quien apunta escribe en la tabla de «Lo que hemos discutido» el número de cada una y una frase de por qué.
 
-Las notas posibles son: acertó, se adelantó, va con retraso, falló y no se puede saber.
+Las notas posibles son: acertó, se adelantó, va con retraso, falló y no se puede saber. En la tabla, para que quepa: Sí (acertó), Antes (se adelantó), Tarde (va con retraso), No (falló) y ? (no se puede saber).
+
+## Salas
+
+El número de sala es el que os sale en Zoom. Basta con el nombre.
+
+| Sala | Apunta | El resto |
+| ---- | ------ | -------- |
+| 1    |        |          |
+| 2    |        |          |
+| 3    |        |          |
+| 4    |        |          |
+| 5    |        |          |
+| 6    |        |          |
 
 ## La tabla
 
-| Nº  | AI 2027 predijo                                                                                      | Cuándo             | Sala 1 | Sala 2 | Sala 3 |
-| --- | ---------------------------------------------------------------------------------------------------- | ------------------ | ------ | ------ | ------ |
-| 1   | Agentes caros y poco fiables                                                                         | Mediados de 2025   |        |        |        |
-| 2   | Agentes con un 65 % en OSWorld (usar un ordenador) y un 85 % en SWE-bench Verified (arreglar código) | Mediados de 2025   |        |        |        |
-| 3   | Centros de datos gigantes y un modelo entrenado con 10²⁷ FLOP, unas 50 veces GPT-4                   | Finales de 2025    |        |        |        |
-| 4   | Ya no hay incidentes graves con modelos en uso real                                                  | Finales de 2025    |        |        |        |
-| 5   | Con ayuda de la IA, los avances en algoritmos llegan un 50 % más rápido                              | Principios de 2026 |        |        |        |
-| 6   | La empresa líder saca de 3 a 9 meses al resto                                                        | Finales de 2025    |        |        |        |
-| 7   | China nacionaliza su investigación en IA y la concentra en una zona especial                         | Mediados de 2026   |        |        |        |
-| 8   | China tiene el 12 % del cómputo mundial y va 6 meses por detrás                                      | Mediados de 2026   |        |        |        |
-| 9   | Sale un modelo 10 veces más barato                                                                   | Finales de 2026    |        |        |        |
-| 10  | Crisis de empleo para los programadores junior                                                       | Finales de 2026    |        |        |        |
-| 11  | Una protesta de 10.000 personas contra la IA en Washington                                           | Finales de 2026    |        |        |        |
-| 12  | El Pentágono amplía sus contratos con la empresa líder, sin hacer ruido                              | Finales de 2026    |        |        |        |
+| Nº  | AI 2027 predijo                                                                                      | Cuándo             | Sala 1 | Sala 2 | Sala 3 | Sala 4 | Sala 5 | Sala 6 |
+| --- | ---------------------------------------------------------------------------------------------------- | ------------------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| 1   | Agentes caros y poco fiables                                                                         | Mediados de 2025   |        |        |        |        |        |        |
+| 2   | Agentes con un 65 % en OSWorld (usar un ordenador) y un 85 % en SWE-bench Verified (arreglar código) | Mediados de 2025   |        |        |        |        |        |        |
+| 3   | Centros de datos gigantes y un modelo entrenado con 10²⁷ FLOP, unas 50 veces GPT-4                   | Finales de 2025    |        |        |        |        |        |        |
+| 4   | Ya no hay incidentes graves con modelos en uso real                                                  | Finales de 2025    |        |        |        |        |        |        |
+| 5   | Con ayuda de la IA, los avances en algoritmos llegan un 50 % más rápido                              | Principios de 2026 |        |        |        |        |        |        |
+| 6   | La empresa líder saca de 3 a 9 meses al resto                                                        | Finales de 2025    |        |        |        |        |        |        |
+| 7   | China nacionaliza su investigación en IA y la concentra en una zona especial                         | Mediados de 2026   |        |        |        |        |        |        |
+| 8   | China tiene el 12 % del cómputo mundial y va 6 meses por detrás                                      | Mediados de 2026   |        |        |        |        |        |        |
+| 9   | Sale un modelo 10 veces más barato                                                                   | Finales de 2026    |        |        |        |        |        |        |
+| 10  | Crisis de empleo para los programadores junior                                                       | Finales de 2026    |        |        |        |        |        |        |
+| 11  | Una protesta de 10.000 personas contra la IA en Washington                                           | Finales de 2026    |        |        |        |        |        |        |
+| 12  | El Pentágono amplía sus contratos con la empresa líder, sin hacer ruido                              | Finales de 2026    |        |        |        |        |        |        |
 
 **Lo que hemos discutido**
 
@@ -34,25 +47,31 @@ Las notas posibles son: acertó, se adelantó, va con retraso, falló y no se pu
 | 1    |                                            |                                                   |
 | 2    |                                            |                                                   |
 | 3    |                                            |                                                   |
+| 4    |                                            |                                                   |
+| 5    |                                            |                                                   |
+| 6    |                                            |                                                   |
 
 ## Ronda 2: ¿y si el resto acierta igual? (15 minutos)
 
 Mirad la tabla con las notas de todas las salas.
 
 1. Primero, 3 minutos para ver el patrón: ¿qué va por delante, qué va con retraso y qué ha fallado?
-2. Después, 10 minutos para vuestro bando. A cada sala le toca defender uno y hay que buscar el mejor argumento posible, con al menos una predicción de la tabla como prueba.
+2. Después, 10 minutos para vuestro bando. A cada sala le toca defender uno (el vuestro está en la columna «Bando», más abajo) y hay que buscar el mejor argumento posible, con al menos una predicción de la tabla como prueba.
    - **Carrera**: nadie frena. Vamos hacia el final de la carrera.
    - **Desaceleración**: alguien frena a tiempo. Vamos hacia el final de la desaceleración.
-   - **Ninguno**: ni uno ni otro. ¿Cuál sería el tercer final?
+   - **Ninguno**: ni carrera ni desaceleración. Contad otro final: quién decide y qué pasa.
 3. En los últimos 2 minutos, quien apunta escribe vuestro mejor argumento en una frase.
 
 Una pista: en AI 2027, el final lo decide una votación. En octubre de 2027, alguien de dentro filtra a la prensa un informe interno y un comité vota si seguir o frenar. ¿Quién estaría hoy en ese comité? ¿Con qué información votaría?
 
-| Sala | Bando | Nuestro mejor argumento |
-| ---- | ----- | ----------------------- |
-| 1    |       |                         |
-| 2    |       |                         |
-| 3    |       |                         |
+| Sala | Bando          | Nuestro mejor argumento |
+| ---- | -------------- | ----------------------- |
+| 1    | Carrera        |                         |
+| 2    | Desaceleración |                         |
+| 3    | Ninguno        |                         |
+| 4    | Carrera        |                         |
+| 5    | Desaceleración |                         |
+| 6    | Ninguno        |                         |
 
 ## Lo que dice AI 2027
 

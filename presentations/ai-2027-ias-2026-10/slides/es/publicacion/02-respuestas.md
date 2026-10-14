@@ -250,10 +250,11 @@ routeAlias: r10
       <div>Jóvenes de 22 a 25 años en los trabajos más expuestos a la IA: un 19 % menos de empleo del que tendrían al ritmo de los demás (Stanford).</div>
       <div>Solo el 4,5 % de las ofertas de software son de nivel de entrada (Indeed).</div>
       <div>La IA es la primera razón declarada de los recortes anunciados en EE. UU. en 2026 (Challenger).</div>
+      <div>El FMI habla de un «tsunami a cámara lenta» que golpea primero a los recién graduados (12 oct).</div>
       <div>Paro del 4,2 %. Yale no ve un cambio claro.</div>
     </div>
   </div>
-  <div class="fuentes-mini enlaces"><a href="https://digitaleconomy.stanford.edu/news/canariesaug26/" target="_blank">Stanford</a> · <a href="https://hiringlab.indeed.com/2026/07/23/the-labor-market-is-tilting-toward-seniority/" target="_blank">Indeed</a> · <a href="https://www.challengergray.com/wp-content/uploads/2026/10/Challenger-Report-September-2026.pdf" target="_blank">Challenger</a> · <a href="https://www.bls.gov/news.release/archives/empsit_10022026.htm" target="_blank">BLS</a></div>
+  <div class="fuentes-mini enlaces"><a href="https://digitaleconomy.stanford.edu/news/canariesaug26/" target="_blank">Stanford</a> · <a href="https://hiringlab.indeed.com/2026/07/23/the-labor-market-is-tilting-toward-seniority/" target="_blank">Indeed</a> · <a href="https://www.challengergray.com/wp-content/uploads/2026/10/Challenger-Report-September-2026.pdf" target="_blank">Challenger</a> · <a href="https://www.bls.gov/news.release/archives/empsit_10022026.htm" target="_blank">BLS</a> · <a href="https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html" target="_blank">FMI (CNBC)</a></div>
 </div>
 
 <!--

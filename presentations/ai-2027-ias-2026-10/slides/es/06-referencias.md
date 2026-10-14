@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="px-6">
-  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (1 de 7)</div>
+  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (1 de 8)</div>
   <div class="grid grid-cols-3 gap-6 fuentes referencias">
     <div>
       <div class="grupo">AI 2027 en castellano</div>
@@ -42,7 +42,7 @@ layout: default
 ---
 
 <div class="px-6">
-  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias: el verano de 2026 (2 de 7)</div>
+  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias: el verano de 2026 (2 de 8)</div>
   <div class="grid grid-cols-3 gap-6 fuentes referencias">
     <div>
       <div class="grupo">Lo que pasó</div>
@@ -89,7 +89,39 @@ layout: default
 ---
 
 <div class="px-6">
-  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias: datos para seguir la carrera (3 de 7)</div>
+  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias: la semana de la sesión (3 de 8)</div>
+  <div class="grid grid-cols-2 gap-6 fuentes referencias">
+    <div>
+      <div class="grupo">Lo que AI 2027 ponía en 2027</div>
+      <div><b>Anthropic</b> · <a href="https://www.anthropic.com/research/self-replicating-ai" target="_blank">modelos pequeños, cerca de poder replicarse solos</a> · 12 oct 2026 <span class="idioma">EN</span></div>
+      <div><b>OpenAI Newsroom</b> · <a href="https://x.com/OpenAINewsroom/status/2110095403198849132" target="_blank">un aparato de grabación escondido por un empleado</a> · 13 oct 2026 <span class="idioma">EN</span></div>
+      <div><b>Anthropic</b> · <a href="https://www.anthropic.com/engineering/redesigning-source-control" target="_blank">programar ya no es el cuello de botella</a> · 13 oct 2026 <span class="idioma">EN</span></div>
+    </div>
+    <div>
+      <div class="grupo">Empleo, política y el ambiente</div>
+      <div><b>CNBC</b> · <a href="https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html" target="_blank">el FMI: un «tsunami» para quien busca su primer empleo</a> · 12 oct 2026 <span class="idioma">EN</span></div>
+      <div><b>The New York Times</b> · <a href="https://www.nytimes.com/2026/10/13/us/abdul-el-sayed-ai.html" target="_blank">un candidato al Senado pide una pausa</a> · 13 oct 2026 <span class="idioma">EN</span></div>
+      <div><b>Eli Pariser en Second Thoughts</b> · <a href="https://secondthoughts.ai/p/what-i-saw-around-the-curve-2026" target="_blank">lo que se oyó en The Curve 2026</a> · 12 oct 2026 <span class="idioma">EN</span></div>
+    </div>
+  </div>
+</div>
+
+<!--
+Apéndice: no se enseña en directo. Noticias del 12 y 13 de octubre, añadidas el día de la
+sesión. Con cuidado:
+- Replicación: evaluación simplificada (la entrada en los aparatos, simulada), un máximo.
+  No es un caso real.
+- OpenAI no dice para quién trabajaba el empleado ni que se llevara nada.
+- Scion: lo cuenta la propia empresa; no mide el progreso en algoritmos.
+- The Curve: crónica de un asistente; no menciona AI 2027.
+-->
+
+---
+layout: default
+---
+
+<div class="px-6">
+  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias: datos para seguir la carrera (4 de 8)</div>
   <div class="grid grid-cols-3 gap-6 fuentes referencias">
     <div>
       <div class="grupo">METR: horizontes temporales</div>
@@ -125,7 +157,7 @@ layout: default
 ---
 
 <div class="px-6">
-  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (4 de 7)</div>
+  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (5 de 8)</div>
   <div class="grid grid-cols-3 gap-6 fuentes referencias">
     <div>
       <div class="grupo">1. Agentes caros y poco fiables</div>
@@ -170,7 +202,7 @@ layout: default
 ---
 
 <div class="px-6">
-  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (5 de 7)</div>
+  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (6 de 8)</div>
   <div class="grid grid-cols-3 gap-6 fuentes referencias">
     <div>
       <div class="grupo">4. Incidentes graves en uso real</div>
@@ -213,7 +245,7 @@ layout: default
 ---
 
 <div class="px-6">
-  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (6 de 7)</div>
+  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (7 de 8)</div>
   <div class="grid grid-cols-3 gap-6 fuentes referencias">
     <div>
       <div class="grupo">7. China nacionaliza su IA</div>
@@ -256,7 +288,7 @@ layout: default
 ---
 
 <div class="px-6">
-  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (7 de 7)</div>
+  <div class="titulo" style="margin-bottom: 0.6rem; font-size: 2rem">Referencias (8 de 8)</div>
   <div class="grid grid-cols-3 gap-6 fuentes referencias">
     <div>
       <div class="grupo">10. Empleo de programadores júnior</div>

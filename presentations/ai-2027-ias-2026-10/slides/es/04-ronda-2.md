@@ -9,7 +9,7 @@ layout: default
   <div class="grid grid-cols-3 gap-5">
     <div class="bando"><div class="bando-nombre">Carrera</div><div>Nadie frena. Vamos hacia el final de la carrera.</div></div>
     <div class="bando"><div class="bando-nombre">Desaceleración</div><div>Alguien frena a tiempo. Vamos hacia el final de la desaceleración.</div></div>
-    <div class="bando"><div class="bando-nombre">Ninguno</div><div>Ni uno ni otro. ¿Cuál sería el tercer final?</div></div>
+    <div class="bando"><div class="bando-nombre">Ninguno</div><div>Ni carrera ni desaceleración. Contad otro final: quién decide y qué pasa.</div></div>
   </div>
   <div class="text-lg mt-8 opacity-70 text-center">A cada sala le toca defender uno, con al menos una predicción de la tabla como prueba.</div>
 </div>
@@ -26,8 +26,13 @@ Un minuto para lanzar la ronda.
   frenar. Si sigue, final de la carrera, que acaba con la humanidad. Si frena, final de la
   desaceleración, que sale bien, aunque los propios autores dicen que no lo proponen como
   plan.
-- Bandos: sala 1, carrera; sala 2, desaceleración; sala 3, ninguno. Con dos salas, solo
-  carrera y desaceleración.
+- Bandos, en la columna «Bando» del documento: sala 1, carrera; sala 2, desaceleración;
+  sala 3, ninguno, y se repite (4, carrera; 5, desaceleración; 6, ninguno). Con dos
+  salas, solo carrera y desaceleración.
 - Las instrucciones y una pista, en el documento. Al final, una frase en la tabla con su
   mejor argumento.
+- Mismas salas que en la ronda 1. En Zoom, «Open All Rooms» otra vez; nunca «Recreate»,
+  que borra el reparto. Antes, mirar «Unassigned»: quien se haya caído y vuelto sale ahí.
+- Mensajes a todas las salas: a los 3 minutos, «Pasad a vuestro bando»; a los 13,
+  «Escribid vuestro mejor argumento en el documento».
 -->

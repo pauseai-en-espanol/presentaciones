@@ -8,6 +8,7 @@ layout: default
   <div class="space-y-5 text-xl">
     <div><span style="color: #ff9416">El final bueno no es una pausa.</span> Lo decide un comité de cinco a diez directivos y cinco a diez cargos públicos, con ventaja sobre China, y sale bien con «suerte».</div>
     <div><span style="color: #ff9416">Lo de hoy tampoco.</span> Las empresas prometen «marcar el ritmo», de forma voluntaria, y siguen lanzando modelos.</div>
+    <div><span style="color: #ff9416">Pero pedirla ya no es raro.</span> Más de 1.300 empleados de los laboratorios, y en octubre un candidato al Senado de EE. UU.</div>
     <div><span style="color: #ff9416">Europa sale dos veces:</span> a oscuras en mayo de 2027 y pidiendo una pausa desde fuera en octubre.</div>
   </div>
   <div class="text-xl mt-8 opacity-80">Próxima sesión: <span style="color: #ff9416">Europe 2031</span>.</div>
@@ -31,6 +32,10 @@ Unos 4 minutos, después de que hablen los tres bandos.
   Kokotajlo ante el Senado (30 sep): «Amodei, Altman, and Musk have all agreed on the need
   to "pace the frontier." But they haven't meaningfully paced the frontier yet. I think
   that the US government should intervene.»
+- La carta de los empleados (1.386 firmas, julio). El candidato: Abdul El-Sayed, demócrata,
+  Michigan (NYT, 13 oct): prohibir la superinteligencia y la automejora recursiva. Su rival
+  republicano también dice que regular la IA sería prioritario: no presentarlo como cosa de
+  un partido.
 - Si sale: los autores proponen ahora «AI 2040: Plan A» (acuerdo verificado entre EE. UU. y
   China) y lo comparan con un «Plan S», parar del todo. Kokotajlo: «In some sense we are
   advocating for a pause on AI development, but in some sense we are very much not».
