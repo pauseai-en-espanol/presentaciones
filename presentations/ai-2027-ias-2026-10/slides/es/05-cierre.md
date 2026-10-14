@@ -8,8 +8,10 @@ layout: center
     <div>
       <div class="kicker" style="color: #ff9416; opacity: 1">Esta sesión</div>
       <div class="titulo" style="font-size: 2rem; margin-bottom: 1rem">AI 2027</div>
-      <a href="https://pauseai.es/presentaciones/ai-2027-ias-2026-10" target="_blank"><img src="/qr-presentacion.svg" class="rounded-lg mx-auto" style="width: 8rem" alt="QR de la presentación" /></a>
-      <div class="text-base opacity-70 mt-3">Las slides y todas las fuentes</div>
+      <div class="flex justify-center gap-3">
+        <a href="https://pauseai.es/presentaciones/ai-2027-ias-2026-10" target="_blank" style="color: inherit; text-decoration: none; border-bottom: none"><img src="/qr-presentacion.svg" class="rounded-lg" style="width: 8rem" alt="QR de la presentación" /><div class="text-sm opacity-60 mt-1">Slides y fuentes</div></a>
+        <a href="https://x.com/intent/tweet?text=Qu%C3%A9%20ha%20acertado%20AI%202027%20%28ai-2027.com/es%29%2C%20con%20%40danilupion%2C%20iaS%20y%20%40pauseai_es%3A%20pauseai.es/presentaciones/ai-2027-ias-2026-10" target="_blank" style="color: inherit; text-decoration: none; border-bottom: none"><img src="/qr-compartir.svg" class="rounded-lg" style="width: 8rem" alt="QR para compartir en X" /><div class="text-sm opacity-60 mt-1">Compártelo en X</div></a>
+      </div>
       <div class="text-sm opacity-50 mt-1 enlaces"><a href="https://pauseai.es/presentaciones/ai-2027-ias-2026-10" target="_blank">pauseai.es/presentaciones/ai-2027-ias-2026-10</a></div>
     </div>
     <div>
