@@ -37,6 +37,20 @@ class: text-center
   </div>
 </div>
 
+<!--
+Mientras entra la gente, con la portada en pantalla. Preguntas en el chat, una cada minuto
+o dos, y comentar alguna respuesta en voz alta:
+
+- «Mientras llega todo el mundo: ¿desde dónde nos veis?»
+- «¿Lo leísteis entero, hasta la bifurcación o a medias? Sin culpa.» Me sirve para saber
+  cuánto contar en la cronología.
+- «En una palabra: ¿cómo os dejó AI 2027 cuando lo terminasteis?»
+- «Sin pensarlo mucho: ¿hacia qué final creéis que vamos? Carrera, desaceleración u otro.»
+  Apuntar el recuento. Al final se repite y se compara.
+
+No preguntar por las doce predicciones: eso es la ronda 1.
+-->
+
 ---
 src: ./slides/es/01-sesion.md
 ---

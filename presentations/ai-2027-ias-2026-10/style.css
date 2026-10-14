@@ -581,10 +581,106 @@ blockquote {
 
 /* ---- Todo AI 2027 ---- */
 .todo-ai2027 .hito {
-  font-size: 0.85rem;
-  padding: 0.22rem 0;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  padding: 0.2rem 0;
+  gap: 0.6rem;
 }
 .todo-ai2027 .hito-fecha {
-  flex: 0 0 7rem;
-  font-size: 0.95rem;
+  flex: 0 0 4.6rem;
+  font-size: 0.88rem;
+}
+
+/* ---- La bifurcación (los dos finales) ---- */
+.bifurcacion .bif-fila,
+.bifurcacion .bif-tronco,
+.bifurcacion .bif-final {
+  transition:
+    opacity 0.3s,
+    background 0.3s;
+}
+.bif-tronco {
+  font-size: 0.72rem;
+  line-height: 1.3;
+  opacity: 0.8;
+  margin-bottom: 0.25rem;
+}
+.bif-fila {
+  display: grid;
+  grid-template-columns: 6rem 1fr 1fr;
+  gap: 0 1rem;
+  padding: 0.1rem 0.3rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+  font-size: 0.68rem;
+  line-height: 1.22;
+  border-radius: 4px;
+}
+.bif-cab {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(148, 163, 184, 0.3);
+}
+.bif-carrera {
+  color: #fb8a4c;
+}
+.bif-frenar {
+  color: #5ec3e6;
+}
+.bif-fecha {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  color: #94a3b8;
+  font-size: 0.82rem;
+}
+.bif-c {
+  border-left: 3px solid #fb8a4c;
+  padding-left: 0.5rem;
+}
+.bif-f {
+  border-left: 3px solid #5ec3e6;
+  padding-left: 0.5rem;
+}
+.bif-c.vacio,
+.bif-f.vacio {
+  border-left-style: dotted;
+  opacity: 0.45;
+  font-style: italic;
+}
+.bif-final {
+  margin-top: 0.3rem;
+  padding: 0.35rem 0.7rem;
+  border-left: 4px solid var(--pauseai-orange);
+  background: rgba(255, 148, 22, 0.08);
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+.bifurcacion .off {
+  opacity: 0.28;
+}
+.bifurcacion .on {
+  opacity: 1;
+  background: rgba(148, 163, 184, 0.12);
+}
+
+.todo-ai2027 .hito-texto {
+  min-width: 0;
+}
+.todo-leyenda {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-bottom: 0.4rem;
+}
+
+.redes > a {
+  border-bottom: none;
+  text-decoration: none;
+  font-size: 1.15rem;
+  line-height: 1;
+  opacity: 0.85;
+}
+.redes > a:hover {
+  color: var(--pauseai-orange);
+  opacity: 1;
 }

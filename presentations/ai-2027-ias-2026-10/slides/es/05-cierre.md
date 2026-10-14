@@ -41,6 +41,8 @@ falta repetirla.
 
 - Primero, el mejor argumento de cada bando, de la tabla del documento. Con más de tres
   salas, por bandos: las dos de carrera juntas, y así con los otros dos.
+- Repetir en el chat la pregunta de la entrada: «¿hacia qué final creéis que vamos?».
+  Comparar con el recuento del principio. Si alguien ha cambiado, preguntarle por qué.
 - Si hay tiempo: los autores hacen este mismo ejercicio cada pocos meses. En febrero de
   2026: si todo sigue al 65 % de su ritmo, el despegue llega entre finales de 2027 y
   mediados de 2029. En agosto: al 75 %, el programador automatizado llega a mediados de

@@ -32,6 +32,15 @@ Unos 2 minutos.
   cumplirse. Una frase de por qué para cada una, en «Lo que hemos discutido».
 - Si somos pocos y no hay salas, la pasada rápida se hace aquí, votando en el chat.
 
+Cuántas salas, según quién esté conectado al abrirlas (sin contarme):
+
+- Menos de 6: sin salas, la pasada rápida se vota en el chat.
+- De 6 a 9: 2 salas.
+- De 10 a 21: 3 salas.
+- 22 o 23: 4 salas.
+- De 24 a 42: 6 salas.
+- Más de 42: 6 salas grandes (en la pasada rápida, notas por el chat de la sala).
+
 Salas repartidas al azar por la plataforma. Durante la ronda, en la sala principal con el
 documento abierto:
 
