@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.5
+
+### Patch Changes
+
+- f42e50f: AI 2027 (iaS): a warm-up slide after the cover with two questions for people to answer while everyone joins.
+
 ## 1.0.4
 
 ### Patch Changes
