@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.4
+
+### Patch Changes
+
+- bdd0fd3: AI 2027 (iaS): the two endings side by side, step by step; contact details, iaS and the IAquiles course in the closing slide; speaker notes with the number of breakout rooms by attendance and icebreaker questions.
+
 ## 1.0.3
 
 ### Patch Changes
