@@ -52,6 +52,10 @@ No preguntar por las doce predicciones: eso es la ronda 1.
 -->
 
 ---
+src: ./slides/es/00-mientras.md
+---
+
+---
 src: ./slides/es/01-sesion.md
 ---
 
