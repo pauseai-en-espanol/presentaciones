@@ -1,0 +1,9 @@
+# Same check CI runs: anything that changes the site's image needs a changeset releasing @pauseai-es/landing.
+# Git passes one line per pushed ref: <local ref> <local sha> <remote ref> <remote sha>.
+zero=0000000000000000000000000000000000000000
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ "$local_sha" = "$zero" ] && continue # deleting a branch
+  base="$remote_sha"
+  [ "$base" = "$zero" ] && base=origin/main # new branch: compare with main
+  scripts/check-deployables-released.sh "$base" || exit 1
+done
