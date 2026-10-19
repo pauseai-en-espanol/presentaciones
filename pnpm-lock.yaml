@@ -292,6 +292,18 @@ importers:
         specifier: workspace:*
         version: link:../../packages/slidev-addon-pauseai
 
+  presentations/ia-fuera-sandbox-charlas-pauseai-2026-10:
+    devDependencies:
+      '@slidev/cli':
+        specifier: 53.0.0
+        version: 53.0.0(@nuxt/kit@3.21.11)(@oxc-project/types@0.151.0)(@types/markdown-it@14.2.0)(@types/node@22.20.1)(@vitejs/devtools-kit@0.4.12(@modelcontextprotocol/server@2.0.0)(cac@7.0.0)(srvx@1.0.5)(vite@8.3.1(@types/node@22.20.1)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.1)))(@vue/compiler-sfc@3.5.43)(cac@7.0.0)(esbuild@0.27.7)(hono@4.12.30)(lightningcss@1.33.0)(markdown-it@14.3.0)(oxc-parser@0.150.0)(postcss@8.5.28)(rolldown@1.2.11)(rollup@4.60.1)(srvx@1.0.5)
+      '@slidev/theme-default':
+        specifier: 0.25.0
+        version: 0.25.0
+      slidev-addon-pauseai:
+        specifier: workspace:*
+        version: link:../../packages/slidev-addon-pauseai
+
   presentations/ia-fuera-sandbox-euronova-2026-10:
     devDependencies:
       '@slidev/cli':

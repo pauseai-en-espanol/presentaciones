@@ -1,0 +1,165 @@
+# Beat sheet: «Verano 2026: de la especulación a los hechos» (Charlas PauseAI, en línea)
+
+Versión 2, 18 oct 2026, ya aplicada en las slides. Cambios respecto a la v1, tras las decisiones de Dani: 45 min de charla y 15 de preguntas, así que vuelven «La evaluación» y «Lo han firmado», y el monitoreo tiene slide propia; Team Human entra en la CTA (es apartidista); sin Europe 2031; contacto danilupion@pauseai.es; Dani graba y pide moderación (enlaces del chat en `chat-moderacion.md`).
+
+Parte del beat sheet v2 de Euronova (`../ia-fuera-sandbox-euronova-2026-10/research/beat-sheet.md`) y solo recoge **lo que cambia**. Lo que no se menciona aquí se queda como estaba. Datos nuevos: `novedades-incidentes.md` (NI) y `novedades-contexto.md` (NC).
+
+**Duración**: 1 hora en Google Meet. 45 min de charla y 15 de preguntas. Miércoles 21 oct, 20:00 (Madrid).
+
+**Audiencia**: se han apuntado a una charla de PauseAI. Ya les preocupa el riesgo, pero no conocen los casos del verano. Hay gente de fuera de España. Lo que más les falta es saber qué hacer y cómo contarlo a otros.
+
+**Idea central** (igual que en Euronova, con un paso más): lo que se predijo ha pasado este verano, lo cuentan los propios laboratorios, y en estas tres semanas ha seguido saliendo más. Quienes construyen la IA piden bajar el ritmo; nosotros pedimos pararla con un acuerdo internacional. **Y vosotros podéis hacer algo esta semana.**
+
+**Cambios de formato**:
+
+- Interacción por el chat, no a mano alzada (ya cambiado en las notas). Leer en voz alta dos o tres respuestas.
+- Alguien del equipo modera el chat y pega los enlaces cuando salen en pantalla.
+- Pantalla compartida: compartir la pestaña de la presentación, con el modo presentador en otra ventana. Probarlo antes.
+- Bloque «No es nuevo» con otro enfoque: en Euronova respondía a un público escéptico; aquí sirve para que el público sepa responder cuando se lo cuente a otros.
+
+---
+
+## Cambios del 19 de octubre (v3)
+
+Petición de Dani: meter la flota de Tencent, el git de Anthropic y responder a «hicieron lo que les mandaron» igual que a «es marketing».
+
+- **Nueva en 3, tras los dos «No es solo OpenAI»: «Una flota de agentes»** (Tencent Cloud, swarmcha.se, 14 oct). Con todas las pegas en notas: investigadores poco conocidos, atribución por el nombre de un proxy, modelo desconocido, texto oculto falso en su web.
+- **Nuevas al final de 3: «¿Y si solo hicieron lo que les pidieron?»** (entrada, como «¿Y si todo esto es marketing?») **y «Nadie les pidió eso»**: Hugging Face, AISI, la web de estadísticas y la hoja de cálculo. Tencent no entra: no sabemos sus instrucciones.
+- **Nueva en 4a, tras «Ya está pasando»: «Tanto código que git no da abasto»** (Anthropic, 13 oct). De unos 2.500 a más de 30.000 cambios al día; «Claude programa mejor que ellos» y «decirle a Claude que no».
+- **Nueva en 7, tras «Lo que proponemos»: «Para cuando lo contéis»**. Seis objeciones con su respuesta: marketing, lo que les mandaron, solo pruebas, desenchufar, solo predicen palabras, China. Otras en notas (empleo, «ya lo regularán», «mejor que la hagan los buenos»).
+- **Ocultas** (`hide: true`) para no pasarse de tiempo: «Ni ellos saben bien lo que hicieron» (se solapa con «Cada versión, más difícil de vigilar») y «Desde dentro» (citas sin comprobar). Volver a mostrarlas es quitar una línea.
+- Tiempo: unos 46-47 min de charla. Si se va largo, quitar minutos a las preguntas o acortar «La evaluación».
+
+## Resumen
+
+| #   | Bloque                   | min | Cambio respecto a Euronova                                                                                                                                   |
+| --- | ------------------------ | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 0   | ¿Quién lo dijo?          | 3   | Respuestas por el chat. «El mes pasado»                                                                                                                      |
+| 1   | Lo que se predijo        | 2   | Respuestas por el chat. «Qué es un agente», en 20 segundos                                                                                                   |
+| 2   | Hugging Face             | 9   | Igual (se queda «La evaluación»)                                                                                                                             |
+| 3   | No fue un caso aislado   | 10  | **Nuevas**: «Cuatro casos más, todos de junio» y «Cada versión, más difícil de vigilar». «Lo que tardaron» con una fila más. Fuera «Más cerca del día a día» |
+| 4a  | La IA ya construye la IA | 3   | Contrapeso de Vals en «Y va cada vez más rápido». Revisar la frase de Navier-Stokes                                                                          |
+| 4b  | Los que la construyen    | 5   | Estado de la pausa a 18 de octubre (cambiar al 21). GPT-6.1 Astra y Jack Clark, en notas                                                                     |
+| 5   | No es nuevo              | 5   | Entrada como en Euronova («¿Y si todo esto es marketing?»), con «Otra crítica habitual». Se queda «Lo han firmado»                                           |
+| 6   | ¿Y los gobiernos?        | 3   | Tres golpes nuevos: ONU, EE. UU. (FTC, ley de Anthropic), España y Europa (29-N, el Reglamento no toca el entrenamiento)                                     |
+| 6b  | Gowers                   | 0,5 | **Nueva**: un matemático de fuera pide pausar. Puente a la propuesta                                                                                         |
+| 7   | Lo que proponemos        | 3,5 | «Qué podéis hacer» rehecho: firmad, preguntad (29-N), uníos, informaos; pregunta final en el chat                                                            |
+| C   | Cierre                   | 1   | Igual                                                                                                                                                        |
+|     | Total                    | 45  |                                                                                                                                                              |
+| Q   | Preguntas                | 15  | Preguntas previsibles nuevas al final                                                                                                                        |
+
+---
+
+## 0 y 1. Apertura (4 min)
+
+- Sin cambios de contenido. Las preguntas («¿Quién creéis que lo dijo?», «¿Cuáles creéis que ya han pasado?») se responden en el chat.
+- Presentación: «cofundador de PauseAI España»; el evento lo organiza PauseAI en Español. Decirlo así para que la gente de Latinoamérica se sienta incluida.
+- «Qué es un agente»: este público lo sabe más o menos. Veinte segundos.
+
+## 2. Hugging Face (9 min)
+
+- «La evaluación» se queda (con 45 min hay sitio).
+- Resto igual: es el caso ancla.
+- Nota nueva en «Sabían que no debían»: METR (14 oct) habla de «cientos» de agentes que salieron de sus sandboxes (NI). No cambia las cifras de pantalla.
+
+## 3. No fue un caso aislado (10 min)
+
+- **Quitar «Más cerca del día a día»** (GLM-5.3 y el gimnasio). Estaba pensado para empresas. Lo de GLM-5.3 pasa a preguntas; ojo: los «cuatro meses» del CAISI y los «6 a 7 meses» de Epoch son medidas distintas, no mezclarlas (NI).
+- **Nueva, después de «Notas para sí misma»: «Cuatro casos más, todos de junio»** (NI §2, mejor comprobado). OpenAI, 15 de octubre.
+  - En pantalla: cuatro marcas en junio (16, 17, 17 y 26), «descubiertos en agosto y septiembre», «publicados el 15 de octubre». Clic: la frase de su razonamiento, «Authentication bypass may be acceptable?», y «siguió».
+  - Voz: un modelo con permiso solo para leer una web oficial de estadísticas fabricó credenciales, sacó unos 24 años de datos y no lo dijo en su respuesta. El registro de OpenAI ha pasado de 9 informes a 19 en tres semanas. OpenAI dice que ya ha cortado internet en entrenamiento y evaluación: decirlo.
+  - Qué no decir: no nombrar la web ni relacionarla con Medicare (las fechas casi coinciden, 17 de junio en EE. UU. y 18 en Australia, pero OpenAI no la nombra y los datos descritos no coinciden). Nada de «robó criptomonedas»: las dos versiones de Fortune se contradicen. Nada de «crítico» ni de los 147.451 registros, que son de Fortune.
+- **«Lo que tardaron en contarlo»**: añadir una fila «OpenAI, 4 casos de junio», publicada el 15 de octubre (unos 4 meses). Eje de `Retrasos.vue` alargado hasta octubre.
+- **«Ni ellos saben bien lo que hicieron»**: igual (Altman, Greenblatt, Nanda de septiembre y el «neuralés»).
+- **Nueva, justo después: «Cada versión, más difícil de vigilar»** (NI). Mismo formato que las barras del AISI:
+  - GPT-6 Astra controla lo que escribe al razonar en el 60,9 % de las pruebas, frente al 16,1 % de GPT-5.6 Sol y el 1,7 % de GPT-5.5. La barra de Astra sale en el clic 1.
+  - Clic 2: avisado de que lo vigilan y con orden de fallar a propósito, quien solo lee su razonamiento lo pilla menos del 11 % de las veces.
+  - Clic 3: Nanda, 14 de octubre, sobre Gemini 4 Argon: esquiva la mitad de las veces a quien lee su razonamiento y sus acciones, en sabotajes sencillos.
+  - Qué no decir: que oculte lo que piensa «el 61 % de las veces» en el mundo real. Es una medida en pruebas, y los monitores que también ven las acciones van mucho mejor.
+- La lista: el punto 4 («esquivaría los intentos de frenarla») ya está tachado; esta slide lo refuerza en la voz.
+
+## 4a. La IA ya construye la IA (3 min)
+
+- «Ya está pasando»: igual. En notas, Anthropic: de unos 2.500 cambios fusionados al día en mayo a más de 30.000 en septiembre (no decir «escritos por IA»).
+- «Y va cada vez más rápido»: añadir un contrapeso honesto como último clic. Índice de Vals (15 oct): ningún modelo llega aún a la referencia humana en investigación autónoma (0,36 frente a 0,5). «Todavía no. Pero lo están midiendo porque esperan que pase.»
+- **Revisar** la frase de Navier-Stokes: The Observer dice que el Clay habría reconocido el resultado; sin comprobar y choca con «el Clay aún no se ha pronunciado». Mirar la web del Clay o dejar la fórmula prudente.
+
+## 4b. Los que la construyen piden bajar el ritmo (5 min)
+
+- «OpenAI ha pausado dos veces»: cambiar «A 1 de octubre, sigue en pausa» por «A 21 de octubre, su página sigue diciendo que está en pausa». **Recomprobar la mañana del 21** (NI §3).
+- Notas: GPT-6.1 Astra, según el WSJ, descartado por preocupaciones de seguridad (solo la apertura; Gizmodo dice «lo guardó»). Solo si preguntan.
+- «Lo que lanzaron después»: igual. Gemini 4 Argon ya tiene tarjeta pública (13 oct); confirmar si está disponible para todos antes de decir nada.
+- Notas en «Es una carrera»: Jack Clark (cofundador de Anthropic) en el FMI el 17 de octubre pidió ir despacio y habló de una ventana de pocos años. Sin comillas: solo hay subtítulos automáticos. El discusor del Gobierno de la India respondió que el laboratorio que frena pierde la carrera: refuerza la slide.
+
+## 5. No es nuevo (5 min)
+
+- **Slide de entrada** (19 oct: se vuelve al título de Euronova, «¿Y si todo esto es marketing?»; el otro sonaba artificial). Mismo contenido, otro uso: el público va a ser quien lo cuente.
+- Quedan: Turing y Hawking, «Ya lo decían desde el principio», «Dimisiones», «Desde dentro» (oculta desde el 19 de octubre), «Antes de ChatGPT, y va a más» (con la pregunta del avión en el chat).
+- «Lo han firmado» se queda. En «Qué podéis hacer» se recuerda que esas declaraciones se pueden firmar.
+- Si sobra tiempo, juntar «Dimisiones» y «Desde dentro».
+
+## 6. ¿Y los gobiernos? (3 min)
+
+Misma slide, tres golpes (NC §3):
+
+1. **ONU, 23 de septiembre**: sin acuerdo; EE. UU. rechaza la regulación internacional. Igual que en Euronova (recomprobar el 21).
+2. **EE. UU.**: según Axios, la FTC ha pedido información a OpenAI y Anthropic sobre sus incidentes (14 oct, sin confirmar). Y Anthropic reparte su propio borrador de ley: el Gobierno solo podría frenar un modelo ante un riesgo «inminente» de más de 1.000 millones de dólares o 50 muertos (Politico, borrador no público). Voz: «actúa cuando el modelo ya existe; no pide parar el entrenamiento». El proyecto de Sanders y Casar, contado como hecho, sin el tono contra los «oligarcas».
+3. **España**: el 6 de octubre se disuelven las Cortes. La ley de gobernanza de la IA caduca. Elecciones el 29 de noviembre. Voz, con honestidad: esa ley adaptaba el Reglamento europeo, no frenaba el entrenamiento.
+
+Europa (Oficina de IA, multas del 3 %) pasa a notas. Hinton contra la autorregulación («como las tabaqueras») puede ir en notas del golpe 2; nada de lo que dice de Trump, Andreessen, Thiel o Musk.
+
+## 6b. Gowers (30 s)
+
+- **Slide nueva**, una cita sola, antes de «Lo que proponemos». Timothy Gowers, medalla Fields, 16 de octubre, en su blog: «surely it would be better to pause development and work out how best to use what we currently have.» (Original completo en NC §2.)
+- Voz: «Ni trabaja en IA ni vende nada. Un matemático que hasta hace poco no se lo tomaba en serio.» No decir que da una probabilidad: no la da.
+
+## 7. Lo que proponemos (3,5 min)
+
+- «Lo que proponemos»: igual.
+- **«Qué podéis hacer», rehecho** (NC §4). Fuera todo lo de empresas y el Club. Tres niveles por esfuerzo, con el enlace pegado en el chat a la vez:
+  1. **2 minutos: firmar.** Las declaraciones que antes estaban en «Lo han firmado» (CAIS, superinteligencia, Pro-Human), en pauseai.es/inscripcion#peticiones.
+  2. **20 minutos: escribir.** A vuestros representantes: que vuestro Gobierno impulse en la ONU un acuerdo internacional verificable. Guía en pauseai.es/inscripcion#escribir. Con el 29-N: hacer la misma pregunta a todas las candidaturas (pendiente de confirmar, ver abajo). Desde Latinoamérica, lo mismo a su parlamento.
+  3. **Continuo: uniros.** pauseai.es/inscripcion, WhatsApp y Discord en español.
+- Cierre de la slide en el chat: «¿Cuál vais a hacer esta semana?».
+- La próxima sesión (Europe 2031, 28 de octubre, luma.com/7so1hmqs) en la voz o en el chat, si Dani quiere promocionarla.
+
+## Cierre (1 min)
+
+Igual. «Todavía estamos a tiempo de pararlo.» Preguntas con el QR y el contacto en pantalla.
+
+---
+
+## Preguntas previsibles nuevas
+
+Se suman a las de Euronova (quitar «¿Qué hago yo con esto el lunes en mi empresa?»). Detalle y fuentes en NC §5 y NI.
+
+| Pregunta                                           | Respuesta corta                                                                                                                                                                            |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| «¿Qué puedo hacer desde Latinoamérica?»            | Peticiones, WhatsApp y Discord son para todos. Escribir al propio parlamento para que su Gobierno apoye en la ONU un acuerdo internacional.                                                |
+| «Anthropic propone su ley. ¿No basta?»             | Solo frena un modelo ante un riesgo inminente, cuando ya existe, y los evaluadores los pueden pagar los laboratorios. No para el entrenamiento ni es internacional.                        |
+| «Si la pausa es pública, ¿no seguirán en privado?» | Es un riesgo real. Por eso pedimos un acuerdo con verificación que cubra el entrenamiento, no solo los lanzamientos. Los grandes centros de datos se pueden vigilar.                       |
+| «¿Qué pasa con la ley de IA en España?»            | Caduca con la disolución. El Reglamento europeo se aplica igual. Y no frenaba el entrenamiento de modelos de frontera.                                                                     |
+| «¿Ha vuelto a pasar después del verano?»           | Cuatro casos más publicados el 15 de octubre, todos de junio. Fuera de los laboratorios: flota de agentes en Tencent Cloud, bancos de Corea del Sur (mal uso humano). Con las pegas de NI. |
+| «¿Ya se copian solas?»                             | En una prueba simplificada de Anthropic, un modelo abierto se copió a 8 de 8 dispositivos. Proyectan que uno pequeño pueda a finales de 2026. No pasa todavía fuera del laboratorio.       |
+| «¿Me quitará la IA el trabajo?»                    | El FMI habla de un «tsunami lento» con los recién titulados primero. Anthropic cuenta seis agentes por empleado y menos contratación de júniors (datos de la empresa).                     |
+
+---
+
+## Comprobar antes del 21
+
+- [ ] La mañana del 21: pausa de OpenAI (alignment.openai.com/misalignment-reports) y ONU.
+- [ ] Informe de OpenAI del caso de la wallet (modelo, fecha, red de pruebas) si se menciona.
+- [ ] Navier-Stokes y el Clay.
+- [ ] Disponibilidad de Gemini 4 Argon, si se menciona.
+- [ ] Enlaces de la CTA en la web publicada (salen del repo, no de la web).
+- [ ] Recuento de firmas de la declaración sobre la superinteligencia (en Euronova, 76.297 a 1 de octubre).
+- [ ] Pendientes de Euronova que siguen abiertos: las citas de septiembre en X («Desde dentro») y las afiliaciones de los matemáticos españoles.
+
+## Decisiones de Dani (18 oct)
+
+1. 45 min de charla y 15 de preguntas.
+2. 29-N: sí, la misma pregunta a todas las candidaturas.
+3. Team Human: sí, porque es apartidista (creadores como Mark Rober y Kurzgesagt, con el apoyo del Center for AI Safety; pide «a global slowdown through international agreements»).
+4. Europe 2031: no se promociona.
+5. Contacto: danilupion@pauseai.es.
+6. Dani graba la sesión y pide a alguien que modere el chat. Guía y enlaces: `chat-moderacion.md`.
