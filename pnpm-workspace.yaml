@@ -12,3 +12,9 @@ minimumReleaseAgeExclude:
 
 onlyBuiltDependencies:
   - esbuild
+
+# @slidev/cli 53.0.0 pulls shiki 4.5, whose markdown-it plugins moved to markdown-it 15; pnpm then hands that 15 to
+# @comark/markdown-it (peer ^14) and every slidev build dies on 'markdown-it/lib/token.mjs'. Keep one markdown-it 14
+# until slidev/comark support 15.
+overrides:
+  markdown-it: 14.3.3
