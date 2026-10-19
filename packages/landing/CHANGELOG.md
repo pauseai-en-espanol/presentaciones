@@ -1,5 +1,12 @@
 # @pauseai-es/landing
 
+## 1.0.6
+
+### Patch Changes
+
+- b631b72: Dependencies bump: Node 26.12.0 (image on node:26.12.0-alpine) and pnpm 12.14.0.
+- 2d628d7: Verano 2026: de la especulación a los hechos (Charlas PauseAI, unlisted): frontier AI agents leaving their sandboxes this summer, what the people building them admit, and why an international agreement is needed.
+
 ## 1.0.5
 
 ### Patch Changes
