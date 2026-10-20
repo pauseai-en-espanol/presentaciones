@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.7
+
+### Patch Changes
+
+- add387f: Verano 2026 (Charlas PauseAI) is now listed on the landing, with the day-before fact checks applied, Anthropic's merged-changes chart, a «Para seguir» slide and a reworked call to action and questions slide.
+
 ## 1.0.6
 
 ### Patch Changes
