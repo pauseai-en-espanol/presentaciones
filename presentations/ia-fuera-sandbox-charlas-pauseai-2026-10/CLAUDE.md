@@ -40,6 +40,7 @@ Reedición en línea de la charla del Club Euronova (`../ia-fuera-sandbox-eurono
 - **2026-10-18**: research de novedades (2 agentes) y `research/beat-sheet.md` v1.
 - **2026-10-18**: decisiones de Dani (45 + 15 min, pregunta del 29-N, Team Human, contacto danilupion@pauseai.es, moderación del chat) y beat sheet v2 aplicado en las slides: «Cuatro casos más, todos de junio», «Cada versión, más difícil de vigilar» y Gowers nuevas; «¿Y los gobiernos?» y «Qué podéis hacer» rehechas; fuera «Más cerca del día a día». Revisado en capturas a 1280×720. Guía del chat en `research/chat-moderacion.md`. Pendiente de revisión por Dani.
 - **2026-10-19**: v3 (ver el principio de `research/beat-sheet.md`). Nuevas: «Una flota de agentes» (Tencent), «Tanto código que git no da abasto» (Anthropic), «¿Y si solo hicieron lo que les pidieron?» con su respuesta («Nadie les pidió eso») y «Para cuando lo contéis». Ocultas con `hide: true`: «Ni ellos saben bien lo que hicieron» y «Desde dentro». Unos 46-47 min.
+- **2026-10-20**: fuera «Para cuando lo contéis» (también su fila en `research/chat-moderacion.md`). «Ni ellos saben bien lo que hicieron» y «Desde dentro» vuelven a verse para que Dani elija qué quitar. Así, unos 50 min de charla. El libro de Yudkowsky y Soares y The AI Doc, en una slide propia con portadas («Para seguir», tras el cierre, como en la charla de AI 2027), en Fuentes (3 de 3) y en la guía del chat. «Qué podéis hacer»: iaenlasurnas.es en «Preguntad», «Uníos» y «Firmad» reescritas. «Preguntas»: columnas para Dani y para PauseAI España (contact@pauseai.es), con iconos de redes. Comprobaciones del día antes hechas (ver «Comprobar antes del 21» en el beat sheet); queda recomprobar la pausa de OpenAI y la ONU la mañana del 21. Fuentes revisadas: todos los enlaces que salen en las slides y las notas están en ellas. «Tanto código que git no da abasto» con el gráfico de cambios al día de Anthropic (`public/img/graficos/anthropic-cambios-al-dia.png`, imagen original del artículo); cifras corregidas: 30.401 es el récord de un día y ellos hablan de «10x». Enlace del artículo cambiado a `/research/` (el de `/engineering/` redirige).
 
 ## TODOs antes de la charla
 
@@ -47,8 +48,8 @@ Reedición en línea de la charla del Club Euronova (`../ia-fuera-sandbox-eurono
 - [x] Preguntas a mano alzada cambiadas por preguntas en el chat (en las notas)
 - [ ] Lista «Comprobar antes del 21» del beat sheet. La mañana del 21: la pausa de OpenAI (cambiar «A 18 de octubre» en «OpenAI ha pausado dos veces») y la ONU
 - [ ] Pasar `research/chat-moderacion.md` a quien modere
-- [ ] Quitar `"unlisted": true` de `presentation.json` cuando la charla esté lista
-- [ ] Changeset (`pnpm release:note`, `@pauseai-es/landing`) antes de subirla
+- [x] Quitar `"unlisted": true` de `presentation.json` cuando la charla esté lista (20 oct)
+- [x] Changeset (`pnpm release:note`, `@pauseai-es/landing`) antes de subirla (20 oct)
 
 ## Dev
 

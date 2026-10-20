@@ -18,6 +18,42 @@ layout: center
 -->
 
 ---
+layout: center
+---
+
+<div class="max-w-5xl mx-auto">
+  <div class="titulo text-center" style="margin-bottom: 2rem">Para seguir</div>
+  <div class="grid grid-cols-2 gap-12">
+    <a href="https://www.planetadelibros.com/libro-si-alguien-la-crea-todos-moriremos/442432" target="_blank" class="flex gap-6 items-center" style="color: inherit; text-decoration: none; border-bottom: none">
+      <img src="/para-seguir/si-alguien-la-crea-cover.jpg" class="rounded shadow-lg flex-shrink-0" style="height: 17rem" alt="Portada de Si alguien la crea, todos moriremos" />
+      <div>
+        <div class="text-2xl font-bold italic leading-tight">Si alguien la crea, todos moriremos</div>
+        <div class="text-lg opacity-70 mt-3">Eliezer Yudkowsky y Nate Soares</div>
+        <div class="text-base opacity-50 mt-1">Libro · Ediciones Destino, en castellano</div>
+      </div>
+    </a>
+    <a href="https://www.theaidocgetinvolved.com" target="_blank" class="flex gap-6 items-center" style="color: inherit; text-decoration: none; border-bottom: none">
+      <img src="/para-seguir/the-ai-doc-poster.jpg" class="rounded shadow-lg flex-shrink-0" style="height: 17rem" alt="Cartel de The AI Doc" />
+      <div>
+        <div class="text-2xl font-bold leading-tight">The AI Doc</div>
+        <div class="text-lg opacity-70 mt-3 italic">Or How I Became an Apocaloptimist</div>
+        <div class="text-base opacity-50 mt-1">Documental, 2026</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<!--
+- Unos 20 segundos, y a las preguntas (las fuentes, sin pararse).
+- «Si alguien se ha quedado con ganas: un libro y un documental.»
+- El libro: el de Yudkowsky y Soares, ya en castellano. Es el argumento más duro de todos: que,
+  construida como vamos, una superinteligencia acaba con nosotros. Se puede no estar de acuerdo,
+  pero conviene conocerlo.
+- El documental: para verlo con alguien que todavía no se ha planteado nada de esto.
+- Los dos enlaces, en el chat.
+-->
+
+---
 layout: default
 ---
 
@@ -66,8 +102,8 @@ layout: default
       <div class="grupo">Por qué va a más</div>
       <div><b>Anthropic Institute</b>, <a href="https://www.anthropic.com/institute/measuring-pace-of-ai-development" target="_blank">«Measurements for understanding the pace of AI development inside frontier labs»</a>, ago 2026</div>
       <div><b>OpenAI</b>, <a href="https://openai.com/index/research-acceleration-view-inside-openai/" target="_blank">«Research acceleration: The view inside OpenAI»</a>, 6 sep 2026</div>
-      <div><b>Anthropic</b>, <a href="https://www.anthropic.com/engineering/redesigning-source-control" target="_blank">«Redesigning source control at Anthropic»</a>, 13 oct 2026</div>
-      <div><b>Quanta Magazine</b>, <a href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/" target="_blank">Navier-Stokes</a>, 8 sep 2026</div>
+      <div><b>Anthropic</b>, <a href="https://www.anthropic.com/research/redesigning-source-control" target="_blank">«Redesigning source control at Anthropic»</a>, 13 oct 2026</div>
+      <div><b>Quanta Magazine</b>, <a href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/" target="_blank">Navier-Stokes</a>, 8 sep 2026; <a href="https://www.claymath.org/news/navier-stokes-announcement/" target="_blank">Clay Institute</a>, 11 sep; <a href="https://www.scientificamerican.com/article/openais-blockbuster-navier-stokes-proof-isnt-what-we-thought-it-was/" target="_blank">Scientific American</a>, 13 oct</div>
       <div><b>Vals AI</b>, <a href="https://www.vals.ai/benchmarks/rsi_index" target="_blank">RSI Index</a>, 15 oct 2026</div>
       <div class="grupo">Ni ellos saben bien lo que hicieron</div>
       <div><b>Sam Altman</b>, <a href="https://x.com/sama/status/2103567198690349362" target="_blank">petabytes de registros</a>, 25 sep 2026; <a href="https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25" target="_blank">resúmenes de OpenAI</a></div>
@@ -120,6 +156,7 @@ layout: default
       <div><a href="https://rollcall.com/2026/09/23/ai-superintelligence-ban-proposed-by-casar-sanders/" target="_blank">Roll Call</a> y <a href="https://fortune.com/2026/09/23/bernie-sanders-superintelligent-ai-ban/" target="_blank">Fortune</a>, proyecto de ley Sanders y Casar, 23 sep 2026</div>
       <div class="grupo">Para formarse</div>
       <div><a href="https://bluedot.org/" target="_blank">BlueDot Impact</a> · <a href="https://lensacademy.org/courses/iaquiles/module/iaquiles-la-amenaza-ia/1-preliminares#intensivo-iaquiles" target="_blank">Lens Academy, intensivo IAquiles (en español)</a> · <a href="https://ai-2027.com/es" target="_blank">AI 2027 (en español)</a></div>
+      <div><b>Eliezer Yudkowsky y Nate Soares</b>, <a href="https://www.planetadelibros.com/libro-si-alguien-la-crea-todos-moriremos/442432" target="_blank">«Si alguien la crea, todos moriremos»</a>, Ediciones Destino · <a href="https://www.theaidocgetinvolved.com" target="_blank">«The AI Doc: Or How I Became an Apocaloptimist»</a>, documental, 2026</div>
     </div>
   </div>
 </div>
@@ -132,23 +169,39 @@ layout: default
 layout: center
 ---
 
-<div class="max-w-5xl mx-auto">
+<div class="mx-auto" style="width: 50rem">
   <div class="pregunta text-center" style="font-size: 3.4rem">Preguntas</div>
-  <div class="grid grid-cols-3 gap-10 items-center mt-10">
-    <div class="text-lg space-y-2 enlaces">
-      <div class="text-2xl font-bold" style="font-family: 'Saira Condensed', sans-serif">Dani Lupión</div>
-      <div class="opacity-80"><a href="mailto:danilupion@pauseai.es">danilupion@pauseai.es</a></div>
-      <div class="opacity-80"><a href="https://x.com/danilupion" target="_blank">x.com/danilupion</a></div>
-      <div class="opacity-80"><a href="https://x.com/pauseai_es" target="_blank">x.com/pauseai_es</a></div>
-      <div class="opacity-80"><a href="https://pauseai.es" target="_blank">pauseai.es</a></div>
+  <div class="grid grid-cols-2 gap-10 items-center mt-8">
+    <div class="space-y-6 text-base enlaces">
+      <div>
+        <div class="contacto-nombre">Dani Lupión</div>
+        <div class="opacity-80"><a href="mailto:danilupion@pauseai.es">danilupion@pauseai.es</a></div>
+        <div class="redes mt-2">
+          <a href="https://x.com/danilupion" target="_blank" aria-label="Dani Lupión en X"><carbon-logo-x /></a>
+          <a href="https://www.instagram.com/danilupion/" target="_blank" aria-label="Dani Lupión en Instagram"><carbon-logo-instagram /></a>
+          <a href="https://www.linkedin.com/in/dani-lupion" target="_blank" aria-label="Dani Lupión en LinkedIn"><carbon-logo-linkedin /></a>
+        </div>
+      </div>
+      <div>
+        <div class="contacto-nombre">PauseAI España</div>
+        <div class="opacity-80"><a href="mailto:contact@pauseai.es">contact@pauseai.es</a> · <a href="https://pauseai.es" target="_blank">pauseai.es</a></div>
+        <div class="redes mt-2">
+          <a href="https://x.com/pauseai_es" target="_blank" aria-label="PauseAI España en X"><carbon-logo-x /></a>
+          <a href="https://www.instagram.com/pauseai_es/" target="_blank" aria-label="PauseAI España en Instagram"><carbon-logo-instagram /></a>
+          <a href="https://www.youtube.com/@pauseai-es" target="_blank" aria-label="PauseAI España en YouTube"><carbon-logo-youtube /></a>
+          <a href="https://www.linkedin.com/company/pauseai-en-espa%C3%B1ol/" target="_blank" aria-label="PauseAI España en LinkedIn"><carbon-logo-linkedin /></a>
+        </div>
+      </div>
     </div>
-    <div class="text-center">
-      <a href="https://pauseai.es/presentaciones/ia-fuera-sandbox-charlas-pauseai-2026-10" target="_blank"><img src="/qr-presentacion.png" class="rounded-lg mx-auto" style="width: 11rem" /></a>
-      <div class="text-sm opacity-70 mt-2">La charla y todas las fuentes</div>
-    </div>
-    <div class="text-center">
-      <a href="https://x.com/intent/post?text=Verano%202026%3A%20de%20la%20especulaci%C3%B3n%20a%20los%20hechos.%20Agentes%20de%20IA%20que%20se%20salen%20de%20sus%20pruebas%20y%20llegan%20a%20sistemas%20reales%2C%20contado%20por%20%40danilupion%20%28%40pauseai_es%29.%20Todas%20las%20fuentes%3A%20pauseai.es/presentaciones/ia-fuera-sandbox-charlas-pauseai-2026-10" target="_blank"><img src="/qr-compartir-x.png" class="rounded-lg mx-auto" style="width: 11rem" /></a>
-      <div class="text-sm opacity-70 mt-2">Compartirla en X</div>
+    <div class="grid grid-cols-2 gap-6 items-start text-center">
+      <div>
+        <a href="https://pauseai.es/presentaciones/ia-fuera-sandbox-charlas-pauseai-2026-10" target="_blank"><img src="/qr-presentacion.png" class="rounded-lg mx-auto" style="width: 9.5rem" /></a>
+        <div class="text-sm opacity-70 mt-2">La charla y todas las fuentes</div>
+      </div>
+      <div>
+        <a href="https://x.com/intent/post?text=Verano%202026%3A%20de%20la%20especulaci%C3%B3n%20a%20los%20hechos.%20Agentes%20de%20IA%20que%20se%20salen%20de%20sus%20pruebas%20y%20llegan%20a%20sistemas%20reales%2C%20contado%20por%20%40danilupion%20%28%40pauseai_es%29.%20Todas%20las%20fuentes%3A%20pauseai.es/presentaciones/ia-fuera-sandbox-charlas-pauseai-2026-10" target="_blank"><img src="/qr-compartir-x.png" class="rounded-lg mx-auto" style="width: 9.5rem" /></a>
+        <div class="text-sm opacity-70 mt-2">Compartirla en X</div>
+      </div>
     </div>
   </div>
 </div>

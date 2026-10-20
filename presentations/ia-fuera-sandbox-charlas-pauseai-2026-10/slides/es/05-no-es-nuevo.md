@@ -15,9 +15,8 @@ clicks: 1
 - Plantear la objeción en serio, sin ridiculizarla: tiene su parte de razón (a las empresas les
   conviene parecer importantes), y se oyó mucho tras la dimisión de Coxon.
 - Las slides que vienen la responden por orden: lo decían antes de tener nada que vender
-  (2013-2019), lo han firmado, se han ido personas de dentro y los investigadores
-  independientes dan cifras parecidas. («Desde dentro» está oculta: sus citas siguen sin
-  comprobar y así se gana un minuto.)
+  (2013-2019), lo han firmado, se han ido personas de dentro, otras que siguen dentro lo dicen
+  en público y los investigadores independientes dan cifras parecidas.
 - Si sale después: pausar tu propio entrenamiento, publicar tus fallos o dimitir no vende
   nada.
 -->
@@ -134,7 +133,7 @@ clicks: 2
       </div>
       <div class="col-span-6">
         <div class="cita" style="font-size: 1.05rem">«Pedimos prohibir el desarrollo de la superinteligencia hasta que haya un amplio consenso científico en que se hará de forma segura y controlable, y un fuerte apoyo de la población.»</div>
-        <div class="text-sm opacity-70 mt-1"><span style="color: #ff9416">76.297 firmas</span>, de Hinton y Wozniak a Susan Rice y Steve Bannon</div>
+        <div class="text-sm opacity-70 mt-1"><span style="color: #ff9416">Más de 77.000 firmas</span>, de Hinton y Wozniak a Susan Rice y Steve Bannon</div>
       </div>
     </div>
     <div v-click="2" class="tarjeta grid grid-cols-8 gap-5 items-center" style="padding: 0.8rem 1.3rem">
@@ -160,8 +159,8 @@ clicks: 2
 - Clic 1. 2025, Future of Life Institute (superintelligence-statement.org), 22 de octubre de
   2025. Original: «We call for a prohibition on the development of superintelligence, not
   lifted before there is 1. broad scientific consensus that it will be done safely and
-  controllably, and 2. strong public buy-in.» 76.297 firmas a 1 de octubre (cifra que muestra
-  la web; puede cambiar). Firmantes iniciales: Hinton, Bengio, Wozniak, Branson, Susan Rice,
+  controllably, and 2. strong public buy-in.» 77.774 firmas el 20 de octubre (76.297 el 1 de
+  octubre), contando 5.000 de la misma petición en Ekō. Firmantes iniciales: Hinton, Bengio, Wozniak, Branson, Susan Rice,
   el almirante Mullen, Steve Bannon, el príncipe Harry y Meghan. Útil por lo transversal.
 - Clic 2. 2026, «Pro-Human AI Declaration» (humanstatement.org), marzo de 2026. Cinco principios:
   control humano, evitar la concentración de poder, proteger la experiencia humana (sobre todo
@@ -226,15 +225,14 @@ clicks: 2
 
 ---
 layout: default
-hide: true
 ---
 
 <div class="px-8 pt-2">
   <div class="kicker">Septiembre de 2026, tras la dimisión de Coxon</div>
   <div class="titulo" style="margin-bottom: 1.2rem">Desde dentro</div>
   <div class="grid grid-cols-2 gap-5">
-    <div class="tarjeta text-base">«Creo de verdad que la IA podría matar a todos los humanos. Personalmente, creo que es más de un 10 % en la próxima década.»<div class="text-sm opacity-60 mt-2">Evan Hubinger, Anthropic</div></div>
-    <div class="tarjeta text-base">«La industria está atrapada en una carrera total por escalar.»<div class="text-sm opacity-60 mt-2">Jan Leike, Anthropic</div></div>
+    <div class="tarjeta text-base">«De verdad creemos que la IA podría matar a todos los humanos. Personalmente, creo que es más de un 10&nbsp;% en la próxima década.»<div class="text-sm opacity-60 mt-2">Evan Hubinger, Anthropic</div></div>
+    <div class="tarjeta text-base">«La industria está atrapada en una carrera total por escalar para construir la superinteligencia lo antes posible.»<div class="text-sm opacity-60 mt-2">Jan Leike, Anthropic</div></div>
     <div class="tarjeta text-base">«Creo que la IA podría matarnos a todos y que tenemos que ir más despacio.»<div class="text-sm opacity-60 mt-2">Leo Gao, OpenAI</div></div>
     <div class="tarjeta text-base">«No creo que la IA vaya a matar a todos los humanos, pero hay varias trayectorias malas si no priorizamos la seguridad.»<div class="text-sm opacity-60 mt-2">Boaz Barak, OpenAI</div></div>
   </div>
@@ -243,13 +241,22 @@ hide: true
 <!--
 - Empleados que siguen trabajando en estas empresas y lo dicen en público. (La declaración de los 1.386 de Pacing
   the Frontier se ha movido a la sección «Los que la construyen piden bajar el ritmo».)
-- ATENCIÓN: estas citas vienen de la recopilación de Zvi Mowshowitz (11 de septiembre).
-  Comprobar cada una en su post de X antes de la charla. Informe §7.4.
-- Originales: Hubinger «we really do earnestly believe AI could kill all humans! I
-  personally think it is >10% within the next decade» · Leike «The industry is locked
-  into an all-out scaling race» · Gao «I think ai might kill everyone and we need to
-  slow down» · Barak «I personally do not think AI will kill all humans, but... multiple
-  bad trajectories... if we do not prioritize safety».
+- Comprobadas el 20 de octubre en los posts originales de X (las recopiló Zvi Mowshowitz el 11
+  de septiembre). Informe §7.4.
+- Hubinger (x.com/EvanHub/status/2097497037956891126, 8 de septiembre): responde a Coxon. Su
+  «creemos» son quienes construyen la IA, no solo él; lo personal es el 10 %. Original: «Jacob
+  is correct here—we really do earnestly believe AI could kill all humans! I personally think it
+  is >10% within the next decade. I believe Anthropic is trying its best, but we do not yet have
+  a plan to solve alignment for superintelligence and are not clearly on track to.» La última
+  frase, si preguntan: ni Anthropic tiene un plan.
+- Leike (x.com/janleike/status/2098102085728501863, 10 de septiembre): «The industry is locked
+  into an all-out scaling race to build superintelligence as quickly as possible».
+- Gao (x.com/nabla_theta/status/2098137322462253237, 10 de septiembre): «i've been at openai for
+  5 years. i think ai might kill everyone and we need to slow down». Respondía a alguien que se
+  burlaba de un exbecario de OpenAI por pedir ir más despacio.
+- Barak (x.com/boazbaraktcs/status/2097515359200768143, 9 de septiembre), también profesor en
+  Harvard: «I personally do not think AI will kill all humans, but there are multiple bad
+  trajectories that we can end up in if we do not prioritize safety.» Responde a Hubinger.
 - Barak es el escéptico: da credibilidad incluir a alguien que no piensa igual.
 -->
 

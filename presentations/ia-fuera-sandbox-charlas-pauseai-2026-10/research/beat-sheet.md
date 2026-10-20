@@ -147,13 +147,15 @@ Se suman a las de Euronova (quitar «¿Qué hago yo con esto el lunes en mi empr
 
 ## Comprobar antes del 21
 
-- [ ] La mañana del 21: pausa de OpenAI (alignment.openai.com/misalignment-reports) y ONU.
-- [ ] Informe de OpenAI del caso de la wallet (modelo, fecha, red de pruebas) si se menciona.
-- [ ] Navier-Stokes y el Clay.
-- [ ] Disponibilidad de Gemini 4 Argon, si se menciona.
-- [ ] Enlaces de la CTA en la web publicada (salen del repo, no de la web).
-- [ ] Recuento de firmas de la declaración sobre la superinteligencia (en Euronova, 76.297 a 1 de octubre).
-- [ ] Pendientes de Euronova que siguen abiertos: las citas de septiembre en X («Desde dentro») y las afiliaciones de los matemáticos españoles.
+Revisado el 20 de octubre (detalles en las notas de cada slide):
+
+- [ ] La mañana del 21: pausa de OpenAI (alignment.openai.com/misalignment-reports) y ONU. El 20 seguía en pausa (slide cambiada a «A 20 de octubre») y en la ONU no había nada nuevo. Falta recomprobarlo el 21.
+- [x] Informe de OpenAI del caso de la wallet: GPT-5.6 Sol, 26 de junio, Sepolia (red de pruebas). La línea de la slide es correcta.
+- [x] Navier-Stokes y el Clay: el Clay dijo el 11 de septiembre «apparently been settled», sin dar premio. Slide cambiada a «anunciar que han resuelto»; lo de The Observer, fuera.
+- [x] Disponibilidad de Gemini 4 Argon: disponible desde el 13 de octubre (API de pago y Pro/Ultra). Solo cambian las notas.
+- [x] Enlaces de la CTA: todos responden; WhatsApp y Discord, válidos. Aún hay que comprobarlos en la web publicada cuando se despliegue.
+- [x] Recuento de firmas: 77.774 el 20 de octubre. En la slide, «Más de 77.000 firmas».
+- [x] Citas de «Desde dentro»: las cuatro, comprobadas en X. Hubinger cambiado a «De verdad creemos». Afiliaciones de los matemáticos: Córdoba (ICMAT-CSIC) y Martínez-Zoroa (CUNEF). «Sobre el trabajo previo» cambiado a «partiendo de ideas de» (Scientific American, 13 de octubre).
 
 ## Decisiones de Dani (18 oct)
 

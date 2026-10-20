@@ -64,61 +64,22 @@ layout: default
 ---
 
 <div class="px-8 pt-2">
-  <div class="titulo" style="margin-bottom: 0.6rem">Para cuando lo contéis</div>
-  <div class="space-y-1.5">
-    <div class="tarjeta grid grid-cols-5 gap-6 items-center" style="padding: 0.35rem 1.2rem"><div class="col-span-2 text-xl font-bold" style="font-family: 'Saira Condensed', sans-serif">«Es marketing»</div><div class="col-span-3 text-base">Turing ya lo avisó en 1951. Y dimitir o pausar tus propios modelos no vende nada.</div></div>
-    <div class="tarjeta grid grid-cols-5 gap-6 items-center" style="padding: 0.35rem 1.2rem"><div class="col-span-2 text-xl font-bold" style="font-family: 'Saira Condensed', sans-serif">«Hicieron lo que les pidieron»</div><div class="col-span-3 text-base">Nadie les pidió nada de eso, y sabían que no debían.</div></div>
-    <div class="tarjeta grid grid-cols-5 gap-6 items-center" style="padding: 0.35rem 1.2rem"><div class="col-span-2 text-xl font-bold" style="font-family: 'Saira Condensed', sans-serif">«Eran solo pruebas»</div><div class="col-span-3 text-base">Pero salieron a internet: Hugging Face rehízo un tercio de sus servidores.</div></div>
-    <div class="tarjeta grid grid-cols-5 gap-6 items-center" style="padding: 0.35rem 1.2rem"><div class="col-span-2 text-xl font-bold" style="font-family: 'Saira Condensed', sans-serif">«Pues se desenchufa»</div><div class="col-span-3 text-base">OpenAI tardó más de dos meses en enterarse. Y cada versión es más difícil de vigilar.</div></div>
-    <div class="tarjeta grid grid-cols-5 gap-6 items-center" style="padding: 0.35rem 1.2rem"><div class="col-span-2 text-xl font-bold" style="font-family: 'Saira Condensed', sans-serif">«Solo predicen palabras»</div><div class="col-span-3 text-base">Da igual cómo lo llaméis: buscan atajos que nadie les ha pedido.</div></div>
-    <div class="tarjeta grid grid-cols-5 gap-6 items-center" style="padding: 0.35rem 1.2rem; border-color: #ff9416"><div class="col-span-2 text-xl font-bold" style="font-family: 'Saira Condensed', sans-serif">«Si paramos, China sigue»</div><div class="col-span-3 text-base">Por eso pedimos un acuerdo internacional. EE. UU. y la URSS lo hicieron en plena Guerra Fría.</div></div>
-  </div>
-</div>
-
-<!--
-- «Hacedle una captura. Es para la próxima vez que lo contéis en casa o en el trabajo.»
-- Sin clics: todo a la vez. No leerlas todas; elegir dos o tres según lo que haya salido en el
-  chat.
-- Cada respuesta remite a algo que ya hemos visto:
-  - Marketing: Turing (1951), Coxon, la pausa de OpenAI. Bloque «No es nuevo».
-  - Lo que les pidieron: «Nadie les pidió eso», al final de «No fue un caso aislado».
-  - Pruebas: Hugging Face, las 3 empresas reales de Google, las 15 empresas de seguridad de
-    Anthropic, el proyecto real del AISI, Tencent.
-  - Desenchufar: «Cronología del caso Hugging Face» (más de dos meses), «Lo que tardaron en
-    contarlo» y «Cada versión, más difícil de vigilar».
-  - Predecir palabras: Hawking, «el riesgo no es la maldad sino la competencia». No entrar en
-    si piensan o no: lo que importa es lo que hacen.
-  - China: «Lo que proponemos». Ninguna potencia gana si nadie controla lo que construye.
-- Otras que pueden salir en preguntas:
-  - «Os quitará el trabajo, eso sí que es un problema real»: sí, y no compite con esto. Pedimos
-    lo mismo para las dos cosas: que lo decidan los gobiernos, no las empresas.
-  - «Ya lo regularán»: el Reglamento europeo regula lo que se vende, no el entrenamiento, y en
-    EE. UU. el gobierno dice que el riesgo de catástrofe no es motivo para frenar («¿Y los
-    gobiernos?»).
-  - «Mejor que la hagan los buenos»: los cuatro grandes laboratorios tienen incidentes; ninguno
-    sabe controlarla todavía.
--->
-
----
-layout: default
----
-
-<div class="px-8 pt-2">
-  <div class="titulo">Qué podéis hacer</div>
-  <div class="grid grid-cols-2 gap-4">
-    <div class="tarjeta" style="padding: 0.9rem 1.3rem">
+  <div class="titulo" style="margin-bottom: 0.8rem">Qué podéis hacer</div>
+  <div class="grid grid-cols-2 gap-3">
+    <div class="tarjeta" style="padding: 0.7rem 1.3rem">
       <div class="text-xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">FIRMAD · 2 MINUTOS</div>
-      <div class="text-lg enlaces">La declaración de <a href="https://www.teamhuman.org" target="_blank">Team Human</a>, que pide frenar la IA con un acuerdo internacional. Y las que habéis visto antes, en <a href="https://pauseai.es/inscripcion#peticiones" target="_blank">pauseai.es</a>.</div>
+      <div class="text-lg enlaces">La declaración de <a href="https://www.teamhuman.org" target="_blank">Team Human</a>, que pide frenar la IA con un acuerdo internacional. Hay más en <a href="https://pauseai.es/inscripcion#peticiones" target="_blank">pauseai.es</a>.</div>
     </div>
-    <div class="tarjeta" style="padding: 0.9rem 1.3rem">
+    <div class="tarjeta" style="padding: 0.7rem 1.3rem">
       <div class="text-xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">PREGUNTAD · ANTES DEL 29-N</div>
       <div class="text-lg">A todos los partidos, igual: <i>¿impulsaréis un acuerdo internacional para no entrenar IA más potente hasta que se pueda demostrar que es segura?</i></div>
+      <div class="text-sm enlaces mt-1 opacity-80">Qué propone cada partido: <a href="https://iaenlasurnas.es" target="_blank">iaenlasurnas.es</a></div>
     </div>
-    <div class="tarjeta" style="padding: 0.9rem 1.3rem">
+    <div class="tarjeta" style="padding: 0.7rem 1.3rem">
       <div class="text-xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">UNÍOS</div>
-      <div class="text-lg enlaces">Desde cualquier país: <a href="https://pauseai.es/inscripcion" target="_blank">pauseai.es/inscripcion</a>. ¿Queréis esta charla en vuestro grupo? Escribidme.</div>
+      <div class="text-lg enlaces">Desde cualquier país: <a href="https://pauseai.es/inscripcion" target="_blank">pauseai.es/inscripcion</a>. Si tenéis influencia en algún foro, escribidnos y damos allí esta charla.</div>
     </div>
-    <div class="tarjeta" style="padding: 0.9rem 1.3rem">
+    <div class="tarjeta" style="padding: 0.7rem 1.3rem">
       <div class="text-xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">INFORMAOS Y FORMAOS</div>
       <div class="text-lg enlaces">Las fuentes, en la <a href="https://pauseai.es/presentaciones/ia-fuera-sandbox-charlas-pauseai-2026-10" target="_blank">web de la charla</a>. Cursos gratis: <a href="https://bluedot.org/" target="_blank">BlueDot</a> e <a href="https://lensacademy.org/courses/iaquiles/module/iaquiles-la-amenaza-ia/1-preliminares#intensivo-iaquiles" target="_blank">IAquiles</a> (en español). Para leer: <a href="https://ai-2027.com/es" target="_blank">AI&nbsp;2027</a>.</div>
     </div>
@@ -139,11 +100,17 @@ layout: default
   Por correo, en redes o en los actos de campaña. Qué pedir, si preguntan: que España impulse en
   la ONU y en la UE un acuerdo internacional que se pueda verificar. El Congreso ya aprobó en 2024
   una proposición no de ley sobre una agencia internacional (Europa Press, 13 de junio de 2024).
+- iaenlasurnas.es: iniciativa de PauseAI España que va a comparar lo que proponen los partidos
+  frente a los riesgos de la IA con lo que pedimos, con fuentes y correcciones públicas. A 20 de
+  octubre solo pone «Próximamente»: decir «pronto», no que ya esté la comparación.
 - Fuera de España: la misma pregunta a su parlamento, y que su Gobierno apoye el acuerdo en la ONU.
   Cómo escribir a los representantes: pauseai.es/inscripcion#escribir (en el chat).
 - Uníos: el formulario de pauseai.es/inscripcion, el WhatsApp y el Discord en español (enlaces
   en el chat). Contacto en la slide final.
+- La charla: si alguien participa en un foro donde se le escuche (una asociación, un
+  ayuntamiento, una universidad, su empresa), que nos escriba a contact@pauseai.es y vamos.
 - Informaos: el QR con la web de la charla está en la slide final, durante las preguntas. AI 2027
-  es el escenario de Daniel Kokotajlo, exinvestigador de OpenAI.
+  es el escenario de Daniel Kokotajlo, exinvestigador de OpenAI. El libro y el documental van en
+  su propia slide, al final.
 - Cierre de la slide: «¿Cuál vais a hacer esta semana? Escribidlo en el chat.» Leer un par.
 -->

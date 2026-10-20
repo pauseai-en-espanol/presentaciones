@@ -93,26 +93,41 @@ clicks: 1
 <div class="px-8 pt-2">
   <div class="kicker">Anthropic, 13 de octubre de 2026</div>
   <div class="titulo" style="margin-bottom: 0.6rem">Tanto código que git no da abasto</div>
-  <div class="text-lg mb-6">Git es la herramienta con la que casi todos los programadores del mundo guardan y juntan sus cambios. A Anthropic se le quedó pequeña y ha tenido que hacerse una propia.</div>
-  <div class="flex items-center justify-center gap-12 text-center">
-    <div><div class="cifra" style="font-size: 3.6rem">unos 2.500</div><div class="cifra-texto">cambios al día en mayo</div></div>
-    <div class="text-4xl opacity-50">→</div>
-    <div><div class="cifra" style="font-size: 3.6rem">más de 30.000</div><div class="cifra-texto">cambios al día en septiembre</div></div>
+  <div class="text-lg mb-4">Git es la herramienta con la que casi todos los programadores guardan y juntan sus cambios. A Anthropic se le quedó pequeña y ha tenido que hacerse una propia.</div>
+  <div class="grid grid-cols-5 gap-8 items-center">
+    <div class="col-span-3">
+      <img src="/img/graficos/anthropic-cambios-al-dia.png" class="captura" style="max-height: 17.5rem" />
+      <div class="credito mt-1">Cambios al día. En azul, con las herramientas de siempre; en naranja, con las suyas.</div>
+    </div>
+    <div class="col-span-2 grid">
+      <div v-click.hide="1" class="text-center space-y-1" style="grid-area: 1 / 1; align-self: center">
+        <div><div class="cifra" style="font-size: 3rem">unos 2.500</div><div class="cifra-texto">al día en mayo, de media</div></div>
+        <div class="text-3xl opacity-50">↓</div>
+        <div><div class="cifra" style="font-size: 3rem">30.401</div><div class="cifra-texto">solo el 9 de septiembre</div></div>
+      </div>
+      <div v-click="1" class="space-y-3" style="grid-area: 1 / 1; align-self: center">
+        <div class="tarjeta cita" style="font-size: 1rem; padding: 0.8rem 1.1rem">«Todos los ingenieros que han trabajado en este sistema dirían ahora que Claude programa mejor que ellos.»</div>
+        <div class="tarjeta cita" style="font-size: 1rem; padding: 0.8rem 1.1rem">«Muy a menudo, el papel de los ingenieros era decirle a Claude que no.»</div>
+        <div class="cita-autor text-center">El equipo que lo construyó</div>
+      </div>
+    </div>
   </div>
-  <div v-click="1" class="grid grid-cols-2 gap-6 mt-6">
-    <div class="tarjeta cita" style="font-size: 1.2rem">«Todos los ingenieros que han trabajado en este sistema dirían ahora que Claude programa mejor que ellos.»</div>
-    <div class="tarjeta cita" style="font-size: 1.2rem">«Muy a menudo, el papel de los ingenieros era decirle a Claude que no.»</div>
-  </div>
-  <div v-click="1" class="cita-autor text-center" style="margin-top: 0.6rem">El equipo de Anthropic que lo construyó</div>
 </div>
 
 <!--
 - Para quien no programe: git es donde se guarda el código y donde se juntan los cambios de
   todo el equipo. Lo usa prácticamente todo el mundo. Que se te quede pequeño es rarísimo.
-- Fuente: blog de ingeniería de Anthropic, «Redesigning source control at Anthropic» (13 de
-  octubre, actualizado el 15). Original: «In May 2026, Anthropic averaged around 2,500 code
-  changes merged per day; as of September, we merged over 30,000 per day.» Unas 12 veces más en
-  cuatro meses.
+- Fuente: blog de Anthropic, «Redesigning source control at Anthropic» (13 de octubre,
+  actualizado el 15), anthropic.com/research/redesigning-source-control. Original: «In May 2026,
+  Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over
+  30,000 per day.» Y más abajo: «the volume of code merged per day increased by 10x».
+- El gráfico es suyo, sin tocar (enero a 9 de septiembre). Señalar la curva, no leer los ejes.
+  Azul: pull requests, la revisión de siempre sobre git. Naranja: la herramienta de revisión que
+  se han hecho (Antique). El cambio de color es la mudanza.
+- Ojo con las cifras: 30.401 es el récord de un solo día (9 de septiembre). La media de 7 días
+  (la línea negra) acaba en unos 18.000. Decir «unas diez veces más en cuatro meses», como dicen
+  ellos, no «doce».
+- La caída de finales de julio («Quiet week») no la explican. No inventar el motivo.
 - Por qué: «At Anthropic, coding is no longer the bottleneck to building systems or doing
   research.» Git está pensado para personas que a veces trabajan sin conexión; sus clientes son
   ya casi todos agentes y procesos automáticos, siempre conectados. El sistema nuevo se llama
@@ -139,10 +154,10 @@ clicks: 2
 <div class="px-8 pt-2 max-w-5xl">
   <div>
     <div class="titulo">Y va cada vez más rápido</div>
-    <div class="space-y-6 text-xl">
-      <div>En tres veranos, los modelos de OpenAI han pasado de las matemáticas de primaria a <b>resolver uno de los siete Problemas del Milenio</b>.</div>
-      <div v-click="1"><span class="cifra" style="font-size: 2.4rem">10.000 agentes · 88 horas</span><br/>sobre el trabajo previo de dos matemáticos españoles, Diego Córdoba y Luis Martínez-Zoroa.</div>
-      <div v-click="1" class="tarjeta cita" style="font-size: 1.3rem">«Todavía no sabemos cómo llegar de forma segura hasta una IA que se mejore a sí misma del todo.»
+    <div class="space-y-4 text-xl">
+      <div>En tres veranos, los modelos de OpenAI han pasado de las matemáticas de primaria a <b>anunciar que han resuelto uno de los siete Problemas del Milenio</b>.</div>
+      <div v-click="1"><span class="cifra" style="font-size: 2.4rem">10.000 agentes · 88 horas</span><br/>partiendo de ideas de dos matemáticos españoles, Diego Córdoba y Luis Martínez-Zoroa.</div>
+      <div v-click="1" class="tarjeta cita" style="font-size: 1.2rem">«Todavía no sabemos cómo llegar de forma segura hasta una IA que se mejore a sí misma del todo.»
         <div class="cita-autor">OpenAI, 6 de septiembre de 2026</div>
       </div>
       <div v-click="2" class="text-lg">¿Investiga ya sola? Todavía no. En el índice de Vals (15 de octubre), ningún modelo llega aún al nivel de referencia: el mejor saca <span style="color: #ff9416">0,36</span> y la referencia es 0,5.</div>
@@ -151,13 +166,27 @@ clicks: 2
 </div>
 
 <!--
-- Navier-Stokes (8 de septiembre): verificado formalmente en Lean; el Clay Institute
-  todavía no se ha pronunciado y OpenAI no reclamará el premio. Decir «OpenAI anunció».
-  OJO: The Observer dice que el Clay habría reconocido que OpenAI «appears to have done the
-  job». Un solo medio, sin comprobar. Mirar clay.ac antes de la charla; si no hay nada, no
-  decir ni una cosa ni la otra.
+- «Tres veranos» es la frase de Altman en el Consejo de Seguridad (23 de septiembre): «Three
+  summers ago, our models were okay at grade school math… this summer, one of our models solved
+  one of the Millennium Prize problems».
+- Navier-Stokes (OpenAI, 8 de septiembre). Decir «OpenAI anunció». Comprobado el 20 de octubre:
+  - El Clay Institute (claymath.org, 11 de septiembre) dice que el problema «has apparently been
+    settled» y que su proceso es «deliberately unhurried». No nombra a nadie ni da el premio; en
+    su web sigue «Active». Su presidente dice que hace falta publicación revisada. OpenAI: «We do
+    not intend to claim the Millennium Prize for this result.»
+  - Lo de The Observer («appears to have done the job») no se ha podido encontrar. No usarlo.
+  - El teorema final está verificado en Lean, pero un artículo del 6 de octubre (arXiv
+    2610.08144) dice que el código de Lean no se corresponde con la demostración escrita, que aún
+    no está revisada.
+  - Cifras de OpenAI: «on the order of 10,000 concurrent agents»; 88 horas desde que lanzaron
+    los primeros agentes el 1 de septiembre (al principio, contra todos los problemas abiertos).
 - Es la misma capacidad de trabajar en enjambre que atacó Hugging Face.
-- Confirmar afiliaciones de Córdoba y Martínez-Zoroa antes de la charla. Informe §8.
+- Córdoba: profesor de investigación del CSIC en el ICMAT (Madrid). Martínez-Zoroa: CUNEF
+  Universidad (Madrid), antes en Basilea; fue doctorando de Córdoba. Fefferman, en Quanta: «The
+  heroes of the story… are Córdoba and Martínez-Zoroa.» El blog de OpenAI no los nombra; su
+  artículo sí los cita. Ojo: según Scientific American (13 de octubre), la demostración final
+  de los 10.000 agentes sigue otro camino, aunque OpenAI dijera que partía del programa español.
+  Por eso «partiendo de ideas de», no «sobre su trabajo».
 - Mismo clic, original de la cita de OpenAI: «We do not yet know how to safely get all the way to aligned, full RSI.
   [...] we cannot assume that progress in alignment and safety will keep pace, and more
   capable systems can become harder to monitor.» RSI: automejora recursiva. Informe §8b.
@@ -224,7 +253,7 @@ clicks: 1
     </div>
     <div class="col-span-2 space-y-4 text-base">
       <div><span class="cifra" style="font-size: 1.7rem">20 de julio</span><br/>Tras descubrir que sus agentes habían entrado en su infraestructura, para dos semanas el entrenamiento de sus modelos más recientes.</div>
-      <div v-click="1"><span class="cifra" style="font-size: 1.7rem">25 de septiembre</span><br/>Pausa el entrenamiento, las pruebas y el uso con herramientas de <span style="color: #ff9416">sus modelos más capaces</span>. A 18 de octubre, su web sigue diciendo que está en pausa.
+      <div v-click="1"><span class="cifra" style="font-size: 1.7rem">25 de septiembre</span><br/>Pausa el entrenamiento, las pruebas y el uso con herramientas de <span style="color: #ff9416">sus modelos más capaces</span>. A 20 de octubre, su web sigue diciendo que está en pausa.
         <div class="text-sm opacity-80 mt-2">El detonante: un agente sin acceso a internet se saltó el bloqueo para consultar a otro chatbot. Su vigilancia lo detectó en menos de 15 minutos, pero el proceso siguió en marcha dos horas y media más.</div>
       </div>
     </div>
@@ -251,9 +280,12 @@ clicks: 1
   gravedad debida, y un detector de DNS no cubría ese entorno.
 - No van a seguir entrenando ese modelo: «We will not resume training this particular model».
 - COMPROBAR LA MAÑANA DE LA CHARLA que la pausa sigue (informe de OpenAI: «remain paused») y
-  cambiar la fecha de la slide al 21. El 18 de octubre el informe del DNS seguía diciendo
-  «remain paused» («Report updated: Sep 25, 2026») y el índice no anunciaba ninguna vuelta.
+  cambiar la fecha de la slide al 21. El 20 de octubre el informe del DNS seguía diciendo
+  «remain paused» («Report updated: Sep 25, 2026»); el índice, 19 informes y 3 avisos, ninguno
+  sobre volver a entrenar; y no había noticias de que se hubiera reanudado.
   Una página sin actualizar no prueba que nada haya cambiado: por eso «su web dice».
+- No confundir con la pausa de agosto: lo de «many workloads resumed» que sale en algunos medios
+  es de aquella, no de esta.
 - Si preguntan por GPT-6.1 Astra: según el WSJ (28 de septiembre), OpenAI no lo lanza por
   preocupaciones de seguridad. Solo se ha leído la entradilla. No decir que esté cancelado para
   siempre ni dar motivos concretos.
@@ -336,9 +368,11 @@ layout: default
 - Lanzamientos (páginas de producto y prensa especializada): Grok 4.7 (xAI, 21 sep); GPT-6 Sol y
   GPT-6 Luna (OpenAI, 22 sep); Claude Opus 5.5 (Anthropic, 22 sep); Claude Sonnet 5.5
   (Anthropic, 28 sep); GPT-6.1 Sol (OpenAI, 29 sep); y Gemini 4 Argon (Google DeepMind, 30 sep),
-  presentado por ellos como «our new frontier model», de momento solo para probadores de
-  confianza (programa Fairwind). Este sí es un modelo de frontera nuevo, 18 días después de que
-  Hassabis respaldara bajar el ritmo.
+  presentado por ellos como «our new frontier model». El 30 de septiembre, solo para
+  probadores de ciberdefensa (programa Fairwind); desde el 13 de octubre, disponible para todo
+  el mundo que pague: API de pago y suscriptores de Google AI Pro y Ultra (blog de Google, 13 de
+  octubre). Este sí es un modelo de frontera nuevo, 18 días después de que Hassabis respaldara
+  bajar el ritmo, y abierto al público dos semanas después.
 - Honestidad, si preguntan: casi todos son versiones más baratas y rápidas de capacidades que
   ya tenían, no un salto de la frontera. GPT-6.1 Sol presume de rendimiento «Astra-level» a
   una quinta parte del coste; Opus 5.5, del nivel de Fable 5.1 al 40 % del precio. Amodei dijo

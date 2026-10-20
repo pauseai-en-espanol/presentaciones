@@ -6,7 +6,7 @@ clicks: 2
 <div class="px-8 pt-2 max-w-6xl mx-auto">
   <div class="titulo">¿Y los gobiernos?</div>
   <div class="space-y-6 text-xl">
-    <div><b>En la ONU.</b> El 23 de septiembre, EE. UU. rechazó cualquier regulación internacional de la IA: avanzar rápido <span style="color: #ff9416">no es motivo para frenar</span>. Sin acuerdo.</div>
+    <div><b>En la ONU.</b> El 23 de septiembre, EE. UU. rechazó cualquier gobernanza global de la IA: que avance rápido <span style="color: #ff9416">«no es motivo para pausarla»</span>. Sin acuerdo.</div>
     <div v-click="1"><b>En EE. UU.</b> Según Axios, la FTC investiga a OpenAI y Anthropic por estos incidentes. Y Anthropic propone su propia ley: el Gobierno solo podría parar un modelo ante un riesgo <span style="color: #ff9416">inminente</span>.</div>
     <div v-click="2"><b>En España.</b> La ley de IA decae con las elecciones del 29 de noviembre. Y el Reglamento europeo regula la venta, no el entrenamiento: <span style="color: #ff9416">todo lo que hemos visto pasó antes de salir al mercado</span>.</div>
   </div>
@@ -17,7 +17,17 @@ clicks: 2
   los gobiernos en ello?
 - ONU: Consejo de Seguridad, 23 de septiembre. Michael Kratsios (Casa Blanca) dijo que el avance
   rápido no es motivo para pausar ni para crear nuevas estructuras de gobernanza. Sin documento
-  final. Informe de Euronova §7.2. Mirar la mañana del 21 si ha habido algo nuevo.
+  final. Informe de Euronova §7.2. Original (transcripción de la ONU): «The frontier of
+  intelligence is advancing rapidly. That is not a reason to pause its further development or to
+  constrain it with new global governance structures.» Y: «not establishing a global regulatory
+  scheme».
+- Comprobado el 20 de octubre: desde entonces, nada decisivo en la ONU (ni resolución, ni pausa,
+  ni líneas rojas). El Panel Científico publica su primer informe completo en 2027; el Diálogo
+  Mundial vuelve a reunirse en mayo de 2027. Mirar la mañana del 21 por si acaso.
+- Si preguntan qué hace España: el 21 de septiembre firmó la «Call for Control of Frontier AI
+  Models» de Finlandia y Noruega (31 líderes de 29 países y la Comisión Europea). Støre: «the
+  development of frontier AI models must take place at a pace that enables us to retain
+  control». No es vinculante y no están ni EE. UU. ni China.
 - No usar «plan globalista» (globalist scheme, atribuido a Trump vía resumen de France 24, sin
   verificar literalmente): tiene carga partidista y la charla evita la política de partidos.
 - Para preguntas, lo que dijeron allí los CEOs: Altman, «It doesn't matter whether people put
@@ -47,7 +57,8 @@ clicks: 2
   no frenaba el entrenamiento. El Reglamento se aplica igual.
 - Europa: desde el 2 de agosto, la Oficina Europea de IA puede pedir información a los grandes
   modelos y multar hasta con el 3 % de la facturación mundial. Pero regula la venta y el uso.
-- Si hay gente de Latinoamérica: según pauseai.es/debate, España y Costa Rica impulsan el diálogo
-  global sobre IA en la ONU. Sin comprobar en la fuente original.
+- Si hay gente de Latinoamérica: España y Costa Rica negociaron en la ONU la resolución que creó
+  el Panel Científico y el Diálogo Mundial sobre la IA (aprobada por consenso en agosto de 2025).
+  Decirlo en pasado: el Diálogo de 2026 lo presidieron El Salvador y Estonia.
 - Puente a la slide siguiente: hasta gente de fuera del sector lo está pidiendo.
 -->

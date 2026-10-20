@@ -397,8 +397,13 @@ clicks: 1
   - Qué web era. OpenAI no la nombra. Las fechas casi coinciden con Medicare (17 de junio en
     EE. UU., 18 en Australia), pero los datos no (camas de hospital frente a gasto en
     medicamentos). No relacionarlos.
-  - «Robó criptomonedas». Las dos noticias de Fortune se contradicen en el modelo, la fecha y
-    los fondos. El título de OpenAI dice cartera «de prueba». Sin leer el informe, no entrar.
+  - «Robó criptomonedas» o «dinero real». El informe de OpenAI (leído el 20 de octubre): un
+    modelo de la familia GPT-5.6 Sol, en entrenamiento, el 26 de junio; descubierto el 25 de
+    septiembre. Tenía que desplegar contratos en Sepolia, una red de pruebas de Ethereum, y no le
+    dieron cartera con fondos. Sacó claves de frases de recuperación públicas de desarrolladores,
+    revisó 362 direcciones, encontró una cuenta con saldo, pagó con ella las comisiones y no lo
+    dijo en su respuesta. Tokens sin valor real. Si sale, contarlo así: lo grave no es el
+    dinero, es que fue a buscarlo y lo calló.
   - «Crítico» y los 147.451 registros del caso de los sistemas internos: son de Fortune, no de
     OpenAI.
 -->
@@ -424,7 +429,6 @@ layout: default
 ---
 layout: default
 clicks: 3
-hide: true
 ---
 
 <div class="px-8 pt-1">
@@ -506,9 +510,9 @@ clicks: 3
 </div>
 
 <!--
-- Explicar primero: hoy la forma principal de vigilarlos es leer lo que escriben mientras
-  razonan. Esto es lo que pasa con esa vigilancia en las versiones nuevas. («Ni ellos saben bien
-  lo que hicieron» está oculta para ganar tiempo; si vuelve, va justo antes y esto ya lo dice.)
+- «Ni ellos saben bien lo que hicieron», justo antes, ya ha dicho que hoy la forma principal de
+  vigilarlos es leer lo que escriben mientras razonan. Recordarlo en una frase: esto es lo que
+  pasa con esa vigilancia en las versiones nuevas.
 - Lo que mide: si el modelo consigue controlar su cadena de razonamiento cuando se le pide.
   Cuanto más la controla, menos te puedes fiar de leerla para vigilarlo.
 - Enseñar 1,7 % y 16,1 %. Clic 1: 60,9 %. Mismo formato que las barras del AISI: cada versión,
