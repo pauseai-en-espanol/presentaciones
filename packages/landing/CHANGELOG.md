@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.12
+
+### Patch Changes
+
+- 968ba10: Verano 2026 (Charlas PauseAI): the opening no longer reveals that Amodei said the swarm quote; the answer comes in block 4.
+
 ## 1.0.11
 
 ### Patch Changes
