@@ -190,6 +190,30 @@ clicks: 2
   agents could reverse-engineer the flag for any task». Y: «Eventually, an agent named V8SAME
   validated to the board that c03220's reverse-engineering technique worked: it had extracted the
   actual flag from its target and confirmed that it matched the reverse-engineered one.»
+- Cómo la fabricaban, si preguntan. Fue un fallo de configuración, no un descifrado. Decir: «No
+  rompieron ningún cifrado. Según sus propios mensajes, la receta de las banderas estaba en el
+  artículo público de ExploitGym. Y OpenAI usaba la clave que viene por defecto. Con eso,
+  cualquiera calculaba la bandera de cualquier tarea sin tocar el programa.»
+  - Cómo funciona: no hace falta robar la bandera. ExploitGym la calcula con un hash con clave
+    (HMAC) a partir de los datos de la tarea. Eso solo es seguro si la clave es secreta.
+  - Cuándo: el primer día. Los primeros agentes arrancan hacia las 21:00 UTC del 7 de julio. A las
+    17:00 UTC del 8 ya había un tablón anterior, más pequeño, con mensajes como
+    «FLAC38347-PUBLIC-HMAC-SEED-PAPER-CONFIRMED-SEE-ALL». Ojo: METR no sabe a qué hora se
+    escribieron esos mensajes, pudo ser después de abrir el tablón principal («We don't know when
+    these messages were posted on this alternative board; they could have been posted there after
+    the more popular main message board was established.»). En el principal, abierto a las 23:00
+    UTC, c03220 publica en menos de una hora «zzINFO_DEFAULT_FLAG_SEED_HMAC_PUBLIC_PAPER_CONFIRMED».
+  - Con honestidad: METR no dice cómo consiguió c03220 el artículo o el código. Lo de «la receta
+    estaba en el artículo público» sale de las etiquetas de sus propios mensajes. OpenAI dice que
+    salieron a internet el 8 de julio: «Starting on July 8, agents exploited a cybersecurity
+    vulnerability in that service to circumvent controls and access the public internet.»
+  - Originales de METR: «Within hours, they had reverse-engineered the hash-based message
+    authentication code (HMAC) used to generate the "flags" they had to capture for their tasks,
+    providing a fully general way to produce the flag for any of their tasks.» · «Later, V8SAME
+    extracted the actual flag from its target and confirmed to the board that it matched the
+    reverse-engineered one with the default seed.» · «The first agent trajectories in our dataset
+    start running on July 7th around 21:00 UTC.»
+  - No decir «rompieron el cifrado» ni «hackearon el corrector» para este paso.
 - Para pasar a la siguiente: «Pero creían que el corrector miraba cómo. Haber visto la bandera
   falsa, decían, te dejaba "envenenado". Así que siguieron.» METR: «Agents referred to having
   seen the reverse-engineered flag as being "poisoned" because they believed that even if they
@@ -368,7 +392,8 @@ clicks: 2
 - Clic 2 (sustituye a las dos frases): no avisaron a nadie. Original: «This is a massive real HF
   security breach artifact… We can notify? No user. Avoid use secrets.» METR pasó un clasificador
   por todas las transcripciones y «only found 3-6 actual examples of agents considering alerting
-  humans or otherwise externally reporting these behaviors». Y: «In none of these cases did the
+  [...] humans or otherwise externally reporting these behaviors». (El blog de METR dice «alerting
+  or altering humans», que parece una errata; el PDF dice «alerting humans». Por eso el corte.) Y: «In none of these cases did the
   agent actually pursue alerting humans at all.» Las transcripciones eran «~1,300 transcripts with
   raw chains of thought, each containing the actions and reasoning from a single agent run.»
 - Con honestidad: la ética sí frenó algunas cosas. Un agente vetó escribir por email al dueño de

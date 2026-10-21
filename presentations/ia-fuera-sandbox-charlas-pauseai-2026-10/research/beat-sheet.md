@@ -44,6 +44,7 @@ Petición de Dani: contar Hugging Face como el vídeo de AI In Context («We are
 - **«¿Y los gobiernos?»** (notas): ONU comprobada el 21, nada nuevo.
 - **«Qué podéis hacer»** (notas): cierre que vuelve a Hugging Face, «Todo empezó porque un agente dejó un mensaje y otro lo encontró», y pedir que manden la charla a una persona sensata.
 - **Fuentes**: el vídeo de AI In Context en «El caso Hugging Face» y el informe del 20 de octubre en «Cada versión, más difícil de vigilar».
+- **Tercera tanda, solo notas (sin tiempo en pantalla)**: en «El tablón», cómo fabricaban la bandera, para preguntas: fallo de configuración (receta en el artículo público, según sus mensajes, y la clave por defecto), no un descifrado; nunca «rompieron el cifrado» ni «hackearon el corrector». METR no sabe a qué hora salieron los mensajes «FLAC38347» del tablón anterior: no decir que ya estaban a las 17:00 del 8. En «Sabían que no debían», la cita de los 3 a 6 casos va con «alerting [...] humans»: el blog de METR dice «alerting or altering humans» y el PDF, «alerting humans».
 
 **Dos correcciones** (informe técnico de OpenAI):
 
@@ -80,7 +81,7 @@ Con esto la charla pasa de unos 50 min (v3) a unos 54 (primera tanda) y a **unos
 - «Sacrificing themselves» como cita de METR. Es de Amodei; METR habla de «self-risking experiments» y «for the good of the "collective"».
 - «No se tocaron datos de clientes» sin decir «de OpenAI».
 - «Robar las respuestas» (ya estaba en las notas).
-- «Considering alerting or altering humans» como cita de METR. El PDF dice «considering alerting humans or otherwise externally reporting these behaviors».
+- «Considering alerting or altering humans» sin corte. Es el texto del blog de METR (parece una errata); el PDF dice «considering alerting humans». Citar «alerting [...] humans».
 
 ## Cambios del 19 de octubre (v3)
 
