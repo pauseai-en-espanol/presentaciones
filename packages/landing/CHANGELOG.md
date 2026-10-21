@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.10
+
+### Patch Changes
+
+- 3d05035: Verano 2026 (Charlas PauseAI): speaker notes on how the agents forged ExploitGym flags (a setup mistake, not cracking) and a corrected METR quote in «Sabían que no debían».
+
 ## 1.0.9
 
 ### Patch Changes
