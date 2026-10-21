@@ -2,7 +2,7 @@
   "name": "@pauseai-es/landing",
   "type": "module",
   "private": true,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Generador de la landing /presentaciones/ en pauseai.es",
   "scripts": {
     "build": "node build.js",

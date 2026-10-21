@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.8
+
+### Patch Changes
+
+- f0f2740: Verano 2026 (Charlas PauseAI): the Hugging Face block is retold as one story, with two new slides («Por el grupo», «El ataque») and corrected timeline facts (OpenAI saw signs three times; it linked its agents to the attack on July 20).
+
 ## 1.0.7
 
 ### Patch Changes
