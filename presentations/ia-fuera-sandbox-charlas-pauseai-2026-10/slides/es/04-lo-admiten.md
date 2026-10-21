@@ -148,19 +148,18 @@ clicks: 1
 
 ---
 layout: default
-clicks: 2
+clicks: 1
 ---
 
 <div class="px-8 pt-2 max-w-5xl">
   <div>
-    <div class="titulo">Y va cada vez más rápido</div>
+    <div class="titulo">Capacidades matemáticas para verlo en perspectiva</div>
     <div class="space-y-4 text-xl">
       <div>En tres veranos, los modelos de OpenAI han pasado de las matemáticas de primaria a <b>anunciar que han resuelto uno de los siete Problemas del Milenio</b>.</div>
       <div v-click="1"><span class="cifra" style="font-size: 2.4rem">10.000 agentes · 88 horas</span><br/>partiendo de ideas de dos matemáticos españoles, Diego Córdoba y Luis Martínez-Zoroa.</div>
       <div v-click="1" class="tarjeta cita" style="font-size: 1.2rem">«Todavía no sabemos cómo llegar de forma segura hasta una IA que se mejore a sí misma del todo.»
         <div class="cita-autor">OpenAI, 6 de septiembre de 2026</div>
       </div>
-      <div v-click="2" class="text-lg">¿Investiga ya sola? Todavía no. En el índice de Vals (15 de octubre), ningún modelo llega aún al nivel de referencia: el mejor saca <span style="color: #ff9416">0,36</span> y la referencia es 0,5.</div>
     </div>
   </div>
 </div>
@@ -192,12 +191,14 @@ clicks: 2
   capable systems can become harder to monitor.» RSI: automejora recursiva. Informe §8b.
 - El punto 6 de la lista («se mejoraría a sí misma») no se tacha: su «?» aparece en la lista
   final de esta sección. Es IA ayudando a construir IA, no un modelo que se mejora solo.
-- Clic 2, por honestidad. Vals RSI Index (vals.ai/benchmarks/rsi_index): cuatro tareas de
+- Ya no en pantalla (21 de octubre); el «?» del punto 6 hace ese papel. Si preguntan «¿investiga
+  ya sola?»: todavía no. En el índice de Vals (15 de octubre), ningún modelo llega aún al nivel de
+  referencia: el mejor saca 0,36 y la referencia es 0,5. Vals RSI Index (vals.ai/benchmarks/rsi_index): cuatro tareas de
   investigación autónoma con tiempo y cómputo fijos. 0,5 es igualar el mejor resultado publicado
   (humano o de frontera); 0,6, un avance claro. El mejor que nombra la página: Claude Fable 5.1,
   0,36. Opus 5.5 sí supera la referencia en una tarea (entrenar un modelo de lenguaje, 0,53).
   Una sola ejecución y tareas estrechas.
-- Voz: «Todavía no. Pero fijaos en que ya hay quien lo mide, porque esperan que pase.»
+- Y añadir: «Pero fijaos en que ya hay quien lo mide, porque esperan que pase.»
 -->
 
 ---
@@ -242,6 +243,7 @@ layout: center
 ---
 layout: default
 clicks: 1
+hide: true
 ---
 
 <div class="px-8 pt-2">

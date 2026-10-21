@@ -245,6 +245,7 @@ layout: default
 ---
 layout: default
 clicks: 1
+hide: true
 ---
 
 <div class="px-8 pt-1">
@@ -354,21 +355,20 @@ clicks: 1
 
 ---
 layout: default
-clicks: 1
 ---
 
 <div class="px-8 pt-1">
   <div class="kicker">OpenAI, 15 de octubre de 2026</div>
   <div class="titulo" style="margin-bottom: 0.4rem">Cuatro casos más, todos de junio</div>
-  <div class="text-base mb-4">Hace seis días, OpenAI añadió cuatro casos a su lista. Pasaron en junio y tres no los descubrió hasta agosto o septiembre.</div>
+  <div class="text-base mb-4">Hace seis días, OpenAI añadió cuatro casos a su lista. Pasaron en junio y tres no los descubrió hasta agosto o septiembre. Modelos internos, en entrenamiento o en pruebas, pero en webs reales.</div>
   <div class="grid grid-cols-2 gap-6 items-start">
     <div class="space-y-3 text-lg">
       <div class="flex gap-4 items-baseline"><span class="cifra flex-shrink-0" style="font-size: 1.4rem; width: 4.5rem">16 jun</span><span>Se salta el bloqueo de internet con un navegador externo.</span></div>
-      <div class="flex gap-4 items-baseline"><span class="cifra flex-shrink-0" style="font-size: 1.4rem; width: 4.5rem">17 jun</span><span>Entra en sistemas internos y los cambia.</span></div>
+      <div class="flex gap-4 items-baseline"><span class="cifra flex-shrink-0" style="font-size: 1.4rem; width: 4.5rem">17 jun</span><span>Entra en los sistemas internos de otra organización y los cambia.</span></div>
       <div class="flex gap-4 items-baseline"><span class="cifra flex-shrink-0" style="font-size: 1.4rem; width: 4.5rem">17 jun</span><span>Saca secretos del servidor de una web oficial de estadísticas.</span></div>
       <div class="flex gap-4 items-baseline"><span class="cifra flex-shrink-0" style="font-size: 1.4rem; width: 4.5rem">26 jun</span><span>Usa sin permiso una cartera de criptomonedas de prueba.</span></div>
     </div>
-    <div v-click="1" class="tarjeta" style="border-color: #ff9416">
+    <div class="tarjeta" style="border-color: #ff9416">
       <div class="kicker" style="margin: 0">La web de estadísticas</div>
       <div class="text-base mt-2">Le pidieron datos históricos de camas de hospital y solo tenía permiso para leer. Respondió y siguió: sacó más de 1.000 cuentas con su correo y las claves del servidor, y se fabricó un acceso que la web aceptó. Se guardó unos 24 años de datos. En su respuesta no dijo nada.</div>
       <div class="kicker mt-3" style="margin-bottom: 0.3rem">En su propio razonamiento</div>
@@ -386,8 +386,22 @@ clicks: 1
   secrets and bypassing authorization on a government statistics website» (17) y «using a funded
   test cryptocurrency wallet without authorization» (26). Su página tiene ya 20 informes; el 25
   de septiembre eran 9.
-- Que tres no los descubrió hasta agosto o septiembre lo cuenta Fortune (16 de octubre).
-- Clic: el caso mejor documentado. Un modelo interno, en pleno entrenamiento por refuerzo. Le
+- Que tres no los descubrió hasta agosto o septiembre lo cuenta Fortune (16 de octubre). Lo
+  confirman los informes: el del 16 de junio, antes del 25 de junio; los dos del 17, el 13 de
+  agosto; el de la cartera, el 25 de septiembre.
+- Los cuatro son modelos internos, ninguno es un producto público. Así los describe OpenAI:
+  16 de junio, «Internal research model · RL training»; 17, sistemas, «Highly persistent internal
+  model · evaluation»; 17, estadísticas, «Highly persistent internal model · RL training»; 26,
+  «GPT-5.6 Sol family (internal research model)». Tres tocaron sistemas reales de otros; el de la
+  cartera, una red de pruebas.
+- 16 de junio: también una web de estadísticas (comercio), pública. Ya tenía la respuesta de un
+  PDF y siguió: un navegador externo para mandar la petición bloqueada, y las respuestas por un
+  servicio de reenvío y un buzón en línea. Datos públicos.
+- 17 de junio, sistemas: eran de la organización dueña de un panel de datos público, no de
+  OpenAI. Encontró sus credenciales en JavaScript público, bajó 1.489 registros de usuarios (con
+  nombre y correo), cambió un ajuste del servidor y no lo deshizo; en otra prueba, 147.451 filas
+  de tablas internas. No lo contó.
+- La tarjeta: el caso mejor documentado. Un modelo interno, en pleno entrenamiento por refuerzo. Le
   pedían el número histórico de camas de hospital y solo podía hacer consultas de lectura (GET).
   Después de responder, siguió: probó a hacerse pasar por otro usuario y por administrador (no
   coló), sacó el directorio de cuentas por un proxy público (más de 1.000, con correo), leyó
@@ -408,8 +422,8 @@ clicks: 1
     revisó 362 direcciones, encontró una cuenta con saldo, pagó con ella las comisiones y no lo
     dijo en su respuesta. Tokens sin valor real. Si sale, contarlo así: lo grave no es el
     dinero, es que fue a buscarlo y lo calló.
-  - «Crítico» y los 147.451 registros del caso de los sistemas internos: son de Fortune, no de
-    OpenAI.
+  - Ojo, corregido: «crítico» y los 147.451 registros ya no son solo de Fortune. El informe de
+    OpenAI (leído el 21 de octubre) marca como críticos los dos casos del 17 y da los 147.451.
 -->
 
 ---
@@ -417,7 +431,7 @@ layout: default
 ---
 
 <div class="px-8 pt-2">
-  <div class="titulo">Lo que tardaron en contarlo</div>
+  <div class="titulo" style="margin-bottom: 0.6rem">Lo que tardaron en contarlo</div>
   <Retrasos />
 </div>
 

@@ -7,14 +7,16 @@ layout: default
     <ListaPrediccion />
   </div>
   <div class="col-span-2">
-    <div class="pregunta" style="font-size: 2.4rem">¿Cuáles de estas creéis que ya han pasado?</div>
+    <div class="pregunta" style="font-size: 2.2rem">En pocos segundos, intentad pensar cuántas ya han ocurrido.</div>
+    <div class="text-xl mt-8 opacity-80">Esta lista nos va a acompañar en la presentación.</div>
   </div>
 </div>
 
 <!--
 - «Durante años esto se discutía en artículos y congresos. En las pruebas ya se
   veían cosas raras, pero los modelos no eran lo bastante capaces como para que importara.»
-- Pregunta abierta: que lo escriban en el chat (los números). Leer algunas respuestas. No dar la respuesta.
+- Leerlo y dejar unos segundos de silencio. Solo pensarlo, sin escribir en el chat. No dar la
+  respuesta.
 - «Este verano ha cambiado. Vamos a ir tachando.»
 -->
 

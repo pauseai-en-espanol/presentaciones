@@ -68,7 +68,7 @@ layout: default
   <div class="grid grid-cols-2 gap-3">
     <div class="tarjeta" style="padding: 0.7rem 1.3rem">
       <div class="text-xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">FIRMAD · 2 MINUTOS</div>
-      <div class="text-lg enlaces">La declaración de <a href="https://www.teamhuman.org" target="_blank">Team Human</a>, que pide frenar la IA con un acuerdo internacional. Hay más en <a href="https://pauseai.es/inscripcion#peticiones" target="_blank">pauseai.es</a>.</div>
+      <div class="text-lg enlaces">La declaración de <a href="https://www.teamhuman.org" target="_blank">Team Human</a>, que pide frenar la IA con un acuerdo internacional. Y dos que ya habéis visto: la de la <a href="https://superintelligence-statement.org" target="_blank">superinteligencia</a> y la de una <a href="https://humanstatement.org" target="_blank">IA al servicio de las personas</a>.</div>
     </div>
     <div class="tarjeta" style="padding: 0.7rem 1.3rem">
       <div class="text-xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">PREGUNTAD · ANTES DEL 29-N</div>
@@ -76,7 +76,7 @@ layout: default
       <div class="text-sm enlaces mt-1 opacity-80">Qué propone cada partido: <a href="https://iaenlasurnas.es" target="_blank">iaenlasurnas.es</a></div>
     </div>
     <div class="tarjeta" style="padding: 0.7rem 1.3rem">
-      <div class="text-xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">UNÍOS</div>
+      <div class="text-xl font-bold mb-1" style="font-family: 'Saira Condensed', sans-serif; color: #ff9416">UNÍOS Y HABLAD DE LO QUE OS PREOCUPA</div>
       <div class="text-lg enlaces">Desde cualquier país: <a href="https://pauseai.es/inscripcion" target="_blank">pauseai.es/inscripcion</a>. Si tenéis influencia en algún foro, escribidnos y damos allí esta charla.</div>
     </div>
     <div class="tarjeta" style="padding: 0.7rem 1.3rem">
@@ -93,8 +93,10 @@ layout: default
   Kurzgesagt, Jenny Hoyos y más de 60), con el apoyo del Center for AI Safety. Su declaración:
   «AI is moving faster than our ability to control it. Alongside a chorus of experts, we call
   for a global slowdown through international agreements.» Se puede firmar desde cualquier país.
-  Las firmas las entrega el CAIS a legisladores de Washington y Bruselas. Las otras
-  declaraciones (CAIS, superinteligencia, Pro-Human) son las de la slide «Lo han firmado».
+  Las firmas las entrega el CAIS a legisladores de Washington y Bruselas.
+- Las otras dos son de «Lo han firmado» y están abiertas a cualquiera (comprobado el 21 de
+  octubre): la de la superinteligencia (superintelligence-statement.org, FLI, 77.790 firmas) y la
+  Pro-Human AI Declaration (humanstatement.org; PauseAI España ya la ha firmado).
 - Preguntad: la misma pregunta, con el mismo texto, a todas las candidaturas, y publicar las
   respuestas tal cual. PauseAI no pide el voto para nadie ni opina de por qué hay elecciones.
   Por correo, en redes o en los actos de campaña. Qué pedir, si preguntan: que España impulse en
@@ -107,6 +109,7 @@ layout: default
   Cómo escribir a los representantes: pauseai.es/inscripcion#escribir (en el chat).
 - Uníos: el formulario de pauseai.es/inscripcion, el WhatsApp y el Discord en español (enlaces
   en el chat). Contacto en la slide final.
+- Hablad: con la familia, los amigos, en el trabajo. Mucha gente está preocupada y no lo dice.
 - La charla: si alguien participa en un foro donde se le escuche (una asociación, un
   ayuntamiento, una universidad, su empresa), que nos escriba a contact@pauseai.es y vamos.
 - Informaos: el QR con la web de la charla está en la slide final, durante las preguntas. AI 2027

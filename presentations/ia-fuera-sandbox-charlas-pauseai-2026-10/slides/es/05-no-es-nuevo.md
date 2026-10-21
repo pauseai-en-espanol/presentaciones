@@ -86,7 +86,7 @@ clicks: 2
     <div v-click="2" class="tarjeta">
       <img src="/img/personas/sutskever.jpg" class="foto-persona mb-3" style="width: 4rem; height: 4rem" />
       <div class="kicker">Ilya Sutskever, cofundador de OpenAI, 2019</div>
-      <div class="cita" style="font-size: 1rem">«Es bastante probable que toda la superficie de la Tierra acabe cubierta de paneles solares y centros de datos. [...] El futuro va a ser bueno para las IA en cualquier caso. Estaría bien que también lo fuera para los humanos.»</div>
+      <div class="cita" style="font-size: 1rem">«Es bastante probable que toda la superficie de la Tierra acabe cubierta de paneles solares y centros de datos.»</div>
     </div>
   </div>
 </div>
@@ -105,7 +105,7 @@ clicks: 2
 - Sutskever: documental iHuman (2019). Original: «I think it's pretty likely the entire
   surface of the Earth will be covered with solar panels and data centers... The future
   is going to be good for the AIs regardless. It would be nice if it were good for
-  humans as well.» Informe §7.0.
+  humans as well.» Informe §7.0. En pantalla solo la primera frase; el resto, de voz si encaja.
 -->
 
 ---

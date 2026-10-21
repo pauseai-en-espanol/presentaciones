@@ -146,7 +146,7 @@ const meses = (
   gap: 1rem;
 }
 .fila {
-  margin: 0.7rem 0;
+  margin: 0.5rem 0;
   transition: opacity 0.6s;
 }
 .col-caso {
@@ -155,7 +155,7 @@ const meses = (
   font-size: 1rem;
 }
 .col-hueco {
-  width: 15rem;
+  width: 17rem;
 }
 .eje {
   position: relative;
@@ -221,7 +221,7 @@ const meses = (
   display: flex;
   gap: 2rem;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   font-size: 0.85rem;
   opacity: 0.7;
 }
