@@ -112,5 +112,9 @@ layout: default
 - Informaos: el QR con la web de la charla está en la slide final, durante las preguntas. AI 2027
   es el escenario de Daniel Kokotajlo, exinvestigador de OpenAI. El libro y el documental van en
   su propia slide, al final.
+- Para cerrar el círculo con Hugging Face: «Todo empezó porque un agente dejó un mensaje y otro lo
+  encontró.» Y pedirles que manden esta charla a una persona sensata que conozcan (el enlace, en
+  el chat). La frase sale del vídeo de AI In Context (32:26): «The swarm began because one agent
+  sent a message and another one found it.»
 - Cierre de la slide: «¿Cuál vais a hacer esta semana? Escribidlo en el chat.» Leer un par.
 -->

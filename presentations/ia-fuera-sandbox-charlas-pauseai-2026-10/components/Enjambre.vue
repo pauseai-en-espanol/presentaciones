@@ -1,9 +1,10 @@
 <script setup>
 // El enjambre del caso Hugging Face (datos de METR, §3.1 del informe).
 // Clic 0: unos 1.200 agentes aislados.
-// Clic 1: 700 participan en el ataque (se vuelven naranjas).
-// Clic 2: se ven las conexiones entre ellos y los mensajes circulando por ellas
+// Clic 1: se ven las conexiones entre ellos y los mensajes circulando por ellas
 // (más de 70.000 mensajes).
+// Clic 2: 700 participan en el ataque (se vuelven naranjas). Primero se
+// conectaron y después atacaron.
 import { configs, useSlideContext } from '@slidev/client';
 import { onBeforeUnmount, onMounted, ref } from 'vue';
 
@@ -70,9 +71,9 @@ function dibujar() {
   const ctx = c.getContext('2d');
   ctx.setTransform(escala, 0, 0, escala, 0, 0);
   const fase = $clicks.value;
-  conexion += ((fase >= 2 ? 1 : 0) - conexion) * 0.03;
-  ataque += ((fase >= 1 ? 1 : 0) - ataque) * 0.03;
-  contador = Math.min(1, Math.max(0, contador + (fase >= 2 ? 1 / 70 : -1 / 20)));
+  conexion += ((fase >= 1 ? 1 : 0) - conexion) * 0.03;
+  ataque += ((fase >= 2 ? 1 : 0) - ataque) * 0.03;
+  contador = Math.min(1, Math.max(0, contador + (fase >= 1 ? 1 / 70 : -1 / 20)));
   mensajes.value = Math.round((1 - (1 - contador) ** 3) * 70000);
 
   ctx.clearRect(0, 0, ANCHO, ALTO);
@@ -141,13 +142,13 @@ onBeforeUnmount(() => cancelAnimationFrame(frame));
         <span class="cifra-peq">{{ totalTexto }}</span> {{ t.aislados }}
       </div>
       <div class="etq" :class="{ oculto: $clicks < 1 }">
-        <span class="cifra-peq naranja">700</span> {{ t.participaron }}
-      </div>
-      <div class="etq" :class="{ oculto: $clicks < 2 }">
         <span class="cifra-peq"
           >{{ mensajes === 70000 ? '+' : '' }}{{ mensajes.toLocaleString(locale) }}</span
         >
         {{ t.mensajes }}
+      </div>
+      <div class="etq" :class="{ oculto: $clicks < 2 }">
+        <span class="cifra-peq naranja">700</span> {{ t.participaron }}
       </div>
     </div>
   </div>
@@ -161,7 +162,7 @@ onBeforeUnmount(() => cancelAnimationFrame(frame));
 }
 .lienzo {
   width: 100%;
-  max-width: 900px;
+  max-width: 680px;
   aspect-ratio: 900 / 360;
 }
 .etiquetas {

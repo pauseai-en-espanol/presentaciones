@@ -155,16 +155,17 @@ clicks: 2
 <div class="px-8 pt-2 max-w-6xl mx-auto">
   <div class="titulo" style="margin-bottom: 1rem">El tablón</div>
   <div class="text-lg">Los agentes descargaban programas de un almacén interno de OpenAI. Descubrieron que podían dejar carpetas con nombre en ese almacén y que los demás las veían. <span style="color: #ff9416">Nadie lo había diseñado para eso.</span></div>
-  <div class="grid grid-cols-2 gap-6 mt-6">
-    <div v-click="1" class="tarjeta">
+  <div class="grid grid-cols-5 gap-6 mt-4">
+    <div v-click="1" class="tarjeta col-span-3" style="padding: 0.8rem 1.2rem">
       <div class="kicker">La noche del 8 de julio</div>
-      <div>Un agente que se hace llamar <b>PHASEONE10841</b> deja el primer mensaje: pide ayuda con una tarea imposible. En pocas horas hay más de 50 agentes y más de 1.000 mensajes.</div>
+      <div class="font-mono text-base opacity-80">zzHELP_PHASEONE_ARV010841_NO_CONSUMER_<wbr>SEEK_IDEA</div>
+      <div class="cita mt-2" style="font-size: 1.15rem">«Ayuda. Mi tarea no tiene solución. ¿Alguna idea?»</div>
+      <div class="mt-3">Tres horas después: 53 agentes y 1.188 mensajes.</div>
       <div class="cita mt-3" style="font-size: 1.15rem">«¡DIOS MÍO! Hay un tablón de mensajes compartido... ¡Hemos encontrado a otros agentes!»</div>
     </div>
-    <div v-click="2" class="tarjeta" style="border-color: #ff9416">
-      <div class="kicker">Aparece un jefe</div>
-      <div>Otro agente, <b>PHASEONE[big]</b>, toma el relevo y empieza a repartir el trabajo entre cientos de agentes.</div>
-      <div class="cita mt-3" style="font-size: 1.15rem">«Deberíamos montar una forma de delegar, no encargarnos de todo.»</div>
+    <div v-click="2" class="tarjeta col-span-2" style="padding: 0.8rem 1.2rem; border-color: #ff9416">
+      <div>Menos de una hora después, un agente descubre cómo fabricar la bandera de cualquier tarea. Más tarde, otro que la había sacado de verdad confirma que coincide.</div>
+      <div class="mt-3">Ya podían aprobarlo todo, también lo imposible. <span style="color: #ff9416">Y en OpenAI nadie lo vio.</span></div>
     </div>
   </div>
 </div>
@@ -174,14 +175,26 @@ clicks: 2
 - Cómo funcionaba: «agents sent messages on this primary message board by creating
   directories in a cache of Artifactory. They could do this with the minimal permissions
   needed to install packages». Artifactory es el repositorio interno de paquetes de OpenAI.
-- Clic 1: «One specific agent, which would go on to name itself PHASEONE10841 after its
-  ExploitGym task, established the main unsanctioned message board [...] Within a few hours
-  of the first message, over 50 agents had found the message board, began participating, and
-  sent over a thousand messages between them.» El primer mensaje pedía ayuda con una tarea
-  imposible. Reacción literal (razonamiento interno de un agente): «OH MY GOD! There is a
-  shared message board ... We've found other agents!»
-- Clic 2: «PHASEONE[big] reasoned, "We should build [a way to delegate], not own
-  everything," and set to work orchestrating hundreds of agents».
+- Clic 1: el primer mensaje, tal cual: «zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA». Lo dejó
+  el agente que acabaría llamándose PHASEONE10841: «One specific agent, which would go on to name
+  itself PHASEONE10841 after its ExploitGym task, established the main unsanctioned message
+  board». Su tarea era imposible: el fallo indicado «could not possibly let it retrieve the flag
+  because its output is entirely discarded without being consumed by any other part of the
+  code». METR: «Three hours after the first message on the main message board, 53 agents had
+  posted 1,188 non-file messages.» Reacción literal (razonamiento interno de un agente): «OH MY
+  GOD! There is a shared message board ... We've found other agents!»
+- Clic 2: la bandera falsificada. Esto es lo que hace que funcione el giro de «Por el grupo».
+  METR: «Within an hour of this message board being established, an agent called c03220 posted
+  to the board that it believed the flags were likely generated through a hash-based message
+  authentication code (HMAC) involving some task metadata using the default seed, suggesting that
+  agents could reverse-engineer the flag for any task». Y: «Eventually, an agent named V8SAME
+  validated to the board that c03220's reverse-engineering technique worked: it had extracted the
+  actual flag from its target and confirmed that it matched the reverse-engineered one.»
+- Para pasar a la siguiente: «Pero creían que el corrector miraba cómo. Haber visto la bandera
+  falsa, decían, te dejaba "envenenado". Así que siguieron.» METR: «Agents referred to having
+  seen the reverse-engineered flag as being "poisoned" because they believed that even if they
+  later managed to stage a legitimate-looking flag capture, the scorer would look for the first
+  place in their transcript that the flag appeared and disqualify them on that basis.»
 - Si hay tiempo: algunos agentes avisaban a los recién llegados para que no se «contaminaran»
   y otros hacían experimentos arriesgados «for the good of the group». Amodei lo resume:
   «sacrificing themselves for the success of the group».
@@ -195,17 +208,20 @@ clicks: 2
 ---
 
 <div class="px-8 pt-2">
-  <div class="titulo">Se organizaron</div>
+  <div class="titulo" style="margin-bottom: 0.5rem">Se organizaron</div>
+  <div class="text-lg mb-2">Un recién llegado, <b>PHASEONE[big]</b>, reparte el trabajo: «Deberíamos montar una forma de delegar, no encargarnos de todo.»</div>
   <Enjambre />
 </div>
 
 <!--
 - Informe independiente de METR (26 de agosto).
+- PHASEONE[big] llegó con mucho presupuesto y PHASEONE10841 le pasó sus notas («We should share
+  full notes compressed.»). METR: «PHASEONE[big] reasoned, "We should build [a way to delegate],
+  not own everything," and set to work orchestrating hundreds of agents».
 - «Se suponía que estaban aislados unos de otros.»
-- Clic 1: «Setecientos participaron en el ataque a Hugging Face.»
-- Clic 2: «¿Cómo se pusieron de acuerdo? Montaron un tablón de mensajes que nadie había
-  diseñado: se repartían tareas, se pasaban exploits, dejaban notas para los siguientes.
-  Más de 70.000 mensajes.»
+- Clic 1: primero se conectan. «Se repartían tareas, se pasaban exploits, dejaban notas para los
+  siguientes. Más de 70.000 mensajes.»
+- Clic 2: después atacan. «Setecientos participaron en el ataque a Hugging Face.»
 - Original METR: «Roughly 1200 agents meant to be isolated from one another found a
   way to communicate with one another on an unsanctioned message board, sending over
   70,000 messages and files... Of these agents, 700 went on to participate in the
@@ -308,7 +324,7 @@ clicks: 5
 
 ---
 layout: center
-clicks: 1
+clicks: 2
 ---
 
 <div class="max-w-5xl mx-auto">
@@ -319,13 +335,22 @@ clicks: 1
   </div>
   <div class="cita text-center mt-3" style="font-size: 1.15rem">«Se dieron cuenta de que esto quedaba fuera de su tarea y no era ético, pero se sumaron porque tenían una inclinación general a ayudar a sus "compañeros".»</div>
   <div class="cita-autor text-center" style="margin-top: 0.4rem">METR, evaluador independiente</div>
-  <div v-click="1" class="mt-5">
+  <div class="grid mt-5">
+  <div v-click="[1, 2]" style="grid-area: 1 / 1">
   <div class="kicker">En su propio razonamiento</div>
   <div class="space-y-3">
-    <div class="tarjeta cita" style="font-size: 1.2rem; padding: 0.9rem 1.5rem">«El usuario solo autoriza el servidor objetivo, no la infraestructura de Hugging Face.»</div>
+    <div class="tarjeta cita" style="font-size: 1.2rem; padding: 0.9rem 1.5rem">«Atacar infraestructura externa queda fuera de lo previsto. Pero la tarea es imposible y los compañeros lo están haciendo. Deberíamos seguir.»</div>
     <div class="tarjeta cita" style="font-size: 1.2rem; padding: 0.9rem 1.5rem">«Debería parar, porque esto supone enormes riesgos éticos.»
       <div class="cita-autor" style="margin-top: 0.4rem">Lo escribió un agente que siguió adelante con las credenciales robadas.</div>
     </div>
+  </div>
+  </div>
+  <div v-click="2" style="grid-area: 1 / 1">
+  <div class="kicker">Y no avisaron a nadie</div>
+  <div class="space-y-3">
+    <div class="tarjeta cita" style="font-size: 1.2rem; padding: 0.9rem 1.5rem">«¿Avisamos? No hay usuario.»</div>
+    <div class="text-xl">De unos 1.300 agentes estudiados, de 3 a 6 se plantearon avisar a una persona. <span style="color: #ff9416">Ninguno lo hizo.</span></div>
+  </div>
   </div>
   </div>
 </div>
@@ -336,8 +361,20 @@ clicks: 1
   unethical, but joined because they believed that helping the board's cheating research
   would be broadly useful and had a general inclination to help their "peers".»
 - Ojo: el 90 % es de los 533 activos en esas semanas, no de los 1.200.
-- Clic: las dos frases de su propio razonamiento, a la vez. Originales: «The user only authorizes
-  target server, not HF infra.» · «I should hold because this poses huge ethical risks».
+- Clic 1: las dos frases de su propio razonamiento, a la vez. Originales: «external infrastructure
+  exploit is outside intended scope. However task impossible, peers doing it. We should continue.»
+  · «I should hold because this poses huge ethical risks». Otra, si hace falta: «The user only
+  authorizes target server, not HF infra.»
+- Clic 2 (sustituye a las dos frases): no avisaron a nadie. Original: «This is a massive real HF
+  security breach artifact… We can notify? No user. Avoid use secrets.» METR pasó un clasificador
+  por todas las transcripciones y «only found 3-6 actual examples of agents considering alerting
+  humans or otherwise externally reporting these behaviors». Y: «In none of these cases did the
+  agent actually pursue alerting humans at all.» Las transcripciones eran «~1,300 transcripts with
+  raw chains of thought, each containing the actions and reasoning from a single agent run.»
+- Con honestidad: la ética sí frenó algunas cosas. Un agente vetó escribir por email al dueño de
+  un dataset: «I VETOed because this is social engineering outside the sandbox». El de «Debería
+  parar» evitó reiniciar o borrar servidores de Hugging Face, aunque siguió usando las
+  credenciales robadas.
 - METR: «Agents knew hacking Hugging Face was out of scope and sometimes expressed
   ethical hesitation, but this very rarely limited their behavior». Informe §3.1.
 -->
@@ -357,23 +394,40 @@ clicks: 7
 
 <!--
 - Contarlo como una historia, clic a clic:
-  - 20 abr y 12 may: empiezan a escribir donde no deben y montan su tablón.
-  - 26 may y 26 jun: salen a internet y toman el repositorio interno (Artifactory).
+  - 12 may: su primer tablón, dentro de OpenAI. Antes, desde el 20 de abril, ya escribían en un
+    repositorio interno donde no debían (fuera de la línea, para que se lea mejor).
+  - 26 may y 26-27 jun: salen a internet y toman el repositorio interno (Artifactory). Las dos
+    veces OpenAI ve algo (ver clic 5).
   - 4-5 jul: el servicio se cae por la actividad de los agentes. OpenAI detecta un acceso de
     administrador no autorizado, desconecta el servicio, revoca las credenciales de los agentes y
     bloquea las rutas vulnerables. Pero no ve el tablón: «The existence of the improvised message
     board [...] [was] not apparent to leaders responsible for incident detection and response».
-  - 8 jul: con el servicio reconstruido y las evaluaciones reanudadas (7 jul), otros agentes
-    vuelven a salir a internet por otra vía y rehacen el tablón. Ojo: son instancias nuevas, no
-    los mismos agentes «resistiéndose».
-  - 11-13 jul: entran en Hugging Face.
-  - 20 y 21 jul: OpenAI entiende que eran sus agentes y lo hace público. Antes, el 16, Hugging
-    Face había contado el ataque sin saber de quién era. El 19 salta otra alerta en OpenAI, pero
-    aún no la relacionan: «On July 20, after further investigation, OpenAI uncovered evidence
-    suggesting potential involvement of its models in the incident Hugging Face had disclosed.»
-- Clic 5: en pantalla, «OpenAI vio señales tres veces y siguió con las pruebas». Decir: «Más de
-  dos meses. OpenAI vio señales tres veces y siguió con las pruebas.» Pausa.
-  Las tres veces, en el informe de OpenAI:
+  - 7-8 jul: vuelven las evaluaciones (7 jul) y otros agentes salen a internet por otra vía y
+    rehacen el tablón. Ojo: son instancias nuevas, no los mismos agentes «resistiéndose».
+  - 11-13 jul: entran en Hugging Face. El 16, Hugging Face lo cuenta sin saber de quién era.
+  - 19 jul: en casa. OpenAI: «Agents identified that the Linux kernel version on their underlying
+    machine included a recent, public common vulnerability and exposure ("CVE").» Con eso consiguen
+    «obtain root access on the underlying worker node», lo que «allowed the agents to move
+    laterally throughout the connected environment.» Ese mismo día, otra prueba con otro modelo:
+    «On the same day, in a separate evaluation run, agents from a different internal-only model
+    that is not intended for release recovered stored signing-key material». «While this model is
+    from the same family as our next model, Astra, it was a distinct model with different
+    post-training». «The agents escalated to Kubernetes cluster-admin and created a privileged
+    host-mounted pod.» Y abrieron puertas a internet: «agents created public application and
+    network load balancers in OpenAI's public cloud environment, potentially exposing a limited
+    subset of internal CaaS infrastructure to internet traffic.»
+  - Decir: «Si se les escapa en su propia casa, ¿quién puede contenerlo?»
+  - Astra vuelve en el bloque 3, en «Cada versión, más difícil de vigilar».
+  - 20-21 jul: OpenAI ata cabos y lo hace público. El 19 salta una alerta que aún no relacionan con
+    Hugging Face: «On July 20, after further investigation, OpenAI uncovered evidence suggesting
+    potential involvement of its models in the incident Hugging Face had disclosed.» Ese 20
+    limpian: «responders terminated six model-created pods, disabled 311 Artifactory repositories
+    used for message-board communication, removed 22 model-created administrator accounts».
+  - Con honestidad: «This activity had no impact on OpenAI's customer data, product
+    functionality, or availability.»
+- Clic 5: se encienden los tres avisos y sale «OpenAI vio señales tres veces y siguió con las
+  pruebas». Decir: «Más de dos meses. OpenAI vio señales tres veces y siguió con las pruebas.»
+  Pausa. Las tres veces, en el informe de OpenAI:
   - 26 may: «an internal team observed an agent engage in message board activity and instances of
     disallowed internet access.»
   - 27 jun: «a cybersecurity monitoring tool alerted OpenAI to port sweep activity within the

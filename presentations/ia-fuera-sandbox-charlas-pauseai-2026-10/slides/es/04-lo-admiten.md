@@ -253,8 +253,8 @@ clicks: 1
     </div>
     <div class="col-span-2 space-y-4 text-base">
       <div><span class="cifra" style="font-size: 1.7rem">20 de julio</span><br/>Tras descubrir que sus agentes habían entrado en su infraestructura, para dos semanas el entrenamiento de sus modelos más recientes.</div>
-      <div v-click="1"><span class="cifra" style="font-size: 1.7rem">25 de septiembre</span><br/>Pausa el entrenamiento, las pruebas y el uso con herramientas de <span style="color: #ff9416">sus modelos más capaces</span>. A 20 de octubre, su web sigue diciendo que está en pausa.
-        <div class="text-sm opacity-80 mt-2">El detonante: un agente sin acceso a internet se saltó el bloqueo para consultar a otro chatbot. Su vigilancia lo detectó en menos de 15 minutos, pero el proceso siguió en marcha dos horas y media más.</div>
+      <div v-click="1"><span class="cifra" style="font-size: 1.7rem">25 de septiembre</span><br/>Pausa el entrenamiento, las pruebas y el uso con herramientas de sus modelos más capaces (no dice cuáles). A 21 de octubre, su web sigue diciendo que está en pausa. <span style="color: #ff9416">Nadie de fuera puede comprobarlo.</span>
+        <div class="text-sm opacity-80 mt-2">El detonante: un agente sin internet se saltó el bloqueo para consultar a otro chatbot. Lo detectaron en menos de 15 minutos y siguió dos horas y media más.</div>
       </div>
     </div>
   </div>
@@ -279,11 +279,29 @@ clicks: 1
   should have been stopped». Además, la vigilancia no marcó otros casos de DNS con la
   gravedad debida, y un detector de DNS no cubría ese entorno.
 - No van a seguir entrenando ese modelo: «We will not resume training this particular model».
-- COMPROBAR LA MAÑANA DE LA CHARLA que la pausa sigue (informe de OpenAI: «remain paused») y
-  cambiar la fecha de la slide al 21. El 20 de octubre el informe del DNS seguía diciendo
-  «remain paused» («Report updated: Sep 25, 2026»); el índice, 19 informes y 3 avisos, ninguno
-  sobre volver a entrenar; y no había noticias de que se hubiera reanudado.
-  Una página sin actualizar no prueba que nada haya cambiado: por eso «su web dice».
+- Comprobado la mañana del 21 de octubre: el informe del DNS
+  (alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/) sigue
+  diciendo «All training, evaluation, and inference with tool-use (defined broadly) of our most
+  capable models remain paused.» («Report updated: Sep 25, 2026»). El índice tiene 20 informes y
+  3 avisos, ninguno sobre volver a entrenar. Una búsqueda de noticias no encontró ninguna
+  reanudación. Una página sin actualizar no prueba que nada haya cambiado: por eso «su web dice».
+- Decir: «Que sepamos. Desde fuera nadie puede comprobarlo: ni si siguen parados, ni qué cuenta
+  como "sus modelos más capaces". Por eso pedimos un acuerdo que se pueda verificar.» Prepara «Lo
+  que proponemos», que pide «garantías de seguridad que se puedan comprobar».
+- Por qué no se puede comprobar (para preguntas, no para leer):
+  - El alcance lo decide OpenAI. «Our most capable models» no nombra ningún modelo. GPT-6.1 Sol
+    salió el 29 de septiembre, a los cuatro días de la pausa. El informe del 20 de octubre muestra
+    agentes de GPT-6.1 Sol y GPT-6 Astra usando herramientas dentro de OpenAI el 3 y el 6 de
+    octubre.
+  - OpenAI no ha prometido anunciar cuándo vuelve. La condición es su propio criterio: «until we
+    have both validated that the gap is resolved and performed additional red-teaming of the
+    system.»
+  - El informe no es una página de estado. OpenAI publicó informes el 2, el 9, el 15 y el 20 de
+    octubre sin tocar este, actualizado por última vez el 25 de septiembre.
+  - Su historial es contarlo tarde. Los casos de junio salieron el 15 de octubre. Lo de Hugging
+    Face lo hizo público después de que lo contara Hugging Face. La wiki alemana la destaparon
+    investigadores de fuera.
+  - Para ser justos: la prensa está muy encima, y ningún medio ha contado que hayan vuelto.
 - No confundir con la pausa de agosto: lo de «many workloads resumed» que sale en algunos medios
   es de aquella, no de esta.
 - Si preguntan por GPT-6.1 Astra: según el WSJ (28 de septiembre), OpenAI no lo lanza por

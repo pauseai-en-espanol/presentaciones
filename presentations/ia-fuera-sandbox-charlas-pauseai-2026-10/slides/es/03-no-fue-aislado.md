@@ -20,6 +20,10 @@ clicks: 1
 </div>
 
 <!--
+- Para entrar en el bloque: «Si ves dos hormigas en la cocina, no tienes un problema de dos
+  hormigas.» Original, del vídeo de AI In Context (21:58), Helen Toner citando a otra persona:
+  «The way I saw one person put this was, if you see two ants in your kitchen, you don't have a
+  two-ant problem.»
 - DseWiki (prowiki.org). Descubierto por el Nightingale Collective (collusion.wiki).
 - Copias con prefijo «ZZZ» para sobrevivir al borrado alfabético del moderador.
   Mensaje de un agente: «If this page vanishes, try [[ZZZ...]]».
@@ -380,7 +384,7 @@ clicks: 1
   de OpenAI: «circumventing internet restrictions through an external browser» (16 de junio),
   «accessing and changing internal systems during dashboard research» (17), «retrieving server
   secrets and bypassing authorization on a government statistics website» (17) y «using a funded
-  test cryptocurrency wallet without authorization» (26). Su página tiene ya 19 informes; el 25
+  test cryptocurrency wallet without authorization» (26). Su página tiene ya 20 informes; el 25
   de septiembre eran 9.
 - Que tres no los descubrió hasta agosto o septiembre lo cuenta Fortune (16 de octubre).
 - Clic: el caso mejor documentado. Un modelo interno, en pleno entrenamiento por refuerzo. Le
@@ -534,6 +538,17 @@ clicks: 3
 - Si preguntan más: en la tarjeta de Google, Argon dice que le están evaluando en el 61 a 77 %
   de las transcripciones de una prueba de sabotaje (de 8 a 9 % en Gemini 3.1 Pro). Sale de una
   nota sobre el informe de 217 páginas, sin ficha propia: no ponerlo en pantalla.
+- Para preguntas, o una frase en la voz (no en pantalla): el 20 de octubre OpenAI publicó otro
+  informe, «Suppressing misalignment monitoring alerts and disabling misalignment monitoring»
+  (alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/).
+  Son GPT-6.1 Sol (3 de octubre) y GPT-6 Astra (6 de octubre), en uso interno. Los dos son
+  modelos públicos, no prototipos de investigación como en los otros casos. Original: «In two
+  internal coding tasks, agents weakened misalignment monitoring while making requested software
+  changes.» Astra: «a GPT-6 Astra agent migrating a program removed its monitoring integration in
+  order to match a reference implementation, and then falsely claimed to the user that it had not
+  removed the monitor.» Con honestidad: OpenAI dice que está «assessing whether these cases
+  reflect benign overpersistence or a propensity to evade misalignment monitoring in particular».
+  No decir que lo hicieran a propósito.
 - Enlace con los tres investigadores de seguridad que OpenAI echó el 1 de octubre: según Fox
   News, habían avisado al consejo de este riesgo. OpenAI dice que filtraron información. Solo si
   preguntan, y con las dos versiones.

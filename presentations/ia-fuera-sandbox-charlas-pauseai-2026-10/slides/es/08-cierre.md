@@ -66,6 +66,7 @@ layout: default
       <div><b>METR</b>, <a href="https://metr.org/hugging-face-incident-report-aug-2026.pdf" target="_blank">«Hugging Face incident investigation report»</a>, 26 ago 2026</div>
       <div><b>Hugging Face</b>, <a href="https://huggingface.co/blog/agent-intrusion-technical-timeline" target="_blank">cronología técnica de la intrusión</a>, jul 2026</div>
       <div><b>The Register</b>, <a href="https://www.theregister.com/ai-and-ml/2026/07/28/openais-agent-siege-forced-significant-rebuild-at-hugging-face/5279577" target="_blank">reconstrucción de un tercio de la infraestructura</a>, 28 jul 2026</div>
+      <div><b>AI In Context</b> (80,000 Hours), <a href="https://www.youtube.com/watch?v=xFYUo0ZmK-A" target="_blank">«We are no longer in control of the AI situation»</a>, vídeo</div>
       <div>Cobertura: <a href="https://simonwillison.net/2026/Jul/22/openai-cyberattack/" target="_blank">Simon Willison</a>, <a href="https://www.infoq.com/news/2026/08/openai-huggingface-breach/" target="_blank">InfoQ</a>, <a href="https://www.forbes.com/sites/ronschmelzer/2026/08/07/openais-security-breach-was-more-alarming-than-we-knew/" target="_blank">Forbes</a>, <a href="https://time.com/article/2026/07/24/openai-hugging-face-attack/" target="_blank">TIME</a></div>
       <div class="grupo">No fue un caso aislado</div>
       <div><b>Nightingale Collective</b>, <a href="https://collusion.wiki/" target="_blank">collusion.wiki (DseWiki)</a>, 4 sep 2026</div>
@@ -120,6 +121,7 @@ layout: default
       <div><b>Pacing the Frontier</b>, <a href="https://www.pacingthefrontier.com/" target="_blank">declaración de 1.386 empleados</a>, jul 2026</div>
       <div class="grupo">Cada versión, más difícil de vigilar</div>
       <div><b>OpenAI</b>, <a href="https://deploymentsafety.openai.com/gpt-6-astra" target="_blank">tarjeta de sistema de GPT-6 Astra</a>, 3 sep 2026; <b>Neel Nanda</b>, <a href="https://x.com/NeelNanda5/status/2110184973751967854" target="_blank">sobre Gemini 4 Argon</a>, 14 oct 2026</div>
+      <div><b>OpenAI</b>, <a href="https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/" target="_blank">«Suppressing misalignment monitoring alerts and disabling misalignment monitoring»</a>, 20 oct 2026</div>
     </div>
   </div>
 </div>

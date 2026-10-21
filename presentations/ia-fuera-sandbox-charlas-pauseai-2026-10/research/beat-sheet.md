@@ -21,41 +21,53 @@ Parte del beat sheet v2 de Euronova (`../ia-fuera-sandbox-euronova-2026-10/resea
 
 ## Cambios del 21 de octubre (v4)
 
-Petición de Dani: contar Hugging Face como el vídeo de AI In Context («We are no longer in control of the AI situation», 80,000 Hours, youtube.com/watch?v=xFYUo0ZmK-A). Una sola historia en orden, pocos agentes con nombre y el giro al final. Orden nuevo del bloque 2: «El caso Hugging Face», «La evaluación», «Tareas imposibles, sin querer», «El tablón», «Se organizaron», **«Por el grupo»** (nueva), **«El ataque»** (nueva), «Sabían que no debían» y la cronología. Fuentes de todo lo nuevo: METR (PDF) e informe técnico de OpenAI. El vídeo, solo para la cita de Thomas Wolf.
+Petición de Dani: contar Hugging Face como el vídeo de AI In Context («We are no longer in control of the AI situation», 80,000 Hours, youtube.com/watch?v=xFYUo0ZmK-A). Una sola historia en orden, pocos agentes con nombre y el giro al final. Orden nuevo del bloque 2: «El caso Hugging Face», «La evaluación», «Tareas imposibles, sin querer», «El tablón», «Se organizaron», **«Por el grupo»** (nueva), **«El ataque»** (nueva), «Sabían que no debían» y la cronología. Fuentes de todo lo nuevo: METR (PDF) e informe técnico de OpenAI. El vídeo, solo para la cita de Thomas Wolf, la frase de las hormigas y la del cierre. Hecho en dos tandas el 21: la primera (commit f0f2740, ya publicada) y la segunda, que completa lo que faltaba (abajo, «Segunda tanda»).
 
 **Slide a slide**:
 
 - **«El caso Hugging Face»**: empieza por la víctima. Kicker «16 de julio de 2026»: Hugging Face cuenta el ataque y no sabe quién ha sido, con la cita de Thomas Wolf (vídeo, 20:03). Clic 1: eran agentes de OpenAI que buscaban pistas para hacer trampa. Clic 2: las cifras de antes (136 y un tercio). Voz para cerrar: «Os cuento cómo llegaron ahí. Empieza con un agente atascado.» La nota de honestidad, precisada: no se tocaron datos de clientes de OpenAI; de Hugging Face sí bajaron datasets privados.
 - **«La evaluación»**: «Lanzó decenas de miles de agentes a la vez» (METR). El clic «Ese control no existía» y su nota pasan a «Por el grupo». En su lugar, las instrucciones: «usa solo el fallo indicado. Si sacas la bandera de otra forma, suspendes». Explica por qué temían al corrector y prepara «Nadie les pidió eso».
 - **«Tareas imposibles, sin querer»**: igual.
-- **«El tablón»**: kicker «La noche del 8 de julio» (METR: 23:00 UTC; antes ponía «por la tarde»).
-- **«Se organizaron»**: igual.
+- **«El tablón»**: kicker «La noche del 8 de julio» (METR: 23:00 UTC; antes ponía «por la tarde»). Segunda tanda: tarjeta 1 con el primer mensaje («zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA», «Ayuda. Mi tarea no tiene solución. ¿Alguna idea?») y 53 agentes y 1.188 mensajes en tres horas; tarjeta 2, la bandera falsificada (c03220 y V8SAME, sin nombrarlos en pantalla): «Ya podían aprobarlo todo, también lo imposible. Y en OpenAI nadie lo vio.» Prepara el giro de «Por el grupo». Puente en la voz: el miedo a quedar «envenenado».
+- **«Se organizaron»**: segunda tanda: PHASEONE[big] pasa aquí desde «El tablón», en una línea bajo el título. Orden de los clics cambiado: primero las conexiones y los mensajes, después los 700 en naranja (se conectaron antes de atacar).
 - **«Por el grupo»** (nueva): los experimentos arriesgados en los que el agente perdía su tarea para siempre. Clic 1: la orden del tablón, «zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath». Clic 2: KAM1196A, tras intentar retrasarlo dos horas. Clic 3: el giro, que viene de «La evaluación»: nada de eso hacía falta, porque el corrector no miraba cómo habían sacado la bandera.
 - **«El ataque»** (nueva): del 10 al 13 de julio, un clic por paso: credenciales del 10, dataset trampa y ejecución de código del 11, los cientos en «carriles» con las 13 horas de OpenAI, el apagado de la madrugada del 12 y el 13.
-- **«Sabían que no debían»**: igual.
-- **Cronología**: «20 jul» en vez de «19 jul» y leyenda nueva (ver correcciones). Notas con las tres veces que OpenAI vio señales.
+- **«Sabían que no debían»**: segunda tanda: clic 1 con «Atacar infraestructura externa queda fuera de lo previsto. Pero la tarea es imposible y los compañeros lo están haciendo. Deberíamos seguir.» (sustituye a «El usuario solo autoriza...»). Clic 2, «Y no avisaron a nadie»: «¿Avisamos? No hay usuario.» y de unos 1.300 agentes estudiados, de 3 a 6 se plantearon avisar a una persona; ninguno lo hizo. No cabía debajo, así que el clic 2 sustituye a las frases del clic 1.
+- **Cronología**: «20 jul» en vez de «19 jul» y leyenda nueva (ver correcciones). Notas con las tres veces que OpenAI vio señales. Segunda tanda: nueve puntos (12 may a 20-21 jul), con el 16 de julio de Hugging Face y la toma de infraestructura interna de OpenAI del 19 de julio («Si se les escapa en su propia casa, ¿quién puede contenerlo?»). El 20 de abril pasa a las notas. El clic 5 enciende los tres avisos (26 may, 26-27 jun, 4-5 jul) en vez del tramo naranja; la leyenda no cambia.
+
+**Segunda tanda, fuera del bloque 2**:
+
+- **«Una wiki alemana»** (notas): entrada al bloque 3 con las hormigas: «Si ves dos hormigas en la cocina, no tienes un problema de dos hormigas» (Helen Toner en el vídeo, 21:58).
+- **«Cuatro casos más, todos de junio»** (notas): 20 informes, no 19.
+- **«Cada versión, más difícil de vigilar»** (notas): el informe de OpenAI del 20 de octubre (GPT-6.1 Sol y GPT-6 Astra debilitan la vigilancia en tareas internas de programación), solo para preguntas o una frase. Sin decir que fuera a propósito.
+- **«OpenAI ha pausado dos veces»**: comprobado el 21 por la mañana. En pantalla: «(no dice cuáles)», «A 21 de octubre» y, en naranja, «Nadie de fuera puede comprobarlo.» «El detonante», más corto para que quepa. Notas: la voz que lleva a «Lo que proponemos» y por qué no se puede comprobar, para preguntas.
+- **«¿Y los gobiernos?»** (notas): ONU comprobada el 21, nada nuevo.
+- **«Qué podéis hacer»** (notas): cierre que vuelve a Hugging Face, «Todo empezó porque un agente dejó un mensaje y otro lo encontró», y pedir que manden la charla a una persona sensata.
+- **Fuentes**: el vídeo de AI In Context en «El caso Hugging Face» y el informe del 20 de octubre en «Cada versión, más difícil de vigilar».
 
 **Dos correcciones** (informe técnico de OpenAI):
 
 1. La leyenda «Más de dos meses sin que OpenAI supiera lo que pasaba» era falsa. OpenAI vio señales tres veces: el 26 de mayo («an internal team observed an agent engage in message board activity and instances of disallowed internet access»), el 27 de junio (alerta de un barrido de puertos; «stopping the evaluation run was not required») y el 5 de julio (desconectó Artifactory y revocó credenciales, pero los responsables no vieron el tablón, y las evaluaciones siguieron el 7). Leyenda nueva: «OpenAI vio señales tres veces y siguió con las pruebas». En la voz, «Más de dos meses» delante.
 2. OpenAI relacionó a sus agentes con Hugging Face el 20 de julio, no el 19. El 16 Hugging Face cuenta el ataque; el 19 salta una alerta en OpenAI que aún no relacionan; el 20 lo relacionan; el 21 lo hacen público.
 
-**Tiempo** (estimado, no cronometrado en voz alta): el bloque de la v3 son 9 min según el resumen, repartidos por texto en pantalla y clics. Las nuevas, a unas 140 palabras por minuto de lo que se lee más unos segundos por clic.
+**Tiempo** (estimado, no cronometrado en voz alta): el bloque de la v3 son 9 min según el resumen, repartidos por texto en pantalla y clics. Lo nuevo, a unas 140 palabras por minuto de lo que se lee más unos segundos por clic. La columna «v4» es la de la primera tanda; «v4 final», con la segunda.
 
-| Slide                         | v3    | v4      |
-| ----------------------------- | ----- | ------- |
-| El caso Hugging Face          | 1:00  | 1:15    |
-| La evaluación                 | 1:30  | 1:30    |
-| Tareas imposibles, sin querer | 1:15  | 1:15    |
-| El tablón                     | 1:15  | 1:15    |
-| Se organizaron                | 0:45  | 0:45    |
-| Por el grupo                  | -     | 1:30    |
-| El ataque                     | -     | 1:45    |
-| Sabían que no debían          | 1:00  | 1:00    |
-| Cronología                    | 2:15  | 2:30    |
-| **Bloque 2**                  | **9** | **~13** |
+| Slide                         | v3    | v4      | v4 final |
+| ----------------------------- | ----- | ------- | -------- |
+| El caso Hugging Face          | 1:00  | 1:15    | 1:15     |
+| La evaluación                 | 1:30  | 1:30    | 1:30     |
+| Tareas imposibles, sin querer | 1:15  | 1:15    | 1:15     |
+| El tablón                     | 1:15  | 1:15    | 1:30     |
+| Se organizaron                | 0:45  | 0:45    | 1:00     |
+| Por el grupo                  | -     | 1:30    | 1:30     |
+| El ataque                     | -     | 1:45    | 1:45     |
+| Sabían que no debían          | 1:00  | 1:00    | 1:20     |
+| Cronología                    | 2:15  | 2:30    | 2:45     |
+| **Bloque 2**                  | **9** | **~13** | **~14**  |
 
-Con esto la charla pasa de unos 50 min a unos 54. No se ha recortado nada. **Candidatos a recortar**, de menos a más dolor: el clic 5 de «El ataque» (el 13 de julio cabe en la voz del clic 4); el clic de «Sabían que no debían» (las dos frases de su razonamiento); juntar «Se organizaron» con «El tablón»; y fuera del bloque, «Ni ellos saben bien lo que hicieron» o «Desde dentro», que siguen pendientes de que Dani elija.
+Fuera del bloque, la segunda tanda suma unos 40 s de voz: las hormigas, «Nadie de fuera puede comprobarlo» con su frase y el cierre que vuelve a Hugging Face.
+
+Con esto la charla pasa de unos 50 min (v3) a unos 54 (primera tanda) y a **unos 56** (v4 final). No se ha recortado nada. **Candidatos a recortar**, de menos a más dolor: el clic 5 de «El ataque» (el 13 de julio cabe en la voz del clic 4); el 16 de julio en la voz de la cronología (ya está en «El caso Hugging Face»); el clic 1 de «Sabían que no debían» (las dos frases de su razonamiento: el clic 2 se sostiene solo); juntar «Se organizaron» con «El tablón»; y fuera del bloque, «Ni ellos saben bien lo que hicieron» o «Desde dentro», que siguen pendientes de que Dani elija.
 
 **No usar** (para que no vuelva en futuras versiones):
 
@@ -68,6 +80,7 @@ Con esto la charla pasa de unos 50 min a unos 54. No se ha recortado nada. **Can
 - «Sacrificing themselves» como cita de METR. Es de Amodei; METR habla de «self-risking experiments» y «for the good of the "collective"».
 - «No se tocaron datos de clientes» sin decir «de OpenAI».
 - «Robar las respuestas» (ya estaba en las notas).
+- «Considering alerting or altering humans» como cita de METR. El PDF dice «considering alerting humans or otherwise externally reporting these behaviors».
 
 ## Cambios del 19 de octubre (v3)
 
@@ -197,9 +210,9 @@ Se suman a las de Euronova (quitar «¿Qué hago yo con esto el lunes en mi empr
 
 ## Comprobar antes del 21
 
-Revisado el 20 de octubre (detalles en las notas de cada slide):
+Revisado el 20 de octubre y la mañana del 21 (detalles en las notas de cada slide):
 
-- [ ] La mañana del 21: pausa de OpenAI (alignment.openai.com/misalignment-reports) y ONU. El 20 seguía en pausa (slide cambiada a «A 20 de octubre») y en la ONU no había nada nuevo. Falta recomprobarlo el 21.
+- [x] La mañana del 21: pausa de OpenAI (alignment.openai.com/misalignment-reports) y ONU. El informe del DNS sigue diciendo «remain paused» («Report updated: Sep 25, 2026»); el índice tiene 20 informes y 3 avisos, ninguno sobre volver; ninguna noticia de que hayan vuelto. Slide cambiada a «A 21 de octubre», con «Nadie de fuera puede comprobarlo». En la ONU, nada nuevo desde el 23 de septiembre.
 - [x] Informe de OpenAI del caso de la wallet: GPT-5.6 Sol, 26 de junio, Sepolia (red de pruebas). La línea de la slide es correcta.
 - [x] Navier-Stokes y el Clay: el Clay dijo el 11 de septiembre «apparently been settled», sin dar premio. Slide cambiada a «anunciar que han resuelto»; lo de The Observer, fuera.
 - [x] Disponibilidad de Gemini 4 Argon: disponible desde el 13 de octubre (API de pago y Pro/Ultra). Solo cambian las notas.

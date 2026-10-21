@@ -21,9 +21,9 @@ clicks: 2
   intelligence is advancing rapidly. That is not a reason to pause its further development or to
   constrain it with new global governance structures.» Y: «not establishing a global regulatory
   scheme».
-- Comprobado el 20 de octubre: desde entonces, nada decisivo en la ONU (ni resolución, ni pausa,
+- Comprobado el 21 de octubre: desde entonces, nada decisivo en la ONU (ni resolución, ni pausa,
   ni líneas rojas). El Panel Científico publica su primer informe completo en 2027; el Diálogo
-  Mundial vuelve a reunirse en mayo de 2027. Mirar la mañana del 21 por si acaso.
+  Mundial vuelve a reunirse en mayo de 2027.
 - Si preguntan qué hace España: el 21 de septiembre firmó la «Call for Control of Frontier AI
   Models» de Finlandia y Noruega (31 líderes de 29 países y la Comisión Europea). Støre: «the
   development of frontier AI models must take place at a pace that enables us to retain
