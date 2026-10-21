@@ -364,7 +364,8 @@ clicks: 2
   - Musk: «Dario is right.» (Politico). Y después: «Dario is right that there should be some
     oversight. Peer review of AI by competitors is the right way to start this off.»
   - Críticos lo llamaron un posible «cártel» (The Verge). Si sale, reconocerlo.
-- Clic 2: «Ahora ya sabéis de qué enjambre hablaba.» Original: «a swarm that possessed greater
+- Clic 2, la respuesta a la pregunta del principio: «Ahora ya sabéis quién lo dijo, y de qué
+  enjambre hablaba.» Original: «a swarm that possessed greater
   capabilities but a similar level of misalignment could have caused catastrophic damage.
   Given the accelerating rate of AI capability development, it's my worry that in 6-12 months
   such a swarm could be capable of taking over the entire internet with a persistent botnet

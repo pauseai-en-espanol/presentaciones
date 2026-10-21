@@ -13,7 +13,12 @@ layout: center
 <!--
 - Leer la frase despacio. Pedir que lo escriban en el chat (un activista, un periodista, un político, alguien de una empresa de IA).
 - Leer en voz alta dos o tres respuestas del chat. No dar pistas.
+- No decir quién lo dijo: «Lo dejamos en el aire. Lo sabréis más adelante.» Se descubre en el
+  bloque 4, en el clic 2 de la slide de Amodei («¿Os acordáis de la frase del principio?»).
 - No explicar todavía de qué enjambre habla: es el gancho de toda la charla.
+- Presentación: «Me llamo Dani Lupión. Soy ingeniero de software desde hace veinte
+  años, uso IA todos los días y soy cofundador de PauseAI España.»
+- «Esta charla va de ese enjambre: qué es y qué hizo este verano.»
 - Los corchetes son nuestros: en el original es «such a swarm», un enjambre como el de
   Hugging Face. Sin contexto, «así» no se entendería.
 - Original: «it's my worry that in 6-12 months such a swarm could be capable of
@@ -21,24 +26,3 @@ layout: center
   hundreds of billions of dollars in damage)». Informe §7.3b.
 -->
 
----
-layout: center
----
-
-<div class="flex items-center gap-12 max-w-5xl mx-auto">
-  <img src="/img/personas/amodei.jpg" class="foto-persona" style="width: 12rem; height: 12rem" />
-  <div>
-    <div class="titulo" style="margin-bottom: 0.5rem">Dario Amodei</div>
-    <div class="text-2xl">CEO de Anthropic, la empresa que hace Claude</div>
-    <div class="text-lg opacity-60 mt-2">Ensayo «We Must Pace the Frontier», septiembre de 2026</div>
-  </div>
-</div>
-
-<div class="credito absolute bottom-10 left-16">Foto: TechCrunch, CC BY 2.0, vía Wikimedia Commons</div>
-
-<!--
-- «Lo dijo el director de una de las empresas que están construyendo esta tecnología. El mes pasado.»
-- Presentación: «Me llamo Dani Lupión. Soy ingeniero de software desde hace veinte
-  años, uso IA todos los días y soy cofundador de PauseAI España.»
-- «Esta charla va de ese enjambre: qué es y qué hizo este verano.»
--->
