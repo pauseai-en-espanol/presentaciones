@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.13
+
+### Patch Changes
+
+- 9f0e37d: Node.js 26.12.1 (images on node:26.12.1-alpine), the October 21 security release.
+
 ## 1.0.12
 
 ### Patch Changes
