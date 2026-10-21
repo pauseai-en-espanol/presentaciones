@@ -3,7 +3,7 @@
 // (§3.1 del informe). Puntos a la misma distancia para que se lean bien;
 // las fechas van en la etiqueta. El primer grupo se ve al entrar; cada clic
 // muestra el siguiente.
-// En el último clic se ilumina el tramo del 12 de mayo al 19 de julio.
+// En el último clic se ilumina el tramo del 12 de mayo al 20 de julio.
 import { configs, useSlideContext } from '@slidev/client';
 
 const { $clicks } = useSlideContext();
@@ -31,7 +31,7 @@ const hitosEs = [
     grupo: 2,
   },
   { fecha: '11-13 jul', texto: 'Entran en Hugging Face', grupo: 3, fuerte: true },
-  { fecha: '19 jul', texto: 'OpenAI se da cuenta de que eran sus agentes', grupo: 4, fuerte: true },
+  { fecha: '20 jul', texto: 'OpenAI se da cuenta de que eran sus agentes', grupo: 4, fuerte: true },
   { fecha: '21 jul', texto: 'Lo hace público', grupo: 4 },
 ];
 const hitosEn = [
@@ -51,13 +51,13 @@ const hitosEn = [
     grupo: 2,
   },
   { fecha: 'Jul 11-13', texto: 'They break into Hugging Face', grupo: 3, fuerte: true },
-  { fecha: 'Jul 19', texto: 'OpenAI realizes it was its own agents', grupo: 4, fuerte: true },
+  { fecha: 'Jul 20', texto: 'OpenAI realizes it was its own agents', grupo: 4, fuerte: true },
   { fecha: 'Jul 21', texto: 'It goes public', grupo: 4 },
 ];
 const hitos = en ? hitosEn : hitosEs;
 const leyenda = en
-  ? 'Over two months without OpenAI knowing what was going on'
-  : 'Más de dos meses sin que OpenAI supiera lo que pasaba';
+  ? 'OpenAI saw signs three times and kept testing'
+  : 'OpenAI vio señales tres veces y siguió con las pruebas';
 const CLIC_TRAMO = 5;
 const paso = 100 / (hitos.length - 1);
 const x = (i) => i * paso;
