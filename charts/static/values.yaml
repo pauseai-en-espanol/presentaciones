@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: pauseai-es-presentaciones-static
   # <version>.<short sha>; "latest" until the first release.
-  tag: 1.0.10.f9bd54e
+  tag: 1.0.11.6a7edaf
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
