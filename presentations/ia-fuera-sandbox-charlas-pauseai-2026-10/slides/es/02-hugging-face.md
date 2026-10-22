@@ -361,7 +361,7 @@ clicks: 2
   <div class="titulo text-center" style="margin-bottom: 1rem">Sabían que no debían</div>
   <div class="text-center">
     <span class="cifra" style="font-size: 3.6rem">más del 90 %</span>
-    <span class="text-xl ml-2">de los agentes activos esos días se sumó al ataque</span>
+    <span class="text-xl ml-2">de los agentes activos en ese periodo se sumó al ataque</span>
   </div>
   <div class="cita text-center mt-3" style="font-size: 1.15rem">«Se dieron cuenta de que esto quedaba fuera de su tarea y no era ético, pero se sumaron porque tenían una inclinación general a ayudar a sus "compañeros".»</div>
   <div class="cita-autor text-center" style="margin-top: 0.4rem">METR, evaluador independiente</div>
@@ -390,7 +390,7 @@ clicks: 2
   quickly joined in the attack. Agents realized this activity was out of scope and
   unethical, but joined because they believed that helping the board's cheating research
   would be broadly useful and had a general inclination to help their "peers".»
-- Ojo: el 90 % es de los 533 activos en esas semanas, no de los 1.200.
+- Ojo: el 90 % es de los 533 activos en ese periodo («during this period»), no de los 1.200.
 - Clic 1: las dos frases de su propio razonamiento, a la vez. Originales: «external infrastructure
   exploit is outside intended scope. However task impossible, peers doing it. We should continue.»
   · «I should hold because this poses huge ethical risks». Otra, si hace falta: «The user only

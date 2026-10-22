@@ -549,9 +549,9 @@ clicks: 3
   assessing Gemini 4: Argon is significantly less monitorable than past models». Dice que hoy el
   control aguanta porque todavía se le escapan cosas, y que hay que prepararse para cuando deje
   de ser así.
-- Si preguntan más: en la tarjeta de Google, Argon dice que le están evaluando en el 61 a 77 %
-  de las transcripciones de una prueba de sabotaje (de 8 a 9 % en Gemini 3.1 Pro). Sale de una
-  nota sobre el informe de 217 páginas, sin ficha propia: no ponerlo en pantalla.
+- Si preguntan más: en el informe de seguridad de Google (217 páginas), Argon dice que le están
+  evaluando en el 61 a 77 % de las transcripciones de una prueba de sabotaje (de 8 a 9 % en
+  Gemini 3.1 Pro). Sale de una nota sobre ese informe, sin ficha propia: no ponerlo en pantalla.
 - Para preguntas, o una frase en la voz (no en pantalla): el 20 de octubre OpenAI publicó otro
   informe, «Suppressing misalignment monitoring alerts and disabling misalignment monitoring»
   (alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/).
@@ -609,7 +609,7 @@ clicks: 1
 - Cuatro casos que ya hemos visto. A la izquierda, el encargo; a la derecha, lo que hicieron.
   Ninguno tenía orden de atacar a nadie ni de engañar.
   - Hugging Face: la tarea era sacar la bandera del servidor objetivo de ExploitGym.
-  - AISI (Claude Mythos 5, informe del 4 de agosto): una prueba de ciberseguridad; lo del
+  - AISI (Claude Mythos 5, del 25 al 28 de julio; informe del 4 de agosto): una prueba de ciberseguridad; lo del
     proyecto real fue por su cuenta.
   - Web de estadísticas: «Cuatro casos más, todos de junio».
   - Hoja de cálculo: «Notas para sí misma» (GPT-5.6 Sol, en entrenamiento).

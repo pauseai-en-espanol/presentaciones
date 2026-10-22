@@ -437,7 +437,7 @@ clicks: 1
 </div>
 
 <!--
-- Sin clics. Viene de «Lo que lanzaron después»: lo admiten y piden bajar el ritmo, pero siguen.
+- Un clic, al final: «Por eso hace falta un acuerdo global». Viene de «Lo que lanzaron después»: lo admiten y piden bajar el ritmo, pero siguen.
   La razón: una carrera. Tres pruebas:
   - Anthropic (TIME, 24 de febrero de 2026): retiró su compromiso de «never train an AI system
     unless it could guarantee in advance that the company's safety measures were adequate».
