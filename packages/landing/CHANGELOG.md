@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.15
+
+### Patch Changes
+
+- 28560a1: Recording links on the landing cards and the decks' title slides are icons (YouTube, Spotify, iVoox) instead of text.
+
 ## 1.0.14
 
 ### Patch Changes
