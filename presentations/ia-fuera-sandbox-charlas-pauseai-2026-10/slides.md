@@ -31,6 +31,7 @@ class: text-center
   <div class="text-lg opacity-50 mt-6">
     Dani Lupión · PauseAI España · 21 de octubre de 2026
   </div>
+  <Grabacion class="mt-8" />
 </div>
 
 <!--

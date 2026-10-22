@@ -135,6 +135,27 @@ Con `--formato youtube` sale la miniatura del vídeo (1280×720): dos o tres pal
 pnpm card ia-fuera-sandbox-charlas-pauseai-2026-10 --formato youtube --texto "Ya ha|pasado" --subtitulo "Verano 2026" --foto ~/fotos/dani.jpg
 ```
 
+## Grabaciones
+
+Cuando una charla está grabada, sus enlaces van en su `presentation.json`, en el idioma de la grabación:
+
+```json
+{
+  "languages": {
+    "es": {
+      "title": "…",
+      "grabacion": {
+        "youtube": "https://youtu.be/…",
+        "spotify": "https://open.spotify.com/episode/…",
+        "ivoox": "https://www.ivoox.com/…"
+      }
+    }
+  }
+}
+```
+
+Solo salen los que haya, y se pueden ir añadiendo de uno en uno. La landing los pone en la tarjeta de la charla y la presentación, en la portada, si lleva el componente `<Grabacion />` del addon (`packages/slidev-addon-pauseai`), que lee ese mismo `presentation.json`. Sin grabación no sale nada, así que se puede poner en la portada antes de tenerla. Cambiar los enlaces cambia el sitio: lleva changeset de `@pauseai-es/landing`.
+
 ## Fondos
 
 La portada de Luma, la miniatura de YouTube, el marco del vídeo, la cabecera y el cierre llevan el mismo fondo, que cada charla elige en su `presentation.json`:

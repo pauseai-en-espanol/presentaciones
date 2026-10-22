@@ -103,6 +103,26 @@ function pickCanonical(languages) {
   return first ? { code: first[0], meta: first[1] } : null;
 }
 
+// La grabación de una charla (`grabacion` en cada idioma de presentation.json): YouTube, Spotify, iVoox, las que haya.
+const GRABACION = [
+  ['youtube', 'YouTube'],
+  ['spotify', 'Spotify'],
+  ['ivoox', 'iVoox'],
+];
+
+function renderGrabacion(lang, grabacion, hidden) {
+  const links = GRABACION.filter(([key]) => grabacion?.[key])
+    .map(
+      ([key, label]) =>
+        `<a href="${escapeHtml(grabacion[key])}" target="_blank" rel="noopener">${label}</a>`,
+    )
+    .join('');
+  if (!links) return '';
+  return `<p class="card-grabacion" data-for-lang="${lang}"${hidden ? ' hidden' : ''}>
+    <span class="card-grabacion-label">${lang === 'en' ? 'Recording' : 'Grabación'}</span>${links}
+  </p>`;
+}
+
 function renderCard(p) {
   const langs = p.languages || {};
   const canonical = pickCanonical(langs);
@@ -154,6 +174,9 @@ function renderCard(p) {
   ${meta.subtitle ? `<p class="card-subtitle i18n-text" ${i18nAttrs('subtitle')}>${escapeHtml(meta.subtitle)}</p>` : ''}
   ${meta.venue ? `<p class="card-venue i18n-text" ${i18nAttrs('venue')}>${escapeHtml(meta.venue)}</p>` : ''}
   ${meta.description ? `<p class="card-description i18n-text" ${i18nAttrs('description')}>${escapeHtml(meta.description)}</p>` : ''}
+  ${Object.entries(langs)
+    .map(([lang, m]) => renderGrabacion(lang, m.grabacion, lang !== code))
+    .join('')}
   <a class="card-cta i18n-href" ${i18nHrefAttrs()} href="${escapeHtml(hrefFor(code))}">
     <span class="i18n-text" data-es="Abrir presentación →" data-en="Open presentation →">Abrir presentación →</span>
   </a>
@@ -231,6 +254,9 @@ function renderHTML(presentations, todayIso) {
           card.querySelectorAll('.i18n-href').forEach((el) => {
             const v = el.dataset[lang];
             if (v != null) el.setAttribute('href', v);
+          });
+          card.querySelectorAll('.card-grabacion').forEach((el) => {
+            el.hidden = el.dataset.forLang !== lang;
           });
         });
       });
@@ -498,6 +524,36 @@ a {
   flex: 1;
 }
 
+.card-grabacion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 1rem;
+  font-size: 0.75rem;
+  position: relative;
+  z-index: 2;
+}
+.card-grabacion[hidden] {
+  display: none;
+}
+.card-grabacion-label {
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-right: 0.2rem;
+}
+.card-grabacion a {
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  text-decoration: none;
+}
+.card-grabacion a:hover {
+  border-color: var(--border-hover);
+  color: var(--pauseai-orange);
+}
 .card-cta {
   font-size: 0.8rem;
   color: var(--pauseai-orange);
