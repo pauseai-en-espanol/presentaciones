@@ -2,6 +2,8 @@ import { copyFile, mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { PLATAFORMAS, svg } from '../slidev-addon-pauseai/grabacion.js';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', '..');
 const PRESENTATIONS_DIR = join(ROOT, 'presentations');
@@ -103,18 +105,13 @@ function pickCanonical(languages) {
   return first ? { code: first[0], meta: first[1] } : null;
 }
 
-// La grabación de una charla (`grabacion` en cada idioma de presentation.json): YouTube, Spotify, iVoox, las que haya.
-const GRABACION = [
-  ['youtube', 'YouTube'],
-  ['spotify', 'Spotify'],
-  ['ivoox', 'iVoox'],
-];
-
+// La grabación de una charla (`grabacion` en cada idioma de presentation.json): YouTube, Spotify, iVoox, las que haya,
+// con los mismos iconos que la portada de la presentación (el addon de Slidev).
 function renderGrabacion(lang, grabacion, hidden) {
-  const links = GRABACION.filter(([key]) => grabacion?.[key])
+  const links = PLATAFORMAS.filter((p) => grabacion?.[p.clave])
     .map(
-      ([key, label]) =>
-        `<a href="${escapeHtml(grabacion[key])}" target="_blank" rel="noopener">${label}</a>`,
+      (p) =>
+        `<a href="${escapeHtml(grabacion[p.clave])}" target="_blank" rel="noopener" title="${p.nombre}" aria-label="${p.nombre}">${svg(p, 16)}</a>`,
     )
     .join('');
   if (!links) return '';
@@ -544,10 +541,14 @@ a {
   margin-right: 0.2rem;
 }
 .card-grabacion a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
   color: var(--text-primary);
   border: 1px solid var(--border);
   border-radius: 999px;
-  padding: 0.2rem 0.7rem;
   text-decoration: none;
 }
 .card-grabacion a:hover {

@@ -8,7 +8,8 @@
     "slidev-addon"
   ],
   "files": [
-    "components"
+    "components",
+    "grabacion.js"
   ],
   "peerDependencies": {
     "@slidev/cli": "*",
