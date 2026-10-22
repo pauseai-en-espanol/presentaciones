@@ -3,7 +3,12 @@
   "type": "module",
   "private": true,
   "version": "1.0.0",
-  "description": "Generador de portadas cuadradas (Luma, redes) para las charlas",
+  "description": "Generador de portadas (Luma, redes) y miniaturas de YouTube para las charlas",
+  "exports": {
+    "./captura.js": "./captura.js",
+    "./enjambre.js": "./enjambre.js",
+    "./fondos.js": "./fondos.js"
+  },
   "scripts": {
     "card": "node card.js"
   }

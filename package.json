@@ -8,6 +8,7 @@
     "dev": "turbo run dev dev:en",
     "build": "turbo run build build:en",
     "card": "pnpm --filter @pauseai-es/cards card",
+    "video": "pnpm --filter @pauseai-es/video video",
     "lint": "oxlint --max-warnings 0 .",
     "lint:fix": "oxlint --fix --max-warnings 0 .",
     "format": "prettier --ignore-unknown --write .",

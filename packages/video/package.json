@@ -1,0 +1,13 @@
+{
+  "name": "@pauseai-es/video",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Montaje de los vídeos de las Charlas PauseAI: cortes, marco, subtítulos y capítulos",
+  "scripts": {
+    "video": "node video.js"
+  },
+  "dependencies": {
+    "@pauseai-es/cards": "workspace:*"
+  }
+}

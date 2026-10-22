@@ -1,0 +1,248 @@
+:root {
+  --fondo: #0a1020;
+  --panel: #111a2e;
+  --borde: #23304a;
+  --texto: #e2e8f0;
+  --suave: #94a3b8;
+  --naranja: #ff9416;
+  --rojo: #f87171;
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font:
+    15px/1.5 -apple-system,
+    system-ui,
+    sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  gap: 24px;
+  align-items: baseline;
+  padding: 12px 20px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--borde);
+}
+h1 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--naranja);
+}
+#resumen {
+  color: var(--suave);
+}
+#estado {
+  margin-left: auto;
+  color: var(--suave);
+  font-size: 13px;
+}
+main {
+  display: grid;
+  grid-template-columns: minmax(420px, 40%) 1fr;
+}
+aside {
+  position: sticky;
+  top: 50px;
+  height: calc(100vh - 50px);
+  overflow: auto;
+  padding: 16px 20px;
+  border-right: 1px solid var(--borde);
+}
+.reproductor {
+  position: relative;
+}
+#pantalla {
+  width: 100%;
+  border-radius: 8px;
+  background: #000;
+}
+#camara {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24%;
+  border: 2px solid var(--naranja);
+  border-radius: 6px;
+  pointer-events: none;
+}
+.controles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 10px 0;
+  color: var(--suave);
+}
+.ayuda {
+  color: var(--suave);
+  font-size: 13px;
+}
+kbd {
+  padding: 0 5px;
+  border: 1px solid var(--borde);
+  border-radius: 4px;
+  font-size: 12px;
+}
+h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0 6px;
+  font-size: 15px;
+}
+button {
+  padding: 3px 10px;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--texto);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+button:hover {
+  border-color: var(--naranja);
+}
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+li:nth-child(odd) {
+  background: var(--panel);
+}
+li.destaca {
+  outline: 2px solid var(--naranja);
+}
+.fila {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.fila input {
+  flex: 1;
+  min-width: 0;
+  padding: 3px 6px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--texto);
+  font: inherit;
+  font-size: 13px;
+}
+.fila input:hover,
+.fila input:focus {
+  border-color: var(--borde);
+  outline: none;
+}
+.dur,
+.extracto {
+  color: var(--suave);
+  font-size: 12px;
+}
+.extracto {
+  margin-top: 2px;
+  text-decoration: line-through;
+  text-decoration-color: var(--rojo);
+}
+.nota-texto {
+  flex: 1;
+  font-size: 13px;
+}
+.ir {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.quitar {
+  padding: 3px 7px;
+}
+#texto {
+  max-width: 900px;
+  padding: 16px 32px 50vh;
+  font-size: 17px;
+  line-height: 1.75;
+}
+#texto h3 {
+  margin: 28px 0 4px;
+  color: var(--naranja);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.w {
+  cursor: pointer;
+  border-radius: 3px;
+}
+.w:hover {
+  background: #1e293b;
+}
+.w.now {
+  background: var(--naranja);
+  color: #111;
+}
+.p {
+  padding: 0 6px;
+  border-radius: 10px;
+  background: #1e293b;
+  color: var(--suave);
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.p::before {
+  content: '⏸ ';
+}
+.cut {
+  color: var(--rojo);
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.p.cut {
+  background: transparent;
+}
+.nota {
+  color: #facc15;
+  cursor: help;
+}
+.propuesta {
+  text-decoration: underline dashed var(--naranja);
+  text-underline-offset: 4px;
+}
+.extracto.prop {
+  text-decoration: underline dashed var(--naranja);
+}
+.aceptar {
+  border-color: var(--naranja);
+  color: var(--naranja);
+}
+.w.marcada {
+  outline: 2px solid var(--naranja);
+}
+.rango {
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.ajustes {
+  margin-top: 4px;
+  color: var(--suave);
+  font-size: 12px;
+}
+.ajustes button {
+  padding: 0 7px;
+}
+.p.acortada {
+  background: rgba(255, 148, 22, 0.18);
+  color: var(--naranja);
+}

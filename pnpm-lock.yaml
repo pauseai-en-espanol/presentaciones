@@ -217,6 +217,12 @@ importers:
         specifier: '*'
         version: 3.5.44(typescript@6.0.3)
 
+  packages/video:
+    dependencies:
+      '@pauseai-es/cards':
+        specifier: workspace:*
+        version: link:../cards
+
   presentations/ai-2027-ias-2026-10:
     devDependencies:
       '@slidev/cli':

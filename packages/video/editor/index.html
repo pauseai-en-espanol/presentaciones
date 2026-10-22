@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cortes del vídeo</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="titulo">Cortes del vídeo</h1>
+      <div id="resumen"></div>
+      <div id="estado"></div>
+    </header>
+    <main>
+      <aside>
+        <div class="reproductor">
+          <video id="pantalla" src="/media/pantalla" controls preload="auto"></video>
+          <video id="camara" muted preload="auto" hidden></video>
+        </div>
+        <div class="controles">
+          <label><input type="checkbox" id="saltar" checked /> Saltar los cortes</label>
+          <label><input type="checkbox" id="seguir" checked /> Seguir el texto</label>
+          <label
+            >Velocidad
+            <select id="velocidad">
+              <option value="1">1×</option>
+              <option value="1.25">1,25×</option>
+              <option value="1.5">1,5×</option>
+              <option value="2">2×</option>
+            </select>
+          </label>
+        </div>
+        <div class="controles">
+          <button id="empieza" title="Corta todo lo que hay antes de la palabra marcada">
+            Empieza aquí
+          </button>
+          <button id="acaba" title="Corta todo lo que hay después de la palabra marcada">
+            Acaba aquí
+          </button>
+        </div>
+        <p class="ayuda">
+          Un clic en una palabra la marca y lleva ahí. «Empieza aquí» y «Acaba aquí» cortan todo lo
+          que hay antes o después de ella. Para cortar un trozo, selecciónalo (clic en la primera
+          palabra y mayúsculas+clic en la última) y pulsa <kbd>X</kbd>. Un clic en una pausa (<span
+            class="p muestra"
+            >2,4 s</span
+          >) la deja en 0,3 s; otro clic la devuelve. <kbd>Espacio</kbd> reproduce o para;
+          <kbd>⌘Z</kbd> deshace.
+        </p>
+        <section id="bloque-propuestas">
+          <h2>Propuestas</h2>
+          <p class="ayuda">
+            Sugerencias de corte, subrayadas en el texto. No se quita nada hasta que pulses
+            «Cortar».
+          </p>
+          <ol id="propuestas"></ol>
+        </section>
+        <section>
+          <h2>
+            Cortes <button id="cortar" title="Cortar la selección (X)">Cortar selección</button>
+          </h2>
+          <ol id="cortes"></ol>
+        </section>
+        <section>
+          <h2>Secciones <button id="nueva-seccion">+ Aquí</button></h2>
+          <ol id="secciones"></ol>
+        </section>
+        <section id="bloque-notas">
+          <h2>Notas</h2>
+          <ol id="notas"></ol>
+        </section>
+      </aside>
+      <article id="texto"></article>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

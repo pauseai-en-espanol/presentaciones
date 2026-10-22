@@ -115,7 +115,7 @@ Bilingual presentations keep one directory per talk. The canonical language live
 
 Slide structure, click reveals and image references must mirror 1:1 between languages — only prose is translated. The Docker build auto-detects `slides-en.md` and serves the EN build under `/<slug>/en/`.
 
-## Portadas para Luma y redes
+## Portadas para Luma, redes y YouTube
 
 `pnpm card <slug>` genera una portada cuadrada de 1080×1080 en `packages/cards/out/` (ignorado por git). Toma el título y el ponente del `presentation.json`; el resto, de las opciones. Usa el Chrome instalado en modo headless, sin dependencias.
 
@@ -125,7 +125,62 @@ pnpm card ia-fuera-sandbox-euronova-2026-10 --foto ~/fotos/dani.jpg
 pnpm card --titulo "Otra charla | en dos líneas" --ponente "Nombre" --afiliacion "PauseAI España"
 ```
 
-Opciones: `--lang`, `--titulo`, `--subtitulo`, `--ponente`, `--afiliacion` (por defecto «PauseAI España»), `--serie` (por defecto «Charlas PauseAI en Español»), `--foto`, `--out`. El título salta de línea tras los dos puntos o donde se ponga `|`. Si Chrome no está en la ruta habitual de macOS, indícala con la variable `CHROME`.
+Opciones: `--lang`, `--titulo`, `--subtitulo`, `--ponente`, `--afiliacion` (por defecto «PauseAI España»), `--serie` (por defecto «Charlas PauseAI», como la lista de YouTube), `--foto`, `--out`. El título salta de línea tras los dos puntos o donde se ponga `|`. Si Chrome no está en la ruta habitual de macOS, indícala con la variable `CHROME`.
+
+El fondo de la portada sale del `presentation.json` de la charla (`"fondo"`, ver [Fondos](#fondos)); `--fondo` lo cambia para una portada.
+
+Con `--formato youtube` sale la miniatura del vídeo (1280×720): dos o tres palabras grandes (`--texto`, con `|` entre líneas; la última va en naranja), una línea pequeña debajo (`--subtitulo`) y la persona recortada a la derecha. Una foto JPG o HEIC se recorta sola con Vision de macOS; un PNG se usa tal cual. Si el PNG pasa de 2 MB (el límite de YouTube), deja también un JPG.
+
+```bash
+pnpm card ia-fuera-sandbox-charlas-pauseai-2026-10 --formato youtube --texto "Ya ha|pasado" --subtitulo "Verano 2026" --foto ~/fotos/dani.jpg
+```
+
+## Fondos
+
+La portada de Luma, la miniatura de YouTube, el marco del vídeo, la cabecera y el cierre llevan el mismo fondo, que cada charla elige en su `presentation.json`:
+
+```json
+{ "fondo": "enjambre" }
+```
+
+Sin `fondo`, va `neutro`: el azul de la marca con un brillo naranja suave. `enjambre` es el de las charlas del verano de 2026 (un enjambre de agentes). El color, las fuentes, el logo y la composición no cambian: son la marca y lo que hace reconocible la serie. Los fondos están en `packages/cards/fondos.js`; uno nuevo es una función más ahí, que pinta en un `<canvas>` y deja el contexto como estaba.
+
+## Vídeos de las charlas
+
+`pnpm video` monta la grabación de una charla para YouTube con el marco de las Charlas PauseAI: las slides a la izquierda, la cámara a la derecha con el nombre y la sección en la que va la charla. Empieza con una cabecera de 5 s (logo, «Charlas PauseAI», título, subtítulo, ponente y fecha) que funde con la charla, y acaba con un cierre de 20 s («Gracias», cómo unirse a PauseAI España y el QR y el enlace de la charla) que deja libre la mitad derecha para los elementos de pantalla final de YouTube (lista, vídeo siguiente, suscribirse), que se colocan en YouTube Studio. Saca también los subtítulos (.srt, para subirlos aparte: no se queman en el vídeo) y los capítulos para la descripción. Necesita ffmpeg y whisper-cpp (`brew install ffmpeg whisper-cpp`), el modelo `ggml-large-v3-turbo.bin` en `~/.cache/whisper/` (`preparar` dice cómo bajarlo), Chrome e internet (las fuentes salen de Google Fonts).
+
+Cada charla lleva un `video.json` junto a su `presentation.json`, de donde salen el título, el ponente y la fecha:
+
+- `grabacion`: los vídeos de la pantalla y de la cámara (por ejemplo, los dos ficheros de OBS) y qué pista de audio usar. No están en git: hay que conservarlos donde diga esta ruta.
+- `camara`: el recorte de la cámara (`x`, `y`, `ancho`, `alto`, en proporción 352×500) y su `desfase` en segundos respecto a la pantalla, que mide `preparar`.
+- `tapar`: rectángulos de la pantalla que se tapan con el fondo de las slides (el punto verde de la cámara de macOS, por ejemplo).
+- `subtitulo`: la línea bajo el título en la cabecera.
+- `secciones`: dónde empieza cada parte (`desde`, tiempo de la grabación) y su `titulo`. Salen bajo el nombre y son los capítulos de YouTube.
+- `cortes`: lo que se quita (`desde`, `hasta` o `"fin"`, y un `motivo`). Se usan tal cual: el editor ya coloca cada borde en el silencio más cercano.
+- `propuestas`: cortes sugeridos, que el editor enseña subrayados y no se quitan hasta aceptarlos.
+- `notas`: avisos para quien edita, que el editor marca en el texto.
+- `correcciones`: palabras que whisper escribe mal y cómo van en los subtítulos («POSE AI»: «PauseAI»). Pueden ser de varias palabras.
+- `vocabulario`: nombres propios que se le dan a whisper para que los escriba bien.
+- `siguiente`: el título sobre el hueco del vídeo o la lista que se enlaza en la pantalla final (por defecto «Más Charlas PauseAI»). El enlace solo puede llevar a un vídeo o una lista de YouTube.
+- Opcionales: `"cabecera": false` o `"cierre": false` para quitarlos; `serie` (por defecto «Charlas PauseAI»); en el cierre, `qr` (por defecto `public/qr-presentacion.png` de la charla) y `enlace` (`pauseai.es/presentaciones/<slug>`) para la charla, e `inscripcion` (`pauseai.es`, con el QR de la marca) y `qrInscripcion` para unirse.
+
+Los tiempos van como `m:ss.ss`. Lo generado queda en `packages/video/out/<slug>/` (ignorado por git) y se puede rehacer con `preparar`.
+
+```bash
+pnpm video preparar <slug>              # audio, transcripción palabra a palabra, pausas y desfase de la cámara
+pnpm video editor <slug>                # los cortes, sobre el texto (se guardan en video.json)
+pnpm video render <slug> --borrador     # 720p para revisar (se ve peor: es solo para el montaje)
+pnpm video render <slug> --desde 4:30 --hasta 6:00    # solo un trozo, sin cabecera ni cierre
+pnpm video render <slug>                # el definitivo, en 1440p (YouTube da mejor calidad a partir de 1440p)
+pnpm video subtitulos <slug> [--borrador]    # rehace los subtítulos tras cambiar `correcciones`
+pnpm video audio <slug>                 # MP3 para un podcast (iVoox, Spotify sin vídeo)
+```
+
+`audio` saca del vídeo final un MP3 sin la cabecera ni el cierre (que son mudos), a -16 LUFS, que es lo habitual en podcasts (el vídeo va a -14, como YouTube), con título, ponente y la portada de Luma (`pnpm card <slug>`) como carátula.
+
+`preparar` reutiliza la transcripción si ya está (`--transcribir` la repite) y mide el desfase de la cámara la primera vez (`--sincronizar` lo repite). Los subtítulos se transcriben del vídeo ya montado, así que lo cortado no aparece; si el vídeo no ha cambiado, `subtitulos` reutiliza esa transcripción y tarda un segundo.
+
+En el editor, la transcripción está al lado de la grabación. Un clic en una palabra la marca y lleva ahí; «Empieza aquí» y «Acaba aquí» cortan lo que hay antes o después de ella. Para cortar un trozo, se selecciona el texto (clic en la primera palabra y mayúsculas+clic en la última) y se pulsa <kbd>X</kbd>; cada corte tiene ‹ › para mover sus bordes 0,1 s. Un clic en una pausa la deja en 0,3 s y otro la devuelve. Con «Saltar los cortes», el reproductor se los salta y se oye cómo quedará el vídeo. `--sin-abrir` arranca el editor sin abrir el navegador.
 
 ## CI and releases
 
