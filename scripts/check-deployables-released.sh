@@ -4,6 +4,8 @@
 # presentation and the landing index, versioned as @pauseai-es/landing (the other packages are ignored by changesets,
 # .changeset/config.json). Its inputs are listed in IMAGE_INPUTS below: keep them in step with the Dockerfile's COPY
 # lines. A presentation's CLAUDE.md and README.md are notes for authors, not part of the build, so they don't count.
+# Nor do the tools for the talks' covers and videos (packages/cards, packages/video) and each talk's video.json: the
+# Dockerfile copies them with the rest of packages/, but nothing the site serves comes out of them.
 #
 # It changed if a commit since the merge-base with the base touched one of those paths (uncommitted work doesn't count,
 # since it isn't being pushed). It is released if the changesets added since the base bump it (changeset status).
@@ -23,6 +25,7 @@ IMAGE_INPUTS=(
   Dockerfile package.json pnpm-lock.yaml pnpm-workspace.yaml
   packages presentations
   ':(exclude,glob)presentations/*/CLAUDE.md' ':(exclude,glob)presentations/*/README.md'
+  ':(exclude)packages/cards' ':(exclude)packages/video' ':(exclude,glob)presentations/*/video.json'
 )
 
 # After a force push the previous tip is on no branch, so the clone lacks it; GitHub still serves it by SHA.
