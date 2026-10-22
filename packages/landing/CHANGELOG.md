@@ -1,5 +1,13 @@
 # @pauseai-es/landing
 
+## 1.0.14
+
+### Patch Changes
+
+- f293d12: Talks can link to their recording (YouTube, Spotify, iVoox) from `grabacion` in `presentation.json`: the landing shows the links on the talk's card and the shared `<Grabacion />` component shows them on a deck's title slide. Verano 2026 (Charlas PauseAI) carries the component; nothing shows until its links are added.
+- 8dd3334: Verano 2026 (Charlas PauseAI): link to the YouTube recording on the landing card and the title slide.
+- 3082990: Tooling for the Charlas PauseAI videos: `pnpm video` (cuts editor, frame, title and end cards, subtitles, chapters and podcast audio), YouTube thumbnails in `pnpm card`, and a background per talk (`fondo` in `presentation.json`). Nothing changes on the site.
+
 ## 1.0.13
 
 ### Patch Changes
