@@ -1,5 +1,12 @@
 # @pauseai-es/landing
 
+## 1.0.17
+
+### Patch Changes
+
+- cf45c33: Updates
+- e52caf0: Dependencies bump
+
 ## 1.0.16
 
 ### Patch Changes
