@@ -5,4 +5,12 @@
   // minimumReleaseAge even on a frozen install, so raising it to 3 days needs a lockfile with no younger entry.
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
   extends: ['github>danilupion/slango//renovate/app.json5'],
+  packageRules: [
+    {
+      // pnpm-workspace.yaml's override keeps markdown-it at 14 until slidev and @comark/markdown-it support 15 (see
+      // there): 15 breaks every slidev build.
+      matchPackageNames: ['markdown-it'],
+      allowedVersions: '<15',
+    },
+  ],
 }
