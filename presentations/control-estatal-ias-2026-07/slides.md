@@ -33,6 +33,7 @@ class: text-center
   <div class="text-lg opacity-40 mt-3">
     Dani Lupión · PauseAI en Español · Julio 2026
   </div>
+  <Grabacion class="mt-8" />
 </div>
 
 <!--

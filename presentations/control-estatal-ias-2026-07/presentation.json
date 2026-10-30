@@ -7,7 +7,10 @@
       "title": "Mythos, Fable y GPT-5.6",
       "subtitle": "¿Ha comenzado la era del control estatal de la IA de frontera?",
       "venue": "Seminario BlueDot Impact × iaS",
-      "description": "Continuación de «Mythos y Glasswing»: acceso escalonado a modelos de frontera, gobiernos como gatekeepers y qué significa para la comunidad de AI safety."
+      "description": "Continuación de «Mythos y Glasswing»: acceso escalonado a modelos de frontera, gobiernos como gatekeepers y qué significa para la comunidad de AI safety.",
+      "grabacion": {
+        "youtube": "https://youtu.be/KHuADKlcXso"
+      }
     },
     "en": {
       "title": "Mythos, Fable and GPT-5.6",
