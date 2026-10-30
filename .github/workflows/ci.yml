@@ -65,9 +65,10 @@ jobs:
         run: pnpm format:check
 
       # Every presentation (both languages where there are two) and the landing index: a slide pointing at a missing
-      # asset breaks its build.
+      # asset breaks its build. Four at a time: turbo.json allows 20 (for the dev servers), and every Slidev build
+      # peaking at ~700 MB together got the runner OOM-killed (exit 137).
       - name: Build
-        run: pnpm build
+        run: pnpm build --concurrency 4
 
       - name: Setup Helm
         uses: azure/setup-helm@9bc31f4ebc9c6b171d7bfbaa5d006ae7abdb4310 # v5.0.1
