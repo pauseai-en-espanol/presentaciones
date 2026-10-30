@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.18
+
+### Patch Changes
+
+- f4b6db3: Mythos, Fable y GPT-5.6 (iaS): link to the YouTube recording on the landing card and the title slide.
+
 ## 1.0.17
 
 ### Patch Changes
