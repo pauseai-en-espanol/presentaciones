@@ -1,5 +1,11 @@
 # @pauseai-es/landing
 
+## 1.0.20
+
+### Patch Changes
+
+- e05a1ab: Dependencies bump
+
 ## 1.0.19
 
 ### Patch Changes
