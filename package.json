@@ -29,21 +29,21 @@
     "@slango.configs/oxlint": "0.1.16",
     "@slango.configs/prettier": "1.0.38",
     "husky": "9.1.7",
-    "lint-staged": "17.6.0",
-    "oxlint": "1.93.0",
-    "oxlint-tsgolint": "7.0.2007",
+    "lint-staged": "17.6.2",
+    "oxlint": "1.94.0",
+    "oxlint-tsgolint": "7.0.2008",
     "prettier": "3.10.1",
-    "turbo": "2.11.11"
+    "turbo": "2.11.13"
   },
   "engines": {
     "node": "^26.13.1",
-    "pnpm": "^12.20.0"
+    "pnpm": "^12.23.0"
   },
-  "packageManager": "pnpm@12.20.0",
+  "packageManager": "pnpm@12.23.0",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.20.0",
+      "version": "12.23.0",
       "onFail": "download"
     }
   }

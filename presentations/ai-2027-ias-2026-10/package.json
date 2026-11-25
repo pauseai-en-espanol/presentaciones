@@ -14,8 +14,8 @@
   "devDependencies": {
     "@slidev/cli": "53.1.0",
     "@slidev/theme-default": "0.25.0",
-    "docx": "9.15.3",
-    "marked": "18.2.0",
+    "docx": "9.16.0",
+    "marked": "18.2.1",
     "slidev-addon-pauseai": "workspace:*",
     "uqr": "0.1.3"
   }
